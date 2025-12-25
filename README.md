@@ -60,7 +60,9 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [claude-desktop-extension](./plugins/claude-desktop-extension)
 - [lyra](./plugins/lyra)
 - [model-context-protocol-mcp-expert](./plugins/model-context-protocol-mcp-expert)
+- [large-file-handler](./plugins/large-file-handler)
 - [problem-solver-specialist](./plugins/problem-solver-specialist)
+- [session-memory-optimizer](./plugins/session-memory-optimizer)
 - [studio-coach](./plugins/studio-coach)
 - [ultrathink](./plugins/ultrathink)
 
