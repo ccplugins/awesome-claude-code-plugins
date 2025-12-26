@@ -1,0 +1,23 @@
+{
+  "name": "image-link",
+  "description": "Make pasted images clickable in Claude Code. Saves images and provides Cmd+click paths.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Gyeom",
+    "url": "https://github.com/Gyeom"
+  },
+  "homepage": "https://github.com/Gyeom/claude-image-link",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 $PLUGIN_DIR/hooks/userpromptsubmit.py"
+          }
+        ]
+      }
+    ]
+  }
+}

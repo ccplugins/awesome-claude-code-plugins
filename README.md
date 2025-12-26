@@ -118,6 +118,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Development Engineering
 - [ai-engineer](./plugins/ai-engineer)
+- [image-link](./plugins/image-link)
 - [api-integration-specialist](./plugins/api-integration-specialist)
 - [backend-architect](./plugins/backend-architect)
 - [code-architect](./plugins/code-architect)
