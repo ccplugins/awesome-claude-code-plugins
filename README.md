@@ -19,6 +19,7 @@ Awesome Claude Code plugins — a curated list of slash commands, subagents, MCP
     - [Documentation](#documentation)
     - [Git Workflow](#git-workflow)
     - [Marketing Growth](#marketing-growth)
+    - [Media & Image Generation](#media--image-generation)
     - [Project & Product Management](#project--product-management)
     - [Security, Compliance, & Legal](#security-compliance--legal)
 * [Tutorials](#tutorials)
@@ -167,6 +168,9 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [reddit-community-builder](./plugins/reddit-community-builder)
 - [tiktok-strategist](./plugins/tiktok-strategist)
 - [twitter-engager](./plugins/twitter-engager)
+
+### Media & Image Generation
+- [image-gen](https://github.com/shipdeckai/claude-skills) - AI image generation with 10 providers (OpenAI DALL-E, BFL FLUX, Stability AI, Ideogram, Google Gemini, FAL, Leonardo, Recraft, Replicate, ClipDrop). Intelligent provider selection and automatic fallbacks.
 
 ### Project & Product Management
 - [discuss](./plugins/discuss)
