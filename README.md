@@ -56,6 +56,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Workflow Orchestration
 - [angelos-symbo](./plugins/angelos-symbo)
+- [claude-reflect](./plugins/claude-reflect) - Self-learning system that captures corrections during sessions and syncs to CLAUDE.md with human review
 - [ceo-quality-controller-agent](./plugins/ceo-quality-controller-agent)
 - [claude-desktop-extension](./plugins/claude-desktop-extension)
 - [lyra](./plugins/lyra)
