@@ -173,6 +173,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [explore](./plugins/explore)
 - [plan](./plugins/plan)
 - [planning-prd-agent](./plugins/planning-prd-agent)
+- [plannotator](https://github.com/backnotprop/plannotator) - Interactive plan review UI with visual annotation (install via `/plugin marketplace add backnotprop/plannotator`)
 - [prd-specialist](./plugins/prd-specialist)
 - [project-shipper](./plugins/project-shipper)
 - [sprint-prioritizer](./plugins/sprint-prioritizer)
