@@ -32,7 +32,7 @@ Awesome Claude Code plugins — a curated list of slash commands, subagents, MCP
 - **Slash Commands** — Custom shortcuts for frequent operations
 - **Subagents** — Purpose-built agents for specialized dev tasks
 - **MCP Servers** — Integrations to tools and data sources via the Model Context Protocol
-- **Hooks** — Extensions that modify Claude Code’s behavior at key workflow points
+- **Hooks** — Extensions that modify Claude Code's behavior at key workflow points
 
 Install or disable them dynamically with the `/plugin` command — enabling you to keep your system context focused and lightweight.
 
@@ -173,6 +173,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [explore](./plugins/explore)
 - [plan](./plugins/plan)
 - [planning-prd-agent](./plugins/planning-prd-agent)
+- [prd-generator](https://github.com/dredozubov/prd-generator) — Self-contained PRD generator from conversation context
 - [prd-specialist](./plugins/prd-specialist)
 - [project-shipper](./plugins/project-shipper)
 - [sprint-prioritizer](./plugins/sprint-prioritizer)
@@ -200,7 +201,7 @@ You can host and share your own curated plugin marketplace using a simple Git re
 /plugin marketplace add user-or-org/repo-name
 ```
 
-Then browse and install plugins from within Claude Code’s `/plugin` menu.
+Then browse and install plugins from within Claude Code's `/plugin` menu.
 
 Example:
 
