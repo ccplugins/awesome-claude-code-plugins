@@ -1,0 +1,13 @@
+{
+  "name": "xpoz-brand-intelligence",
+  "description": "Brand intelligence analysis using XPOZ MCP social data. Includes 3 skills: brand-snapshot (sentiment, narratives, SWOT), brand-competition (share of voice, competitive positioning), and brand-influencers (influencer discovery, partnership opportunities). Analyzes real-time Twitter/X data for actionable brand insights.",
+  "version": "1.0.0",
+  "author": {
+    "name": "XPOZ",
+    "url": "https://xpoz.ai"
+  },
+  "homepage": "https://github.com/XPOZpublic/xpoz-claude-code-plugins",
+  "repository": "https://github.com/XPOZpublic/xpoz-claude-code-plugins",
+  "license": "MIT",
+  "keywords": ["brand", "sentiment", "social", "twitter", "influencers", "analytics", "mcp"]
+}
