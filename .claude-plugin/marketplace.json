@@ -91,6 +91,26 @@
       ]
     },
     {
+      "name": "agent-manager-skill",
+      "source": "./plugins/agent-manager-skill",
+      "description": "Orchestrate multiple local CLI agents via tmux using agent-manager-skill (start/stop/monitor/assign + cron-friendly scheduling).",
+      "version": "0.1.0",
+      "author": {
+        "name": "fractalmind-ai",
+        "url": "https://github.com/fractalmind-ai"
+      },
+      "category": "Workflow Orchestration",
+      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/agent-manager-skill",
+      "keywords": [
+        "workflow",
+        "orchestration",
+        "tmux",
+        "agents",
+        "monitoring",
+        "scheduling"
+      ]
+    },
+    {
       "name": "code-review",
       "source": "./plugins/code-review",
       "description": "Perform a comprehensive code review of recent changes",

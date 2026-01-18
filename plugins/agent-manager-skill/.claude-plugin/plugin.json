@@ -1,0 +1,10 @@
+{
+  "name": "agent-manager-skill",
+  "description": "Orchestrate multiple local CLI agents via tmux using agent-manager-skill (start/stop/monitor/assign + cron-friendly scheduling).",
+  "version": "0.1.0",
+  "author": {
+    "name": "fractalmind-ai",
+    "url": "https://github.com/fractalmind-ai"
+  },
+  "homepage": "https://github.com/fractalmind-ai/agent-manager-skill"
+}
