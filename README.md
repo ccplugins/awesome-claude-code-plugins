@@ -56,6 +56,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Workflow Orchestration
 - [angelos-symbo](./plugins/angelos-symbo)
+- [agent-manager-skill](./plugins/agent-manager-skill)
 - [ceo-quality-controller-agent](./plugins/ceo-quality-controller-agent)
 - [claude-desktop-extension](./plugins/claude-desktop-extension)
 - [lyra](./plugins/lyra)
