@@ -21,6 +21,7 @@ Awesome Claude Code plugins — a curated list of slash commands, subagents, MCP
     - [Marketing Growth](#marketing-growth)
     - [Project & Product Management](#project--product-management)
     - [Security, Compliance, & Legal](#security-compliance--legal)
+* [External Marketplaces](#external-marketplaces)
 * [Tutorials](#tutorials)
 * [Contributing](#contributing)
 
@@ -188,6 +189,15 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [enterprise-security-reviewer](./plugins/enterprise-security-reviewer)
 - [legal-advisor](./plugins/legal-advisor)
 - [legal-compliance-checker](./plugins/legal-compliance-checker)
+
+
+## External Marketplaces
+
+Community-maintained plugin marketplaces you can add to access additional plugins.
+
+| Marketplace | Description | Install |
+|-------------|-------------|---------|
+| [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
 
 
 ## Tutorials
