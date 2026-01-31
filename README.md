@@ -157,6 +157,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [husky](./plugins/husky)
 - [pr-issue-resolve](./plugins/pr-issue-resolve)
 - [pr-review](./plugins/pr-review)
+- [skill-semver](./plugins/skill-semver)
 - [update-branch-name](./plugins/update-branch-name)
 
 ### Marketing Growth
