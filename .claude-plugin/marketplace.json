@@ -1670,6 +1670,25 @@
         "security",
         "compliance"
       ]
+    },
+    {
+      "name": "openclaw-setup",
+      "description": "One command to install and secure OpenClaw AI Assistant. Generates security tokens, applies hardened configs, blocks dangerous tools.",
+      "version": "1.0.0",
+      "author": {
+        "name": "cathy-kim",
+        "url": "https://github.com/cathy-kim"
+      },
+      "source": "./plugins/openclaw-setup",
+      "category": "Security, Compliance, & Legal",
+      "homepage": "https://github.com/cathy-kim/openclaw-plugin",
+      "keywords": [
+        "security",
+        "setup",
+        "automation",
+        "openclaw",
+        "ai-assistant"
+      ]
     }
   ]
 }
