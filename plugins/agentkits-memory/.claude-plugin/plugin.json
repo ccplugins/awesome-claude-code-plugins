@@ -1,0 +1,12 @@
+{
+  "name": "agentkits-memory",
+  "description": "Persistent memory system for AI coding assistants with hybrid search, session tracking, and web viewer",
+  "version": "2.2.0",
+  "author": {
+    "name": "AityTech"
+  },
+  "homepage": "https://github.com/aitytech/agentkits-memory",
+  "repository": "https://github.com/aitytech/agentkits-memory",
+  "license": "MIT",
+  "keywords": ["memory", "context", "persistence", "mcp", "sessions"]
+}

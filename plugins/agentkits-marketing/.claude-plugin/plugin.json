@@ -1,0 +1,12 @@
+{
+  "name": "agentkits-marketing",
+  "description": "Complete AI marketing toolkit with 18 specialized agents, 93 slash commands, 28 skills, and 19 training modules",
+  "version": "1.4.0",
+  "author": {
+    "name": "AityTech"
+  },
+  "homepage": "https://github.com/aitytech/agentkits-marketing",
+  "repository": "https://github.com/aitytech/agentkits-marketing",
+  "license": "MIT",
+  "keywords": ["marketing", "agents", "seo", "cro", "copywriting", "email"]
+}
