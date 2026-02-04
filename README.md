@@ -117,6 +117,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [whimsy-injector](./plugins/whimsy-injector)
 
 ### Development Engineering
+- [agentkits-memory](./plugins/agentkits-memory)
 - [ai-engineer](./plugins/ai-engineer)
 - [api-integration-specialist](./plugins/api-integration-specialist)
 - [backend-architect](./plugins/backend-architect)
@@ -160,6 +161,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [update-branch-name](./plugins/update-branch-name)
 
 ### Marketing Growth
+- [agentkits-marketing](./plugins/agentkits-marketing)
 - [app-store-optimizer](./plugins/app-store-optimizer)
 - [content-creator](./plugins/content-creator)
 - [growth-hacker](./plugins/growth-hacker)
