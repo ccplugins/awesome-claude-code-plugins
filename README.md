@@ -67,6 +67,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 ### Automation DevOps
 - [deployment-engineer](./plugins/deployment-engineer)
 - [devops-automator](./plugins/devops-automator)
+- [MyVibe](https://www.myvibe.so) - Instant deployment with `/myvibe:publish`
 - [infrastructure-maintainer](./plugins/infrastructure-maintainer)
 - [monitoring-observability-specialist](./plugins/monitoring-observability-specialist)
 - [n8n-workflow-builder](./plugins/n8n-workflow-builder)
