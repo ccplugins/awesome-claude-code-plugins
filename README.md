@@ -209,6 +209,10 @@ Example:
 /plugin install analyze-codebase
 ```
 
+## Marketplaces
+
+- [AgentStore](https://github.com/techgangboss/agentstore) - Open-source plugin marketplace with gasless USDC payments. Install via `/plugin marketplace add techgangboss/agentstore`. Publishers earn 80% of sales. Agent-first API for zero-auth publishing.
+
 ## Contributing
 
 Contributions are welcome!
