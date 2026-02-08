@@ -169,6 +169,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [twitter-engager](./plugins/twitter-engager)
 
 ### Project & Product Management
+- [agent-decision-record](./plugins/agent-decision-record)
 - [discuss](./plugins/discuss)
 - [explore](./plugins/explore)
 - [plan](./plugins/plan)
