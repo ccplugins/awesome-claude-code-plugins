@@ -55,6 +55,7 @@
 - [security-guidance](./plugins/security-guidance)
 
 ### 工作流编排
+- [agentsys](./plugins/agentsys)
 - [angelos-symbo](./plugins/angelos-symbo)
 - [ceo-quality-controller-agent](./plugins/ceo-quality-controller-agent)
 - [claude-desktop-extension](./plugins/claude-desktop-extension)
