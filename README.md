@@ -74,6 +74,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 ### Business Sales
 - [b2b-project-shipper](./plugins/b2b-project-shipper)
 - [customer-success-manager](./plugins/customer-success-manager)
+- [management-consulting](./plugins/management-consulting)
 - [enterprise-onboarding-specialist](./plugins/enterprise-onboarding-specialist)
 - [finance-tracker](./plugins/finance-tracker)
 - [pricing-packaging-specialist](./plugins/pricing-packaging-specialist)
