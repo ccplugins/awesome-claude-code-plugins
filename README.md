@@ -21,6 +21,7 @@ Awesome Claude Code plugins — a curated list of slash commands, subagents, MCP
     - [Marketing Growth](#marketing-growth)
     - [Project & Product Management](#project--product-management)
     - [Security, Compliance, & Legal](#security-compliance--legal)
+    - [MCP Servers](#mcp-servers)
 * [Tutorials](#tutorials)
 * [Contributing](#contributing)
 
@@ -32,7 +33,7 @@ Awesome Claude Code plugins — a curated list of slash commands, subagents, MCP
 - **Slash Commands** — Custom shortcuts for frequent operations
 - **Subagents** — Purpose-built agents for specialized dev tasks
 - **MCP Servers** — Integrations to tools and data sources via the Model Context Protocol
-- **Hooks** — Extensions that modify Claude Code’s behavior at key workflow points
+- **Hooks** — Extensions that modify Claude Code's behavior at key workflow points
 
 Install or disable them dynamically with the `/plugin` command — enabling you to keep your system context focused and lightweight.
 
@@ -189,6 +190,9 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [legal-advisor](./plugins/legal-advisor)
 - [legal-compliance-checker](./plugins/legal-compliance-checker)
 
+### MCP Servers
+- [mcp-interactive-terminal](https://github.com/amol21p/mcp-interactive-terminal) — Real interactive terminal sessions for REPLs, SSH, database clients, and any interactive CLI — with clean text output, smart completion detection, and multi-layer security. Install: `claude mcp add terminal -- npx -y mcp-interactive-terminal`
+
 
 ## Tutorials
 
@@ -200,7 +204,7 @@ You can host and share your own curated plugin marketplace using a simple Git re
 /plugin marketplace add user-or-org/repo-name
 ```
 
-Then browse and install plugins from within Claude Code’s `/plugin` menu.
+Then browse and install plugins from within Claude Code's `/plugin` menu.
 
 Example:
 
