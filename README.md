@@ -209,6 +209,10 @@ Example:
 /plugin install analyze-codebase
 ```
 
+## Resources
+
+- [Claudebin](https://claudebin.com) ([GitHub](https://github.com/wunderlabs-dev/claudebin.com/)) - A minimalistic tool for publishing and sharing Claude coding sessions.
+
 ## Contributing
 
 Contributions are welcome!
