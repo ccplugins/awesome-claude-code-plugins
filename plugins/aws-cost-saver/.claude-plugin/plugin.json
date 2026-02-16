@@ -1,0 +1,23 @@
+{
+  "name": "aws-cost-saver",
+  "description": "Use this agent to scan AWS accounts for cost optimization opportunities. Features 173 automated checks across 11 domains with AWS Compute Optimizer ML integration, data transfer analysis, and reservation recommendations. Includes Zero Hallucination Pricing System with 21 anti-hallucination rules for accurate savings estimates. Examples:\\n\\n<example>\\nContext: AWS bill is too high\\nuser: \"Our AWS costs are out of control. Can you find where we're wasting money?\"\\nassistant: \"I'll scan your AWS account for cost optimization opportunities. Let me use the aws-cost-saver agent to run 173 automated checks across all services.\"\\n<commentary>\\nComprehensive scanning across compute, storage, database, and networking services to identify idle resources and over-provisioning.\\n</commentary>\\n</example>\\n\\n<example>\\nContext: Monthly cost review\\nuser: \"We need to cut AWS costs by 30% this quarter\"\\nassistant: \"I'll analyze your AWS account for savings opportunities. Let me use the aws-cost-saver agent to identify quick wins and calculate potential savings.\"\\n<commentary>\\nReal pricing data from AWS Cost Explorer ensures accurate savings estimates.\\n</commentary>\\n</example>\\n\\n<example>\\nContext: EC2 rightsizing\\nuser: \"Are our EC2 instances properly sized?\"\\nassistant: \"I'll check for over-provisioned and idle instances. Let me use the aws-cost-saver agent with Compute Optimizer ML to get rightsizing recommendations.\"\\n<commentary>\\nML-powered analysis from AWS Compute Optimizer provides data-driven recommendations.\\n</commentary>\\n</example>",
+  "version": "1.0.0",
+  "author": {
+    "name": "Mehul Prajapati",
+    "url": "https://github.com/prajapatimehul"
+  },
+  "homepage": "https://github.com/prajapatimehul/aws-cost-saver",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prajapatimehul/aws-cost-saver.git"
+  },
+  "keywords": [
+    "aws",
+    "cost-optimization",
+    "finops",
+    "devops",
+    "cloud",
+    "cost-savings"
+  ],
+  "license": "MIT"
+}
