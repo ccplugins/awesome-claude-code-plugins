@@ -1670,6 +1670,28 @@
         "security",
         "compliance"
       ]
+    },
+    {
+      "name": "stratarts",
+      "source": "./plugins/stratarts",
+      "description": "27 professional business strategy skills - idea validation, market analysis, business modeling, marketing, metrics, and fundraising using proven frameworks",
+      "version": "1.0.0",
+      "author": {
+        "name": "Maigent",
+        "url": "https://github.com/maigentic"
+      },
+      "category": "Project & Product Management",
+      "homepage": "https://github.com/maigentic/stratarts",
+      "keywords": [
+        "business",
+        "strategy",
+        "startup",
+        "entrepreneurship",
+        "fundraising",
+        "marketing",
+        "pitch-deck",
+        "financial-modeling"
+      ]
     }
   ]
 }

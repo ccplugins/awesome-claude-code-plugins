@@ -79,6 +79,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [pricing-packaging-specialist](./plugins/pricing-packaging-specialist)
 - [product-sales-specialist](./plugins/product-sales-specialist)
 - [support-responder](./plugins/support-responder)
+- [stratarts](./plugins/stratarts)
 - [technical-sales-engineer](./plugins/technical-sales-engineer)
 
 ### Code Quality Testing
