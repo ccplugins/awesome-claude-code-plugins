@@ -121,6 +121,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [api-integration-specialist](./plugins/api-integration-specialist)
 - [backend-architect](./plugins/backend-architect)
 - [code-architect](./plugins/code-architect)
+- [context-memory](./plugins/context-memory)
 - [desktop-app-dev](./plugins/desktop-app-dev)
 - [enterprise-integrator-architect](./plugins/enterprise-integrator-architect)
 - [flutter-mobile-app-dev](./plugins/flutter-mobile-app-dev)
