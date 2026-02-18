@@ -11,6 +11,25 @@
   },
   "plugins": [
     {
+      "name": "context-memory",
+      "source": "./plugins/context-memory",
+      "description": "Persistent, searchable context storage across Claude Code sessions using SQLite + FTS5.",
+      "version": "1.3.1",
+      "author": {
+        "name": "ErebusEnigma",
+        "url": "https://github.com/ErebusEnigma"
+      },
+      "category": "Development Engineering",
+      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/context-memory",
+      "keywords": [
+        "memory",
+        "context",
+        "search",
+        "sessions",
+        "persistence"
+      ]
+    },
+    {
       "name": "documentation-generator",
       "source": "./plugins/documentation-generator",
       "description": "Create comprehensive documentation for code, APIs, and projects.",
