@@ -125,6 +125,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [enterprise-integrator-architect](./plugins/enterprise-integrator-architect)
 - [flutter-mobile-app-dev](./plugins/flutter-mobile-app-dev)
 - [frontend-developer](./plugins/frontend-developer)
+- [Mantra](https://github.com/mantra-hq/mantra-releases) - A local-first session time-machine for AI coding tools (Claude Code, Cursor, Windsurf, Augment Code). Automatically snapshots sessions and lets you browse/restore any previous conversation state.
 - [mobile-app-builder](./plugins/mobile-app-builder)
 - [project-curator](./plugins/project-curator)
 - [python-expert](./plugins/python-expert)
