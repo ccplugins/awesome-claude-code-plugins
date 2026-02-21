@@ -64,6 +64,9 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [studio-coach](./plugins/studio-coach)
 - [ultrathink](./plugins/ultrathink)
 
+### AI & Speech
+- [speech-ai](https://github.com/fasuizu-br/speech-ai-examples) - Speech AI plugin with pronunciation assessment, text-to-speech, and speech-to-text. 8 MCP tools for language learning, accessibility, and voice applications.
+
 ### Automation DevOps
 - [deployment-engineer](./plugins/deployment-engineer)
 - [devops-automator](./plugins/devops-automator)
