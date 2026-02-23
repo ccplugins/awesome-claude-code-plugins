@@ -1,0 +1,9 @@
+{
+  "name": "crypto-trading-desk",
+  "description": "Multi-agent cryptocurrency intelligence system with 7 specialized agents, 65+ MCP tools, and 5 exchange integrations. Features cognitive learning and self-evolving strategies with zero orchestration code.",
+  "version": "1.0.0",
+  "author": {
+    "name": "hugoguerrap"
+  },
+  "homepage": "https://github.com/hugoguerrap/crypto-claude-desk"
+}
