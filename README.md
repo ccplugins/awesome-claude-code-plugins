@@ -101,6 +101,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Data Analytics
 - [analytics-reporter](./plugins/analytics-reporter)
+- [crypto-trading-desk](./plugins/crypto-trading-desk)
 - [data-scientist](./plugins/data-scientist)
 - [experiment-tracker](./plugins/experiment-tracker)
 - [feedback-synthesizer](./plugins/feedback-synthesizer)
