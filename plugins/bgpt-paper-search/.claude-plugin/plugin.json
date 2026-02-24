@@ -1,0 +1,9 @@
+{
+  "name": "bgpt-paper-search",
+  "description": "Search scientific papers and retrieve structured experimental data from full-text studies via the BGPT MCP server. Use for literature reviews, evidence synthesis, and finding experimental details.",
+  "version": "1.0.0",
+  "author": {
+    "name": "BGPT"
+  },
+  "homepage": "https://bgpt.pro/mcp"
+}
