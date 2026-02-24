@@ -55,6 +55,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [security-guidance](./plugins/security-guidance)
 
 ### Workflow Orchestration
+- [autonomous-coding-toolkit](https://github.com/parthalon025/autonomous-coding-toolkit) - Autonomous coding pipeline with 9 stages, quality gates between every batch, 79 community lessons, Multi-Armed Bandit routing, and fresh context per batch. Built on Superpowers.
 - [angelos-symbo](./plugins/angelos-symbo)
 - [ceo-quality-controller-agent](./plugins/ceo-quality-controller-agent)
 - [claude-desktop-extension](./plugins/claude-desktop-extension)
