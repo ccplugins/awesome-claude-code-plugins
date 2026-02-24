@@ -1,0 +1,9 @@
+{
+  "name": "context-mode",
+  "description": "MCP server that processes large outputs in sandboxed subprocesses and returns concise summaries instead of dumping raw data into the context window. Reduces token usage by up to 98%.",
+  "version": "1.0.0",
+  "author": {
+    "name": "mksglu"
+  },
+  "homepage": "https://github.com/mksglu/claude-context-mode"
+}
