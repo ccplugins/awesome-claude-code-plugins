@@ -1,0 +1,9 @@
+{
+  "name": "silicon-friendly",
+  "description": "Use this plugin to check if a website is AI-agent-friendly before integrating with it. Silicon Friendly rates websites on 30 binary criteria across 5 levels (L1-L5) covering readability, discoverability, API interaction, autonomous action, and persistent agency. It helps you find the best entry points (llms.txt, API docs, agent endpoints) for any website. Examples:\n\n<example>\nContext: Integrating with a third-party service\nuser: \"I need to integrate with stripe.com - is it agent-friendly?\"\nassistant: \"Let me check Stripe's AI-agent compatibility using silicon-friendly to find the best integration entry point.\"\n<commentary>\nChecking agent-friendliness before integration helps identify optimal API endpoints and potential blockers like CAPTCHAs.\n</commentary>\n</example>\n\n<example>\nContext: Evaluating tools for automation\nuser: \"Which of these services would be easiest to automate against?\"\nassistant: \"I'll use silicon-friendly to compare their agent-friendliness ratings and find which ones have the best API support.\"\n<commentary>\nComparing SF ratings helps prioritize which services to integrate first based on their agent readiness.\n</commentary>\n</example>",
+  "version": "1.0.0",
+  "author": {
+    "name": "unlikefraction"
+  },
+  "homepage": "https://github.com/unlikefraction/silicon-friendly"
+}
