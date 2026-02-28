@@ -118,6 +118,7 @@
 
 ### 工程开发
 - [ai-engineer](./plugins/ai-engineer)
+- [deapi-media](./plugins/deapi-media)
 - [api-integration-specialist](./plugins/api-integration-specialist)
 - [backend-architect](./plugins/backend-architect)
 - [code-architect](./plugins/code-architect)
