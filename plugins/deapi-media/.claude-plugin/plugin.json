@@ -1,0 +1,10 @@
+{
+  "name": "deapi-media",
+  "description": "Use this agent when generating media content — transcribing YouTube videos, creating images from text, text-to-speech, OCR, removing backgrounds, upscaling images, or generating videos. Powered by deAPI.ai decentralized GPU cloud.\n\n<example>\nContext: User wants to transcribe a video\nuser: \"Transcribe this YouTube video: https://youtube.com/watch?v=abc123\"\nassistant: \"I'll transcribe that video for you using deAPI's transcription service.\"\n</example>\n\n<example>\nContext: User wants to generate an image\nuser: \"Generate an image of a futuristic city at night\"\nassistant: \"I'll generate that image using deAPI's text-to-image models.\"\n</example>\n\n<example>\nContext: User wants text-to-speech\nuser: \"Convert this paragraph to audio\"\nassistant: \"I'll generate the audio using deAPI's TTS service.\"\n</example>",
+  "version": "1.0.0",
+  "author": {
+    "name": "deAPI.ai",
+    "url": "https://github.com/deapi-ai"
+  },
+  "homepage": "https://github.com/deapi-ai/claude-code-skills"
+}
