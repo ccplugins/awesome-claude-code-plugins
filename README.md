@@ -55,6 +55,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [security-guidance](./plugins/security-guidance)
 
 ### Workflow Orchestration
+- [openpaw](https://github.com/daxaur/openpaw) - Open-source CLI tool (`npx pawmode`) that turns Claude Code into a personal assistant with 38 skills. No daemon, no cloud, MIT licensed.
 - [angelos-symbo](./plugins/angelos-symbo)
 - [ceo-quality-controller-agent](./plugins/ceo-quality-controller-agent)
 - [claude-desktop-extension](./plugins/claude-desktop-extension)
