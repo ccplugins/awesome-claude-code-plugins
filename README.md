@@ -165,6 +165,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [growth-hacker](./plugins/growth-hacker)
 - [instagram-curator](./plugins/instagram-curator)
 - [reddit-community-builder](./plugins/reddit-community-builder)
+- [screaming-frog-mcp](./plugins/screaming-frog-mcp)
 - [tiktok-strategist](./plugins/tiktok-strategist)
 - [twitter-engager](./plugins/twitter-engager)
 
