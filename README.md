@@ -119,6 +119,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 ### Development Engineering
 - [ai-engineer](./plugins/ai-engineer)
 - [api-integration-specialist](./plugins/api-integration-specialist)
+- [skillboss-ai-gateway](./plugins/skillboss-ai-gateway) - Unified AI gateway for 100+ services (Claude, GPT, Gemini, image/video gen, voice, scraping) via MCP
 - [backend-architect](./plugins/backend-architect)
 - [code-architect](./plugins/code-architect)
 - [desktop-app-dev](./plugins/desktop-app-dev)
