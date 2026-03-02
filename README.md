@@ -141,6 +141,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [documentation-generator](./plugins/documentation-generator)
 - [generate-api-docs](./plugins/generate-api-docs)
 - [openapi-expert](./plugins/openapi-expert)
+- [readme-best-practices](https://github.com/ofershap/readme-best-practices)
 - [update-claudemd](./plugins/update-claudemd)
 
 ### Git Workflow
