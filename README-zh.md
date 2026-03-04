@@ -57,6 +57,7 @@
 ### 工作流编排
 - [angelos-symbo](./plugins/angelos-symbo)
 - [ceo-quality-controller-agent](./plugins/ceo-quality-controller-agent)
+- [claude-recap](https://github.com/hatawong/claude-recap) — 基于话题的会话记忆插件，使用 Shell hooks 将每个对话话题归档为独立的 Markdown 摘要。两个 hooks，bash + Node.js，100% 本地运行。
 - [claude-desktop-extension](./plugins/claude-desktop-extension)
 - [lyra](./plugins/lyra)
 - [model-context-protocol-mcp-expert](./plugins/model-context-protocol-mcp-expert)

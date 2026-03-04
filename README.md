@@ -57,6 +57,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 ### Workflow Orchestration
 - [angelos-symbo](./plugins/angelos-symbo)
 - [ceo-quality-controller-agent](./plugins/ceo-quality-controller-agent)
+- [claude-recap](https://github.com/hatawong/claude-recap) — Per-topic session memory using Shell hooks — archives each conversation topic as a separate Markdown summary. Two hooks, bash + Node.js, 100% local.
 - [claude-desktop-extension](./plugins/claude-desktop-extension)
 - [lyra](./plugins/lyra)
 - [model-context-protocol-mcp-expert](./plugins/model-context-protocol-mcp-expert)
