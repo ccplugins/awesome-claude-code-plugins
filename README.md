@@ -104,6 +104,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [data-scientist](./plugins/data-scientist)
 - [experiment-tracker](./plugins/experiment-tracker)
 - [feedback-synthesizer](./plugins/feedback-synthesizer)
+- [newsmcp](https://github.com/pranciskus/newsmcp) — Real-time world news for AI agents — events clustered from hundreds of sources, classified by 12 topics and 30+ geographic regions, ranked by importance. Free, no API key required.
 - [trend-researcher](./plugins/trend-researcher)
 
 ### Design UX
