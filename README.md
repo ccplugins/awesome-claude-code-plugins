@@ -56,6 +56,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Workflow Orchestration
 - [angelos-symbo](./plugins/angelos-symbo)
+- **[claude-brain](https://github.com/toroleapinc/claude-brain)** — Sync and evolve your Claude Code brain across machines. Auto-syncs memory, skills, agents, rules, and CLAUDE.md via Git with LLM-powered semantic merge.
 - [ceo-quality-controller-agent](./plugins/ceo-quality-controller-agent)
 - [claude-desktop-extension](./plugins/claude-desktop-extension)
 - [lyra](./plugins/lyra)
