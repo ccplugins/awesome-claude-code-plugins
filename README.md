@@ -98,6 +98,8 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [test-results-analyzer](./plugins/test-results-analyzer)
 - [test-writer-fixer](./plugins/test-writer-fixer)
 - [unit-test-generator](./plugins/unit-test-generator)
+- [vibe-guard](https://github.com/ofershap/vibe-guard) - Always-on security guardrails for AI-generated code
+- [think-first](https://github.com/ofershap/think-first) - Plan-before-code behavior modifier for agents
 
 ### Data Analytics
 - [analytics-reporter](./plugins/analytics-reporter)
@@ -132,6 +134,16 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [react-native-dev](./plugins/react-native-dev)
 - [vision-specialist](./plugins/vision-specialist)
 - [web-dev](./plugins/web-dev)
+- [tailwind-best-practices](https://github.com/ofershap/tailwind-best-practices) - Tailwind CSS v4 patterns — stop agents from generating v3 code
+- [typescript-best-practices](https://github.com/ofershap/typescript-best-practices) - Modern TypeScript — strict mode, discriminated unions, satisfies
+- [python-best-practices](https://github.com/ofershap/python-best-practices) - Modern Python 3.12+ — type hints, async, Pydantic v2
+- [sveltekit-best-practices](https://github.com/ofershap/sveltekit-best-practices) - SvelteKit — Svelte 5 runes, load functions, form actions
+- [drizzle-best-practices](https://github.com/ofershap/drizzle-best-practices) - Drizzle ORM — schema design, relations, type-safe queries
+- [fastapi-best-practices](https://github.com/ofershap/fastapi-best-practices) - FastAPI — async, dependency injection, Pydantic v2
+- [shadcn-best-practices](https://github.com/ofershap/shadcn-best-practices) - shadcn/ui — component customization, forms, theming
+- [expo-best-practices](https://github.com/ofershap/expo-best-practices) - Expo/React Native — navigation, EAS Build, platform splits
+- [flutter-best-practices](https://github.com/ofershap/flutter-best-practices) - Flutter/Dart 3 — GoRouter, Riverpod, sealed classes
+- [go-best-practices](https://github.com/ofershap/go-best-practices) - Modern Go — error wrapping, slog, context, goroutine lifecycle
 
 ### Documentation
 - [analyze-codebase](./plugins/analyze-codebase)
@@ -142,6 +154,10 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [generate-api-docs](./plugins/generate-api-docs)
 - [openapi-expert](./plugins/openapi-expert)
 - [update-claudemd](./plugins/update-claudemd)
+- [readme-best-practices](https://github.com/ofershap/readme-best-practices) - Stop agents from writing dry API-doc READMEs
+- [prompt-compression](https://github.com/ofershap/prompt-compression) - Compress docs/prompts into minimal tokens for AGENTS.md
+- [conversation-memory](https://github.com/ofershap/conversation-memory) - Give agents memory across sessions
+- [ai-humanizer](https://github.com/ofershap/ai-humanizer) - Remove AI-detectable patterns from generated content
 
 ### Git Workflow
 - [analyze-issue](./plugins/analyze-issue)
