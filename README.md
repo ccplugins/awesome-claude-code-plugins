@@ -58,6 +58,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [angelos-symbo](./plugins/angelos-symbo)
 - [ceo-quality-controller-agent](./plugins/ceo-quality-controller-agent)
 - [claude-desktop-extension](./plugins/claude-desktop-extension)
+- [claude-synapse](https://github.com/PooterAi/claude-synapse) — Cognitive memory MCP server for Claude Code. 18 tools, quality gate with deduplication and conflict detection, 9-stage retrieval pipeline, learned rules, two-strike error breaker. Zero LLM cost, fully local JSON storage.
 - [lyra](./plugins/lyra)
 - [model-context-protocol-mcp-expert](./plugins/model-context-protocol-mcp-expert)
 - [problem-solver-specialist](./plugins/problem-solver-specialist)
