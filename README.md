@@ -178,6 +178,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [sprint-prioritizer](./plugins/sprint-prioritizer)
 - [studio-producer](./plugins/studio-producer)
 - [tool-evaluator](./plugins/tool-evaluator)
+- [tycana](./plugins/tycana)
 - [workflow-optimizer](./plugins/workflow-optimizer)
 
 ### Security, Compliance, & Legal
