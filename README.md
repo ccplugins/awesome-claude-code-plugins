@@ -76,6 +76,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [customer-success-manager](./plugins/customer-success-manager)
 - [enterprise-onboarding-specialist](./plugins/enterprise-onboarding-specialist)
 - [finance-tracker](./plugins/finance-tracker)
+- [lendtrain-mortgage-refinance](https://github.com/lendtrain/mortgage) - AI-native mortgage refinance with real-time institutional pricing, compliance, and FHA/VA loan detection
 - [pricing-packaging-specialist](./plugins/pricing-packaging-specialist)
 - [product-sales-specialist](./plugins/product-sales-specialist)
 - [support-responder](./plugins/support-responder)
