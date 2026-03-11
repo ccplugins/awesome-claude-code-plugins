@@ -105,6 +105,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [experiment-tracker](./plugins/experiment-tracker)
 - [feedback-synthesizer](./plugins/feedback-synthesizer)
 - [trend-researcher](./plugins/trend-researcher)
+- [x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) - X API & Twitter scraper skill. 40+ tools: tweet search, user lookup, follower extraction, engagement metrics, giveaway draws, trending topics, write actions, Telegram integrations.
 
 ### Design UX
 - [brand-guardian](./plugins/brand-guardian)
