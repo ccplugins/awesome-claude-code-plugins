@@ -1,0 +1,17 @@
+{
+  "name": "rustchain-mcp",
+  "description": "MCP server for RustChain Proof-of-Antiquity blockchain and BoTTube AI video platform. Provides 14 tools for wallet management, mining stats, epoch monitoring, video operations, and agent-to-agent job marketplace. Connect AI agents to a blockchain that rewards vintage hardware preservation.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Elyan Labs (Scott Boudreaux)"
+  },
+  "homepage": "https://github.com/Scottcjn/rustchain-mcp",
+  "mcp_servers": [
+    {
+      "name": "rustchain-mcp",
+      "command": "uvx",
+      "args": ["rustchain-mcp"],
+      "description": "RustChain blockchain + BoTTube video platform MCP server"
+    }
+  ]
+}

@@ -129,6 +129,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [project-curator](./plugins/project-curator)
 - [python-expert](./plugins/python-expert)
 - [rapid-prototyper](./plugins/rapid-prototyper)
+- [rustchain-mcp](./plugins/rustchain-mcp)
 - [react-native-dev](./plugins/react-native-dev)
 - [vision-specialist](./plugins/vision-specialist)
 - [web-dev](./plugins/web-dev)
