@@ -76,6 +76,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [customer-success-manager](./plugins/customer-success-manager)
 - [enterprise-onboarding-specialist](./plugins/enterprise-onboarding-specialist)
 - [finance-tracker](./plugins/finance-tracker)
+- [mortgage](https://github.com/lendtrain/mortgage) - Mortgage refinance plugin by LendTrain — real-time institutional pricing, compliance, and FHA/VA loan detection via MCP. No API key required.
 - [pricing-packaging-specialist](./plugins/pricing-packaging-specialist)
 - [product-sales-specialist](./plugins/product-sales-specialist)
 - [support-responder](./plugins/support-responder)
