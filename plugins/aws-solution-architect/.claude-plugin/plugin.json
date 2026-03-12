@@ -1,0 +1,9 @@
+{
+  "name": "aws-solution-architect",
+  "description": "Design AWS architectures for startups using serverless patterns and IaC templates. Covers Lambda, API Gateway, DynamoDB, ECS, Aurora, and cost optimization.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Alireza Rezvani"
+  },
+  "homepage": "https://github.com/alirezarezvani/claude-skills/tree/main/engineering-team/aws-solution-architect"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "mcp-server-builder",
+  "description": "Build MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools, in Python (FastMCP) or TypeScript (MCP SDK).",
+  "version": "1.0.0",
+  "author": {
+    "name": "Alireza Rezvani"
+  },
+  "homepage": "https://github.com/alirezarezvani/claude-skills/tree/main/engineering/mcp-server-builder"
+}

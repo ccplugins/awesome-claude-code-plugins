@@ -119,6 +119,9 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 ### Development Engineering
 - [ai-engineer](./plugins/ai-engineer)
 - [api-integration-specialist](./plugins/api-integration-specialist)
+- [aws-solution-architect](./plugins/aws-solution-architect)
+- [cto-advisor](./plugins/cto-advisor)
+- [mcp-server-builder](./plugins/mcp-server-builder)
 - [backend-architect](./plugins/backend-architect)
 - [code-architect](./plugins/code-architect)
 - [desktop-app-dev](./plugins/desktop-app-dev)
