@@ -126,6 +126,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [flutter-mobile-app-dev](./plugins/flutter-mobile-app-dev)
 - [frontend-developer](./plugins/frontend-developer)
 - [mobile-app-builder](./plugins/mobile-app-builder)
+- [html-report](https://github.com/panhongwei/html-report)
 - [project-curator](./plugins/project-curator)
 - [python-expert](./plugins/python-expert)
 - [rapid-prototyper](./plugins/rapid-prototyper)
