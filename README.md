@@ -105,6 +105,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [experiment-tracker](./plugins/experiment-tracker)
 - [feedback-synthesizer](./plugins/feedback-synthesizer)
 - [trend-researcher](./plugins/trend-researcher)
+- [claude-ecom](./plugins/claude-ecom)
 
 ### Design UX
 - [brand-guardian](./plugins/brand-guardian)
