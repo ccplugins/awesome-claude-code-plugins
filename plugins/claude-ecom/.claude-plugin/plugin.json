@@ -1,0 +1,10 @@
+{
+  "name": "claude-ecom",
+  "description": "Converts ecommerce order/sales CSV data into consultant-style business reviews with KPI decomposition, prioritized findings, and action plans.",
+  "version": "0.1.3",
+  "author": {
+    "name": "takechanman1228",
+    "url": "https://github.com/takechanman1228"
+  },
+  "homepage": "https://github.com/takechanman1228/claude-ecom"
+}
