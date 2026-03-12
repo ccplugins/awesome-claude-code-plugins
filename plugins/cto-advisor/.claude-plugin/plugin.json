@@ -1,0 +1,9 @@
+{
+  "name": "cto-advisor",
+  "description": "Technical leadership guidance for engineering teams, architecture decisions, and technology strategy. Covers tech debt analysis, team scaling, engineering metrics, and technology evaluation.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Alireza Rezvani"
+  },
+  "homepage": "https://github.com/alirezarezvani/claude-skills/tree/main/c-level-advisor/cto-advisor"
+}
