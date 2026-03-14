@@ -1,0 +1,17 @@
+{
+  "name": "mcp-openapi",
+  "description": "Turn any OpenAPI/Swagger spec into MCP tools for Claude. Supports OpenAPI 3.x and Swagger 2.0 with auto-auth, flat parameter schemas, and smart response truncation. One command: npx mcp-openapi --spec <url>",
+  "version": "0.2.2",
+  "author": {
+    "name": "Docat0209"
+  },
+  "homepage": "https://github.com/Docat0209/mcp-openapi",
+  "mcp_servers": [
+    {
+      "name": "mcp-openapi",
+      "command": "npx",
+      "args": ["-y", "mcp-openapi", "--spec", "<openapi-spec-url>"],
+      "description": "Convert any OpenAPI/Swagger spec into MCP tools. Replace <openapi-spec-url> with the URL or path to your OpenAPI spec."
+    }
+  ]
+}
