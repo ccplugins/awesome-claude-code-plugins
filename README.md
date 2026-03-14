@@ -125,6 +125,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [enterprise-integrator-architect](./plugins/enterprise-integrator-architect)
 - [flutter-mobile-app-dev](./plugins/flutter-mobile-app-dev)
 - [frontend-developer](./plugins/frontend-developer)
+- [mcp-openapi](./plugins/mcp-openapi)
 - [mobile-app-builder](./plugins/mobile-app-builder)
 - [project-curator](./plugins/project-curator)
 - [python-expert](./plugins/python-expert)
