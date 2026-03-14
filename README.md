@@ -209,6 +209,9 @@ Example:
 /plugin install analyze-codebase
 ```
 
+### Content & Writing
+- [humanizer](https://github.com/agentwireandy/humanizer) - 8-pass AI text humanization skill targeting 28 documented AI tell-tale patterns. 3 modes (Quick/Standard/Master), 50-point quality rubric, scored 55/60 in controlled eval.
+
 ## Contributing
 
 Contributions are welcome!
