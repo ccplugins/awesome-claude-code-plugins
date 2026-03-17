@@ -174,6 +174,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [plan](./plugins/plan)
 - [planning-prd-agent](./plugins/planning-prd-agent)
 - [prd-specialist](./plugins/prd-specialist)
+- [product-manager-skills](https://github.com/Digidai/product-manager-skills) - Senior PM agent with 30+ frameworks, 32 SaaS metrics with exact formulas, 12 templates, and anti-pattern detection. Pure Markdown, MIT-0 license.
 - [project-shipper](./plugins/project-shipper)
 - [sprint-prioritizer](./plugins/sprint-prioritizer)
 - [studio-producer](./plugins/studio-producer)
