@@ -82,6 +82,8 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [technical-sales-engineer](./plugins/technical-sales-engineer)
 
 ### Code Quality Testing
+
+- [Wopee MCP](https://www.npmjs.com/package/wopee-mcp) - MCP server for autonomous testing — dispatch test runs, AI agent tests, and analysis crawls for web apps from Claude Code.
 - [api-tester](./plugins/api-tester)
 - [bug-detective](./plugins/bug-detective)
 - [code-review](./plugins/code-review)
