@@ -132,6 +132,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [react-native-dev](./plugins/react-native-dev)
 - [vision-specialist](./plugins/vision-specialist)
 - [web-dev](./plugins/web-dev)
+- [reporecall](https://github.com/proofofwork-agency/reporecall) - Local codebase memory for Claude Code. AST indexing (22 languages), call graphs, hybrid search. Injects context via hooks (~5ms). Also an MCP server.
 
 ### Documentation
 - [analyze-codebase](./plugins/analyze-codebase)
