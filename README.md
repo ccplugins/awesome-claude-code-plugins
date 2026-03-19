@@ -188,6 +188,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [enterprise-security-reviewer](./plugins/enterprise-security-reviewer)
 - [legal-advisor](./plugins/legal-advisor)
 - [legal-compliance-checker](./plugins/legal-compliance-checker)
+- [privacy-mask](https://github.com/fullstackcrew-alpha/privacy-mask) - Detect and redact PII, API keys, and secrets in screenshots via OCR + regex before images reach Claude. 47 detection rules, Tesseract/RapidOCR support, UserPromptSubmit hook integration. 100% offline.
 
 
 ## Tutorials
