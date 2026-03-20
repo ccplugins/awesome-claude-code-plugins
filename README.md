@@ -132,6 +132,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [react-native-dev](./plugins/react-native-dev)
 - [vision-specialist](./plugins/vision-specialist)
 - [web-dev](./plugins/web-dev)
+- [claude-kit](https://github.com/luiseiman/claude-kit) - Configuration factory for Claude Code — bootstrap, audit, sync. 13 stacks, 6 agents, practices pipeline.
 
 ### Documentation
 - [analyze-codebase](./plugins/analyze-codebase)
