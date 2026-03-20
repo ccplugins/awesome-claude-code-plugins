@@ -32,7 +32,7 @@ Awesome Claude Code plugins — a curated list of slash commands, subagents, MCP
 - **Slash Commands** — Custom shortcuts for frequent operations
 - **Subagents** — Purpose-built agents for specialized dev tasks
 - **MCP Servers** — Integrations to tools and data sources via the Model Context Protocol
-- **Hooks** — Extensions that modify Claude Code’s behavior at key workflow points
+- **Hooks** — Extensions that modify Claude Code's behavior at key workflow points
 
 Install or disable them dynamically with the `/plugin` command — enabling you to keep your system context focused and lightweight.
 
@@ -61,6 +61,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [lyra](./plugins/lyra)
 - [model-context-protocol-mcp-expert](./plugins/model-context-protocol-mcp-expert)
 - [problem-solver-specialist](./plugins/problem-solver-specialist)
+- [skillfold](./plugins/skillfold)
 - [studio-coach](./plugins/studio-coach)
 - [ultrathink](./plugins/ultrathink)
 
@@ -200,7 +201,7 @@ You can host and share your own curated plugin marketplace using a simple Git re
 /plugin marketplace add user-or-org/repo-name
 ```
 
-Then browse and install plugins from within Claude Code’s `/plugin` menu.
+Then browse and install plugins from within Claude Code's `/plugin` menu.
 
 Example:
 

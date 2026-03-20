@@ -1670,6 +1670,25 @@
         "security",
         "compliance"
       ]
+    },
+    {
+      "name": "skillfold",
+      "source": "./plugins/skillfold",
+      "description": "Multi-agent pipeline compiler. Compose skills, wire team flows, generate orchestrators.",
+      "version": "1.3.1",
+      "author": {
+        "name": "byronxlg",
+        "url": "https://github.com/byronxlg"
+      },
+      "category": "Workflow Orchestration",
+      "homepage": "https://github.com/byronxlg/skillfold",
+      "keywords": [
+        "workflow",
+        "pipeline",
+        "multi-agent",
+        "orchestration",
+        "skills"
+      ]
     }
   ]
 }

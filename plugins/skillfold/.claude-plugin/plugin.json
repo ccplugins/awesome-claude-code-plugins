@@ -1,0 +1,7 @@
+{
+  "name": "skillfold",
+  "version": "1.3.0",
+  "description": "Multi-agent pipeline compiler. Compose skills, wire team flows, generate orchestrators.",
+  "author": {"name": "byronxlg"},
+  "repository": "https://github.com/byronxlg/skillfold"
+}
