@@ -58,7 +58,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [angelos-symbo](./plugins/angelos-symbo)
 - [ceo-quality-controller-agent](./plugins/ceo-quality-controller-agent)
 - [claude-desktop-extension](./plugins/claude-desktop-extension)
-- [claude-memory-manager](https://github.com/WhymustIhaveaname/claude-memory-manager) - Web UI for managing Claude Code's native MEMORY.md memory system. Three-panel interface for browsing, editing, and organizing cross-session memories with full operation reversibility.
+- [claude-memory-manager](https://github.com/WhymustIhaveaname/claude-memory-manager) - Global memory tier for Claude Code. Stores cross-project memories in ~/.claude/memory/, injects them via SessionStart hook. Includes a web UI for managing all memory files without digging through directories.
 - [lyra](./plugins/lyra)
 - [model-context-protocol-mcp-expert](./plugins/model-context-protocol-mcp-expert)
 - [problem-solver-specialist](./plugins/problem-solver-specialist)
