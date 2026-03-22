@@ -183,6 +183,8 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 ### Security, Compliance, & Legal
 - [ai-ethics-governance-specialist](./plugins/ai-ethics-governance-specialist)
 - [audit](./plugins/audit)
+- [clawsec](./plugins/clawsec)
+- [clawsearch](./plugins/clawsearch)
 - [compliance-automation-specialist](./plugins/compliance-automation-specialist)
 - [data-privacy-engineer](./plugins/data-privacy-engineer)
 - [enterprise-security-reviewer](./plugins/enterprise-security-reviewer)

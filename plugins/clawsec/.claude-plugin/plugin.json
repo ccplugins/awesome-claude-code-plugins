@@ -1,0 +1,9 @@
+{
+  "name": "clawsec",
+  "description": "Security audit tool for AI agent skills. Queries the ClawSec API to check skill security assessments, vulnerability reports, and audit scores before installing or using skills in your projects.",
+  "version": "1.0.0",
+  "author": {
+    "name": "ClawSec"
+  },
+  "homepage": "https://clawsec.cc"
+}
