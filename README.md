@@ -106,6 +106,9 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [feedback-synthesizer](./plugins/feedback-synthesizer)
 - [trend-researcher](./plugins/trend-researcher)
 
+### Audio & Media
+- [bibigpt-skill](https://github.com/JimmyLv/bibigpt-skill) - AI-powered video, audio & podcast summarization
+
 ### Design UX
 - [brand-guardian](./plugins/brand-guardian)
 - [joker](./plugins/joker)
