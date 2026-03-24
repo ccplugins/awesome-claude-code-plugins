@@ -117,6 +117,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [whimsy-injector](./plugins/whimsy-injector)
 
 ### Development Engineering
+- [claude-sounds](https://github.com/culminationAI/claude-sounds)
 - [ai-engineer](./plugins/ai-engineer)
 - [api-integration-specialist](./plugins/api-integration-specialist)
 - [backend-architect](./plugins/backend-architect)
