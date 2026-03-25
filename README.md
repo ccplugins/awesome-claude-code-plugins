@@ -63,6 +63,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [problem-solver-specialist](./plugins/problem-solver-specialist)
 - [studio-coach](./plugins/studio-coach)
 - [ultrathink](./plugins/ultrathink)
+- [ultraship](./plugins/ultraship)
 
 ### Automation DevOps
 - [deployment-engineer](./plugins/deployment-engineer)
