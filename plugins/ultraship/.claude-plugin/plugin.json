@@ -1,0 +1,22 @@
+{
+  "name": "ultraship",
+  "description": "All-in-one builder toolkit. Ship production-ready SaaS with one plugin.",
+  "version": "1.4.2",
+  "author": {
+    "name": "Houseofmvps",
+    "email": "houseofmvps2024@gmail.com"
+  },
+  "homepage": "https://github.com/Houseofmvps/ultraship",
+  "repository": "https://github.com/Houseofmvps/ultraship",
+  "license": "MIT",
+  "keywords": [
+    "ship",
+    "seo",
+    "performance",
+    "security",
+    "workflow",
+    "code-review",
+    "lighthouse",
+    "builder"
+  ]
+}
