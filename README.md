@@ -33,6 +33,7 @@ Awesome Claude Code plugins — a curated list of slash commands, subagents, MCP
 - **Subagents** — Purpose-built agents for specialized dev tasks
 - **MCP Servers** — Integrations to tools and data sources via the Model Context Protocol
 - **Hooks** — Extensions that modify Claude Code’s behavior at key workflow points
+* [SkillFlow](https://github.com/rafsilva85/skillflow-mcp-server) - AI Skills Marketplace discovery server. Search, compare, and get installation instructions for curated MCP servers and AI agent tools.
 
 Install or disable them dynamically with the `/plugin` command — enabling you to keep your system context focused and lightweight.
 
