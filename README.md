@@ -190,6 +190,9 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [legal-compliance-checker](./plugins/legal-compliance-checker)
 
 
+### Skills & Frameworks
+- [aurakit](https://github.com/smorky850612/Aurakit) — All-in-one Claude Code skill: 33 modes, 6-layer security, 23 hooks, 8 languages, 75% token savings. Cross-platform (Codex, Cursor, Manus, Windsurf). Install: `npx @smorky85/aurakit`
+
 ## Tutorials
 
 You can host and share your own curated plugin marketplace using a simple Git repository with a `.claude-plugin/marketplace.json` file.
