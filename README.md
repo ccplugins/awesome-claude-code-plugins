@@ -177,6 +177,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [project-shipper](./plugins/project-shipper)
 - [sprint-prioritizer](./plugins/sprint-prioritizer)
 - [studio-producer](./plugins/studio-producer)
+- [the-pragmatic-pm](https://github.com/marfoerst/the-pragmatic-pm) - PM leadership toolkit with 43 skills, 5 orchestrator agents, and 4 multi-stage workflows. PRD generation, OKR lifecycle, pricing, AI pricing, battlecards, sales enablement, quarterly planning, and more.
 - [tool-evaluator](./plugins/tool-evaluator)
 - [workflow-optimizer](./plugins/workflow-optimizer)
 
