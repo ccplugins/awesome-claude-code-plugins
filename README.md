@@ -98,6 +98,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [test-results-analyzer](./plugins/test-results-analyzer)
 - [test-writer-fixer](./plugins/test-writer-fixer)
 - [unit-test-generator](./plugins/unit-test-generator)
+- [adversarial-review-coding](https://github.com/robertoecf/adversarial-review-coding)
 
 ### Data Analytics
 - [analytics-reporter](./plugins/analytics-reporter)
