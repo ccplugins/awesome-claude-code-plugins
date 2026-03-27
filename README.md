@@ -88,6 +88,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [code-review-assistant](./plugins/code-review-assistant)
 - [code-reviewer](./plugins/code-reviewer)
 - [database-performance-optimizer](./plugins/database-performance-optimizer)
+- [claude-debug](https://github.com/krabat-l/claude-debug) - Phase-gated debugging: hooks block edits until root cause confirmed
 - [debug-session](./plugins/debug-session)
 - [debugger](./plugins/debugger)
 - [double-check](./plugins/double-check)
