@@ -65,6 +65,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [ultrathink](./plugins/ultrathink)
 
 ### Automation DevOps
+- [claude-dash](https://github.com/krabat-l/claude-dash) - Real-time statusline showing context, cost, quota, cache, tools, and git status
 - [deployment-engineer](./plugins/deployment-engineer)
 - [devops-automator](./plugins/devops-automator)
 - [infrastructure-maintainer](./plugins/infrastructure-maintainer)
