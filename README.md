@@ -161,6 +161,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Marketing Growth
 - [app-store-optimizer](./plugins/app-store-optimizer)
+- [claude-rank](https://github.com/Houseofmvps/claude-rank) - SEO/GEO/AEO audit with 170+ rules, auto-fix for robots.txt/sitemap.xml/llms.txt/JSON-LD
 - [content-creator](./plugins/content-creator)
 - [growth-hacker](./plugins/growth-hacker)
 - [instagram-curator](./plugins/instagram-curator)
