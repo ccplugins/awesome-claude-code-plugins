@@ -93,8 +93,8 @@
     {
       "name": "self-improving-operator",
       "source": "./plugins/self-improving-operator",
-      "description": "Proactive project ownership plugin for Claude Code that inspects the current state, makes one high-leverage bounded improvement, verifies the outcome, and updates handoff guidance.",
-      "version": "1.0.0",
+      "description": "Persistent autonomy plugin for Claude Code that maintains repo-local state, refreshes a prioritized backlog, checkpoints verified progress, and keeps going until a real stop reason is reached.",
+      "version": "2.0.0",
       "author": {
         "name": "Da Wei",
         "url": "https://github.com/wd041216-bit"
@@ -104,9 +104,10 @@
       "keywords": [
         "workflow",
         "automation",
-        "subagent",
-        "iteration",
-        "handoff"
+        "autonomy",
+        "backlog",
+        "checkpoint",
+        "subagent"
       ]
     },
     {

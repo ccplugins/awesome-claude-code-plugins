@@ -1,31 +1,26 @@
 ---
 name: improve-project
-description: Inspect the current state of a project, make one high-leverage bounded improvement, verify it, and leave behind a better handoff trail.
-argument-hint: [goal-or-focus]
+description: Inspect the current state of a project, execute one high-leverage bounded improvement, verify it, checkpoint it, and keep going until a real stop reason is reached.
+argument-hint: [mission-or-focus]
 context: fork
 agent: self-improving-operator-executor
 user-invocable: true
 ---
 
-Take ownership of this project improvement task: $ARGUMENTS
+Take ownership of this project improvement mission: $ARGUMENTS
 
-Work in a proactive but bounded way:
+Use `.operator/` as the durable operating system for this repo.
 
-1. Inspect the real current state before deciding what to change.
-2. Identify the highest-leverage unfinished gap related to the goal.
-3. Make one improvement that materially raises the bar.
-4. Verify the outcome with tests, smoke checks, runtime probes, or another direct check.
-5. Update docs, handoff notes, or operator guidance if the truth changed.
-6. Stop only when the requested outcome is working, a meaningful bar has been reached, or a real blocker remains after at least one reasonable fallback.
+Required loop:
 
-Do not stop at "the file is edited" or "the repo looks better."
+1. Load or infer the mission.
+2. Refresh the backlog from repo and GitHub signals.
+3. Pick the next safe, high-leverage item.
+4. Implement one bounded improvement.
+5. Verify with direct evidence.
+6. Write a checkpoint and update `next_action`.
+7. Continue until a real stop reason is recorded.
 
-Prefer work that reduces future drag:
+Do not stop because a plan exists, because one file was edited, or because the repo merely looks better.
 
-- productize a manual workflow
-- add diagnostics after a confusing failure
-- strengthen tests around the core path
-- improve onboarding or takeover guidance
-- make the system easier to operate, verify, or evolve
-
-Avoid vanity work and large speculative refactors.
+If a broad plan is needed, decompose it into multiple backlog items and keep executing.

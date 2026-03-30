@@ -1,0 +1,69 @@
+{
+  "generated_from": "https://github.com/wd041216-bit/codex-self-improving-operator",
+  "files": [
+    {
+      "path": ".claude-plugin/plugin.json",
+      "sha256": "a184fbb49db0a8445e2fcd560dfa066ca2e6e4a5c66a6de357358a7a83e544ea"
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "sha256": "a6809df80d49855582cf8ca13e596b76f222d8eb5d456b8452c6d4a1bc6a85b2"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "d0900d6ecd5a290f8fe1eeeeac31cea8ebecdac26a37a9cbffeb878451cacc3e"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "ee4dd64af72fa27271da815b3c960e90fb471933ee6330394a56fcb90d4391f9"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "64bbe894803d8cb9bdd510ea4591c3e1790a575583280dd350656864d4befe22"
+    },
+    {
+      "path": "README.md",
+      "sha256": "e06763045cc674930ee51a715fc070e51db9be02c180945724b12466c082a53b"
+    },
+    {
+      "path": "agents/self-improving-operator-executor.md",
+      "sha256": "b98abcf223bbfd27b90eb015e325d6f52e3f85a1de57d95be366995de4223498"
+    },
+    {
+      "path": "docs/architecture.md",
+      "sha256": "9f587c755cf02874303723ef65b35ef659426ba665659a5ee69368d68380c7f2"
+    },
+    {
+      "path": "docs/examples/fresh-repo.md",
+      "sha256": "2c7c4151a735cf26d2c5276e7a3cfec60ff3dbc50f4b761f31f1c43eaeef6b03"
+    },
+    {
+      "path": "docs/examples/github-reprioritization.md",
+      "sha256": "d8115fe90d476373b5dfc417881187efc87506e2d37b81417f3a6519c751c3b9"
+    },
+    {
+      "path": "docs/examples/resume-thread.md",
+      "sha256": "203e79586bf49c52ba9d12c0395c097bff8928f593f2ed35a8211253ebb156bb"
+    },
+    {
+      "path": "docs/operator-flow.md",
+      "sha256": "e98b1d3eab937732ff979b16953af7fbd91c7ba2add738a0625e6afaa7fe9eb2"
+    },
+    {
+      "path": "scripts/operator_runtime.py",
+      "sha256": "02671c304232485c2cb97891d327c570e8733872160abcc3b1b66a461e1ced03"
+    },
+    {
+      "path": "scripts/validate_plugin.py",
+      "sha256": "0e7bae4d840664b9e33a7168537bef84210c9d433f5f87c6648c314ebda98c97"
+    },
+    {
+      "path": "skills/improve-project/SKILL.md",
+      "sha256": "d88b39516f4165ee04c468b8cc83a1b10a546ec1118ef2d6948abdfa1e60249b"
+    },
+    {
+      "path": "skills/operator-playbook/SKILL.md",
+      "sha256": "e5b7eb73b1360732985ff7d2ecf826ccd4ac7199551e391d7adf790688a8afa4"
+    }
+  ]
+}
