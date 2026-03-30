@@ -1,0 +1,20 @@
+{
+  "name": "self-improving-operator",
+  "version": "1.0.0",
+  "description": "Claude Code plugin for proactive project ownership through diagnose-build-verify loops.",
+  "author": {
+    "name": "Da Wei",
+    "url": "https://github.com/wd041216-bit"
+  },
+  "homepage": "https://github.com/wd041216-bit/claude-code-self-improving-operator",
+  "repository": "https://github.com/wd041216-bit/claude-code-self-improving-operator",
+  "license": "Apache-2.0",
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "subagent",
+    "skill",
+    "developer-tools",
+    "automation"
+  ]
+}
