@@ -91,6 +91,26 @@
       ]
     },
     {
+      "name": "self-improving-operator",
+      "source": "./plugins/self-improving-operator",
+      "description": "Persistent autonomy plugin for Claude Code that maintains repo-local state, refreshes a prioritized backlog, checkpoints verified progress, and keeps going until a real stop reason is reached.",
+      "version": "2.0.0",
+      "author": {
+        "name": "Da Wei",
+        "url": "https://github.com/wd041216-bit"
+      },
+      "category": "Workflow Orchestration",
+      "homepage": "https://github.com/wd041216-bit/claude-code-self-improving-operator",
+      "keywords": [
+        "workflow",
+        "automation",
+        "autonomy",
+        "backlog",
+        "checkpoint",
+        "subagent"
+      ]
+    },
+    {
       "name": "code-review",
       "source": "./plugins/code-review",
       "description": "Perform a comprehensive code review of recent changes",

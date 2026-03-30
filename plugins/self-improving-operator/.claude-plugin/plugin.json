@@ -1,0 +1,20 @@
+{
+  "name": "self-improving-operator",
+  "version": "2.0.0",
+  "description": "Claude Code plugin for persistent diagnose-build-verify-checkpoint loops with repo-local state and aggressive in-scope continuation.",
+  "author": {
+    "name": "Da Wei",
+    "url": "https://github.com/wd041216-bit"
+  },
+  "homepage": "https://github.com/wd041216-bit/claude-code-self-improving-operator",
+  "repository": "https://github.com/wd041216-bit/claude-code-self-improving-operator",
+  "license": "Apache-2.0",
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "autonomy",
+    "subagent",
+    "backlog",
+    "checkpoint"
+  ]
+}
