@@ -61,6 +61,7 @@
 - [lyra](./plugins/lyra)
 - [model-context-protocol-mcp-expert](./plugins/model-context-protocol-mcp-expert)
 - [problem-solver-specialist](./plugins/problem-solver-specialist)
+- [self-improving-operator](./plugins/self-improving-operator)
 - [studio-coach](./plugins/studio-coach)
 - [ultrathink](./plugins/ultrathink)
 
