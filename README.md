@@ -23,6 +23,7 @@ Awesome Claude Code plugins — a curated list of slash commands, subagents, MCP
     - [Security, Compliance, & Legal](#security-compliance--legal)
 * [Tutorials](#tutorials)
 * [Contributing](#contributing)
+- [skill-taxonomy](https://github.com/SeeleAI/skill-taxonomy) - Structured taxonomy for AI agent skills: discovery, classification and routing across multi-agent workflows.
 
 ## What is Claude Code Plugin?
 
