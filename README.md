@@ -120,6 +120,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [ai-engineer](./plugins/ai-engineer)
 - [api-integration-specialist](./plugins/api-integration-specialist)
 - [backend-architect](./plugins/backend-architect)
+- [blueprint](https://github.com/JuliusBrussee/blueprint)
 - [code-architect](./plugins/code-architect)
 - [desktop-app-dev](./plugins/desktop-app-dev)
 - [enterprise-integrator-architect](./plugins/enterprise-integrator-architect)
