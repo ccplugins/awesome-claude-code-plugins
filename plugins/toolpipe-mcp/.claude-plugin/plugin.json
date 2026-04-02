@@ -1,0 +1,10 @@
+{
+  "name": "toolpipe-mcp",
+  "description": "238+ developer utility tools via MCP: JSON formatting, hashing, UUID generation, DNS lookup, QR codes, regex testing, JWT decoding, and more",
+  "version": "1.0.0",
+  "author": {
+    "name": "COSAI Labs",
+    "url": "https://github.com/COSAI-Labs"
+  },
+  "homepage": "https://github.com/COSAI-Labs/toolpipe-mcp-server"
+}
