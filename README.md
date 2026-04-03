@@ -102,6 +102,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 ### Data Analytics
 - [analytics-reporter](./plugins/analytics-reporter)
 - [data-scientist](./plugins/data-scientist)
+- [flex-claudecode](./plugins/flex-claudecode)
 - [experiment-tracker](./plugins/experiment-tracker)
 - [feedback-synthesizer](./plugins/feedback-synthesizer)
 - [trend-researcher](./plugins/trend-researcher)
