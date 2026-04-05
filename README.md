@@ -80,6 +80,8 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [product-sales-specialist](./plugins/product-sales-specialist)
 - [support-responder](./plugins/support-responder)
 - [technical-sales-engineer](./plugins/technical-sales-engineer)
+- [overloop-cli](./plugins/overloop-cli)
+- [signals-cli](./plugins/signals-cli)
 
 ### Code Quality Testing
 - [api-tester](./plugins/api-tester)
