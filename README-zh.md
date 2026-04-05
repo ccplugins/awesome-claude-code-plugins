@@ -62,6 +62,7 @@
 - [model-context-protocol-mcp-expert](./plugins/model-context-protocol-mcp-expert)
 - [problem-solver-specialist](./plugins/problem-solver-specialist)
 - [studio-coach](./plugins/studio-coach)
+- [telegram-ai-bridge](https://github.com/AliceLJY/telegram-ai-bridge) - 通过 Telegram 运行 N 个并行 Claude Code 会话，支持 War Room 模式、每机器人独立人格、A2A 多智能体协作
 - [ultrathink](./plugins/ultrathink)
 
 ### 自动化运维
