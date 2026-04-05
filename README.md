@@ -209,6 +209,10 @@ Example:
 /plugin install analyze-codebase
 ```
 
+## Crypto & Privacy
+
+- [Zcash MCP](https://github.com/Frontier-Compute/zcash-mcp) - 18 Zcash tools: shielded send, memo decode, attestation, split-key custody. First privacy-chain MCP server.
+
 ## Contributing
 
 Contributions are welcome!
