@@ -62,6 +62,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [model-context-protocol-mcp-expert](./plugins/model-context-protocol-mcp-expert)
 - [problem-solver-specialist](./plugins/problem-solver-specialist)
 - [studio-coach](./plugins/studio-coach)
+- [telegram-ai-bridge](https://github.com/AliceLJY/telegram-ai-bridge) - Run N parallel Claude Code sessions from Telegram with War Room mode, per-bot personas, and A2A multi-agent collaboration
 - [ultrathink](./plugins/ultrathink)
 
 ### Automation DevOps
