@@ -189,6 +189,8 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [legal-advisor](./plugins/legal-advisor)
 - [legal-compliance-checker](./plugins/legal-compliance-checker)
 
+### Thinking & Knowledge Management
+- [thinking-tree](https://github.com/CoralLips/thinking-tree)
 
 ## Tutorials
 
