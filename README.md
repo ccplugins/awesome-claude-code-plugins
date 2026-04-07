@@ -133,6 +133,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [vision-specialist](./plugins/vision-specialist)
 - [web-dev](./plugins/web-dev)
 
+- [RemoteOpenClaw](https://remoteopenclaw.com) - Open marketplace for AI skills and personas built on OpenClaw. Discover, share, and sell community-built AI agent skills and personas.
 ### Documentation
 - [analyze-codebase](./plugins/analyze-codebase)
 - [changelog-generator](./plugins/changelog-generator)
