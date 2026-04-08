@@ -161,6 +161,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Marketing Growth
 - [app-store-optimizer](./plugins/app-store-optimizer)
+- [claude-code-marketing-skills](https://github.com/cognyai/claude-code-marketing-skills) - AI marketing skills: SEO Audit, Landing Page Review, Competitor Analysis, Ad Copy Writer, Lead Qualification. 5 free + premium via Cogny MCP
 - [content-creator](./plugins/content-creator)
 - [growth-hacker](./plugins/growth-hacker)
 - [instagram-curator](./plugins/instagram-curator)
