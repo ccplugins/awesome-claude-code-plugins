@@ -1,0 +1,10 @@
+{
+  "name": "omega-memory",
+  "description": "Persistent memory for AI coding agents with semantic search, auto-capture, intelligent forgetting, and cross-session learning. Works as an MCP server for Claude Code. Local-first, zero cloud dependency. Install: pip install omega-memory[server]",
+  "version": "1.0.0",
+  "author": {
+    "name": "omega-memory",
+    "url": "https://github.com/omega-memory"
+  },
+  "homepage": "https://github.com/omega-memory/omega-memory"
+}
