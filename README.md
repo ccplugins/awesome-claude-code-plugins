@@ -21,6 +21,7 @@ Awesome Claude Code plugins — a curated list of slash commands, subagents, MCP
     - [Marketing Growth](#marketing-growth)
     - [Project & Product Management](#project--product-management)
     - [Security, Compliance, & Legal](#security-compliance--legal)
+    - [MCP Servers](#mcp-servers)
 * [Tutorials](#tutorials)
 * [Contributing](#contributing)
 
@@ -188,6 +189,9 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [enterprise-security-reviewer](./plugins/enterprise-security-reviewer)
 - [legal-advisor](./plugins/legal-advisor)
 - [legal-compliance-checker](./plugins/legal-compliance-checker)
+
+### MCP Servers
+- [WhichModel](https://github.com/Which-Model/whichmodel-mcp) — AI model pricing & recommendation MCP server for Claude Code. Helps choose the right model for every task at the best price. Cross-verified data updated every 4 hours. MCP endpoint: `https://whichmodel.dev/mcp`
 
 
 ## Tutorials

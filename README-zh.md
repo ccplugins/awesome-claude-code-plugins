@@ -21,6 +21,7 @@
     - [市场营销与增长](#市场营销与增长)
     - [项目与产品管理](#项目与产品管理)
     - [安全、合规与法律](#安全、合规与法律)
+    - [MCP 服务器](#mcp-服务器)
 * [使用教程](#使用教程)
 * [如何贡献](#如何贡献)
 
@@ -188,6 +189,9 @@
 - [enterprise-security-reviewer](./plugins/enterprise-security-reviewer)
 - [legal-advisor](./plugins/legal-advisor)
 - [legal-compliance-checker](./plugins/legal-compliance-checker)
+
+### MCP 服务器
+- [WhichModel](https://github.com/Which-Model/whichmodel-mcp) — 面向 Claude Code 的 AI 模型定价与推荐 MCP 服务器，帮助为每项任务选择最合适、性价比最高的模型。数据经交叉验证，每 4 小时更新一次。MCP 端点：`https://whichmodel.dev/mcp`
 
 
 ## 使用教程
