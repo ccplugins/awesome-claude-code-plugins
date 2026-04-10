@@ -1,0 +1,9 @@
+{
+  "name": "cc-aws-keepalive",
+  "description": "Keep Claude Code sessions alive through AWS credential expiration. Hooks into UserPromptSubmit to proactively detect expiring AWS credentials and refresh them before they break your Bedrock-powered session. Features proactive warnings, credential refresh bypass, and optional statusline timer.",
+  "version": "0.1.0",
+  "author": {
+    "name": "GeiserX"
+  },
+  "homepage": "https://github.com/GeiserX/cc-aws-keepalive"
+}

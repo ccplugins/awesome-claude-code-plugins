@@ -65,6 +65,7 @@
 - [ultrathink](./plugins/ultrathink)
 
 ### 自动化运维
+- [cc-aws-keepalive](./plugins/cc-aws-keepalive)
 - [deployment-engineer](./plugins/deployment-engineer)
 - [devops-automator](./plugins/devops-automator)
 - [infrastructure-maintainer](./plugins/infrastructure-maintainer)

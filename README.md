@@ -65,6 +65,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [ultrathink](./plugins/ultrathink)
 
 ### Automation DevOps
+- [cc-aws-keepalive](./plugins/cc-aws-keepalive)
 - [deployment-engineer](./plugins/deployment-engineer)
 - [devops-automator](./plugins/devops-automator)
 - [infrastructure-maintainer](./plugins/infrastructure-maintainer)
