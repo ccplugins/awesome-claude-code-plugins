@@ -9,6 +9,8 @@ Awesome Claude Code plugins — a curated list of slash commands, subagents, MCP
 * [Use Cases](#use-cases)
 * [Plugins](#plugins)
     - [Official Claude Code Plugins](#official-claude-code-plugins)
+- [lazymac/mcp](https://github.com/lazymac2x/lazymac-mcp) — Unified MCP server exposing 42+ developer tools (qr, ip-geo, ai-cost, llm-router, k-privacy, korean-nlp) backed by Cloudflare Workers. `npx -y @lazymac/mcp`
+- [lazymac/k-mcp](https://github.com/lazymac2x/lazymac-k-mcp) — Korean wedge MCP — PIPA compliance, KRW + BOK rates, 사업자등록번호 lookup, address geocoding, NLP. `npx -y @lazymac/k-mcp`
     - [Workflow Orchestration](#workflow-orchestration)
     - [Automation DevOps](#automation-devops)
     - [Business Sales](#business-sales)
