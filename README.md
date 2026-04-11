@@ -166,6 +166,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [instagram-curator](./plugins/instagram-curator)
 - [reddit-community-builder](./plugins/reddit-community-builder)
 - [tiktok-strategist](./plugins/tiktok-strategist)
+- [toprank](./plugins/toprank)
 - [twitter-engager](./plugins/twitter-engager)
 
 ### Project & Product Management
