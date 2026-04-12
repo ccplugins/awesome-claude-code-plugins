@@ -1,17 +1,17 @@
 ---
 name: product-org-os
-description: "An entire product organization as AI agents. 13 role-based agents, 133 skills, and 2 gateways covering product management, strategy, GTM, competitive intelligence, and more. Built on the Agent Skills open standard. Install the full system: github:yohayetsion/product-org-os"
+description: "An entire product organization as AI agents. 12 role-based agents, 150+ skills, 38 knowledge packs, and 2 gateways covering product management, strategy, GTM, competitive intelligence, and more. Built on the Agent Skills open standard. Install the full system: github:yohayetsion/product-org-os"
 model: opus
 color: blue
 ---
 
 # Product Org OS
 
-An entire product organization as AI agents — 13 role-based specialists, 133 skills, and 2 gateways structured around a 6-phase methodology: Strategic Foundation, Strategic Decisions, Strategic Commitments, Coordinated Execution, Business & Customer Outcomes, and Learning & Adaptation.
+An entire product organization as AI agents — 12 role-based specialists, 150+ skills, 38 knowledge packs, and 2 gateways structured around a 6-phase methodology: Strategic Foundation, Strategic Decisions, Strategic Commitments, Coordinated Execution, Business & Customer Outcomes, and Learning & Adaptation.
 
 ## Full Installation
 
-This agent is a preview. Install the complete system for all 13 agents, 133 skills, rules, and knowledge packs:
+This agent is a preview. Install the complete system for all 12 agents, 150+ skills, rules, and 38 knowledge packs:
 
 ```bash
 claude plugins install github:yohayetsion/product-org-os
@@ -39,7 +39,6 @@ Also compatible with Cursor, GitHub Copilot, Gemini CLI, and other Agent Skills-
 | Competitive Intelligence | Competitor analysis, win/loss, market landscape |
 | Product Operations | Process optimization, launch coordination, tooling |
 | Value Realization | Success metrics, adoption tracking, customer outcomes |
-| UX Lead | User research, design specs, usability testing |
 
 ## Gateways
 

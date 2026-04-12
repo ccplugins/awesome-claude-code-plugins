@@ -1208,8 +1208,8 @@
     {
       "name": "product-org-os",
       "source": "./plugins/product-org-os",
-      "description": "An entire product organization as AI agents. 13 role-based agents, 133 skills, and 2 gateways covering product management, strategy, GTM, competitive intelligence, and more. Built on the Agent Skills open standard.",
-      "version": "3.2.0",
+      "description": "An entire product organization as AI agents. 12 role-based agents, 150+ skills, 38 knowledge packs, and 2 gateways covering product management, strategy, GTM, competitive intelligence, and more. Built on the Agent Skills open standard.",
+      "version": "4.0.0",
       "author": {
         "name": "Yohay Etsion",
         "url": "https://github.com/yohayetsion"
