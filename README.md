@@ -32,7 +32,7 @@ Awesome Claude Code plugins — a curated list of slash commands, subagents, MCP
 - **Slash Commands** — Custom shortcuts for frequent operations
 - **Subagents** — Purpose-built agents for specialized dev tasks
 - **MCP Servers** — Integrations to tools and data sources via the Model Context Protocol
-- **Hooks** — Extensions that modify Claude Code’s behavior at key workflow points
+- **Hooks** — Extensions that modify Claude Code's behavior at key workflow points
 
 Install or disable them dynamically with the `/plugin` command — enabling you to keep your system context focused and lightweight.
 
@@ -58,6 +58,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [angelos-symbo](./plugins/angelos-symbo)
 - [ceo-quality-controller-agent](./plugins/ceo-quality-controller-agent)
 - [claude-desktop-extension](./plugins/claude-desktop-extension)
+- [claude-ops](https://github.com/Lifecycle-Innovations-Limited/claude-ops) — Business operating system for Claude Code. Morning briefing, unified inbox (Slack/Telegram/WhatsApp/Gmail), autonomous PR merge pipeline, ECS health dashboard, AWS cost tracking, and YOLO mode with 4 parallel C-suite agents. 14 slash commands, 9 agents.
 - [lyra](./plugins/lyra)
 - [model-context-protocol-mcp-expert](./plugins/model-context-protocol-mcp-expert)
 - [problem-solver-specialist](./plugins/problem-solver-specialist)
@@ -200,7 +201,7 @@ You can host and share your own curated plugin marketplace using a simple Git re
 /plugin marketplace add user-or-org/repo-name
 ```
 
-Then browse and install plugins from within Claude Code’s `/plugin` menu.
+Then browse and install plugins from within Claude Code's `/plugin` menu.
 
 Example:
 
