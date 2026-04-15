@@ -142,6 +142,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [generate-api-docs](./plugins/generate-api-docs)
 - [openapi-expert](./plugins/openapi-expert)
 - [update-claudemd](./plugins/update-claudemd)
+- [llm-wiki](https://github.com/praneybehl/llm-wiki-plugin) - Build a compounding, LLM-curated personal knowledge base in any project (Karpathy's LLM Wiki pattern). Skill + 5 `/wiki:*` commands with sharded indexes, BM25 search, and a structural lint script.
 
 ### Git Workflow
 - [analyze-issue](./plugins/analyze-issue)
