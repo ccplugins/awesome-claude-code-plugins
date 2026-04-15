@@ -4,6 +4,7 @@
 [![简体中文](https://img.shields.io/badge/简体中文-点击查看-orange)](README-zh.md)
 
 Awesome Claude Code plugins — a curated list of slash commands, subagents, MCP servers, and hooks for Claude Code
+- [Asynkor](https://github.com/asynkor/asynkor) - Coordination layer for AI agent teams. File leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf.
 
 * [What is Claude Code Plugin?](#what-is-claude-code-plugin)
 * [Use Cases](#use-cases)
@@ -32,6 +33,7 @@ Awesome Claude Code plugins — a curated list of slash commands, subagents, MCP
 - **Slash Commands** — Custom shortcuts for frequent operations
 - **Subagents** — Purpose-built agents for specialized dev tasks
 - **MCP Servers** — Integrations to tools and data sources via the Model Context Protocol
+- [Asynkor](https://github.com/asynkor/asynkor) - Coordination layer for AI agent teams. File leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf.
 - **Hooks** — Extensions that modify Claude Code’s behavior at key workflow points
 
 Install or disable them dynamically with the `/plugin` command — enabling you to keep your system context focused and lightweight.
@@ -42,6 +44,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - **Support Users:** Package slash commands that simplify your framework or SDK usage
 - **Share Workflows:** Publish debugging setups, deployment scripts, or testing harnesses
 - **Connect Tools:** Integrate internal systems securely through MCP servers
+- [Asynkor](https://github.com/asynkor/asynkor) - Coordination layer for AI agent teams. File leasing, shared memory, cross-machine sync. One MCP server for Claude Code, Cursor, Windsurf.
 - **Bundle Customizations:** Combine multiple extensions for a cohesive developer experience
 
 ## Plugins
