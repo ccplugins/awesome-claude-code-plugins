@@ -101,6 +101,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Data Analytics
 - [analytics-reporter](./plugins/analytics-reporter)
+- [claude-code-sessions](https://github.com/apappascs/claude-code-sessions) — Session intelligence plugin. 11 skills for full-text search, token analytics, task management, session comparison, timeline views, and context recovery across all sessions. Includes a web dashboard. Zero runtime dependencies, read-only.
 - [data-scientist](./plugins/data-scientist)
 - [experiment-tracker](./plugins/experiment-tracker)
 - [feedback-synthesizer](./plugins/feedback-synthesizer)
