@@ -100,10 +100,12 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [unit-test-generator](./plugins/unit-test-generator)
 
 ### Data Analytics
+- [ai-dev-jobs-search](./plugins/ai-dev-jobs-search)
 - [analytics-reporter](./plugins/analytics-reporter)
 - [data-scientist](./plugins/data-scientist)
 - [experiment-tracker](./plugins/experiment-tracker)
 - [feedback-synthesizer](./plugins/feedback-synthesizer)
+- [nhs-mcp-search](./plugins/nhs-mcp-search)
 - [trend-researcher](./plugins/trend-researcher)
 
 ### Design UX
