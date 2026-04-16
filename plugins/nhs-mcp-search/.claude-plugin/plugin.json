@@ -1,0 +1,16 @@
+{
+  "name": "nhs-mcp-search",
+  "description": "Search 8,600+ AI tools, MCP servers, and APIs via Not Human Search. Query the index, check agentic readiness scores, verify MCP endpoints, and submit new tools. MCP endpoint at nothumansearch.ai/mcp.",
+  "version": "1.0.0",
+  "author": {
+    "name": "United Ideas",
+    "url": "https://nothumansearch.ai"
+  },
+  "homepage": "https://nothumansearch.ai",
+  "keywords": [
+    "mcp",
+    "search",
+    "ai-tools",
+    "discovery"
+  ]
+}

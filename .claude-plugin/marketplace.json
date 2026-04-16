@@ -1670,6 +1670,42 @@
         "security",
         "compliance"
       ]
+    },
+    {
+      "name": "nhs-mcp-search",
+      "source": "./plugins/nhs-mcp-search",
+      "description": "Search 8,600+ AI tools, MCP servers, and APIs via Not Human Search. Query the index, check agentic readiness scores, verify MCP endpoints, and submit new tools.",
+      "version": "1.0.0",
+      "author": {
+        "name": "United Ideas",
+        "url": "https://nothumansearch.ai"
+      },
+      "category": "Data Analytics",
+      "homepage": "https://nothumansearch.ai",
+      "keywords": [
+        "mcp",
+        "search",
+        "ai-tools",
+        "discovery"
+      ]
+    },
+    {
+      "name": "ai-dev-jobs-search",
+      "source": "./plugins/ai-dev-jobs-search",
+      "description": "Search 5,400+ AI and ML developer jobs with salary data, company info, and remote filters via AI Dev Jobs MCP server.",
+      "version": "1.0.0",
+      "author": {
+        "name": "United Ideas",
+        "url": "https://aidevboard.com"
+      },
+      "category": "Data Analytics",
+      "homepage": "https://aidevboard.com",
+      "keywords": [
+        "jobs",
+        "ai",
+        "career",
+        "search"
+      ]
     }
   ]
 }

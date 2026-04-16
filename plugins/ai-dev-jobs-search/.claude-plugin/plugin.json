@@ -1,0 +1,16 @@
+{
+  "name": "ai-dev-jobs-search",
+  "description": "Search 5,400+ AI and ML developer jobs with salary data, company info, and remote filters. MCP endpoint at aidevboard.com/mcp with search_jobs, get_job, list_companies, and get_stats tools.",
+  "version": "1.0.0",
+  "author": {
+    "name": "United Ideas",
+    "url": "https://aidevboard.com"
+  },
+  "homepage": "https://aidevboard.com",
+  "keywords": [
+    "jobs",
+    "ai",
+    "career",
+    "search"
+  ]
+}
