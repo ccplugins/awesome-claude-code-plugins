@@ -56,6 +56,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Workflow Orchestration
 - [angelos-symbo](./plugins/angelos-symbo)
+- [bobusang](https://github.com/jun0-ds/bobusang) — Multi-device memory system for Claude Code. Syncs context across Windows, WSL2, and Linux with git-based auto-sync.
 - [ceo-quality-controller-agent](./plugins/ceo-quality-controller-agent)
 - [claude-desktop-extension](./plugins/claude-desktop-extension)
 - [lyra](./plugins/lyra)
@@ -94,6 +95,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [optimize](./plugins/optimize)
 - [performance-benchmarker](./plugins/performance-benchmarker)
 - [refractor](./plugins/refractor)
+- [sonmat](https://github.com/jun0-ds/sonmat) — Verification discipline plugin with six reactive axes (guard, inspect, witness, punch, devil's advocate, scribe) for AI-human collaboration.
 - [test-file](./plugins/test-file)
 - [test-results-analyzer](./plugins/test-results-analyzer)
 - [test-writer-fixer](./plugins/test-writer-fixer)

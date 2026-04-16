@@ -56,6 +56,7 @@
 
 ### 工作流编排
 - [angelos-symbo](./plugins/angelos-symbo)
+- [bobusang](https://github.com/jun0-ds/bobusang) — Claude Code多设备记忆系统，通过git自动同步在Windows、WSL2和Linux之间同步上下文。
 - [ceo-quality-controller-agent](./plugins/ceo-quality-controller-agent)
 - [claude-desktop-extension](./plugins/claude-desktop-extension)
 - [lyra](./plugins/lyra)
@@ -94,6 +95,7 @@
 - [optimize](./plugins/optimize)
 - [performance-benchmarker](./plugins/performance-benchmarker)
 - [refractor](./plugins/refractor)
+- [sonmat](https://github.com/jun0-ds/sonmat) — 验证纪律插件，六个反应轴（guard、inspect、witness、punch、devil's advocate、scribe）用于AI-人类协作。
 - [test-file](./plugins/test-file)
 - [test-results-analyzer](./plugins/test-results-analyzer)
 - [test-writer-fixer](./plugins/test-writer-fixer)
