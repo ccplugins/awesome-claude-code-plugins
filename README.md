@@ -98,6 +98,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [test-results-analyzer](./plugins/test-results-analyzer)
 - [test-writer-fixer](./plugins/test-writer-fixer)
 - [unit-test-generator](./plugins/unit-test-generator)
+- [slm-mcp-hub](https://github.com/qualixar/slm-mcp-hub) - External: Universal MCP gateway federating 430+ tools from 37 servers through one endpoint. 75% RAM reduction.
 
 ### Data Analytics
 - [analytics-reporter](./plugins/analytics-reporter)
@@ -132,6 +133,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [react-native-dev](./plugins/react-native-dev)
 - [vision-specialist](./plugins/vision-specialist)
 - [web-dev](./plugins/web-dev)
+- [superlocalmemory](https://github.com/qualixar/superlocalmemory) - External: Persistent memory + learning MCP server for Claude Code. Zero-cloud, 6-channel retrieval, 16K+ monthly downloads. Backed by 3 arXiv papers.
 
 ### Documentation
 - [analyze-codebase](./plugins/analyze-codebase)
@@ -188,6 +190,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [enterprise-security-reviewer](./plugins/enterprise-security-reviewer)
 - [legal-advisor](./plugins/legal-advisor)
 - [legal-compliance-checker](./plugins/legal-compliance-checker)
+- [skillfortify](https://github.com/qualixar/skillfortify) - External: Formal verification scanner for AI agent skills (including Claude Code skills + MCP servers). 100% precision on 540-skill benchmark. ASBOM generation. arXiv:2603.00195.
 
 
 ## Tutorials
