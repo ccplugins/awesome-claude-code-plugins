@@ -65,6 +65,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [ultrathink](./plugins/ultrathink)
 
 ### Automation DevOps
+- [claude-snapshot](https://github.com/adhenawer/claude-snapshot) - Portable `.tar.gz` snapshots of your Claude Code setup (settings, hooks, plugins, MCPs) with diff-before-apply and `.bak` rollback for migration and backup across machines.
 - [deployment-engineer](./plugins/deployment-engineer)
 - [devops-automator](./plugins/devops-automator)
 - [infrastructure-maintainer](./plugins/infrastructure-maintainer)
