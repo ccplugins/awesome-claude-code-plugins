@@ -98,6 +98,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [test-results-analyzer](./plugins/test-results-analyzer)
 - [test-writer-fixer](./plugins/test-writer-fixer)
 - [unit-test-generator](./plugins/unit-test-generator)
+- [tailtest](https://github.com/avansaber/tailtest) - Automatically generates and runs tests for every file Claude Code creates or modifies. PostToolUse hook detects changes, generates test scenarios, runs them, and surfaces failures. 8 languages (Python, TypeScript, JavaScript, Go, Ruby, PHP, Java, Rust). Zero config, zero commands.
 
 ### Data Analytics
 - [analytics-reporter](./plugins/analytics-reporter)
