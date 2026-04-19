@@ -70,6 +70,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [infrastructure-maintainer](./plugins/infrastructure-maintainer)
 - [monitoring-observability-specialist](./plugins/monitoring-observability-specialist)
 - [n8n-workflow-builder](./plugins/n8n-workflow-builder)
+- [qovery-deploy](https://github.com/Qovery/qovery-skills) - Deploy any app to Kubernetes on AWS/GCP/Azure/Scaleway. Creates Dockerfiles, provisions databases, deploys via CLI+API or Terraform. Install: `curl -fsSL https://skill.qovery.com/install.sh | bash`
 
 ### Business Sales
 - [b2b-project-shipper](./plugins/b2b-project-shipper)
