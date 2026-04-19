@@ -26,6 +26,9 @@ Awesome Claude Code plugins — a curated list of slash commands, subagents, MCP
 
 ## What is Claude Code Plugin?
 
+- [Agent Shadow Brain](https://github.com/theihtisham/agent-shadow-brain) - World's #1 self-evolving AI coding brain with 22 neural modules, infinite memory, predictive bug detection, Code DNA fingerprinting. Works with Claude Code, Cursor, Copilot.
+- [Omni Skills Forge](https://github.com/theihtisham/omni-skills-forge) - 50,000+ expert AI agent skills for Claude Code, Cursor, Copilot, Windsurf, Cline. One-click install, visual dashboard, skill doctor.
+
 [Claude Code Plugin](https://docs.claude.com/en/docs/claude-code/plugins) is lightweight package that let you customize and share your Claude Code setup.
  Each plugin can include any combination of:
 
