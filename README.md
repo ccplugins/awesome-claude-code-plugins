@@ -21,6 +21,7 @@ Awesome Claude Code plugins — a curated list of slash commands, subagents, MCP
     - [Marketing Growth](#marketing-growth)
     - [Project & Product Management](#project--product-management)
     - [Security, Compliance, & Legal](#security-compliance--legal)
+* [Companion Apps & Tools](#companion-apps--tools)
 * [Tutorials](#tutorials)
 * [Contributing](#contributing)
 
@@ -189,6 +190,10 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [legal-advisor](./plugins/legal-advisor)
 - [legal-compliance-checker](./plugins/legal-compliance-checker)
 
+
+## Companion Apps & Tools
+
+- [Onepilot](https://onepilotapp.com) — iOS app to SSH into remote servers and run Claude Code from your phone
 
 ## Tutorials
 
