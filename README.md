@@ -48,6 +48,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 
 ### Official Claude Code Plugins
+- [Agent Shadow Brain](https://github.com/theihtisham/agent-shadow-brain) - Self-evolving AI coding intelligence with infinite memory, genetic evolution, predictive bug detection, and swarm intelligence.
 - [agent-sdk-dev](./plugins/agent-sdk-dev)
 - [pr-review-toolkit](./plugins/pr-review-toolkit")
 - [commit-commands](./plugins/commit-commands)
