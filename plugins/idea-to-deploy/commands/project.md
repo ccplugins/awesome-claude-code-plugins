@@ -38,4 +38,4 @@ For work on **existing** codebases (bugs, refactoring, testing, deployment), use
 ### Subagents (6 total)
 - architect, code-reviewer, doc-writer, perf-analyzer, test-generator, security-auditor
 
-Full documentation: https://github.com/HiH-DimaN/idea-to-deploy
+Full documentation: https://github.com/hihol-labs/idea-to-deploy
