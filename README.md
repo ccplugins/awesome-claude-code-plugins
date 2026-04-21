@@ -70,6 +70,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [infrastructure-maintainer](./plugins/infrastructure-maintainer)
 - [monitoring-observability-specialist](./plugins/monitoring-observability-specialist)
 - [n8n-workflow-builder](./plugins/n8n-workflow-builder)
+- [notify](https://github.com/ApurvBazari/claude-plugins)
 
 ### Business Sales
 - [b2b-project-shipper](./plugins/b2b-project-shipper)
@@ -132,6 +133,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [react-native-dev](./plugins/react-native-dev)
 - [vision-specialist](./plugins/vision-specialist)
 - [web-dev](./plugins/web-dev)
+- [forge](https://github.com/ApurvBazari/claude-plugins)
 
 ### Documentation
 - [analyze-codebase](./plugins/analyze-codebase)
@@ -142,6 +144,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [generate-api-docs](./plugins/generate-api-docs)
 - [openapi-expert](./plugins/openapi-expert)
 - [update-claudemd](./plugins/update-claudemd)
+- [onboard](https://github.com/ApurvBazari/claude-plugins)
 
 ### Git Workflow
 - [analyze-issue](./plugins/analyze-issue)
