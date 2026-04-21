@@ -1,0 +1,23 @@
+{
+  "name": "bedrock",
+  "description": "Second Brain automation for Obsidian vaults — entity management, ingestion, compression, and sync via Claude Code skills",
+  "version": "1.2.0",
+  "author": {
+    "name": "Iury Krieger",
+    "url": "https://github.com/iurykrieger"
+  },
+  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/bedrock",
+  "repository": "https://github.com/iurykrieger/claude-bedrock",
+  "license": "MIT",
+  "category": "knowledge-management",
+  "keywords": [
+    "obsidian",
+    "second-brain",
+    "knowledge-base",
+    "zettelkasten",
+    "vault",
+    "knowledge-management",
+    "knowledge-graph",
+    "note-taking"
+  ]
+}

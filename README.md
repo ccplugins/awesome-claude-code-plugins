@@ -18,6 +18,7 @@ Awesome Claude Code plugins — a curated list of slash commands, subagents, MCP
     - [Development Engineering](#development-engineering)
     - [Documentation](#documentation)
     - [Git Workflow](#git-workflow)
+    - [Knowledge Management](#knowledge-management)
     - [Marketing Growth](#marketing-growth)
     - [Project & Product Management](#project--product-management)
     - [Security, Compliance, & Legal](#security-compliance--legal)
@@ -158,6 +159,9 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [pr-issue-resolve](./plugins/pr-issue-resolve)
 - [pr-review](./plugins/pr-review)
 - [update-branch-name](./plugins/update-branch-name)
+
+### Knowledge Management
+- [bedrock](./plugins/bedrock)
 
 ### Marketing Growth
 - [app-store-optimizer](./plugins/app-store-optimizer)
