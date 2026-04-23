@@ -1,0 +1,9 @@
+{
+  "name": "x-twitter-scraper",
+  "description": "Use this agent when you need to interact with X (Twitter) data — search tweets, look up user profiles, extract followers, check engagement metrics, run giveaway draws, monitor accounts, or use any of the 19 bulk extraction tools. Examples: <example>Context: User needs to find tweets about a topic. user: 'Search Twitter for tweets about Claude Code' assistant: 'I'll use the x-twitter-scraper agent to search X for relevant tweets' <commentary>The user needs to search X for tweets, so use the x-twitter-scraper agent to find matching content.</commentary></example> <example>Context: User wants follower data for an account. user: 'How many followers does @anthropaborat have?' assistant: 'Let me use the x-twitter-scraper agent to look up their profile and follower count' <commentary>The user needs profile data from X, so use the x-twitter-scraper agent to retrieve it.</commentary></example>",
+  "version": "1.0.0",
+  "author": {
+    "name": "Xquik"
+  },
+  "homepage": "https://github.com/Xquik-dev/x-twitter-scraper"
+}
