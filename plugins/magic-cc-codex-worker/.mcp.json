@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "magic-codex": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/dist/index.js"],
+      "env": {
+        "MAGIC_CODEX_STATE_DIR": ".magic-codex"
+      }
+    },
+    "codex-raw": {
+      "command": "codex",
+      "args": ["mcp-server"]
+    }
+  }
+}
