@@ -1,0 +1,37 @@
+{
+  "name": "unslop",
+  "description": "Strip AI writing patterns from Claude Code output before publishing. Removes sycophancy, stock vocabulary, hedging stacks, and em-dash pileups. Engineers sentence burstiness. Code and URLs pass through unchanged.",
+  "version": "0.4.5",
+  "author": {
+    "name": "Mohamed Abdallah",
+    "url": "https://github.com/MohamedAbdallah-14"
+  },
+  "homepage": "https://github.com/MohamedAbdallah-14/unslop",
+  "keywords": ["writing", "ai-writing", "content-quality", "text-processing", "publishing"],
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/unslop-activate.js\"",
+            "timeout": 5,
+            "statusMessage": "Loading unslop mode..."
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/unslop-mode-tracker.js\"",
+            "timeout": 5,
+            "statusMessage": "Tracking unslop mode..."
+          }
+        ]
+      }
+    ]
+  }
+}
