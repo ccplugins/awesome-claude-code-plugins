@@ -68,6 +68,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [deployment-engineer](./plugins/deployment-engineer)
 - [devops-automator](./plugins/devops-automator)
 - [infrastructure-maintainer](./plugins/infrastructure-maintainer)
+- [kubestellar-console](./plugins/kubestellar-console)
 - [monitoring-observability-specialist](./plugins/monitoring-observability-specialist)
 - [n8n-workflow-builder](./plugins/n8n-workflow-builder)
 
