@@ -1,0 +1,13 @@
+{
+  "name": "dioptx-weft",
+  "owner": {
+    "name": "dioptx"
+  },
+  "plugins": [
+    {
+      "name": "weft",
+      "source": "./",
+      "description": "Deterministic workflow tracking with event-sourced logs for Claude Code"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "name": "feature-workflow",
+  "schema_version": 2,
+  "description": "Full-cycle feature development: ticket to merged PR",
+  "steps": [
+    {
+      "name": "gather-context",
+      "context": "inline",
+      "on_fail": "block",
+      "guards": [],
+      "description": "Read Linear ticket + comments + related PRs/tickets. Use Linear MCP tools."
+    },
+    {
+      "name": "scope-check",
+      "context": "inline",
+      "on_fail": "block",
+      "guards": [
+        {
+          "command_pattern": "git (commit|push)",
+          "message": "No commits until scope is confirmed"
+        }
+      ],
+      "description": "Identify gaps in requirements, prompt user for clarification. Interactive step."
+    },
+    {
+      "name": "generate-context",
+      "context": "inline",
+      "on_fail": "block",
+      "guards": [],
+      "description": "Gather real examples, data, context from web, memory, and available MCP tools."
+    },
+    {
+      "name": "dump-context",
+      "context": "inline",
+      "on_fail": "continue",
+      "guards": [],
+      "description": "Write gathered context to files in .claude/weft/context-files/. May exceed context window."
+    },
+    {
+      "name": "plan-and-worktree",
+      "context": "inline",
+      "skill": "/aot-plan",
+      "on_fail": "block",
+      "guards": [
+        {
+          "command_pattern": "git push",
+          "message": "No push until plan is reviewed"
+        }
+      ],
+      "description": "Create feature plan + worktree + AoT decomposition."
+    },
+    {
+      "name": "review",
+      "context": "fork",
+      "skill": "/staff-review",
+      "on_fail": "retry",
+      "guards": [],
+      "description": "Run /staff-review (and /cursor-review if available) in parallel. Gather findings."
+    },
+    {
+      "name": "apply-fixes",
+      "context": "inline",
+      "skill": "/fix-polish",
+      "on_fail": "retry",
+      "guards": [],
+      "description": "Feed review findings back. Apply fixes."
+    },
+    {
+      "name": "run-tests",
+      "context": "fork",
+      "on_fail": "retry",
+      "guards": [],
+      "loop_back_to": "review",
+      "max_iterations": 3,
+      "exit_condition": "Review passes with no HIGH or MEDIUM issues and tests are green",
+      "description": "Execute test suite. If issues remain, loop back to review."
+    },
+    {
+      "name": "sanitize-push",
+      "context": "inline",
+      "on_fail": "block",
+      "guards": [],
+      "description": "Clean up code, sanitize secrets/company names, push to branch."
+    },
+    {
+      "name": "update-external",
+      "context": "inline",
+      "on_fail": "continue",
+      "guards": [],
+      "description": "Update PR description, Linear ticket status, ping user."
+    },
+    {
+      "name": "final-update",
+      "context": "inline",
+      "on_fail": "continue",
+      "guards": [],
+      "description": "Final summary with all findings. Update user."
+    }
+  ]
+}

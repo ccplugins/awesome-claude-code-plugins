@@ -1,0 +1,5 @@
+{
+  "name": "weft",
+  "version": "0.3.0",
+  "description": "Deterministic workflow tracking with event-sourced logs for Claude Code"
+}

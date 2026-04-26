@@ -1,0 +1,24 @@
+{
+  "name": "generic",
+  "description": "Simple sequential workflow: plan, implement, verify",
+  "steps": [
+    {
+      "name": "plan",
+      "context": "inline",
+      "on_fail": "block",
+      "guards": []
+    },
+    {
+      "name": "implement",
+      "context": "inline",
+      "on_fail": "retry",
+      "guards": []
+    },
+    {
+      "name": "verify",
+      "context": "inline",
+      "on_fail": "block",
+      "guards": []
+    }
+  ]
+}
