@@ -1,0 +1,9 @@
+{
+  "name": "kubestellar-console",
+  "description": "Use this agent when working on multi-cluster Kubernetes dashboards, Kubernetes observability UIs, or projects using React + TypeScript with a Go/Fiber backend. Specializes in card-based dashboard patterns, data caching with SWR, multi-cluster operations, and CNCF project integrations.",
+  "version": "1.0.0",
+  "author": {
+    "name": "KubeStellar"
+  },
+  "homepage": "https://github.com/kubestellar/console"
+}
