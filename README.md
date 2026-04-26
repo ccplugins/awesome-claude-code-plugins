@@ -72,6 +72,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [n8n-workflow-builder](./plugins/n8n-workflow-builder)
 
 ### Business Sales
+- [Drevon](https://drevon.dev) - Mac desktop workspace for GTM engineers. Run parallel AI agents powered by Claude Code, Codex, or Copilot to build target lists, score accounts, and pull prospect intel.
 - [b2b-project-shipper](./plugins/b2b-project-shipper)
 - [customer-success-manager](./plugins/customer-success-manager)
 - [enterprise-onboarding-specialist](./plugins/enterprise-onboarding-specialist)
