@@ -174,6 +174,7 @@
 - [plan](./plugins/plan)
 - [planning-prd-agent](./plugins/planning-prd-agent)
 - [prd-specialist](./plugins/prd-specialist)
+- [product-org-os](./plugins/product-org-os)
 - [project-shipper](./plugins/project-shipper)
 - [sprint-prioritizer](./plugins/sprint-prioritizer)
 - [studio-producer](./plugins/studio-producer)

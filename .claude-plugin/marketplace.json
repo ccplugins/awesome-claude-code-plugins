@@ -1206,6 +1206,25 @@
       ]
     },
     {
+      "name": "product-org-os",
+      "source": "./plugins/product-org-os",
+      "description": "An entire product organization as AI agents. 12 role-based agents, 150+ skills, 38 knowledge packs, and 2 gateways covering product management, strategy, GTM, competitive intelligence, and more. Built on the Agent Skills open standard.",
+      "version": "4.0.0",
+      "author": {
+        "name": "Yohay Etsion",
+        "url": "https://github.com/yohayetsion"
+      },
+      "category": "Project & Product Management",
+      "homepage": "https://github.com/yohayetsion/product-org-os",
+      "keywords": [
+        "subagent",
+        "product-management",
+        "strategy",
+        "gtm",
+        "competitive-intelligence"
+      ]
+    },
+    {
       "name": "pricing-packaging-specialist",
       "source": "./plugins/pricing-packaging-specialist",
       "description": "Use this agent when you need to optimize B2B pricing strategies, packaging models, and revenue optimization for enterprise sales. This agent specializes in value-based pricing, usage-based billing, enterprise contract negotiations, and competitive pricing analysis for SaaS platforms. Examples:",
