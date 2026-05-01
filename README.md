@@ -104,6 +104,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [data-scientist](./plugins/data-scientist)
 - [experiment-tracker](./plugins/experiment-tracker)
 - [feedback-synthesizer](./plugins/feedback-synthesizer)
+- [helium-mcp](./plugins/helium-mcp)
 - [trend-researcher](./plugins/trend-researcher)
 
 ### Design UX

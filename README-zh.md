@@ -104,6 +104,7 @@
 - [data-scientist](./plugins/data-scientist)
 - [experiment-tracker](./plugins/experiment-tracker)
 - [feedback-synthesizer](./plugins/feedback-synthesizer)
+- [helium-mcp](./plugins/helium-mcp)
 - [trend-researcher](./plugins/trend-researcher)
 
 ### 用户体验设计

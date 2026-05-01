@@ -1,0 +1,9 @@
+{
+  "name": "helium-mcp",
+  "description": "Real-time news with bias scoring across 5,000+ sources, AI-powered options pricing, balanced news synthesis, live market data, and meme search. 9 tools, 50 free queries, no signup needed.",
+  "version": "1.0.0",
+  "author": {
+    "name": "connerlambden"
+  },
+  "homepage": "https://github.com/connerlambden/helium-mcp"
+}
