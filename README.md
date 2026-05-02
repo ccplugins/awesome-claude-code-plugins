@@ -171,6 +171,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 ### Project & Product Management
 - [discuss](./plugins/discuss)
 - [explore](./plugins/explore)
+- [governor](https://github.com/0xhimanshu/governor)
 - [plan](./plugins/plan)
 - [planning-prd-agent](./plugins/planning-prd-agent)
 - [prd-specialist](./plugins/prd-specialist)
