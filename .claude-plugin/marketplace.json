@@ -1670,6 +1670,26 @@
         "security",
         "compliance"
       ]
+    },
+    {
+      "name": "verifying-phd-citations",
+      "source": "./plugins/verifying-phd-citations",
+      "description": "Verifies and formats APA 7 Korean academic citations across 14 source types, augments DOIs via CrossRef, and applies CopyKiller 99-rule avoidance.",
+      "version": "0.4.0",
+      "author": {
+        "name": "Jaeyong Choi",
+        "url": "https://github.com/dpyeye-commits"
+      },
+      "category": "Documentation",
+      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/verifying-phd-citations",
+      "keywords": [
+        "documentation",
+        "apa7",
+        "korean",
+        "academic",
+        "citation",
+        "crossref"
+      ]
     }
   ]
 }

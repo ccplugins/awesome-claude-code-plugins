@@ -142,6 +142,7 @@
 - [generate-api-docs](./plugins/generate-api-docs)
 - [openapi-expert](./plugins/openapi-expert)
 - [update-claudemd](./plugins/update-claudemd)
+- [verifying-phd-citations](./plugins/verifying-phd-citations)
 
 ### Git工作流
 - [analyze-issue](./plugins/analyze-issue)

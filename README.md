@@ -142,6 +142,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [generate-api-docs](./plugins/generate-api-docs)
 - [openapi-expert](./plugins/openapi-expert)
 - [update-claudemd](./plugins/update-claudemd)
+- [verifying-phd-citations](./plugins/verifying-phd-citations)
 
 ### Git Workflow
 - [analyze-issue](./plugins/analyze-issue)
