@@ -1,0 +1,34 @@
+{
+  "skill": "verifying-phd-citations",
+  "version": "0.3.0",
+  "scenarios": [
+    {
+      "id": "kahneman-book-apa7",
+      "query": "Kahneman 2011 Thinking Fast and Slow 책을 APA 7로 인용해줘",
+      "expected_behavior": [
+        "CrossRef API 호출 (api.crossref.org/works?query.bibliographic=...)",
+        "단행본 형식: 저자(연도). 제목. 출판사 (출판지 X — APA 7 변경)",
+        "DOI 있으면 https://doi.org/... 자동 부착",
+        "리뷰 논문(Numeracy 2017)을 원전 책으로 오인 X — 사용자에게 정확 매칭 확인 요청"
+      ]
+    },
+    {
+      "id": "korean-thesis",
+      "query": "박명숙 2013 동국대 박사학위논문을 APA 7 한국어 양식으로 검증해줘",
+      "expected_behavior": [
+        "학위논문 양식: 저자. (연도). 제목 [박사학위논문, 기관]. RISS URL",
+        "한국어 자료는 CrossRef 미발견 가능 — '미발견' 명시 후 수동 입력 요청",
+        "임의로 DOI 생성 X"
+      ]
+    },
+    {
+      "id": "et-al-3plus",
+      "query": "저자가 5명인 2020 논문 in-text 인용",
+      "expected_behavior": [
+        "APA 7 규칙: 저자 3명 이상 → 첫 등장부터 'et al.' 즉시 적용",
+        "(저자1 외, 2020) 한국어 표기",
+        "참고문헌에는 저자 20명까지 모두 나열 (APA 7)"
+      ]
+    }
+  ]
+}
