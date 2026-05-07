@@ -190,6 +190,10 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [legal-compliance-checker](./plugins/legal-compliance-checker)
 
 
+## Resources
+
+- [Claude Code Skills 中文精选集](https://claude-skills.bt199.com/) - Chinese curated directory of Claude Code Skills, Agents, Plugins, and workflows.
+
 ## Tutorials
 
 You can host and share your own curated plugin marketplace using a simple Git repository with a `.claude-plugin/marketplace.json` file.
