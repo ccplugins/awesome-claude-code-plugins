@@ -190,6 +190,10 @@
 - [legal-compliance-checker](./plugins/legal-compliance-checker)
 
 
+## 资源
+
+- [Claude Code Skills 中文精选集](https://claude-skills.bt199.com/) - 中文 Claude Code Skills / Agents / Plugins / 工作流精选目录。
+
 ## 使用教程
 
 你可以使用一个包含 `.claude-plugin/marketplace.json` 文件的 Git 仓库，托管并共享你自己的插件市场（plugin marketplace）。
