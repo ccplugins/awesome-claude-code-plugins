@@ -1,0 +1,9 @@
+{
+  "name": "shellgate",
+  "description": "Security gateway for Claude Code — agents get scoped tokens, never see real credentials, and dangerous commands require human approval. Use this plugin when you need secure infrastructure access, credential management, SSH execution with guard protection, webhook handling, or shared organizational knowledge via memories, skills, and wiki.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Matthias Tjong"
+  },
+  "homepage": "https://github.com/matthiastjong/shellgate"
+}
