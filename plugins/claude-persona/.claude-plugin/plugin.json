@@ -1,0 +1,10 @@
+{
+  "name": "claude-persona",
+  "description": "Build AI persona panels and pressure-test product concepts before fieldwork. Agent-separated simulation with theme synthesis, cross-tabs, and verbatims. Inspired by TinyTroupe.",
+  "version": "0.1.0",
+  "author": {
+    "name": "takechanman1228",
+    "url": "https://github.com/takechanman1228"
+  },
+  "homepage": "https://github.com/takechanman1228/claude-persona"
+}
