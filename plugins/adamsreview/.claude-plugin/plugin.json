@@ -1,0 +1,10 @@
+{
+  "name": "adamsreview",
+  "description": "Multi-lens code review pipeline: deep review (Claude or Codex), automated fix loop, interactive walkthrough, manual promote, external-finding injection.",
+  "version": "0.4.0",
+  "author": {
+    "name": "Adam Miller",
+    "url": "https://github.com/adamjgmiller"
+  },
+  "homepage": "https://github.com/adamjgmiller/adamsreview"
+}
