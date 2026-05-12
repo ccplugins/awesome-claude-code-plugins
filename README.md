@@ -161,6 +161,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Marketing Growth
 - [app-store-optimizer](./plugins/app-store-optimizer)
+- [claude-persona](./plugins/claude-persona)
 - [content-creator](./plugins/content-creator)
 - [growth-hacker](./plugins/growth-hacker)
 - [instagram-curator](./plugins/instagram-curator)

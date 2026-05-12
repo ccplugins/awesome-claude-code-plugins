@@ -1670,6 +1670,25 @@
         "security",
         "compliance"
       ]
+    },
+    {
+      "name": "claude-persona",
+      "source": "./plugins/claude-persona",
+      "description": "Build AI persona panels and pressure-test product concepts before fieldwork. Agent-separated simulation with theme synthesis, cross-tabs, and verbatims. Inspired by TinyTroupe.",
+      "version": "0.1.0",
+      "author": {
+        "name": "takechanman1228",
+        "url": "https://github.com/takechanman1228"
+      },
+      "category": "Marketing Growth",
+      "homepage": "https://github.com/takechanman1228/claude-persona",
+      "keywords": [
+        "persona",
+        "market-research",
+        "concept-test",
+        "consumer-research",
+        "tinytroupe"
+      ]
     }
   ]
 }
