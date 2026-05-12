@@ -1,0 +1,9 @@
+{
+  "name": "founder-os",
+  "version": "8.2.2",
+  "description": "Multi-agent primitives for Claude Code: consensus, debate, fanout research, skill building, and measured optimization.",
+  "author": {
+    "name": "Jacob Rhinehart",
+    "email": "rhinehart514@gmail.com"
+  }
+}
