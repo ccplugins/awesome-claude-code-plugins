@@ -59,6 +59,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [ceo-quality-controller-agent](./plugins/ceo-quality-controller-agent)
 - [claude-desktop-extension](./plugins/claude-desktop-extension)
 - [lyra](./plugins/lyra)
+- [magebyte-power](https://github.com/MageByte-Zero/magebyte-power) — Production-incident-distilled Claude Code skill: 7-phase workflow with 4-round AI cross-verification that catches concurrency & idempotency bugs before prod
 - [model-context-protocol-mcp-expert](./plugins/model-context-protocol-mcp-expert)
 - [problem-solver-specialist](./plugins/problem-solver-specialist)
 - [studio-coach](./plugins/studio-coach)
