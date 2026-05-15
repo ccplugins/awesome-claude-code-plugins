@@ -1670,6 +1670,25 @@
         "security",
         "compliance"
       ]
+    },
+    {
+      "name": "hyperflow",
+      "source": "./plugins/hyperflow",
+      "description": "Advanced multi-agent orchestration with persistent cross-session memory, per-step multi-level review, persona stitching, and adaptive flow profiles.",
+      "version": "2.6.2",
+      "author": {
+        "name": "Mohammed Abdelhady",
+        "url": "https://github.com/Mohammed-Abdelhady"
+      },
+      "category": "Workflow Orchestration",
+      "homepage": "https://github.com/Mohammed-Abdelhady/hyperflow",
+      "keywords": [
+        "multi-agent",
+        "workflow-chain",
+        "code-review",
+        "project-memory",
+        "multi-tool"
+      ]
     }
   ]
 }

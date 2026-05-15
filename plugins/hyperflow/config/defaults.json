@@ -1,0 +1,188 @@
+{
+  "providers": {
+    "claude-code": {
+      "displayName": "Claude Code",
+      "detection": {
+        "envPrefix": "CLAUDE_CODE_",
+        "dynamicFetch": "read ~/.claude/settings.json"
+      },
+      "models": {
+        "thinking": [
+          { "id": "opus-4-7", "label": "Opus 4.7", "provider": "Anthropic", "notes": "Latest Opus (Hyperflow default)", "default": true },
+          { "id": "opus-4-6", "label": "Opus 4.6", "provider": "Anthropic", "notes": "Previous Opus" },
+          { "id": "opus-4-5", "label": "Opus 4.5", "provider": "Anthropic", "notes": "Legacy" },
+          { "id": "sonnet-4-6", "label": "Sonnet 4.6", "provider": "Anthropic", "notes": "Can be used as thinking model for cost savings" }
+        ],
+        "worker": [
+          { "id": "sonnet-4-6", "label": "Sonnet 4.6", "provider": "Anthropic", "notes": "Latest Sonnet (Hyperflow default)", "default": true },
+          { "id": "sonnet-4-5", "label": "Sonnet 4.5", "provider": "Anthropic", "notes": "Legacy" },
+          { "id": "haiku-4-5", "label": "Haiku 4.5", "provider": "Anthropic", "notes": "Fast/cheap for simple tasks" }
+        ]
+      },
+      "agentModelMapping": {
+        "opus-4-7": "opus",
+        "opus-4-6": "opus",
+        "opus-4-5": "opus",
+        "sonnet-4-6": "sonnet",
+        "sonnet-4-5": "sonnet",
+        "haiku-4-5": "haiku"
+      },
+      "envVarPinning": {
+        "opus-4-6": { "ANTHROPIC_DEFAULT_OPUS_MODEL": "claude-opus-4-6" },
+        "opus-4-5": { "ANTHROPIC_DEFAULT_OPUS_MODEL": "claude-opus-4-5" },
+        "sonnet-4-5": { "ANTHROPIC_DEFAULT_SONNET_MODEL": "claude-sonnet-4-5" }
+      }
+    },
+    "cursor": {
+      "displayName": "Cursor",
+      "detection": {
+        "envPrefix": "CURSOR_",
+        "dynamicFetch": null
+      },
+      "models": {
+        "thinking": [
+          { "id": "claude-4.7-opus", "label": "Claude 4.7 Opus", "provider": "Anthropic", "notes": "Hyperflow default (may require Max Mode on request-based plans)", "default": true },
+          { "id": "claude-4.6-opus", "label": "Claude 4.6 Opus", "provider": "Anthropic", "notes": "Previous Opus" },
+          { "id": "gpt-5.5", "label": "GPT-5.5", "provider": "OpenAI", "notes": "Latest GPT" },
+          { "id": "gpt-5.4", "label": "GPT-5.4", "provider": "OpenAI", "notes": "Cached input discount" },
+          { "id": "gemini-3.1-pro", "label": "Gemini 3.1 Pro", "provider": "Google", "notes": "Standard availability" },
+          { "id": "grok-4.3", "label": "Grok 4.3", "provider": "xAI", "notes": "Requires Max Mode" },
+          { "id": "composer-2", "label": "Composer 2", "provider": "Cursor", "notes": "Cursor's agentic model" }
+        ],
+        "worker": [
+          { "id": "claude-4.6-sonnet", "label": "Claude 4.6 Sonnet", "provider": "Anthropic", "notes": "Hyperflow default", "default": true },
+          { "id": "claude-4.5-haiku", "label": "Claude 4.5 Haiku", "provider": "Anthropic", "notes": "Fast/cheap" },
+          { "id": "gpt-5.4-mini", "label": "GPT-5.4 Mini", "provider": "OpenAI", "notes": "Cost-efficient" },
+          { "id": "gpt-5.4-nano", "label": "GPT-5.4 Nano", "provider": "OpenAI", "notes": "Cheapest GPT" },
+          { "id": "gemini-3-flash", "label": "Gemini 3 Flash", "provider": "Google", "notes": "Fast/cheap" }
+        ]
+      }
+    },
+    "opencode": {
+      "displayName": "OpenCode",
+      "detection": {
+        "envPrefix": "OPENCODE_",
+        "pathCheck": "opencode",
+        "dynamicFetch": "opencode models list --json"
+      },
+      "models": {
+        "thinking": [
+          { "id": "anthropic/claude-opus-4-7", "label": "Claude Opus 4.7", "provider": "Anthropic", "notes": "Hyperflow default", "default": true },
+          { "id": "anthropic/claude-opus-4-6", "label": "Claude Opus 4.6", "provider": "Anthropic", "notes": "Previous Opus" },
+          { "id": "openai/gpt-5.5", "label": "GPT-5.5", "provider": "OpenAI", "notes": "Latest GPT" },
+          { "id": "openai/gpt-5.4", "label": "GPT-5.4", "provider": "OpenAI", "notes": "Cached input discount" },
+          { "id": "google-vertex-ai/gemini-3.1-pro", "label": "Gemini 3.1 Pro", "provider": "Google", "notes": "2M context window" },
+          { "id": "deepseek/deepseek-v4-pro", "label": "DeepSeek V4 Pro", "provider": "DeepSeek", "notes": "Open-weight" }
+        ],
+        "worker": [
+          { "id": "anthropic/claude-sonnet-4-6", "label": "Claude Sonnet 4.6", "provider": "Anthropic", "notes": "Hyperflow default", "default": true },
+          { "id": "anthropic/claude-haiku-4-5", "label": "Claude Haiku 4.5", "provider": "Anthropic", "notes": "Fast/cheap" },
+          { "id": "openai/gpt-5.4-mini", "label": "GPT-5.4 Mini", "provider": "OpenAI", "notes": "Cost-efficient" },
+          { "id": "google-vertex-ai/gemini-3-flash", "label": "Gemini 3 Flash", "provider": "Google", "notes": "Fast/cheap" }
+        ]
+      }
+    },
+    "antigravity": {
+      "displayName": "Antigravity",
+      "detection": {
+        "envPrefix": "ANTIGRAVITY_",
+        "dynamicFetch": null
+      },
+      "models": {
+        "thinking": [
+          { "id": "gemini-3.1-pro", "label": "Gemini 3.1 Pro", "provider": "Google", "notes": "2M context, Hyperflow default", "default": true },
+          { "id": "gemini-3.1-pro-low", "label": "Gemini 3.1 Pro (Low)", "provider": "Google", "notes": "Lighter variant" },
+          { "id": "claude-opus-4.7", "label": "Claude Opus 4.7", "provider": "Anthropic", "notes": "Available on free tier with limits" }
+        ],
+        "worker": [
+          { "id": "gemini-3-flash", "label": "Gemini 3 Flash", "provider": "Google", "notes": "Fast/cheap, Hyperflow default", "default": true },
+          { "id": "claude-sonnet-4.6", "label": "Claude Sonnet 4.6", "provider": "Anthropic", "notes": "Stronger for refactors" },
+          { "id": "gpt-oss-120b", "label": "GPT-OSS 120B", "provider": "OpenAI", "notes": "Open-weight" }
+        ]
+      }
+    },
+    "codex": {
+      "displayName": "Codex",
+      "detection": {
+        "envPrefix": "CODEX_",
+        "dynamicFetch": null
+      },
+      "models": {
+        "thinking": [
+          { "id": "o3", "label": "o3", "provider": "OpenAI", "notes": "Strongest reasoning, Hyperflow default", "default": true },
+          { "id": "o4-mini", "label": "o4-mini", "provider": "OpenAI", "notes": "Fast reasoning" },
+          { "id": "gpt-5.5", "label": "GPT-5.5", "provider": "OpenAI", "notes": "Latest GPT" }
+        ],
+        "worker": [
+          { "id": "o4-mini", "label": "o4-mini", "provider": "OpenAI", "notes": "Fast reasoning, Hyperflow default", "default": true },
+          { "id": "gpt-5.4-mini", "label": "GPT-5.4 Mini", "provider": "OpenAI", "notes": "Cost-efficient" },
+          { "id": "codex-mini", "label": "Codex Mini", "provider": "OpenAI", "notes": "Built-in lightweight model" }
+        ]
+      }
+    }
+  },
+  "security": {
+    "blockedFiles": [
+      ".env",
+      ".env.*",
+      "*.pem",
+      "*.key",
+      "*.p12",
+      "*.pfx",
+      "*.jks",
+      "credentials.json",
+      "service-account*.json",
+      "*-secret.json",
+      "*-secret.yaml",
+      "~/.ssh/*",
+      "~/.gnupg/*",
+      "id_rsa*",
+      "id_ed25519*",
+      "*.gpg",
+      ".npmrc",
+      ".pypirc",
+      ".docker/config.json",
+      "*.keychain",
+      "*-credentials",
+      "~/.aws/credentials",
+      "~/.azure/*",
+      "~/.config/gcloud/*",
+      "~/.kube/config"
+    ],
+    "allowedFiles": [
+      ".env.example",
+      ".env.template",
+      ".env.sample"
+    ],
+    "blockedCommands": [
+      "rm -rf /",
+      "rm -rf ~",
+      "rm -rf .",
+      "mkfs",
+      "dd if=",
+      "git push --force (to main/master)",
+      "git reset --hard",
+      "git clean -fdx",
+      "sudo",
+      "chmod 777",
+      "chmod -R 777",
+      "npm publish",
+      "pip upload",
+      "gem push",
+      "cargo publish"
+    ],
+    "secretPatterns": [
+      "sk-",
+      "AKIA",
+      "ghp_",
+      "gho_",
+      "glpat-",
+      "xoxb-",
+      "xoxp-",
+      "-----BEGIN (RSA|EC|DSA)? PRIVATE KEY-----",
+      "postgres://.*:.*@",
+      "mongodb+srv://.*:.*@",
+      "redis://.*:.*@"
+    ]
+  }
+}

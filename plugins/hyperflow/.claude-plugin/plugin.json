@@ -1,0 +1,23 @@
+{
+  "name": "hyperflow",
+  "version": "2.6.2",
+  "description": "Eight chained slash commands turn one Claude session into a structured engineering pipeline. /hyperflow:spec asks the questions a senior engineer would. /hyperflow:scope decomposes into a batched task graph. /hyperflow:dispatch fans out persona-stitched workers under thinking-tier review. Memory compounds across sessions — yesterday's decisions are tomorrow's starting point.",
+  "author": {
+    "name": "Mohammed Abdelhady",
+    "url": "https://github.com/Mohammed-Abdelhady"
+  },
+  "homepage": "https://github.com/Mohammed-Abdelhady/hyperflow",
+  "repository": "https://github.com/Mohammed-Abdelhady/hyperflow",
+  "license": "MIT",
+  "keywords": [
+    "claude-code-plugin",
+    "multi-agent",
+    "workflow-chain",
+    "triageflow",
+    "personas",
+    "flow-profiles",
+    "code-review",
+    "project-memory",
+    "multi-tool"
+  ]
+}
