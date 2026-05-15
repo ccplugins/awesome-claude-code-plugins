@@ -1,0 +1,91 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+PLUGIN_ROOT="${CLAUDE_PLUGIN_ROOT:-$(cd "$(dirname "$0")/.." && pwd)}"
+VERSION_FILE="$PLUGIN_ROOT/skills/hyperflow/VERSION"
+HYPERFLOW_VERSION="$( [ -f "$VERSION_FILE" ] && cat "$VERSION_FILE" || echo "unknown" )"
+
+# Detect runtime via env-var prefix
+TOOL_NAME="unknown"
+for pair in "CLAUDE_CODE:claude-code" "CURSOR:cursor" "OPENCODE:opencode" "CODEX:codex" "ANTIGRAVITY:antigravity"; do
+  prefix="${pair%%:*}"; label="${pair##*:}"
+  env | grep -q "^${prefix}_" && { TOOL_NAME="$label"; break; }
+done
+
+# Walk up from PWD to find .hyperflow/ (stop at git root or /)
+find_hyperflow_dir() {
+  local d="$PWD"
+  while [ "$d" != "/" ]; do
+    [ -d "$d/.hyperflow" ] && { echo "$d/.hyperflow"; return; }
+    [ -d "$d/.git" ] && return
+    d="$(dirname "$d")"
+  done
+}
+HF_DIR="$(find_hyperflow_dir)"
+
+CONTENT="<!-- hyperflow-runtime: $TOOL_NAME -->
+# Hyperflow v$HYPERFLOW_VERSION
+
+Hyperflow is installed. It is **not** always-on — invoke a skill explicitly when you need it.
+
+## Canonical chain
+
+Start from any skill — chain-starters auto-advance forward through the chain (with one Step-0 question: auto or manual).
+
+\`scaffold\` → \`spec\` → \`scope\` → \`dispatch\` → \`audit\` → \`deploy\`
+
+## Direct entries
+
+| Command | When to use |
+|---|---|
+| \`/hyperflow:scaffold\` | First-time setup — analyze project, build \`.hyperflow/\` cache, install shims |
+| \`/hyperflow:spec\` | Design exploration before any code is written |
+| \`/hyperflow:scope\` | Decompose a task into a worker-friendly batch file in \`.hyperflow/tasks/\` |
+| \`/hyperflow:dispatch\` | Run a planned task: dispatch workers in parallel with thinking-tier reviews |
+| \`/hyperflow:trace\` | Systematic root-cause analysis for any bug or test failure |
+| \`/hyperflow:audit\` | Multi-level code review (L1–L5) on a diff, file, or PR |
+| \`/hyperflow:deploy\` | Pre-push gates + commit + release + push |
+| \`/hyperflow:cache\` | Read or curate \`.hyperflow/memory/\` |
+
+Shared doctrine (autonomy rules, model routing, output style, security) lives in [skills/hyperflow/DOCTRINE.md](skills/hyperflow/DOCTRINE.md) and is referenced by each skill when invoked."
+
+if [ -n "$HF_DIR" ]; then
+  # Project Snapshot (first 20 lines of each profile file)
+  snap=""
+  for f in profile.md architecture.md conventions.md; do
+    [ -f "$HF_DIR/$f" ] && snap="${snap}### $f
+$(head -20 "$HF_DIR/$f")
+"
+  done
+  [ -n "$snap" ] && CONTENT="$CONTENT
+
+## Project Snapshot
+$snap"
+
+  # Memory Index
+  [ -f "$HF_DIR/memory/index.md" ] && CONTENT="$CONTENT
+
+## Project Memory Index
+$(cat "$HF_DIR/memory/index.md")"
+
+  # Active Tasks
+  if [ -d "$HF_DIR/tasks" ]; then
+    tlist=""
+    for tf in "$HF_DIR/tasks/"*.md; do
+      [ -f "$tf" ] && tlist="${tlist}- $(basename "$tf")
+"
+    done
+    [ -n "$tlist" ] && CONTENT="$CONTENT
+
+## Active Tasks (incomplete from prior sessions)
+$tlist"
+  fi
+fi
+
+ESCAPED=$(printf '%s' "$CONTENT" | python3 -c 'import sys,json; print(json.dumps(sys.stdin.read()))')
+cat <<JSONEOF
+{
+  "type": "system-prompt-inject",
+  "content": $ESCAPED
+}
+JSONEOF

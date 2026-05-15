@@ -1,0 +1,245 @@
+{
+  "$schema": "./features.schema.json",
+  "version": "2.6.2",
+  "tagline": "Advanced multi-agent orchestration with persistent cross-session memory",
+  "subtitle": "Per-step multi-level review, persona stitching, adaptive flow profiles. Start anywhere \u2014 every step dispatches its own Worker \u2192 Reviewer pair.",
+  "layers": [
+    {
+      "n": 0,
+      "name": "Project Analysis",
+      "summary": "Cache tech stack and conventions in .hyperflow/",
+      "color": "user"
+    },
+    {
+      "n": "0.5",
+      "name": "Task Triage",
+      "summary": "Classify the task (types, complexity, risk, ambiguity, flow profile, personas) before any worker fires",
+      "color": "thinking"
+    },
+    {
+      "n": 1,
+      "name": "Autonomy",
+      "summary": "Zero confirmations, minimal output, silent recovery",
+      "color": "thinking"
+    },
+    {
+      "n": 2,
+      "name": "Model Routing",
+      "summary": "Configurable thinking/worker per provider + priority chain",
+      "color": "thinking"
+    },
+    {
+      "n": 3,
+      "name": "Orchestrator",
+      "summary": "Decompose \u2192 parallel dispatch \u2192 review \u2192 synthesize",
+      "color": "worker"
+    },
+    {
+      "n": 4,
+      "name": "Brainstorming",
+      "summary": "Design exploration + approval before implementation",
+      "color": "thinking"
+    },
+    {
+      "n": 5,
+      "name": "Quality Gates",
+      "summary": "Automated lint/typecheck/tests after every review",
+      "color": "worker"
+    },
+    {
+      "n": 6,
+      "name": "Project Memory",
+      "summary": "Persistent learnings in .hyperflow/memory/ (project-scoped, tagged, tiered)",
+      "color": "memory"
+    },
+    {
+      "n": 7,
+      "name": "Task Templates",
+      "summary": "Pre-built decomposition: CRUD, API, UI, migration, refactor, debug",
+      "color": "worker"
+    },
+    {
+      "n": 8,
+      "name": "Git Workflow",
+      "summary": "Auto-branch creation, auto-commit after approval",
+      "color": "git"
+    },
+    {
+      "n": 9,
+      "name": "Security",
+      "summary": "Prompt-injected blocklists for worker containment",
+      "color": "security"
+    }
+  ],
+  "skills": [
+    {
+      "name": "scaffold",
+      "command": "/hyperflow:scaffold",
+      "tagline": "Project setup",
+      "purpose": "Analyze project, create .hyperflow/ cache, install multi-tool shims",
+      "chain": "standalone"
+    },
+    {
+      "name": "spec",
+      "command": "/hyperflow:spec",
+      "tagline": "Specify the design",
+      "purpose": "Multi-dimensional analysis + alternatives \u2014 refuses to code before approval; auto-chains to scope",
+      "chain": "starter"
+    },
+    {
+      "name": "scope",
+      "command": "/hyperflow:scope",
+      "tagline": "Decompose the work",
+      "purpose": "Decompose into parallel worker subtasks; writes task file; auto-chains to dispatch",
+      "chain": "starter"
+    },
+    {
+      "name": "dispatch",
+      "command": "/hyperflow:dispatch",
+      "tagline": "Execute the batches",
+      "purpose": "Dispatch parallel workers + thinking-tier reviews + final integration review; endpoint of the chain",
+      "chain": "endpoint"
+    },
+    {
+      "name": "trace",
+      "command": "/hyperflow:trace",
+      "tagline": "Root-cause a bug",
+      "purpose": "Systematic 5-Whys + hypothesis testing \u2014 never patches symptoms",
+      "chain": "standalone"
+    },
+    {
+      "name": "audit",
+      "command": "/hyperflow:audit",
+      "tagline": "Code review",
+      "purpose": "L1 quick \u2192 L5 exhaustive review on changes, files, or PRs",
+      "chain": "standalone"
+    },
+    {
+      "name": "deploy",
+      "command": "/hyperflow:deploy",
+      "tagline": "Pre-push gates",
+      "purpose": "Lint, typecheck, build, tests, security sweep, commit, release, push (push always asks)",
+      "chain": "standalone"
+    },
+    {
+      "name": "cache",
+      "command": "/hyperflow:cache",
+      "tagline": "Memory CRUD",
+      "purpose": "Show, search, add, edit, prune, archive, clear, stats, migrate",
+      "chain": "standalone"
+    }
+  ],
+  "providers": [
+    {
+      "name": "Claude Code",
+      "thinking": "Opus 4.7",
+      "worker": "Sonnet 4.6",
+      "key": "claude-code"
+    },
+    {
+      "name": "Cursor",
+      "thinking": "Claude Opus 4.7",
+      "worker": "Sonnet 4.6",
+      "key": "cursor"
+    },
+    {
+      "name": "OpenCode",
+      "thinking": "Claude Opus 4.7",
+      "worker": "Sonnet 4.6",
+      "key": "opencode"
+    },
+    {
+      "name": "Codex",
+      "thinking": "o3",
+      "worker": "o4-mini",
+      "key": "codex"
+    },
+    {
+      "name": "Antigravity",
+      "thinking": "Gemini 3.1 Pro",
+      "worker": "3 Flash",
+      "key": "antigravity"
+    }
+  ],
+  "capabilities": [
+    "Parallel worker dispatch (independent subtasks run simultaneously)",
+    "Thinking-tier review of every worker output (iron rule)",
+    "Multi-level review depth (L1-L5)",
+    "Systematic root-cause debugging",
+    "Project-scoped persistent memory with tag taxonomy",
+    "Hot/warm/cold memory tiering with automatic compression",
+    "Lazy memory injection (only tag-matched entries per task)",
+    "Multi-tool auto-detection (AGENTS.md, Cursor rules, GEMINI.md, CLAUDE.md)",
+    "5 provider support (Claude Code, Cursor, OpenCode, Codex, Antigravity)",
+    "Auto-detect provider via env vars or folder presence",
+    "Configurable model routing per role",
+    "Quality gates (lint, typecheck, build, tests)",
+    "Security blocklists for sensitive files and destructive commands",
+    "Conventional commits + automated release versioning",
+    "Task tracking with incomplete-task recovery across sessions"
+  ],
+  "detection": {
+    "shims": [
+      {
+        "tool": "Codex / OpenCode / Copilot",
+        "file": "AGENTS.md"
+      },
+      {
+        "tool": "Cursor",
+        "file": ".cursor/rules/hyperflow.mdc"
+      },
+      {
+        "tool": "Antigravity / Gemini CLI",
+        "file": "GEMINI.md"
+      },
+      {
+        "tool": "Claude Code",
+        "file": "CLAUDE.md (appended in place)"
+      }
+    ]
+  },
+  "memory": {
+    "location": ".hyperflow/memory/",
+    "files": [
+      "index.md",
+      "learnings.md",
+      "decisions.md",
+      "pitfalls.md",
+      "patterns.md",
+      "conventions.md",
+      "archive/"
+    ],
+    "tiers": [
+      {
+        "name": "hot",
+        "age": "\u22647 days",
+        "load": "eager"
+      },
+      {
+        "name": "warm",
+        "age": "8-30 days",
+        "load": "tag-matched"
+      },
+      {
+        "name": "cold",
+        "age": "30+ days",
+        "load": "explicit only, compressed"
+      }
+    ]
+  },
+  "branding": {
+    "colors": {
+      "thinking": "#7C3AED",
+      "worker": "#14B8A6",
+      "user": "#CBD5E1",
+      "memory": "#F59E0B",
+      "security": "#EF4444",
+      "git": "#3B82F6",
+      "bg_start": "#0B0F1A",
+      "bg_end": "#0E1422",
+      "text_primary": "#F8FAFC",
+      "text_secondary": "#94A3B8",
+      "border": "#334155"
+    }
+  }
+}
