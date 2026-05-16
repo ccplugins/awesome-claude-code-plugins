@@ -1,0 +1,6 @@
+{
+  "name": "changelog-forge",
+  "version": "0.1.0",
+  "description": "Group conventional commits since last tag into a CHANGELOG section with semver bump suggestion.",
+  "author": "pluginpool"
+}

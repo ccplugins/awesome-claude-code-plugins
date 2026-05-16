@@ -91,12 +91,16 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [debug-session](./plugins/debug-session)
 - [debugger](./plugins/debugger)
 - [double-check](./plugins/double-check)
+- [env-lint](./plugins/env-lint)
+- [flaky-detector](./plugins/flaky-detector)
 - [optimize](./plugins/optimize)
 - [performance-benchmarker](./plugins/performance-benchmarker)
 - [refractor](./plugins/refractor)
 - [test-file](./plugins/test-file)
+- [test-gap](./plugins/test-gap)
 - [test-results-analyzer](./plugins/test-results-analyzer)
 - [test-writer-fixer](./plugins/test-writer-fixer)
+- [todo-harvest](./plugins/todo-harvest)
 - [unit-test-generator](./plugins/unit-test-generator)
 
 ### Data Analytics
@@ -130,11 +134,13 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [python-expert](./plugins/python-expert)
 - [rapid-prototyper](./plugins/rapid-prototyper)
 - [react-native-dev](./plugins/react-native-dev)
+- [standup-gen](./plugins/standup-gen)
 - [vision-specialist](./plugins/vision-specialist)
 - [web-dev](./plugins/web-dev)
 
 ### Documentation
 - [analyze-codebase](./plugins/analyze-codebase)
+- [changelog-forge](./plugins/changelog-forge)
 - [changelog-generator](./plugins/changelog-generator)
 - [codebase-documenter](./plugins/codebase-documenter)
 - [context7-docs-fetcher](./plugins/context7-docs-fetcher)
@@ -147,6 +153,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [analyze-issue](./plugins/analyze-issue)
 - [bug-fix](./plugins/bug-fix)
 - [commit](./plugins/commit)
+- [commit-narrator](./plugins/commit-narrator)
 - [create-pr](./plugins/create-pr)
 - [create-pull-request](./plugins/create-pull-request)
 - [create-worktrees](./plugins/create-worktrees)
@@ -157,6 +164,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [husky](./plugins/husky)
 - [pr-issue-resolve](./plugins/pr-issue-resolve)
 - [pr-review](./plugins/pr-review)
+- [pr-storyteller](./plugins/pr-storyteller)
 - [update-branch-name](./plugins/update-branch-name)
 
 ### Marketing Growth
@@ -185,9 +193,11 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [audit](./plugins/audit)
 - [compliance-automation-specialist](./plugins/compliance-automation-specialist)
 - [data-privacy-engineer](./plugins/data-privacy-engineer)
+- [deps-doctor](./plugins/deps-doctor)
 - [enterprise-security-reviewer](./plugins/enterprise-security-reviewer)
 - [legal-advisor](./plugins/legal-advisor)
 - [legal-compliance-checker](./plugins/legal-compliance-checker)
+- [secret-guard](./plugins/secret-guard)
 
 
 ## Tutorials

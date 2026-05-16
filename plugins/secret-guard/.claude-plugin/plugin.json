@@ -1,0 +1,6 @@
+{
+  "name": "secret-guard",
+  "version": "0.1.0",
+  "description": "Scan staged diffs or files for leaked secrets with redacted output.",
+  "author": "pluginpool"
+}

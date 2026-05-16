@@ -1,0 +1,6 @@
+{
+  "name": "standup-gen",
+  "version": "0.1.0",
+  "description": "Generate daily standup notes from git activity across one or many repos.",
+  "author": "pluginpool"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "deps-doctor",
+  "version": "0.1.0",
+  "description": "/deps-doctor runs dependency health audits across supported ecosystems.",
+  "author": "pluginpool"
+}

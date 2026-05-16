@@ -1,0 +1,6 @@
+{
+  "name": "env-lint",
+  "version": "0.1.0",
+  "description": "Validate .env files against .env.example without printing values.",
+  "author": "pluginpool"
+}

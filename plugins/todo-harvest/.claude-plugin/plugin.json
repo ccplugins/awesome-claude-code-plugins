@@ -1,0 +1,6 @@
+{
+  "name": "todo-harvest",
+  "version": "0.1.0",
+  "description": "Find TODO/FIXME/HACK comments with git-blame author and age.",
+  "author": "pluginpool"
+}
