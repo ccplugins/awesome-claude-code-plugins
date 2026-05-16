@@ -1,0 +1,6 @@
+{
+  "name": "commit-narrator",
+  "version": "0.1.0",
+  "description": "Generate conventional commit messages from staged diffs.",
+  "author": "pluginpool"
+}

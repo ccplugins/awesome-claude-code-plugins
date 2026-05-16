@@ -1,0 +1,6 @@
+{
+  "name": "pr-storyteller",
+  "version": "0.1.0",
+  "description": "Generate PR story data from commits and diffs.",
+  "author": "pluginpool"
+}

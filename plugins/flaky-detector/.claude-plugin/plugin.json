@@ -1,0 +1,6 @@
+{
+  "name": "flaky-detector",
+  "version": "0.1.0",
+  "description": "Run a test command N times and report per-test flakiness percentages.",
+  "author": "pluginpool"
+}

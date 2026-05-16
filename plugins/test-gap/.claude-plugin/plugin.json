@@ -1,0 +1,6 @@
+{
+  "name": "test-gap",
+  "version": "0.1.0",
+  "description": "/test-gap surfaces lines added or changed in the current git diff that are not covered by tests.",
+  "author": "pluginpool"
+}
