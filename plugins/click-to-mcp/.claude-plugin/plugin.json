@@ -1,0 +1,9 @@
+{
+  "name": "click-to-mcp",
+  "description": "Use this agent when you need to expose existing CLI tools as MCP servers for AI assistants. This plugin wraps any Click/typer CLI application into a Model Context Protocol server automatically, making CLI tools accessible to Claude Code and other AI agents without manual integration.\n\n<example>\nContext: User wants to make a CLI tool available to Claude\nuser: \"I have a typer CLI that manages our deployment pipeline, can Claude use it?\"\nassistant: \"I'll use the click-to-mcp plugin to automatically wrap your typer CLI as an MCP server, making all its commands available to Claude Code.\"\n<commentary>\nWrapping CLIs as MCP servers enables AI assistants to invoke CLI commands through the standardized protocol.\n</commentary>\n</example>\n\n<example>\nContext: User needs to integrate multiple CLIs\nuser: \"We have 5 internal CLI tools that our team uses daily\"\nassistant: \"I'll use click-to-mcp to wrap all 5 CLIs as MCP servers, giving Claude Code access to your entire toolchain.\"\n<commentary>\nBatch-wrapping CLIs provides comprehensive tool access for AI-assisted development workflows.\n</commentary>\n</example>\n\n<example>\nContext: User wants to share CLI tools across the team\nuser: \"How can I make our custom CLI tools available to everyone's Claude Code?\"\nassistant: \"click-to-mcp converts your CLIs into MCP servers that can be configured in Claude Code's MCP settings, making them available to your whole team.\"\n<commentary>\nMCP server configuration can be shared across team members for consistent tool access.\n</commentary>\n</example>",
+  "version": "1.0.0",
+  "author": {
+    "name": "Coding Dev Tools"
+  },
+  "homepage": "https://github.com/Coding-Dev-Tools/click-to-mcp"
+}
