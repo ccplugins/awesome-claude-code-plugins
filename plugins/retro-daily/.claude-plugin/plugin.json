@@ -1,0 +1,10 @@
+{
+  "name": "retro-daily",
+  "description": "A SessionStart hook that prints a daily retro at the top of every Claude Code session: competency grade (0-100 / A-F), 14-day efficiency sparklines, year-long contributions heatmap, and a detached claude -p background worker that researches your weakest metrics on docs.anthropic.com and GitHub. Reads ~/.claude/projects/*.jsonl; writes state under ~/.claude/metrics. Background workers opt out with RETRO_DAILY_NO_BACKGROUND_WORKERS=1.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Gyanesh Malhotra",
+    "url": "https://github.com/gyanesh-m"
+  },
+  "homepage": "https://github.com/gyanesh-m/retro-daily"
+}
