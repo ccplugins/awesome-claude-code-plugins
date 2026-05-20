@@ -70,6 +70,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [infrastructure-maintainer](./plugins/infrastructure-maintainer)
 - [monitoring-observability-specialist](./plugins/monitoring-observability-specialist)
 - [n8n-workflow-builder](./plugins/n8n-workflow-builder)
+- [retro-daily](./plugins/retro-daily)
 
 ### Business Sales
 - [b2b-project-shipper](./plugins/b2b-project-shipper)
