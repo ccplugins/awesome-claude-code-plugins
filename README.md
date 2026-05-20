@@ -169,6 +169,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [twitter-engager](./plugins/twitter-engager)
 
 ### Project & Product Management
+- [bleu](https://github.com/Nirvaan05/Bleu-plugin)
 - [discuss](./plugins/discuss)
 - [explore](./plugins/explore)
 - [plan](./plugins/plan)
