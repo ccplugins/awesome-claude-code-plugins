@@ -55,6 +55,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [security-guidance](./plugins/security-guidance)
 
 ### Workflow Orchestration
+- [aicoo-skills](https://www.aicoo.io) - AI COO agent skills: share agent via links, agent-to-agent communication, autonomous heartbeat loops, context sync, Aicoo Square discovery board
 - [angelos-symbo](./plugins/angelos-symbo)
 - [ceo-quality-controller-agent](./plugins/ceo-quality-controller-agent)
 - [claude-desktop-extension](./plugins/claude-desktop-extension)
