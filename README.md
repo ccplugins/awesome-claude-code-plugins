@@ -67,6 +67,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 ### Automation DevOps
 - [deployment-engineer](./plugins/deployment-engineer)
 - [devops-automator](./plugins/devops-automator)
+- [flowhunt-skill](https://github.com/heyneuron/flowhunt-skill) — FlowHunt automation discovery audit skill (`npx skills add heyneuron/flowhunt-skill`)
 - [infrastructure-maintainer](./plugins/infrastructure-maintainer)
 - [monitoring-observability-specialist](./plugins/monitoring-observability-specialist)
 - [n8n-workflow-builder](./plugins/n8n-workflow-builder)
