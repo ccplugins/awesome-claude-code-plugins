@@ -112,6 +112,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [mobile-ux-optimizer](./plugins/mobile-ux-optimizer)
 - [onomastophes](./plugins/onomastophes)
 - [ui-designer](./plugins/ui-designer)
+- [ux](https://github.com/Laith0003/ux-skill)
 - [ux-researcher](./plugins/ux-researcher)
 - [visual-storyteller](./plugins/visual-storyteller)
 - [whimsy-injector](./plugins/whimsy-injector)
