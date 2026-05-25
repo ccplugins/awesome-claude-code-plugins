@@ -188,6 +188,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [enterprise-security-reviewer](./plugins/enterprise-security-reviewer)
 - [legal-advisor](./plugins/legal-advisor)
 - [legal-compliance-checker](./plugins/legal-compliance-checker)
+- [HOL Guard - Local-first runtime security for AI coding agents (Codex, Claude Code, Cursor, Gemini, OpenCode)](https://github.com/hashgraph-online/hol-guard)
 
 
 ## Tutorials
