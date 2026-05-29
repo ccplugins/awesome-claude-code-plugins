@@ -49,7 +49,7 @@
 
 ### Claude Code 官方插件
 - [agent-sdk-dev](./plugins/agent-sdk-dev)
-- [pr-review-toolkit](./plugins/pr-review-toolkit")
+- [pr-review-toolkit](./plugins/pr-review-toolkit)
 - [commit-commands](./plugins/commit-commands)
 - [feature-dev](./plugins/feature-dev)
 - [security-guidance](./plugins/security-guidance)
