@@ -1,0 +1,10 @@
+{
+  "name": "commit-commands",
+  "description": "Commands for git commit workflows including commit, push, and PR creation",
+  "version": "1.0.0",
+  "author": {
+    "name": "Anthropic",
+    "email": "support@anthropic.com"
+  },
+  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/commit-commands"
+}

@@ -49,7 +49,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Official Claude Code Plugins
 - [agent-sdk-dev](./plugins/agent-sdk-dev)
-- [pr-review-toolkit](./plugins/pr-review-toolkit")
+- [pr-review-toolkit](./plugins/pr-review-toolkit)
 - [commit-commands](./plugins/commit-commands)
 - [feature-dev](./plugins/feature-dev)
 - [security-guidance](./plugins/security-guidance)
