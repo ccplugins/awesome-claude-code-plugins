@@ -141,6 +141,7 @@
 - [documentation-generator](./plugins/documentation-generator)
 - [generate-api-docs](./plugins/generate-api-docs)
 - [openapi-expert](./plugins/openapi-expert)
+- [thermal-fluid-research-workflow](./plugins/thermal-fluid-research-workflow)
 - [update-claudemd](./plugins/update-claudemd)
 
 ### Git工作流

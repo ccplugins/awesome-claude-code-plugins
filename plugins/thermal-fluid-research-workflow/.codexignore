@@ -1,0 +1,9 @@
+.git/
+.github/
+.tmp-paper-text/
+*.pdf
+*.pptx
+*.docx
+*.zip
+__pycache__/
+.pytest_cache/

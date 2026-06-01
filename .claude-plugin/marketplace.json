@@ -56,6 +56,29 @@
       ]
     },
     {
+      "name": "thermal-fluid-research-workflow",
+      "source": "./plugins/thermal-fluid-research-workflow",
+      "description": "Thermal-fluid mechanical engineering research workflow for literature review, technical writing, data analysis, presentations, proposals, research coding, and AI/ML-assisted workflows.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Han Hu",
+        "email": "72934230+hanhuark@users.noreply.github.com",
+        "url": "https://github.com/hanhuark"
+      },
+      "category": "Documentation",
+      "homepage": "https://github.com/hanhuark/mechanical-engineering-research-skill",
+      "keywords": [
+        "thermal-fluids",
+        "mechanical-engineering",
+        "research",
+        "technical-writing",
+        "literature-review",
+        "data-analysis",
+        "claude-code",
+        "codex-skill"
+      ]
+    },
+    {
       "name": "update-claudemd",
       "source": "./plugins/update-claudemd",
       "description": "Automatically update CLAUDE.md file based on recent code changes",
