@@ -23,7 +23,6 @@ Awesome Claude Code plugins — a curated list of slash commands, subagents, MCP
     - [Security, Compliance, & Legal](#security-compliance--legal)
 * [Tutorials](#tutorials)
 * [Contributing](#contributing)
-  - [huiyu-safe-ai](https://github.com/huiyu9144/huiyu-safe-ai) - Lightweight AI security guard for install/download commands. Blocks 68+ malicious packages, verifies identity, scans code in <1s with zero overhead. Built from a real supply chain attack.
 
 ## What is Claude Code Plugin?
 
@@ -189,6 +188,9 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [enterprise-security-reviewer](./plugins/enterprise-security-reviewer)
 - [legal-advisor](./plugins/legal-advisor)
 - [legal-compliance-checker](./plugins/legal-compliance-checker)
+
+External tools & resources that enhance security:
+- [huiyu-safe-ai](https://github.com/huiyu9144/huiyu-safe-ai) - Lightweight AI security guard for install/download commands. Blocks 68+ malicious packages, verifies identity, scans code in <1s. Built from a real supply chain attack.
 
 
 ## Tutorials
