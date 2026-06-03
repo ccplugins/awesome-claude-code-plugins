@@ -130,6 +130,7 @@
 - [python-expert](./plugins/python-expert)
 - [rapid-prototyper](./plugins/rapid-prototyper)
 - [react-native-dev](./plugins/react-native-dev)
+- [staff-engineer-mode](https://github.com/sirmarkz/staff-engineer-mode)
 - [vision-specialist](./plugins/vision-specialist)
 - [web-dev](./plugins/web-dev)
 
