@@ -65,6 +65,8 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [ultrathink](./plugins/ultrathink)
 
 ### Automation DevOps
+- [build-cache-analyzer](https://github.com/mturac/build-cache-analyzer) | Analyzes Turborepo/Nx/Webpack cache hit rates and finds what is busting the build cache
+- [config-schema-validator](https://github.com/mturac/config-schema-validator) | Validates Docker Compose, GitHub Actions, K8s, and other config files with auto-fix suggestions
 - [deployment-engineer](./plugins/deployment-engineer)
 - [devops-automator](./plugins/devops-automator)
 - [infrastructure-maintainer](./plugins/infrastructure-maintainer)
@@ -88,9 +90,11 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [code-review-assistant](./plugins/code-review-assistant)
 - [code-reviewer](./plugins/code-reviewer)
 - [database-performance-optimizer](./plugins/database-performance-optimizer)
+- [dead-end-finder](https://github.com/mturac/dead-end-finder) | Finds unused exports, unreachable code, and orphaned API endpoints that silently accumulate
 - [debug-session](./plugins/debug-session)
 - [debugger](./plugins/debugger)
 - [double-check](./plugins/double-check)
+- [flaky-test-hunter](https://github.com/mturac/flaky-test-hunter) | Statistically detects and quarantines flaky tests by analyzing CI run history and timing variance
 - [optimize](./plugins/optimize)
 - [performance-benchmarker](./plugins/performance-benchmarker)
 - [refractor](./plugins/refractor)
@@ -98,6 +102,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [test-results-analyzer](./plugins/test-results-analyzer)
 - [test-writer-fixer](./plugins/test-writer-fixer)
 - [unit-test-generator](./plugins/unit-test-generator)
+- [type-coverage](https://github.com/mturac/type-coverage) | Finds every TypeScript `any`, unsafe cast, @ts-ignore, and missing return type across the codebase
 
 ### Data Analytics
 - [analytics-reporter](./plugins/analytics-reporter)
@@ -121,6 +126,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [api-integration-specialist](./plugins/api-integration-specialist)
 - [backend-architect](./plugins/backend-architect)
 - [code-architect](./plugins/code-architect)
+- [dependency-graph-viz](https://github.com/mturac/dependency-graph-viz) | Builds module import graph, detects circular dependencies and deep chains in the architecture
 - [desktop-app-dev](./plugins/desktop-app-dev)
 - [enterprise-integrator-architect](./plugins/enterprise-integrator-architect)
 - [flutter-mobile-app-dev](./plugins/flutter-mobile-app-dev)
@@ -129,6 +135,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [project-curator](./plugins/project-curator)
 - [python-expert](./plugins/python-expert)
 - [rapid-prototyper](./plugins/rapid-prototyper)
+- [refactor-preview](https://github.com/mturac/refactor-preview) | Shows blast radius before applying refactors — direct callers, indirect callers, test coverage, public API impact
 - [react-native-dev](./plugins/react-native-dev)
 - [vision-specialist](./plugins/vision-specialist)
 - [web-dev](./plugins/web-dev)
@@ -142,6 +149,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [generate-api-docs](./plugins/generate-api-docs)
 - [openapi-expert](./plugins/openapi-expert)
 - [update-claudemd](./plugins/update-claudemd)
+- [docs-sync-checker](https://github.com/mturac/docs-sync-checker) | Detects documentation drift — function names, paths, and CLI commands in docs that no longer match code
 
 ### Git Workflow
 - [analyze-issue](./plugins/analyze-issue)
@@ -157,6 +165,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [husky](./plugins/husky)
 - [pr-issue-resolve](./plugins/pr-issue-resolve)
 - [pr-review](./plugins/pr-review)
+- [semantic-release-notes](https://github.com/mturac/semantic-release-notes) | Generates changelogs and release notes from conventional commits with semver bump detection
 - [update-branch-name](./plugins/update-branch-name)
 
 ### Marketing Growth
@@ -188,6 +197,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [enterprise-security-reviewer](./plugins/enterprise-security-reviewer)
 - [legal-advisor](./plugins/legal-advisor)
 - [legal-compliance-checker](./plugins/legal-compliance-checker)
+- [license-guard](https://github.com/mturac/license-guard) | Enforces license compliance policy on dependencies and generates SPDX-format Software Bill of Materials
 
 
 ## Tutorials
