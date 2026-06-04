@@ -65,6 +65,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [ultrathink](./plugins/ultrathink)
 
 ### Automation DevOps
+- [deploy](https://github.com/mturac/deploy)
 - [deployment-engineer](./plugins/deployment-engineer)
 - [devops-automator](./plugins/devops-automator)
 - [infrastructure-maintainer](./plugins/infrastructure-maintainer)
@@ -182,6 +183,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Security, Compliance, & Legal
 - [ai-ethics-governance-specialist](./plugins/ai-ethics-governance-specialist)
+- [incident](https://github.com/mturac/incident)
 - [audit](./plugins/audit)
 - [compliance-automation-specialist](./plugins/compliance-automation-specialist)
 - [data-privacy-engineer](./plugins/data-privacy-engineer)
