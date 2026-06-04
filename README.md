@@ -70,6 +70,9 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [infrastructure-maintainer](./plugins/infrastructure-maintainer)
 - [monitoring-observability-specialist](./plugins/monitoring-observability-specialist)
 - [n8n-workflow-builder](./plugins/n8n-workflow-builder)
+- [dep-drift](https://github.com/mturac/dep-drift)
+- [flag-ops](https://github.com/mturac/flag-ops)
+- [migrate-safe](https://github.com/mturac/migrate-safe)
 
 ### Business Sales
 - [b2b-project-shipper](./plugins/b2b-project-shipper)
@@ -98,6 +101,9 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [test-results-analyzer](./plugins/test-results-analyzer)
 - [test-writer-fixer](./plugins/test-writer-fixer)
 - [unit-test-generator](./plugins/unit-test-generator)
+- [a11y-ci](https://github.com/mturac/a11y-ci)
+- [perf-lens](https://github.com/mturac/perf-lens)
+- [test-scout](https://github.com/mturac/test-scout)
 
 ### Data Analytics
 - [analytics-reporter](./plugins/analytics-reporter)
@@ -132,6 +138,9 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [react-native-dev](./plugins/react-native-dev)
 - [vision-specialist](./plugins/vision-specialist)
 - [web-dev](./plugins/web-dev)
+- [api-contract](https://github.com/mturac/api-contract)
+- [i18n-sync](https://github.com/mturac/i18n-sync)
+- [code-archaeologist](https://github.com/mturac/code-archaeologist)
 
 ### Documentation
 - [analyze-codebase](./plugins/analyze-codebase)
@@ -142,6 +151,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [generate-api-docs](./plugins/generate-api-docs)
 - [openapi-expert](./plugins/openapi-expert)
 - [update-claudemd](./plugins/update-claudemd)
+- [adr-sync](https://github.com/mturac/adr-sync)
 
 ### Git Workflow
 - [analyze-issue](./plugins/analyze-issue)
