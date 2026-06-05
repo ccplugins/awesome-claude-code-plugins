@@ -130,6 +130,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [python-expert](./plugins/python-expert)
 - [rapid-prototyper](./plugins/rapid-prototyper)
 - [react-native-dev](./plugins/react-native-dev)
+- [tldr](./plugins/tldr)
 - [vision-specialist](./plugins/vision-specialist)
 - [web-dev](./plugins/web-dev)
 

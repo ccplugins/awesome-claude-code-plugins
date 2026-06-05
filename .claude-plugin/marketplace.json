@@ -1670,6 +1670,21 @@
         "security",
         "compliance"
       ]
+    },
+    {
+      "name": "tldr",
+      "source": "./plugins/tldr",
+      "description": "Keeps Claude Code's replies short. Turn it on and every answer stays under five lines until you turn it off.",
+      "version": "1.0.0",
+      "author": {
+        "name": "rodrigooler"
+      },
+      "category": "Development Engineering",
+      "homepage": "https://github.com/rodrigooler/claude-code-tldr",
+      "keywords": [
+        "productivity",
+        "concise"
+      ]
     }
   ]
 }
