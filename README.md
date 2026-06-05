@@ -167,6 +167,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [reddit-community-builder](./plugins/reddit-community-builder)
 - [tiktok-strategist](./plugins/tiktok-strategist)
 - [twitter-engager](./plugins/twitter-engager)
+- [Diffmode Growth Tactics](https://github.com/acogood/diffmode_free) — free plugin + marketplace that runs a growth-strategy pipeline: a competitor read, a buyer jobs-to-be-done map, and 7–9 unconventional acquisition tactics for bootstrapped founders. Claude Code + Codex, Apache-2.0.
 
 ### Project & Product Management
 - [discuss](./plugins/discuss)
