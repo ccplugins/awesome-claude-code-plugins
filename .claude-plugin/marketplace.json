@@ -1760,6 +1760,31 @@
         "pitch-deck",
         "financial-modeling"
       ]
+    },
+    {
+      "name": "screenshot-janitor",
+      "source": "./plugins/screenshot-janitor",
+      "description": "Per-session screenshot cleanup: tracks screenshots created during each Claude Code session and asks before moving them to the Trash (recoverable). macOS + Linux, zero dependencies.",
+      "version": "1.0.0",
+      "author": {
+        "name": "MECoban",
+        "url": "https://github.com/MECoban"
+      },
+      "category": "Automation DevOps",
+      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/screenshot-janitor",
+      "repository": "https://github.com/MECoban/screenshot-janitor",
+      "license": "MIT",
+      "keywords": [
+        "screenshot",
+        "cleanup",
+        "housekeeping",
+        "trash",
+        "desktop",
+        "macos",
+        "linux",
+        "hooks",
+        "skill"
+      ]
     }
   ]
 }
