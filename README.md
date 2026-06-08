@@ -164,6 +164,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [content-creator](./plugins/content-creator)
 - [growth-hacker](./plugins/growth-hacker)
 - [instagram-curator](./plugins/instagram-curator)
+- [poppify](./plugins/poppify) — photo-led short-form vertical reels (Instagram/TikTok/YouTube Shorts/Facebook) via MCP, $0.06/render, 50 free seeds, no subscription
 - [reddit-community-builder](./plugins/reddit-community-builder)
 - [tiktok-strategist](./plugins/tiktok-strategist)
 - [twitter-engager](./plugins/twitter-engager)
