@@ -180,6 +180,9 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [tool-evaluator](./plugins/tool-evaluator)
 - [workflow-optimizer](./plugins/workflow-optimizer)
 
+### Lifestyle & Entertainment
+- [ai-divination-skills](./plugins/ai-divination-skills)
+
 ### Security, Compliance, & Legal
 - [ai-ethics-governance-specialist](./plugins/ai-ethics-governance-specialist)
 - [audit](./plugins/audit)
