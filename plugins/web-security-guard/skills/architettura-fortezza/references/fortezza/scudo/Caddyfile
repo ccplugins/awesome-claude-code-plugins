@@ -1,0 +1,41 @@
+# Caddy: HTTPS automatico + rimozione impronte del server.
+# Sostituisci tuo-dominio.it con il tuo dominio reale.
+
+{
+	# Nessun header informativo a livello globale
+	servers {
+		protocols h1 h2 h3
+	}
+	email tuo-indirizzo@email.it   # per i certificati Let's Encrypt
+}
+
+tuo-dominio.it, www.tuo-dominio.it {
+	encode gzip zstd
+
+	# Inoltra allo scudo guardian (stesso host, rete docker interna)
+	reverse_proxy guardian-proxy:8080
+
+	# Security headers (allineati alla skill hardening-siti)
+	header {
+		Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+		X-Content-Type-Options "nosniff"
+		X-Frame-Options "DENY"
+		Referrer-Policy "strict-origin-when-cross-origin"
+		Permissions-Policy "camera=(), microphone=(), geolocation=()"
+		# Rimuove le impronte: Caddy non rivela nome/versione
+		-Server
+		-X-Powered-By
+	}
+
+	# Log in formato strutturato (utile per il guardian/SIEM)
+	log {
+		output file /var/log/caddy/access.log
+		format json
+	}
+}
+
+# Qualsiasi richiesta che NON usa il dominio giusto (es. scanner che colpiscono
+# l'IP nudo) non riceve nulla di utile: connessione chiusa.
+:80 {
+	abort
+}

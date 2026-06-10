@@ -1,0 +1,7 @@
+{
+  "name": "web-security-guard",
+  "version": "0.2.1",
+  "description": "Sicurezza integrata per siti e app: hardening, autenticazione sicura (verifica email, 2FA, passkey), privacy su pagamenti e abbonamenti, agente di difesa con lockdown, architettura Fortezza a 4 livelli (scudo invisibile, server nascosto, cassaforte offline) e workflow GitHub di scansione automatica.",
+  "author": { "name": "Fede" },
+  "keywords": ["security", "payments", "privacy", "2fa", "github-actions", "waf"]
+}

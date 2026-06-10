@@ -1,0 +1,39 @@
+# Scudo Fortezza — gira sul server pubblico (l'unico esposto a internet).
+# Il server reale NON è qui: vive su un'altra macchina con solo IP privato.
+services:
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"   # HTTP/3
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+      - ./logs:/var/log/caddy
+    depends_on: [guardian-proxy]
+    networks: [interna]
+
+  guardian-proxy:
+    build: ./guardian-proxy
+    restart: unless-stopped
+    environment:
+      # IP PRIVATO del server reale, raggiungibile solo via rete interna/VPN.
+      # NON è un indirizzo pubblico.
+      ORIGIN_URL: "http://10.8.0.2:3000"
+      PORT: "8080"
+    volumes:
+      - ./logs:/app/logs       # security-events.log e flag LOCKDOWN qui
+    networks: [interna]
+    # Non espone porte verso l'esterno: solo Caddy può raggiungerlo.
+    expose: ["8080"]
+
+volumes:
+  caddy_data:
+  caddy_config:
+
+networks:
+  interna:
+    driver: bridge

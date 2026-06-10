@@ -1670,6 +1670,25 @@
         "security",
         "compliance"
       ]
+    },
+    {
+      "name": "web-security-guard",
+      "source": "./plugins/web-security-guard",
+      "description": "Integrated security for websites and apps: hardening, secure authentication (email verification, 2FA, passkeys), payment privacy, WAF defense agent with lockdown, 4-layer Fortress architecture and automated GitHub security workflows.",
+      "version": "0.2.1",
+      "author": {
+        "name": "Fede",
+        "url": "https://github.com/ayalaphiscan"
+      },
+      "category": "Security, Compliance, & Legal",
+      "homepage": "https://github.com/ayalaphiscan/web-security-guard",
+      "keywords": [
+        "security",
+        "waf",
+        "hardening",
+        "2fa",
+        "payments"
+      ]
     }
   ]
 }
