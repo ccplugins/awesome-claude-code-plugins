@@ -105,6 +105,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [experiment-tracker](./plugins/experiment-tracker)
 - [feedback-synthesizer](./plugins/feedback-synthesizer)
 - [trend-researcher](./plugins/trend-researcher)
+- **[The Stall — x402 MCP Server](https://the-stall.intuitek.ai)** — 201 pay-per-call data capabilities: DeFi/crypto analytics, real-time market data, on-chain intelligence, financial metrics. Free preflight checks; USDC-per-call via x402 on Base.
 
 ### Design UX
 - [brand-guardian](./plugins/brand-guardian)
