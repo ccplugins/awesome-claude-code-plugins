@@ -1,0 +1,62 @@
+# .github/workflows/security.yml
+# Scansione di sicurezza automatica: segreti, dipendenze, analisi statica.
+name: Security
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+  schedule:
+    - cron: '0 3 * * *'   # ogni notte alle 03:00 UTC
+
+permissions:
+  contents: read
+  security-events: write
+
+jobs:
+  secret-scan:
+    name: Scansione segreti (Gitleaks)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  dependency-audit:
+    name: Audit dipendenze
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # --- Node: rimuovere se il progetto non ha package.json ---
+      - uses: actions/setup-node@v4
+        if: ${{ hashFiles('package.json') != '' }}
+        with: { node-version: 20 }
+      - name: npm audit
+        if: ${{ hashFiles('package-lock.json') != '' }}
+        run: npm audit --audit-level=high
+      # --- Python: rimuovere se il progetto non ha requirements ---
+      - uses: actions/setup-python@v5
+        if: ${{ hashFiles('requirements.txt') != '' }}
+        with: { python-version: '3.12' }
+      - name: pip-audit
+        if: ${{ hashFiles('requirements.txt') != '' }}
+        run: |
+          pip install pip-audit
+          pip-audit -r requirements.txt
+
+  codeql:
+    name: Analisi statica (CodeQL)
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        language: [javascript]   # aggiungere/cambiare: python, java, ecc.
+    steps:
+      - uses: actions/checkout@v4
+      - uses: github/codeql-action/init@v3
+        with:
+          languages: ${{ matrix.language }}
+          queries: security-extended
+      - uses: github/codeql-action/analyze@v3

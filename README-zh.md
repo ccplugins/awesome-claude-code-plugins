@@ -188,6 +188,7 @@
 - [enterprise-security-reviewer](./plugins/enterprise-security-reviewer)
 - [legal-advisor](./plugins/legal-advisor)
 - [legal-compliance-checker](./plugins/legal-compliance-checker)
+- [web-security-guard](./plugins/web-security-guard)
 
 
 ## 使用教程

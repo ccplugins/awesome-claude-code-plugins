@@ -1,0 +1,19 @@
+# .github/dependabot.yml
+# PR automatiche per aggiornare dipendenze vulnerabili.
+version: 2
+updates:
+  - package-ecosystem: "npm"        # rimuovere se non è un progetto Node
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+
+  - package-ecosystem: "pip"        # rimuovere se non è un progetto Python
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"

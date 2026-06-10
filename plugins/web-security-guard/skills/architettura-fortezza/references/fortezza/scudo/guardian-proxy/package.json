@@ -1,0 +1,12 @@
+{
+  "name": "fortezza-scudo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scudo Fortezza: reverse proxy invisibile con agente guardian",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "express": "^4.19.0",
+    "http-proxy-middleware": "^3.0.0"
+  }
+}
