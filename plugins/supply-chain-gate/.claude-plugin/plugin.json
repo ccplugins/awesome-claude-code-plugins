@@ -1,0 +1,10 @@
+{
+  "name": "supply-chain-gate",
+  "description": "Supply chain security gate — audit dependencies for behavioral risk and install IDE hooks that block CRITICAL packages",
+  "version": "1.0.0",
+  "author": {
+    "name": "piiiico",
+    "url": "https://github.com/piiiico/proof-of-commitment"
+  },
+  "homepage": "https://getcommit.dev"
+}
