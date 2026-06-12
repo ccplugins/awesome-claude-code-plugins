@@ -182,6 +182,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Security, Compliance, & Legal
 - [ai-ethics-governance-specialist](./plugins/ai-ethics-governance-specialist)
+- [cc-powerpack](./plugins/cc-powerpack)
 - [audit](./plugins/audit)
 - [compliance-automation-specialist](./plugins/compliance-automation-specialist)
 - [data-privacy-engineer](./plugins/data-privacy-engineer)
