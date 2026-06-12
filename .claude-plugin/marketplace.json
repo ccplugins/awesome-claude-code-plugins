@@ -1670,6 +1670,23 @@
         "security",
         "compliance"
       ]
+    },
+    {
+      "name": "tandem",
+      "source": "./plugins/tandem",
+      "description": "Tandem — the Claude Code project-management plugin. Drives a full North Star → Done delivery lifecycle from slash commands, with enforced DoR/DoD gates, mandatory Story↔Testplan pairing, automatic ADRs, auto-filed bugs on test failure, and a self-generating live HTML Command Center.",
+      "version": "2.6.0",
+      "author": {
+        "name": "DATA-AI-XYZ",
+        "url": "https://github.com/DATA-AI-XYZ"
+      },
+      "category": "Project & Product Management",
+      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/tandem",
+      "keywords": [
+        "project-management",
+        "okr",
+        "agile"
+      ]
     }
   ]
 }

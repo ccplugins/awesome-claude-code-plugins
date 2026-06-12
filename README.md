@@ -177,6 +177,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [project-shipper](./plugins/project-shipper)
 - [sprint-prioritizer](./plugins/sprint-prioritizer)
 - [studio-producer](./plugins/studio-producer)
+- [tandem](./plugins/tandem)
 - [tool-evaluator](./plugins/tool-evaluator)
 - [workflow-optimizer](./plugins/workflow-optimizer)
 

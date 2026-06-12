@@ -1,0 +1,23 @@
+{
+  "name": "tandem",
+  "description": "Tandem — the Claude Code project-management plugin. Drives a full North Star → OKRs → PRD → Epic → Feature → Story → Testplan → ship lifecycle from slash commands, with a closed-set status enum, mandatory Story↔Testplan pairing, Definition-of-Ready/Done gates, automatic ADRs, auto-filed bugs on test failure, and a self-generating interactive HTML Command Center. Plain Markdown, no external tools, stack-agnostic.",
+  "version": "2.6.0",
+  "author": {
+    "name": "DATA-AI-XYZ",
+    "url": "https://github.com/DATA-AI-XYZ"
+  },
+  "homepage": "https://github.com/DATA-AI-XYZ/Tandem",
+  "repository": "https://github.com/DATA-AI-XYZ/Tandem",
+  "license": "MIT",
+  "category": "Project & Product Management",
+  "keywords": [
+    "claude-code",
+    "claude-code-plugin",
+    "claude",
+    "project-management",
+    "agile",
+    "okr",
+    "developer-tools",
+    "slash-commands"
+  ]
+}
