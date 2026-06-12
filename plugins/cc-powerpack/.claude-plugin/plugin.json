@@ -1,0 +1,7 @@
+{
+  "name": "cc-powerpack",
+  "description": "Safety guardrails for Claude Code: pre-push secret scanning, dangerous-command gate, worktree protection",
+  "version": "0.1.0",
+  "author": { "name": "CC Powerpack" },
+  "hooks": "./hooks/hooks.json"
+}
