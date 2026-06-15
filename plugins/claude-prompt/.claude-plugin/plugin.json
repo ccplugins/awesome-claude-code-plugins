@@ -1,0 +1,18 @@
+{
+  "name": "claude-prompt",
+  "description": "Rewrites your request into an optimized, reasoning-maximizing prompt, then immediately carries it out. Ships the /p command.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Daniel Kremen",
+    "url": "https://github.com/danielkremen818"
+  },
+  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/claude-prompt",
+  "license": "MIT",
+  "keywords": [
+    "prompt-engineering",
+    "prompt-optimizer",
+    "meta-prompting",
+    "extended-thinking",
+    "workflow"
+  ]
+}
