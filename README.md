@@ -62,6 +62,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [model-context-protocol-mcp-expert](./plugins/model-context-protocol-mcp-expert)
 - [problem-solver-specialist](./plugins/problem-solver-specialist)
 - [studio-coach](./plugins/studio-coach)
+- [ultracost](./plugins/ultracost)
 - [ultrathink](./plugins/ultrathink)
 
 ### Automation DevOps
