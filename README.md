@@ -35,6 +35,7 @@ Awesome Claude Code plugins — a curated list of slash commands, subagents, MCP
 - **Hooks** — Extensions that modify Claude Code’s behavior at key workflow points
 
 Install or disable them dynamically with the `/plugin` command — enabling you to keep your system context focused and lightweight.
+- [AccInt](https://github.com/maxbaluev/accreted-intelligence) — Local-first Work Model MCP server and Claude Code/Codex/OpenCode plugin. Tools: `acc_retrieve`, `acc_act`; official registry `io.github.maxbaluev/accint`.
 
 ## Use Cases
 
