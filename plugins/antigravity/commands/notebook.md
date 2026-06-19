@@ -97,6 +97,14 @@ Manifest columns: `NN  mode(text|vision|cached)  source_abspath  text_path_or_da
 If the manifest is empty → tell the user there are no supported documents and stop. If ALL docs are
 `cached` → skip Phase 1 entirely (nothing changed) and go straight to Phase 2.
 
+**Large-corpus guard.** Count the rows to actually process this run (`text` + `vision` + `group`,
+i.e. `ROWS − CACHED` from the print line). If that is **more than 30**, do NOT start the sweep
+silently — tell the user the count and a rough wall-clock estimate (on a free ~10 RPM tier ≈
+`ceil(N/10)` minutes plus retries; much faster on Pro/Ultra) and ask them to confirm before
+continuing. They can proceed as-is, or narrow the folder/objective to cut the count. Skip this prompt
+when there are ≤30 rows to process, or when the user already passed an explicit go-ahead (e.g. they
+re-ran after confirming, or said "sin preguntar"/"go").
+
 ## Phase 0.5 — Model routing (ONE Bash call, best-effort, reversible)
 
 The per-document summaries don't need deep reasoning; the final synthesis does. Save the user's

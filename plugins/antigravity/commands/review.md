@@ -27,7 +27,9 @@ Routing rules:
     rm -f "$DIFF_FILE"
     echo "NO_DIFF"
   else
+    OUT_FILE="${DIFF_FILE%.diff}.review.md"
     echo "DIFF_FILE=$DIFF_FILE"
+    echo "OUT_FILE=$OUT_FILE"
     wc -l < "$DIFF_FILE"
   fi
   ```
@@ -42,7 +44,7 @@ MODE: review
 INTENSITY:
 MODEL:
 RESUME: false
-WRITE_FILE:
+WRITE_FILE: <absolute OUT_FILE path echoed above>
 FOCUS: <focus text or default>
 DIFF_FILE: <absolute path captured above>
 USER_TEXT:
