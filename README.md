@@ -164,6 +164,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [content-creator](./plugins/content-creator)
 - [growth-hacker](./plugins/growth-hacker)
 - [instagram-curator](./plugins/instagram-curator)
+- [notfair](./plugins/notfair)
 - [reddit-community-builder](./plugins/reddit-community-builder)
 - [tiktok-strategist](./plugins/tiktok-strategist)
 - [twitter-engager](./plugins/twitter-engager)
