@@ -1,0 +1,19 @@
+{
+  "name": "design-from-code",
+  "version": "1.0.0",
+  "description": "Workflow skill that designs UI changes from real source code and data models — verify data in code, iterate faithful HTML mockups, lock a design doc, then delegate implementation. It reproduces existing components pixel-for-pixel by reading actual JSX/queries instead of imagining them.",
+  "author": {
+    "name": "nlook",
+    "url": "https://nlook.me"
+  },
+  "homepage": "https://github.com/nlook-service/design-from-code",
+  "license": "MIT",
+  "keywords": [
+    "design",
+    "ui",
+    "mockup",
+    "workflow",
+    "html",
+    "skill"
+  ]
+}

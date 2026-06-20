@@ -1670,6 +1670,24 @@
         "security",
         "compliance"
       ]
+    },
+    {
+      "name": "design-from-code",
+      "source": "./plugins/design-from-code",
+      "description": "Design UI changes from real source code: trace handler->query->schema to confirm what each number counts, iterate faithful AS-IS/TO-BE HTML mockups (keep/new/changed tags), lock a design doc, then delegate. Claude Code plugin & Codex skill.",
+      "version": "1.0.0",
+      "author": {
+        "name": "nlook"
+      },
+      "category": "Design UX",
+      "homepage": "https://github.com/nlook-service/design-from-code",
+      "keywords": [
+        "design",
+        "ui",
+        "mockup",
+        "workflow",
+        "html"
+      ]
     }
   ]
 }
