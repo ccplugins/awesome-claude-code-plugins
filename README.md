@@ -35,6 +35,7 @@ Awesome Claude Code plugins — a curated list of slash commands, subagents, MCP
 - **Hooks** — Extensions that modify Claude Code’s behavior at key workflow points
 
 Install or disable them dynamically with the `/plugin` command — enabling you to keep your system context focused and lightweight.
+- [Synder Importer MCP](https://github.com/SynderAccounting/gl-importer-plugin) — Official Synder plugin. Import CSV/XLSX accounting data into QuickBooks Online or Xero via the [Synder Importer API](https://importer.synder.com). 19 MCP tools covering imports, field mapping rules, post-import rules, and entity discovery. Bundles the `gl-importer` agent skill.
 
 ## Use Cases
 
