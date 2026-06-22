@@ -575,7 +575,8 @@ One document → one **objective-driven** summary (NOT a faithful conversion). P
 `/agy:notebook` sweep (a local NotebookLM): the caller fans this out, one call per document.
 
 - Timeout: `6m0s` (single document, summary not full transcription).
-- Always pass `--add-dir <CWD>` so agy can read the input file and write the summary.
+- **Run agy from a NEUTRAL scratch CWD, not the project root** — `cd "$(mktemp -d 2>/dev/null || echo "$TEMP")"` (or any dir outside a git repo) right before invoking agy. Running with the CWD inside the calling git project makes agy 1.0.10 register it as a cascade "project" and **sandbox every `write_file` to `brain/<uuid>/`, then REJECT the absolute output path** ("not a valid artifact path") → the model replans/retries 3-5× per document (~4× slower) and also snapshots the repo's untracked files on startup. A neutral CWD avoids both. **Verified:** clean CWD = 1 write, ~10s; project CWD = 5 round-trips, ~43s for the same 1-page doc.
+- **Grant file access with repeatable `--add-dir` (NOT `--add-dir <CWD>`):** pass `--add-dir "<dirname of the file agy READS>"` **and** `--add-dir "<dirname of WRITE_FILE>"` (in `text` mode both are under the notebook output dir, so one suffices; in `vision` mode add the source document's folder too).
 - The file agy must READ depends on `INPUT_MODE`:
   - `text` → `<TEXT_FILE>` (already-extracted plain text; cheaper/faster than vision).
   - `vision` → `<SOURCE_FILE>` (scanned PDF / image; agy uses multimodal OCR).
@@ -619,7 +620,7 @@ All per-document summaries → a relevance **index** + a cited **master synthesi
 run after the whole sweep. Reads only the small `*.resumen.md` files.
 
 - Timeout: `8m0s`.
-- Always pass `--add-dir <CWD>`.
+- **Run agy from a neutral scratch CWD** (`cd "$(mktemp -d)"`), not the project root — see the rationale under `Mode: notebook` (project CWD → `brain/` artifact sandbox → write rejected → slow retries). Grant access with `--add-dir "<SUMMARIES_DIR>"` (it holds both the `*.resumen.md` inputs and the four output files); do NOT pass `--add-dir <CWD>`.
 - Prompt template:
 
   ```
@@ -667,7 +668,7 @@ Answer a question from the existing per-document summaries (the "chat" over a no
 Reads only the small `*.resumen.md` files — never the original documents.
 
 - Timeout: `5m0s`.
-- Always pass `--add-dir <CWD>`.
+- **Run agy from a neutral scratch CWD** (`cd "$(mktemp -d)"`), not the project root — see `Mode: notebook` (project CWD → `brain/` artifact sandbox → write rejected → slow retries). Grant access with `--add-dir "<SUMMARIES_DIR>"` (holds the `*.resumen.md` inputs and the answer file); do NOT pass `--add-dir <CWD>`.
 - Prompt template:
 
   ```
@@ -692,41 +693,53 @@ Reads only the small `*.resumen.md` files — never the original documents.
 
 ### Mode: notebook-group
 
-Summarise a **batch of short one-page documents** (providencias / pases de trámite) in a SINGLE
-agy call — `/agy:notebook` groups these to save calls/quota instead of one call per trivial doc.
+Summarise a **batch of text documents in a SINGLE agy call** — `/agy:notebook` packs text docs
+(≤4 docs / ≤24k chars per batch) so one agy invocation produces several summaries, cutting the
+dominant cost at scale (agy invocations-per-minute). **One summary file PER member** (NOT a combined
+file), each in the exact `Mode: notebook` shape, so `Mode: notebook-index` keeps full per-doc
+granularity with no index-side change.
 
-- Timeout: `6m0s`.
-- Always pass `--add-dir <CWD>`.
-- `MEMBER_FILES` is a `|`-joined list of extracted-text paths; `MEMBER_NAMES` the matching names.
+- Timeout: `6m0s` (batch is char-budgeted ≤24k by the caller, so it stays well under the limit).
+- **Run agy from a neutral scratch CWD** (`cd "$(mktemp -d)"`), not the project root — see `Mode: notebook` (project CWD → `brain/` artifact sandbox → write rejected → slow retries). Grant access with `--add-dir "<dirname of the WRITE_FILES>"` (the notebook output dir, which also holds the `_text/` member files); do NOT pass `--add-dir <CWD>`.
+- `MEMBER_FILES` (a.k.a. `TEXT_FILES`) is a `|`-joined list of extracted-text paths; `MEMBER_NAMES`
+  the matching display names; `WRITE_FILES` the matching `|`-joined output paths — all three in the
+  SAME order, one entry per document.
 - Prompt template:
 
   ```
-  Batch summary of short administrative documents. Output language: Spanish (es-AR).
+  Batch document-summary task — objective-driven, one summary PER document. Output language: Spanish (es-AR).
 
   Objetivo del caso: <OBJETIVO>
 
-  You are given several one-page administrative documents (providencias / pases de trámite).
-  Text files (pipe-separated): <MEMBER_FILES>
-  Names (pipe-separated, same order): <MEMBER_NAMES>
+  You are given several pre-extracted plain-text documents. Summarise EACH one INDEPENDENTLY.
+  Text files (pipe-separated, in order): <MEMBER_FILES>
+  Output files (pipe-separated, SAME order): <WRITE_FILES>
 
-  Read each file. Write ONE combined summary to this ABSOLUTE path: <WRITE_FILE>, with this shape:
+  For EACH input file, read it fully and write its OWN summary, with write_file, to the matching
+  output ABSOLUTE path, EXACTLY in this shape (the same as a single-document summary):
 
   ---
-  tipo: grupo de providencias / trámite
-  n_docs: <how many>
-  relevancia: <0-100 — the MAX relevance of any member to the objetivo>
+  doc: <original file basename>
+  tipo: <document class — NO, IF, PV, RS, ACTO, nota, resolución, planilla…>
+  numero_gde: <GDE/expediente number if present, else "">
+  fecha: <YYYY-MM-DD of the document, or "ilegible"/"" if none>
+  emisor: <issuing office / person, or "">
+  relevancia: <integer 0-100 — how relevant THIS doc is to the objetivo>
   ---
-  ## Documentos del grupo
-  - **<name>** (numero_gde, fecha): <one-line síntesis oriented to the objetivo>
-    (one bullet per document, in the given order; "ilegible" if a date/number can't be read)
-  ## Relevancia conjunta
-  <1-2 sentences: do any of these matter for the objetivo, or are they pure routing/trámite?>
+  ## Síntesis
+  <2-6 sentences focused on the objetivo>
+  ## Datos clave
+  - <citable facts: dates, amounts, resolution numbers, people, decisions>
+  ## Relevancia
+  <1-2 sentences: why it is (or isn't) relevant to the objetivo>
 
-  Do NOT invent. Do NOT print to chat. The written file is your only deliverable.
+  Never merge two documents into one file. Never skip a file. One output file per input, same order.
+  If a date/number is unreadable write "ilegible"; do NOT invent it.
+  OUTPUT REQUIREMENT (CRITICAL): Do NOT print to chat. The written files are your only deliverable.
   ```
 
-- After agy returns, verify `WRITE_FILE` exists and is non-empty (same WRITE_FILE check / recovery).
-  Return its path to the caller.
+- After agy returns, verify EVERY entry in `WRITE_FILES` exists and is non-empty (`test -s`). Report
+  how many were written and list any missing members so the caller can retry/stub just those.
 
 ### Mode: transcribe
 

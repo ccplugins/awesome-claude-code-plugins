@@ -33,7 +33,7 @@ import fitz  # PyMuPDF
 folder, outdir, objetivo = sys.argv[1], sys.argv[2], (sys.argv[3] if len(sys.argv) > 3 else "")
 os.makedirs(os.path.join(outdir, "_text"), exist_ok=True)
 objhash = hashlib.sha1(objetivo.strip().encode("utf-8")).hexdigest()[:8]
-MAXV, CHUNK, GROUP = 20, 15, 8   # scans >MAXV pages -> CHUNK-page subs; >=3 one-page text docs -> groups of GROUP
+MAXV, CHUNK, GROUP_MAX, CHAR_BUDGET = 20, 15, 4, 24000   # scans >MAXV pages -> CHUNK-page subs; uncached text docs -> groups of <=GROUP_MAX docs and <=CHAR_BUDGET chars (1 agy call -> many summaries)
 cache_path = os.path.join(outdir, "_cache.tsv"); prev = {}
 if os.path.exists(cache_path):
     for ln in open(cache_path, encoding="utf-8"):
@@ -48,15 +48,15 @@ def mkrow(nn, mode, src, tpath, summ, key):     # incremental cache per output f
     if os.path.exists(os.path.join(outdir, summ)) and prev.get(summ) == key:
         return (nn, "cached", src, "-", summ, key)
     return (nn, mode, src, tpath, summ, key)
-rows=[]; small=[]   # small = (nn, txtpath, fullpath, name, key) for 1-page text docs (groupable)
+rows=[]; small=[]   # small = UNCACHED text docs to pack into groups: (nn, sl, tpath, srcabs, key, nchars)
 for i,f in enumerate(files,1):
     nn=f"{i:03d}"; sl=slug(f); st=os.stat(f); key=f"{st.st_size}:{int(st.st_mtime)}:{objhash}"
-    is_pdf=f.lower().endswith(".pdf"); mode="vision"; tpath="-"; pages=0; d=None
+    is_pdf=f.lower().endswith(".pdf"); mode="vision"; tpath="-"; pages=0; d=None; nchars=0
     if is_pdf:
         try:
             d=fitz.open(f); pages=d.page_count; txt="\n".join(p.get_text() for p in d)
             if pages and len(txt.strip())/pages >= 200:
-                mode="text"; tpath=os.path.join(outdir,"_text",f"{nn}-{sl}.txt")
+                mode="text"; nchars=len(txt.strip()); tpath=os.path.join(outdir,"_text",f"{nn}-{sl}.txt")
                 open(tpath,"w",encoding="utf-8").write(txt)
         except Exception:
             mode,pages,d="vision",0,None
@@ -68,21 +68,33 @@ for i,f in enumerate(files,1):
             sub=fitz.open(); sub.insert_pdf(d,from_page=startp,to_page=endp-1); sub.save(cpath); sub.close()
             summ=f"{nn}-{sl}-p{startp+1:03d}-{endp:03d}.resumen.md"
             rows.append(mkrow(nn,"vision",cpath,"-",summ,f"{key}:c{ci}"))
-    elif mode=="text" and is_pdf and pages==1:
-        small.append((nn, tpath, os.path.abspath(f), os.path.basename(f), key))   # group later
+    elif mode=="text":
+        summ=f"{nn}-{sl}.resumen.md"
+        if os.path.exists(os.path.join(outdir,summ)) and prev.get(summ)==key:
+            rows.append((nn,"cached",os.path.abspath(f),tpath,summ,key))     # already summarized -> skip
+        else:
+            small.append((nn, sl, tpath, os.path.abspath(f), key, nchars))   # pack into a group below
     else:
         rows.append(mkrow(nn,mode,os.path.abspath(f),tpath,f"{nn}-{sl}.resumen.md",key))
     if d is not None: d.close()
-# group 1-page text docs (providencias / pases de trámite) to save agy calls
-if len(small) >= 3:
-    for gi in range(0, len(small), GROUP):
-        batch=small[gi:gi+GROUP]; g=f"G{gi//GROUP+1:02d}"
-        members="|".join(t for _,t,_,_,_ in batch); names="|".join(n for _,_,_,n,_ in batch)
-        gkey=hashlib.sha1(("|".join(k for *_,k in batch)).encode()).hexdigest()[:12]
-        rows.append(mkrow(g,"group",members,names,f"_grupo-{g.lower()}.resumen.md",gkey))
-else:
-    for nn,t,full,n,key in small:
-        rows.append(mkrow(nn,"text",full,t,f"{nn}-{slug(n)}.resumen.md",key))
+# greedy-pack UNCACHED text docs into groups (<=GROUP_MAX docs, <=CHAR_BUDGET chars) to cut agy calls.
+# Each group = ONE agy call that writes one summary file PER member (see Mode: notebook-group).
+batches=[]; cur=[]; cc=0
+for it in small:                                    # it = (nn, sl, tpath, srcabs, key, nchars)
+    if cur and (len(cur)>=GROUP_MAX or cc+it[5]>CHAR_BUDGET):
+        batches.append(cur); cur=[]; cc=0
+    cur.append(it); cc+=it[5]
+if cur: batches.append(cur)
+for gi,b in enumerate(batches,1):
+    if len(b)==1:                                   # lone text doc -> 1-per-call (no group overhead)
+        nn,sl,tpath,srcabs,key,_=b[0]
+        rows.append((nn,"text",srcabs,tpath,f"{nn}-{sl}.resumen.md",key)); continue
+    g=f"G{gi:02d}"
+    texts="|".join(x[2] for x in b)                 # member text paths
+    names="|".join(f"{x[0]}-{x[1]}" for x in b)     # member display names
+    summs="|".join(f"{x[0]}-{x[1]}.resumen.md" for x in b)  # one output file PER member
+    gkey="|".join(x[4] for x in b)                  # per-member cache keys (pipe-joined)
+    rows.append((g,"group",texts,names,summs,gkey))
 rows.sort(key=lambda r: r[0])
 with open(os.path.join(outdir,"_manifest.tsv"),"w",encoding="utf-8") as m:
     for r in rows: m.write("\t".join(r)+"\n")
@@ -93,7 +105,9 @@ for r in rows: print("\t".join(r))
 PYEOF
 ```
 
-Manifest columns: `NN  mode(text|vision|cached)  source_abspath  text_path_or_dash  summary_relpath  cache_key`.
+Manifest columns: `NN  mode(text|vision|cached|group)  source_abspath  text_path_or_dash  summary_relpath  cache_key`.
+For **`group`** rows, columns 3/4/5/6 are PIPE-joined lists (member text paths · member names ·
+member summary files · member cache keys), all in the same order — one entry per document in the batch.
 If the manifest is empty → tell the user there are no supported documents and stop. If ALL docs are
 `cached` → skip Phase 1 entirely (nothing changed) and go straight to Phase 2.
 
@@ -130,10 +144,10 @@ PY
 
 ## Phase 1 — Per-document summaries (fan out agy, with rate-limit-aware retry)
 
-Dispatch manifest rows whose mode is `text` or `vision` to **MODE: notebook** (one subagent each,
-**skip `cached`**). Rows whose mode is **`group`** instead go to **MODE: notebook-group** (one
-subagent summarises a whole batch of one-page providencias in a single call — see below). Pass for
-MODE: notebook:
+Dispatch manifest rows by mode (**skip `cached`**). A `text` or `vision` row → **MODE: notebook**
+(one doc per call). A **`group`** row → **MODE: notebook-group** (ONE call summarises up to 4 text
+docs and writes one summary file PER member — this is the main throughput win, fewer agy
+invocations). Pass for MODE: notebook:
 
 ```
 MODE: notebook
@@ -147,38 +161,44 @@ USER_TEXT:
 (empty)
 ```
 
-For a **`group`** row, pass instead (field 3 = `|`-joined member text paths, field 4 = `|`-joined names):
+For a **`group`** row, split columns 3/5/4 on `|` and pass the matching PIPE-joined lists (same
+order; prefix each summary with `<OUTDIR>/` to make `WRITE_FILES` absolute):
 
 ```
 MODE: notebook-group
 CWD: <absolute current working dir>
 OBJETIVO: <objective>
-MEMBER_FILES: <pipe-joined member .txt paths>
-MEMBER_NAMES: <pipe-joined member display names>
-WRITE_FILE: <OUTDIR>/<summary_relpath>
+MEMBER_FILES: <pipe-joined member text paths (column 3)>
+MEMBER_NAMES: <pipe-joined member names (column 4)>
+WRITE_FILES: <OUTDIR>/<m1.resumen.md>|<OUTDIR>/<m2.resumen.md>|…  (column 5, each made absolute)
 USER_TEXT:
 (empty)
 ```
 
-**Concurrency — up to 10 per wave, with rate-limit backoff.** Each subagent runs its own `agy`
-process. agy is rate-limited per minute (RPM) by the Antigravity account tier — roughly ~10 RPM on
-the free tier, higher on Pro/Ultra. So fire a wave of **up to 10 Agent calls in one message**, but
-treat a wide wave as "best effort": if the account is throttled, some calls come back with **no
-output file** (HTTP 429) — that is **rate-limiting, not a per-document failure**. Do NOT stub those
-immediately. This mirrors how batch LLM pipelines work (a concurrency cap + retry/backoff, not
-blind parallelism). On a Pro/Ultra tier the retries below rarely fire; on free they smooth over the
-~10 RPM ceiling.
+**Concurrency — RPM-bounded waves, two separate queues.** Each subagent runs its own `agy` process;
+agy is rate-limited per minute (RPM) by the account tier — `RPM = 10` on free, higher on Pro/Ultra
+(if the user says they're on Pro, you may raise it to ~30). The binding limit is **invocations per
+minute**, which is exactly why text docs are batched (one `group` call covers up to 4 docs). To avoid
+a slow OCR/vision doc gating a wave of fast text batches (head-of-line blocking), run **two queues**:
 
-**Drive it as retry rounds** (don't trust the subagents' self-reports; trust the files on disk):
+- **Text/group queue** — all `group` and lone-`text` rows, in waves of up to `RPM` Agent calls per message.
+- **Vision queue** — all `vision` rows (scans/OCR, slower), in waves of up to 4.
 
-1. **Round 1** — spawn waves of up to 10 until every non-`cached` manifest doc has been dispatched once.
-2. **Check** (ONE Bash call): for every `summary_relpath`, test the file exists AND is non-empty
-   (`test -s`). Collect the `missing` list.
+Fire each wave as multiple Agent calls in ONE message. A throttled call comes back with **no output
+file** (HTTP 429) — that is **rate-limiting, not a per-document failure**; do NOT stub it immediately.
+
+**Drive it as retry rounds** (don't trust the subagents' self-reports; trust the files on disk). Note
+a `group` row covers several summary files — expand its column-5 pipe list when checking:
+
+1. **Round 1** — dispatch both queues (text/group first, then vision) until every non-`cached` row
+   has been sent once.
+2. **Check** (ONE Bash call): split each manifest row's column 5 on `|` and `test -s` **every** member
+   summary file. Collect the `missing` summary files (and which row/group they belong to).
 3. **Retry rounds (up to 2)** — if `missing` is non-empty, **wait ~60s** (one `sleep 60` — lets the
-   per-minute quota reset), then re-dispatch only the `missing` docs in waves of up to 10, and
-   re-check. Repeat at most twice.
-4. **Stub the rest** — only after the retry rounds, for any doc still missing/empty write a stub
-   yourself (`Write`) to its `WRITE_FILE`:
+   per-minute quota reset), then re-dispatch only the rows that own a missing member (for a `group`,
+   re-send the whole batch; the call rewrites all its members) in waves of up to `RPM`, and re-check.
+4. **Stub the rest** — only after the retry rounds, for any summary file still missing/empty write a
+   stub yourself (`Write`) to that `<OUTDIR>/<summary>`:
    ```
    ---
    doc: <basename>
@@ -187,19 +207,30 @@ blind parallelism). On a Pro/Ultra tier the retries below rarely fire; on free t
    ---
    No se pudo procesar tras reintentos (timeout o rate-limit de agy). Reintentar con /agy:notebook.
    ```
-5. **Update the cache** (ONE Bash call): rewrite `<OUTDIR>/_cache.tsv` from the manifest — one
-   `summary_relpath\tcache_key` line for every doc whose summary file now exists and is non-empty
-   (this records the `cached` rows plus the freshly-summarized ones; stubs/`no_procesado` are
-   excluded so they retry next run):
+5. **Update the cache** (ONE Bash call): rewrite `<OUTDIR>/_cache.tsv` with one
+   `summary\tcache_key` line per member whose summary now exists and is non-empty (covers `cached`
+   rows + freshly-summarized ones; `group` rows are expanded; `no_procesado` stubs excluded so they
+   retry next run):
    ```bash
-   awk -F'\t' '{print $5"\t"$6}' "$OUTDIR/_manifest.tsv" | while IFS=$'\t' read -r s k; do
-     [ -s "$OUTDIR/$s" ] && ! grep -q "estado: no_procesado" "$OUTDIR/$s" && printf '%s\t%s\n' "$s" "$k"
-   done > "$OUTDIR/_cache.tsv"
+   python - "$OUTDIR" <<'PY'
+   import os, sys
+   od = sys.argv[1]; out = []
+   for ln in open(os.path.join(od, "_manifest.tsv"), encoding="utf-8"):
+       c = ln.rstrip("\n").split("\t")
+       if len(c) < 6: continue
+       for s, k in zip(c[4].split("|"), c[5].split("|")):   # group rows carry pipe-lists; singles split to 1
+           p = os.path.join(od, s)
+           if os.path.exists(p) and os.path.getsize(p) > 0:
+               if "estado: no_procesado" not in open(p, encoding="utf-8", errors="ignore").read(200):
+                   out.append(f"{s}\t{k}")
+   open(os.path.join(od, "_cache.tsv"), "w", encoding="utf-8").write("\n".join(out) + ("\n" if out else ""))
+   print(f"cache: {len(out)} member summaries recorded")
+   PY
    ```
 
-> The per-minute ceiling is the real limiter, not local CPU — pushing concurrency far past ~10 just
-> produces more 429s, not more throughput. 10-per-wave + the 60s backoff between retry rounds is the
-> sweet spot on the free tier. (A paid Antigravity tier with higher RPM could raise the wave size.)
+> The per-minute ceiling is the real limiter, not local CPU. Batching text docs (≤4/call) is what
+> actually cuts wall-clock at scale — it lowers the invocation count the RPM ceiling applies to.
+> Pushing raw concurrency past `RPM` just produces more 429s, not more throughput.
 
 ## Phase 2 — Index + master synthesis (switch model, then ONE agy subagent)
 
