@@ -57,6 +57,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 ### Workflow Orchestration
 - [angelos-symbo](./plugins/angelos-symbo)
 - [ceo-quality-controller-agent](./plugins/ceo-quality-controller-agent)
+- [devforge-ai](https://github.com/saitarrun/devforge-ai) — Agentic SDLC orchestration for Claude Code: 10 role-specific agents across Plan → Build → Verify → Ship → Operate phases with tracer bullet delivery
 - [claude-desktop-extension](./plugins/claude-desktop-extension)
 - [lyra](./plugins/lyra)
 - [model-context-protocol-mcp-expert](./plugins/model-context-protocol-mcp-expert)
