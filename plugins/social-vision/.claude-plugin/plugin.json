@@ -1,0 +1,21 @@
+{
+  "name": "social-vision",
+  "version": "1.0.0",
+  "description": "Paste an Instagram, TikTok, YouTube (Shorts), or X/Twitter link and Claude watches it for you — transcribes the audio, reads the on-screen text and visuals, and explains what it's actually about. Runs locally and cross-platform.",
+  "author": {
+    "name": "Shivang Trivedi"
+  },
+  "homepage": "https://github.com/Shivang0/social-vision",
+  "repository": "https://github.com/Shivang0/social-vision",
+  "license": "MIT",
+  "keywords": [
+    "video",
+    "instagram",
+    "tiktok",
+    "youtube",
+    "twitter",
+    "transcription",
+    "whisper",
+    "vision"
+  ]
+}
