@@ -120,6 +120,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [ai-engineer](./plugins/ai-engineer)
 - [api-integration-specialist](./plugins/api-integration-specialist)
 - [backend-architect](./plugins/backend-architect)
+- [cc-cream](https://github.com/bart-turczynski/cc-cream) — See cache health, context fill, token burn, rate limits, and peak hours in Claude Code CLI. The status line for anti-tokenmaxxing.
 - [code-architect](./plugins/code-architect)
 - [desktop-app-dev](./plugins/desktop-app-dev)
 - [enterprise-integrator-architect](./plugins/enterprise-integrator-architect)
