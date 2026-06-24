@@ -1670,6 +1670,29 @@
         "security",
         "compliance"
       ]
+    },
+    {
+      "name": "antigravity",
+      "source": "./plugins/antigravity",
+      "description": "A local NotebookLM for Claude Code. /agy:notebook sweeps a whole folder of documents (PDFs, scans, images, docx) through Google's Antigravity CLI (agy / Gemini 3.x, multimodal) and writes per-document summaries, a relevance index, a cited master synthesis, a timeline and an entity sheet; /agy:notebook-ask answers questions over them with citations — keeping the heavy reading off Claude's context. Also transcribes audio/video (/agy:transcribe, /agy:media), deep web research, browser-walkthrough recording, web scraping, document-to-markdown and design review. No Node runtime.",
+      "version": "0.7.0",
+      "author": {
+        "name": "Marcos Nahuel Albornoz",
+        "email": "contact@traidai.com"
+      },
+      "category": "Documentation",
+      "homepage": "https://github.com/MarcosNahuel/antigravity-plugin-cc",
+      "keywords": [
+        "notebooklm",
+        "document-analysis",
+        "rag",
+        "audio-transcription",
+        "video-summarization",
+        "multimodal",
+        "deep-research",
+        "gemini",
+        "agy"
+      ]
     }
   ]
 }
