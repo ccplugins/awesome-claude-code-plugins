@@ -56,6 +56,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Workflow Orchestration
 - [angelos-symbo](./plugins/angelos-symbo)
+- [automatic-episodic-memory](https://github.com/automattf/automatic-episodic-memory) — Episodic memory with automatic recall for Claude Code: captures work across context compactions and surfaces relevant past episodes automatically on prompts, tool calls, and turn end, with no manual logging or lookup.
 - [ceo-quality-controller-agent](./plugins/ceo-quality-controller-agent)
 - [claude-desktop-extension](./plugins/claude-desktop-extension)
 - [lyra](./plugins/lyra)
