@@ -176,6 +176,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [desktop-app-dev](./plugins/desktop-app-dev)
 - [enterprise-integrator-architect](./plugins/enterprise-integrator-architect)
 - [flutter-mobile-app-dev](./plugins/flutter-mobile-app-dev)
+- [forkmind](./plugins/forkmind) - Local-first LLM branching & debugging — capture, branch, and regression-test LLM calls as a DAG
 - [frontend-developer](./plugins/frontend-developer)
 - [ios-app-dev-skills](https://github.com/JasonColapietro/ios-app-dev-skills)
 - [mobile-app-builder](./plugins/mobile-app-builder)
