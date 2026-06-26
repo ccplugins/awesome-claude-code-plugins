@@ -1670,6 +1670,24 @@
         "security",
         "compliance"
       ]
+    },
+    {
+      "name": "forkmind",
+      "source": "./plugins/forkmind",
+      "description": "Local-first LLM branching & debugging. Treat AI context windows like a Git repo — capture, branch, and regression-test LLM calls as a DAG. Free & local via Ollama, any OpenAI-compatible API, and MCP for agents.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Medhovarsh Bayyapureddi",
+        "url": "https://github.com/Medhovarsh"
+      },
+      "category": "Development Engineering",
+      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/forkmind",
+      "keywords": [
+        "llm",
+        "debugging",
+        "observability",
+        "mcp"
+      ]
     }
   ]
 }

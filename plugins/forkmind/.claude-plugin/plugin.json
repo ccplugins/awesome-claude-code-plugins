@@ -1,0 +1,27 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "forkmind",
+  "version": "0.1.0",
+  "description": "Local-first LLM branching & debugging. Treat AI context windows like a Git repo — capture, branch, and regression-test LLM calls as a DAG. Teaches Claude when and how to drive ForkMind.",
+  "author": {
+    "name": "Medhovarsh Bayyapureddi",
+    "url": "https://github.com/Medhovarsh"
+  },
+  "homepage": "https://medhovarsh.github.io/forkmind/",
+  "repository": "https://github.com/Medhovarsh/forkmind",
+  "license": "MIT",
+  "keywords": [
+    "llm",
+    "debugging",
+    "observability",
+    "ollama",
+    "mcp",
+    "local-first"
+  ],
+  "mcpServers": {
+    "forkmind": {
+      "command": "npx",
+      "args": ["-y", "github:medhovarsh/forkmind", "mcp"]
+    }
+  }
+}
