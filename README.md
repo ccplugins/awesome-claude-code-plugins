@@ -209,6 +209,11 @@ Example:
 /plugin install analyze-codebase
 ```
 
+## Also See
+
+- [Skill Hub](https://github.com/rdone4425/skill) — 4133+ AI Agent Skills directory with 22 categories and platform filters (Claude Code, Codex, Cursor, Hermes). [Live](https://skill.442595.xyz/)
+
+
 ## Contributing
 
 Contributions are welcome!
