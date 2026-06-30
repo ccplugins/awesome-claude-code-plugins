@@ -163,6 +163,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [app-store-optimizer](./plugins/app-store-optimizer)
 - [content-creator](./plugins/content-creator)
 - [growth-hacker](./plugins/growth-hacker)
+- [Hermes Tweet](https://github.com/Xquik-dev/hermes-tweet) - Native Hermes Agent plugin for X/Twitter research, monitoring, drafting, follower exports, and approval-gated actions.
 - [instagram-curator](./plugins/instagram-curator)
 - [reddit-community-builder](./plugins/reddit-community-builder)
 - [tiktok-strategist](./plugins/tiktok-strategist)
