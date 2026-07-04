@@ -23,6 +23,7 @@ Awesome Claude Code plugins — a curated list of slash commands, subagents, MCP
     - [Security, Compliance, & Legal](#security-compliance--legal)
 * [Tutorials](#tutorials)
 * [Contributing](#contributing)
+- **[Context Kit](https://github.com/JDDavenport/context-kit)** — Personal Context Artifacts: 4 Markdown templates + 5 Claude Code skills for giving AI agents deep personal context. MIT, one-command install.
 
 ## What is Claude Code Plugin?
 
