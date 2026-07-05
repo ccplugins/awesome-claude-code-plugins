@@ -213,3 +213,5 @@ Example:
 
 Contributions are welcome!
  You can add your favorite plugins, share best practices, or submit your own marketplace.
+
+- [Context Kit](https://github.com/JDDavenport/context-kit) — 4 PCA templates + 5 skills (open-loops, watchers, CRM, morning-briefing, session-digest). MIT.
