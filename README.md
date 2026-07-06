@@ -165,6 +165,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [growth-hacker](./plugins/growth-hacker)
 - [instagram-curator](./plugins/instagram-curator)
 - [reddit-community-builder](./plugins/reddit-community-builder)
+- [taisly-agent-kit](https://github.com/taisly/agent)
 - [tiktok-strategist](./plugins/tiktok-strategist)
 - [twitter-engager](./plugins/twitter-engager)
 
