@@ -898,6 +898,26 @@
       ]
     },
     {
+      "name": "fe-rail",
+      "source": "./plugins/fe-rail",
+      "description": "Harness dedicated to frontend projects. Supports Next.js App Router / Vite SPA + TypeScript, Tailwind v3/v4, shadcn/ui. Automates the spec→build→review→PR cycle.",
+      "version": "1.14.1",
+      "author": {
+        "name": "Seungho",
+        "email": "seungho5623@gmail.com"
+      },
+      "category": "Development Engineering",
+      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/fe-rail",
+      "keywords": [
+        "frontend",
+        "nextjs",
+        "vite",
+        "typescript",
+        "harness",
+        "workflow"
+      ]
+    },
+    {
       "name": "enterprise-onboarding-specialist",
       "source": "./plugins/enterprise-onboarding-specialist",
       "description": "Use this agent when you need to design and optimize complex enterprise customer onboarding processes involving multiple stakeholders, change management, and organizational adoption. This agent specializes in enterprise implementation strategy, stakeholder management, change management, and large-scale rollout coordination for B2B platforms. Examples:",

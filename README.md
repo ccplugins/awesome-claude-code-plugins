@@ -123,6 +123,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [code-architect](./plugins/code-architect)
 - [desktop-app-dev](./plugins/desktop-app-dev)
 - [enterprise-integrator-architect](./plugins/enterprise-integrator-architect)
+- [fe-rail](./plugins/fe-rail)
 - [flutter-mobile-app-dev](./plugins/flutter-mobile-app-dev)
 - [frontend-developer](./plugins/frontend-developer)
 - [mobile-app-builder](./plugins/mobile-app-builder)

@@ -1,0 +1,20 @@
+{
+  "name": "fe-rail-market",
+  "description": "Claude Code plugin marketplace for frontend projects — fe-rail",
+  "owner": {
+    "name": "Seungho",
+    "email": "seungho5623@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "fe-rail",
+      "description": "Harness dedicated to frontend projects. Supports Next.js App Router / Vite SPA + TypeScript, Tailwind v3/v4, shadcn/ui. Automates the spec→build→review→PR cycle.",
+      "category": "engineering",
+      "tags": ["frontend", "nextjs", "typescript", "harness", "workflow"],
+      "source": {
+        "source": "github",
+        "repo": "sh5623/fe-rail"
+      }
+    }
+  ]
+}
