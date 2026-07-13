@@ -1,0 +1,17 @@
+{
+  "name": "claudex",
+  "version": "0.6.0",
+  "description": "Claude writes. Codex reviews. You ship. Cross-model pair programming inside Claude Code.",
+  "author": {
+    "name": "Hamza Ali"
+  },
+  "homepage": "https://github.com/hamza-ali-shahjahan/claudex",
+  "keywords": [
+    "claude-code",
+    "codex",
+    "code-review",
+    "pair-programming",
+    "cross-model",
+    "claudex"
+  ]
+}
