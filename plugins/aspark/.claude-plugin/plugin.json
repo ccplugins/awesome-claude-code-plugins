@@ -1,0 +1,10 @@
+{
+  "name": "aspark",
+  "description": "An agile AI product team for Claude Code — Specify, Plan, Act, Review, Keep. A Product Owner, Designer, Engineering Manager, Reviewer, QA Tester and Release Manager work your feature through a gated delivery loop.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Andreas Lottes",
+    "email": "andreas.lottes@adesso.de"
+  },
+  "keywords": ["agile", "scrum", "team", "workflow", "sdlc", "quality-gates"]
+}
