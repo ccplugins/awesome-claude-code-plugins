@@ -1,0 +1,9 @@
+{
+  "name": "x-twitter-scraper",
+  "description": "Connect Claude Code to Xquik for X data research, extraction, monitoring, and exports. Run approved actions through its remote MCP server. Not affiliated with X Corp.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Xquik"
+  },
+  "homepage": "https://github.com/Xquik-dev/x-twitter-scraper"
+}

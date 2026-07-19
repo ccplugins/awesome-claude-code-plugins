@@ -49,7 +49,7 @@
 
 ### Claude Code 官方插件
 - [agent-sdk-dev](./plugins/agent-sdk-dev)
-- [pr-review-toolkit](./plugins/pr-review-toolkit")
+- [pr-review-toolkit](./plugins/pr-review-toolkit)
 - [commit-commands](./plugins/commit-commands)
 - [feature-dev](./plugins/feature-dev)
 - [security-guidance](./plugins/security-guidance)
@@ -111,6 +111,7 @@
 - [experiment-tracker](./plugins/experiment-tracker)
 - [feedback-synthesizer](./plugins/feedback-synthesizer)
 - [trend-researcher](./plugins/trend-researcher)
+- [x-twitter-scraper](./plugins/x-twitter-scraper)
 
 ### 用户体验设计
 - [brand-guardian](./plugins/brand-guardian)

@@ -56,7 +56,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Official Claude Code Plugins
 - [agent-sdk-dev](./plugins/agent-sdk-dev)
-- [pr-review-toolkit](./plugins/pr-review-toolkit")
+- [pr-review-toolkit](./plugins/pr-review-toolkit)
 - [commit-commands](./plugins/commit-commands)
 - [feature-dev](./plugins/feature-dev)
 - [security-guidance](./plugins/security-guidance)
@@ -147,6 +147,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [newsmcp](https://github.com/pranciskus/newsmcp) — Real-time world news for AI agents — events clustered from hundreds of sources, classified by 12 topics and 30+ geographic regions, ranked by importance. Free, no API key required.
 - [trend-researcher](./plugins/trend-researcher)
 - [wellnizz](./plugins/wellnizz)
+- [x-twitter-scraper](./plugins/x-twitter-scraper)
 
 ### Audio & Media
 - [bibigpt-skill](https://github.com/JimmyLv/bibigpt-skill) - AI-powered video, audio & podcast summarization
