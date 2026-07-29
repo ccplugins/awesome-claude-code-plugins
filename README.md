@@ -131,6 +131,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [rapid-prototyper](./plugins/rapid-prototyper)
 - [react-native-dev](./plugins/react-native-dev)
 - [vision-specialist](./plugins/vision-specialist)
+- [snaptool](./plugins/snaptool)
 - [web-dev](./plugins/web-dev)
 
 ### Documentation
