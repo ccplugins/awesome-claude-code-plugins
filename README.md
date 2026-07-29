@@ -133,6 +133,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [vision-specialist](./plugins/vision-specialist)
 - [web-dev](./plugins/web-dev)
 
+- [snaptool](https://github.com/RexHuang/snaptool-skills) — 49 developer tools for AI agents via REST API (JSON/CSS/HTML/SQL/XML formatting, Base64/URL encoding, SHA hashing, UUID/password generation, regex testing, JWT decoding)
 ### Documentation
 - [analyze-codebase](./plugins/analyze-codebase)
 - [changelog-generator](./plugins/changelog-generator)
