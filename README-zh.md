@@ -138,6 +138,7 @@
 - [changelog-generator](./plugins/changelog-generator)
 - [codebase-documenter](./plugins/codebase-documenter)
 - [context7-docs-fetcher](./plugins/context7-docs-fetcher)
+- [dev-report](./plugins/dev-report)
 - [documentation-generator](./plugins/documentation-generator)
 - [generate-api-docs](./plugins/generate-api-docs)
 - [openapi-expert](./plugins/openapi-expert)
