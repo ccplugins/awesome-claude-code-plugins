@@ -91,6 +91,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [debug-session](./plugins/debug-session)
 - [debugger](./plugins/debugger)
 - [double-check](./plugins/double-check)
+- [nuhuh](./plugins/nuhuh)
 - [optimize](./plugins/optimize)
 - [performance-benchmarker](./plugins/performance-benchmarker)
 - [refractor](./plugins/refractor)
