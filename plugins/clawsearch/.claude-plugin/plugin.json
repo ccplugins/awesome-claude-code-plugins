@@ -1,0 +1,9 @@
+{
+  "name": "clawsearch",
+  "description": "Security-first skill discovery engine. Search and evaluate AI agent skills with Trust Score ratings, knowledge graph analysis, and security assessments before installation.",
+  "version": "1.0.0",
+  "author": {
+    "name": "ClawSearch"
+  },
+  "homepage": "https://clawsearch.cc"
+}
