@@ -57,17 +57,20 @@
 ### 工作流编排
 - [angelos-symbo](./plugins/angelos-symbo)
 - [ceo-quality-controller-agent](./plugins/ceo-quality-controller-agent)
+- [claude-recap](https://github.com/hatawong/claude-recap) — 基于话题的会话记忆插件，使用 Shell hooks 将每个对话话题归档为独立的 Markdown 摘要。两个 hooks，bash + Node.js，100% 本地运行。
 - [claude-desktop-extension](./plugins/claude-desktop-extension)
 - [lyra](./plugins/lyra)
 - [model-context-protocol-mcp-expert](./plugins/model-context-protocol-mcp-expert)
 - [problem-solver-specialist](./plugins/problem-solver-specialist)
 - [studio-coach](./plugins/studio-coach)
+- [tree-ring-memory](https://github.com/TerminallyLazy/tree-ring-memory-claude-plugin)
 - [ultrathink](./plugins/ultrathink)
 
 ### 自动化运维
 - [deployment-engineer](./plugins/deployment-engineer)
 - [devops-automator](./plugins/devops-automator)
 - [infrastructure-maintainer](./plugins/infrastructure-maintainer)
+- [kubestellar-console](./plugins/kubestellar-console)
 - [monitoring-observability-specialist](./plugins/monitoring-observability-specialist)
 - [n8n-workflow-builder](./plugins/n8n-workflow-builder)
 
@@ -79,6 +82,7 @@
 - [pricing-packaging-specialist](./plugins/pricing-packaging-specialist)
 - [product-sales-specialist](./plugins/product-sales-specialist)
 - [support-responder](./plugins/support-responder)
+- [stratarts](./plugins/stratarts)
 - [technical-sales-engineer](./plugins/technical-sales-engineer)
 
 ### 代码质量测试
@@ -101,7 +105,9 @@
 
 ### 数据分析
 - [analytics-reporter](./plugins/analytics-reporter)
+- [crypto-trading-desk](./plugins/crypto-trading-desk)
 - [data-scientist](./plugins/data-scientist)
+- [dna-claude-analysis](./plugins/dna-claude-analysis)
 - [experiment-tracker](./plugins/experiment-tracker)
 - [feedback-synthesizer](./plugins/feedback-synthesizer)
 - [trend-researcher](./plugins/trend-researcher)
@@ -138,6 +144,7 @@
 - [changelog-generator](./plugins/changelog-generator)
 - [codebase-documenter](./plugins/codebase-documenter)
 - [context7-docs-fetcher](./plugins/context7-docs-fetcher)
+- [dev-report](./plugins/dev-report)
 - [documentation-generator](./plugins/documentation-generator)
 - [generate-api-docs](./plugins/generate-api-docs)
 - [openapi-expert](./plugins/openapi-expert)
@@ -166,6 +173,7 @@
 - [growth-hacker](./plugins/growth-hacker)
 - [instagram-curator](./plugins/instagram-curator)
 - [reddit-community-builder](./plugins/reddit-community-builder)
+- [taisly-agent-kit](https://github.com/taisly/agent)
 - [tiktok-strategist](./plugins/tiktok-strategist)
 - [twitter-engager](./plugins/twitter-engager)
 

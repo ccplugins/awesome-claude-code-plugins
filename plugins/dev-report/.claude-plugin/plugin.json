@@ -1,0 +1,12 @@
+{
+  "name": "dev-report",
+  "description": "Explains your Claude Code session in plain language: what it changed, why it chose that approach, what is still unfinished, and what you should do next",
+  "version": "1.0.1",
+  "author": {
+    "name": "Delpi Corp.",
+    "url": "https://github.com/delpicorp"
+  },
+  "homepage": "https://github.com/delpicorp/dev-report",
+  "license": "MIT",
+  "commands": "./commands/localized/"
+}

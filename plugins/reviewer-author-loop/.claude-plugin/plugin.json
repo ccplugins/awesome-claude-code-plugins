@@ -1,0 +1,10 @@
+{
+  "name": "reviewer-author-loop",
+  "description": "Human-in-the-loop manuscript improvement workflow that cycles through reviewer critique, author revision, verification, and re-review until acceptance or a pause condition.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Han Hu",
+    "url": "https://github.com/hanhuark"
+  },
+  "homepage": "https://github.com/hanhuark/reviewer-author-loop-skill"
+}
