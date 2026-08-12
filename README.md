@@ -134,6 +134,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [think-first](https://github.com/ofershap/think-first) - Plan-before-code behavior modifier for agents
 
 ### Communication & Integrations
+- [slack-message-formatter](./plugins/slack-message-formatter) - Format Markdown for Slack: rich HTML copy-paste plus mrkdwn API output.
 - [whatsapp-claude-plugin](https://github.com/Rich627/whatsapp-claude-plugin) — WhatsApp channel plugin for Claude Code. Connects as a linked device via Baileys v7 with bidirectional messaging, full media support, voice transcription, permission relay, and access control.
 
 ### Data Analytics
