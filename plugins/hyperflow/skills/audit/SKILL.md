@@ -1,72 +1,61 @@
 ---
 name: audit
-description: Use when the user asks for a code review, "review this change", "review my PR", "review the diff", or wants quality/spec/security/perf feedback on recent changes. Triggers a multi-level review with a thinking-tier reviewer agent. Standalone — does not auto-chain.
+description: Use when reviewing code, a diff, branch, pull request, or system for correctness, risk, security, performance, or maintainability.
+allowed-tools: Read, Write, Glob, Grep, Agent, Skill, AskUserQuestion, WebSearch, WebFetch, Bash
+argument-hint: "[target] [--level 1-5] [and-fix]"
+version: 6.1.1
+license: MIT
+compatibility: Portable with read-only specialist reviewers
+tags: [review, audit, security, quality]
 ---
 
 # Audit
 
-Standalone multi-level code review. Dispatcher — Opus 4.7 (thinking-tier). Workers — Sonnet 4.6.
+Review evidence, not preferences. Audit is read-only except for its Markdown findings artefact. It stops after findings unless the request also explicitly asks to fix them.
 
-## Inputs
+## Scope and depth
 
-- **Target** — file path, line range, commit SHA, branch, or PR number provided by the user
-- **Default (no target)** — `git diff HEAD` + `git diff --staged`
-- **Level flag** — `--level 1` through `--level 5` (default — L2)
+Resolve the exact target first: supplied paths, pull-request diff, or Git range; otherwise use current staged and unstaged changes. Never widen an explicit range. Read project instructions, affected code, callers, tests, and relevant configuration.
 
-## Review Levels
+Map `--level` to the smallest useful lane:
 
-Adapted from [review-levels.md](../hyperflow/review-levels.md):
+| Level | Lane | Coverage |
+|---:|---|---|
+| 1 | Direct | syntax, obvious correctness, accidental change |
+| 2 | Focused | acceptance, edge cases, tests, local conventions |
+| 3 | Focused | cross-file integration and common security risks |
+| 4 | Deep | architecture, accessibility, data, performance, operations |
+| 5 | Deep | adversarial and cross-boundary review |
 
-| L | Name | Checks |
-|---|------|--------|
-| 1 | Quick | Syntax, obvious bugs, formatting |
-| 2 | Standard | L1 + spec compliance, naming, edge cases |
-| 3 | Thorough | L2 + cross-file consistency, integration risks, security |
-| 4 | Deep | L3 + architecture, scalability, accessibility |
-| 5 | Exhaustive | L4 + adversarial probing, perf profiling, alternatives |
+Default to level 2. Security-sensitive, migration, authentication, authorization, credential, or regulated-data scope is always Deep regardless of the flag.
 
-Security scan (hardcoded secrets, injection, path traversal, XSS, missing validation) is mandatory at L3+. See [security.md](../hyperflow/security.md).
+## Review
 
-## Flow
+- **Direct:** coordinator reviews the exact diff with zero child agents.
+- **Focused:** one matching specialist reviewer examines the cumulative target.
+- **Deep:** run two or three independent specialist lenses only when their domains are present, then one specialist integration reviewer reconciles evidence and severity.
 
-1. Resolve scope — use provided target or run `git diff HEAD` + `git diff --staged`.
-2. Dispatch `Searcher — gathering context for review` (Sonnet 4.6) to map referenced files and load relevant project context.
-3. Dispatch `**Reviewer** — reviewing <scope> at level L<n>` — Opus 4.7 (thinking-tier, non-negotiable).
-4. Reviewer uses [reviewer-prompt.md](../hyperflow/reviewer-prompt.md) template with the diff, level definition, and any applicable spec.
-5. Aggregate findings into structured output (see below).
-6. Append durable patterns/gotchas to `.hyperflow/memory/learnings.md` per [memory-system.md](../hyperflow/memory-system.md).
+Choose from `agents/systems-reviewer.md`, `experience-reviewer.md`, `data-reviewer.md`, `risk-reviewer.md`, or `performance-reviewer.md`. Use `debugger.md` for failure causality and `researcher.md` only when external current facts are material. Reviewers are read-only, never coordinate, never implement, and never review their own authored change.
 
-If any security issue found → emit `SECURITY_VIOLATION:` halt marker immediately.
+Every finding must include severity, `path:line`, observed evidence, impact, and the smallest viable correction. Exclude vague possibilities, praise padding, and style opinions unsupported by project rules. Confirm applicability before reporting a vulnerability. A confirmed secret or critical trust-boundary defect returns `SECURITY_VIOLATION:` and halts.
 
-## Output Format
+## Artefact and continuation
 
-```
-── Review Result ──────────────────────
-Scope: <files / range / commit>
-Level: L<n>
-Verdict: PASS | NEEDS_FIX | SECURITY_VIOLATION
+Write one `.hyperflow/audits/<YYYY-MM-DD-HHmm>-<scope>.md`:
 
-[Critical]
-- file:line — issue + required fix
+```markdown
+# Audit: <scope>
+| Field | Value |
+|---|---|
+| Verdict | PASS / NEEDS_FIX / SECURITY_VIOLATION |
+| Level | <1-5> |
+| Target | <exact paths or refs> |
 
-[Important]
-- file:line — issue + recommended fix
+## Findings
+- [severity] `<path:line>` — <impact>. Fix: <smallest correction>.
 
-[Suggestions]
-- file:line — optional improvement
-
-[Praise]
-- file:line — what's done well
-───────────────────────────────────────
-Agents: 1 searcher (sonnet) · 1 reviewer (opus)
+## Evidence
+- <checks, inspected paths, and material limits>
 ```
 
-## Hand-off (no auto-chain)
-
-- **PASS** — suggest `/hyperflow:deploy` if the user is ready to release. Do not auto-ship.
-- **NEEDS_FIX** — print the finding list and suggest `/hyperflow:trace` (for root-cause bugs) or manual edits. Do not auto-fix.
-- **SECURITY_VIOLATION** — halt; do not transition. User decides remediation path.
-
-## Doctrine
-
-Full rules in [DOCTRINE.md](../hyperflow/DOCTRINE.md). Output style in [output-style.md](../hyperflow/output-style.md).
+If the user asked only for review, print verdict plus file path and stop; do not ask a fix gate. If the same request says “audit and fix,” convert only actionable findings into the single task-file format and continue through `dispatch`. Audit does not imply deploy or push.

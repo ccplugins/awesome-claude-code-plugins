@@ -1,123 +1,48 @@
 ---
 name: deploy
-description: Use when the user says "ship it", "ready to push", "release", "deploy", or wants pre-push gates (lint, typecheck, build, tests) plus commit/release/push in one flow. Standalone — never auto-invoked; push always requires explicit confirmation.
+description: Use when committing, releasing, pushing, or deploying completed work after full verification and an explicit remote-action gate.
+allowed-tools: Read, Write, Edit, Glob, Grep, Agent, AskUserQuestion, WebSearch, WebFetch, Bash
+argument-hint: "[target]"
+version: 6.1.1
+license: MIT
+compatibility: Portable; project release instructions are authoritative
+tags: [release, deploy, push, verification]
 ---
 
 # Deploy
 
-No gate skipped, no failure ignored. If any gate fails, halt and report. Never `--no-verify`. Never bypass.
+Ship only the resolved scope. Local completion never implies remote authorization. Never bypass hooks, publish unexpectedly, or force-push a protected branch.
 
-## Step 1 — Survey State
+## 1. Resolve state
 
-- `git status` — track uncommitted changes for the commit step
-- `git log origin/<branch>..HEAD --oneline` — what's ahead
-- Detect package manager and project type from `.hyperflow/profile.md` and root files
+Read project instructions and inspect the branch, upstream, worktree, staged files, commits ahead, remotes, tags, lockfiles, and available project scripts. Preserve unrelated and untracked work. If the intended inclusion set cannot be proven from the task, commits, or diff, ask one scoped inclusion question after inspection.
 
-## Step 2 — Quality Gates (halt on first failure)
+An earlier explicit “push `<branch>`” may satisfy the push gate only when the resolved remote, branch, and commit set are unchanged and were named by the user. Otherwise show those exact targets and request a neutral `Push` / `Hold` decision after local gates.
 
-Run gates in order. Print `Gate <n> — <name>` before each.
+## 2. Pre-push gates
 
-**Gate A — Lint**
+Run the project-required full checks once, in fail-fast order where possible:
 
-Dispatch `Implementer — running lint`.
-- Detect — `npm run lint` / `pnpm lint` / `bun run lint` / `yarn lint` / `eslint .`
-- On failure — auto-fix via `--fix`, re-run once. Still failing → halt.
-- Skip silently if no lint script.
+1. formatting/lint
+2. type or compile checks
+3. test suite, including integration checks the project mandates
+4. production build when defined
+5. security sweep of the exact diff and dependency audit when supported
 
-**Gate B — Typecheck**
+Commands run in the coordinator; do not spend agent calls on test execution. Use one `risk-reviewer` only for security-sensitive or release-critical diffs. On any failure, halt and report the command and actionable error. Do not silently fix unrelated failures or claim readiness.
 
-- Detect — `tsc --noEmit` / `npm run typecheck` / project-specific
-- Skip silently if not a typed project. Halt on failure (no auto-fix).
+## 3. History and release
 
-**Gate C — Build**
+Stage only in-scope files. Keep each distinct task in its own conventional commit and never add model attribution. Do not amend unrelated history. Follow the repository's documented release command, changelog, version, tag, and manifest synchronization order exactly. If no release procedure exists, do not invent publication steps.
 
-- Detect — `npm run build` / `pnpm build` / `bun run build`
-- Skip silently if no build script. Halt on failure.
+Reinspect the worktree, local-vs-upstream commits, version surfaces, and tags after release automation. A locally created release is not a pushed release.
 
-**Gate D — Tests**
+## 4. Remote gate
 
-- Detect runner from `.hyperflow/testing.md` (vitest, jest, playwright, pytest, etc.)
-- Run full suite — not just affected. Halt on failure.
+Before the first remote mutation, require explicit authorization for the displayed remote, branch, head commit, and tags. Binary choices are neutral: `Push` / `Hold`. Headless or ambiguous means Hold.
 
-See [quality-gates.md](../hyperflow/quality-gates.md) for gate details.
+On Push, use a normal non-force push and push required tags only. Verify the remote ref afterward. On Hold, leave the verified local commits/tags intact and report the exact refs.
 
-## Step 3 — Security Sweep
+## 5. Result
 
-Dispatch `**Reviewer** — security sweep on staged + recent changes` with model: opus.
-
-Per [security.md](../hyperflow/security.md), scan for hardcoded secrets, API keys, private keys, connection strings. If any found → halt with `SECURITY_VIOLATION:` marker.
-
-## Step 4 — Commit
-
-- Worker-introduced fixes from Step 2 → commit automatically with a conventional commit message.
-- Pre-existing user-owned uncommitted changes → use `AskUserQuestion` to confirm inclusion. Per DOCTRINE rule 8, mark a recommended option:
-
-  ```
-  Include uncommitted user changes in this commit?
-    Include (Recommended) — your local work + the pre-push fixes ship together
-    Exclude               — commit only the worker fixes; user changes stay local
-  ```
-
-- **Never** add `Co-Authored-By: Claude` in commit messages — see [git-workflow.md](../hyperflow/git-workflow.md).
-
-## Step 5 — Release
-
-- `scripts/release.sh` exists → run it.
-- `release-please` / `changesets` / similar detected → use it.
-- "Nothing to release" or no releasable commits → skip.
-- Otherwise → skip (user releases manually).
-
-## Step 6 — Push (confirmation required · STRUCTURAL GATE)
-
-Use `AskUserQuestion`. Per DOCTRINE rule 8, mark a recommended option — but the recommendation depends on gate state. If all gates passed and the diff looks clean, recommend `Push`; if anything was marginal (test flakiness, large diff, etc.), recommend `Hold`.
-
-```
-Push to origin/<branch>?
-  Push (Recommended)  — all gates pass · safe to ship
-  Hold                — keep local; you can push later
-```
-
-- **Never force-push to main or master.**
-- On yes — `git push`, then `git push --tags` if release created tags.
-
-## Step 7 — Output
-
-```
-── Ship Result ───────────────────
-Branch: <name>
-Gates: lint pass · typecheck pass · build pass · tests pass (<n> passed)
-Security: pass
-Commit: <sha> <message>
-Release: v<x.y.z> (or skipped)
-Push: confirmed (or held)
-──────────────────────────────────
-```
-
-On gate failure:
-
-```
-── Ship Result ───────────────────
-Branch: <name>
-Gates: lint pass · typecheck fail · tests skipped · build skipped
-  typecheck: 3 errors in src/auth/middleware.ts
-Halted at Gate B
-──────────────────────────────────
-```
-
-Use `pass` / `fail` / `skipped` as plain words — no `✓` / `✗` / `—` symbols.
-
-## Anti-patterns
-
-- `--no-verify`, `--no-gpg-sign`, bypassing hooks
-- Ignoring failing tests
-- Force-pushing to main
-- Auto-pushing without explicit confirmation
-- Committing `Co-Authored-By: Claude`
-
-## Memory
-
-After successful ship, append to `.hyperflow/memory/patterns.md` if any new pattern was confirmed during gates. Skip if nothing new.
-
-## Doctrine
-
-Full rules in [DOCTRINE.md](../hyperflow/DOCTRINE.md). Output style in [output-style.md](../hyperflow/output-style.md).
+Return only: gates, commits, version/tag when applicable, remote/branch status, and remaining risk. Do not delete task files, handoffs, user data, or project memory as release cleanup.

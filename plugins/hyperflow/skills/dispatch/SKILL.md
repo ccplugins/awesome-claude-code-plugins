@@ -1,174 +1,67 @@
 ---
 name: dispatch
-description: Use when a task file exists in `.hyperflow/tasks/` and workers need dispatching — `/hyperflow:dispatch`, "run the plan", "execute the task", "build it". Dispatches parallel workers, runs thinking-tier batch reviews, finishes with a final integration review. Endpoint of the auto-chain (no auto-deploy — user opts in to push).
+description: Use when implementing an explicit build, fix, refactor, or approved task file through the Direct, Focused, or Deep lane.
+allowed-tools: Read, Write, Edit, Glob, Grep, Agent, Skill, AskUserQuestion, WebSearch, WebFetch, Bash
+argument-hint: "[task-file-or-request]"
+version: 6.1.1
+license: MIT
+compatibility: Portable with coordinator-only Direct execution
+tags: [implementation, orchestration, verification]
 ---
 
 # Dispatch
 
-Workhorse phase. Picks up a task file from `/hyperflow:scope` and runs it through the orchestrator pattern with parallel worker dispatch and thinking-tier reviews.
+Implement the requested outcome with the fewest useful handoffs. An explicit build or fix request authorizes local execution after inspection; do not add a build confirmation. It does not authorize push, merge, publication, broad cleanup, or unrelated edits.
 
-This skill exercises **Layer 3 (Orchestrator)**, **Layer 5 (Quality Gates)**, **Layer 6 (Project Memory)**, **Layer 8 (Git Workflow)**, and **Layer 9 (Security)** from the doctrine. Multi-level review (L1–L5) is applied per the triage's flow profile.
+## 1. Load and bound
 
-## Per-Step Agent Map (DOCTRINE rule 12)
+Read project instructions, repository status, the supplied `.hyperflow/tasks/<slug>.md` when present, and the relevant implementation/tests. Preserve dirty-worktree changes and identify overlap before editing. If there is no task file:
 
-Every substantive step dispatches at least one Agent.
+- Direct work executes from the inspected request.
+- Focused or Deep work first creates the single task file using the `plan` structure, then continues automatically because build intent is already explicit.
 
-| Step | Worker tier | Thinking tier | Notes |
-|---|---|---|---|
-| 0 — Mode confirm | — | — | `AskUserQuestion` only (exempt) |
-| 1 — Load task | — | — | File read only (exempt) |
-| 2 — Per batch | Implementer / Searcher / Writer × N parallel (Sonnet) | **Reviewer** (Opus) per sub-task at L1–L<n> | Both tiers · per sub-task |
-| 2b — Quality gates | Worker (Sonnet) runs lint/typecheck/tests | **Reviewer** (Opus) judges gate output | Both tiers |
-| 3 — Final integration | — | **Reviewer** (Opus) L1–L<n> over full diff | Mandatory |
-| 4 — Wrap up | Writer (Sonnet) deletes task, appends memory, auto-commits | **Reviewer** (Opus) sanity-checks the commit + memory entries | Both tiers |
-| 5 — End of chain | — | — | Two `AskUserQuestion` gates: audit? deploy? (exempt — gates only) |
+Confirm the lane from evidence:
 
-Iron rule — `thinking agents ≥ batches + 1` (per-batch reviewer + final integration). With per-step thinking-tier reviewers in Step 4, the floor rises to `batches + 2`.
+| Lane | Execution |
+|---|---|
+| Direct | Coordinator edits, validates, and reports. Zero child agents. Escalate if risk or scope expands. |
+| Focused | Use at most two worker calls for independent tasks; the coordinator handles the rest. One separate batch reviewer checks the integrated diff. Full plan-and-build ceiling: four child calls. |
+| Deep | Use at most three worker calls, ordered by dependency, then one matching specialist integration reviewer. Security and migration work always stays Deep. Full plan-and-build ceiling: eight child calls. |
 
-## Review Levels (scale by flow profile)
+Keep the Focused full chain <=20k non-cached tokens and the Deep full chain <=60k non-cached tokens when the host reports usage. Treat these as ceilings, not targets; never fabricate unavailable totals.
 
-Every batch reviewer and the final integration reviewer uses the level set below. Profile comes from `/hyperflow:spec` triage and is propagated via the `chain-mode` args.
+Child-call ceilings are enforceable even without usage telemetry. They include planning, implementation, review, and retries. Never create a child for work the coordinator can finish within the existing context.
 
-| Profile | Levels | Workers | Reviewers |
-|---|---|---|---|
-| `fast` | L1 | 1 | inline self-review only |
-| `standard` | L1–L2 | 1–2 | 1 per-batch reviewer |
-| `deep` | L1–L5 | 3+ | per-batch + final integration |
-| `research` | L1–L2 + synthesis | 3+ searchers | inline synthesis |
-| `creative` | L1–L3 + UX | 1–2 | 1 reviewer |
-| `scientific` | L1–L5 + TDD | 2–3 | per-batch + final |
+## 2. Build
 
-L1 syntax/format · L2 spec/naming/edges · L3 integration/security · L4 perf/scale · L5 a11y/UX. See [review-levels.md](../hyperflow/review-levels.md) for the full checklist.
+For each task:
 
-## Approval Gates
+1. Re-read its files, acceptance criterion, dependencies, and local conventions.
+2. Reuse existing libraries, components, utilities, and tests. Make the smallest coherent change.
+3. When delegating, load [worker-brief.md](../hyperflow/worker-brief.md) and fill it from the task row. Keep each brief under 350 words. Give workers non-overlapping ownership whenever they run concurrently.
+4. Workers edit only their scope, run affected checks, and return paths plus evidence. Workers do not review, spawn, change task files, or perform Git operations.
+5. The coordinator integrates results, resolves only in-scope conflicts, and updates checkboxes/status in the same task Markdown file. Do not create secondary state or duplicate briefs.
 
-| Gate | When | Format |
-|---|---|---|
-| Chain mode | Step 0, only if invoked directly | `AskUserQuestion` — auto / manual |
-| Inter-batch (manual mode only) | After each batch's gates pass | `AskUserQuestion` — continue / stop |
-| Hard halt | Any `SECURITY_VIOLATION` from a reviewer | Stop the chain, surface the finding |
-| **Audit prompt** | Step 5, after wrap-up | `AskUserQuestion` — run `/hyperflow:audit`? (yes/no, recommended toggles with flow profile) |
-| **Deploy prompt** | Step 5, after audit gate | `AskUserQuestion` — run `/hyperflow:deploy`? (yes/no, recommended toggles with gate state) |
+If a worker fails, inspect the failure and retry once only when that call remains inside the lane ceiling. Otherwise complete the bounded task in the coordinator or report the specific blocker. Do not repeat an unchanged prompt.
 
-## Inputs
+## 3. Review once at the right boundary
 
-- **Task file** — positional arg (slug or path). Default — most-recently-modified file in `.hyperflow/tasks/`.
-- **`chain-mode=<auto|manual>`** — passed in by `/hyperflow:scope`. Controls whether to pause for confirmation after the final integration review. If absent, assume `auto`.
-- **`--from-batch <n>`** — resume from a specific batch (skip prior batches).
-- **`--final-only`** — skip batch dispatch, run only the final integration review.
+- **Direct:** the coordinator checks the acceptance criterion and diff. No synthetic reviewer role.
+- **Focused:** after the batch is integrated, give one separate reviewer the cumulative diff and task acceptance criteria using [reviewer-brief.md](../hyperflow/reviewer-brief.md). Fix only concrete `NEEDS_FIX` findings, then have the coordinator verify those corrections.
+- **Deep:** use the specialist profile matching the dominant risk from `agents/` for one integration review over the cumulative diff. Confirm security, reversibility, cross-boundary contracts, and failure modes as applicable.
 
-## Flow
+Workers never review their own output. Reviewers are read-only and never coordinate or implement. A `SECURITY_VIOLATION` halts execution immediately.
 
-### Step 0 — Choose mode (only if invoked directly · STRUCTURAL GATE)
+## 4. Verify and commit
 
-This is a **structural gate** per DOCTRINE rule 8. When dispatch is invoked directly (no `chain-mode` arg from `scope`), it MUST fire. "No clarifying questions" / "auto-pilot" / any autonomy directive does NOT skip it. Defaulting silently is a doctrine violation.
+Run affected lint, type checks, and tests after each task when available. Run the full project-required suite once at chain end for multi-task, cross-boundary, security, release-sensitive, or project-mandated work; include a production build when the project defines one. Do not run full suites after every worker. Never bypass a red check.
 
-If a `chain-mode` arg was passed, skip this step — the chain-starter already asked.
+After a task passes its required checks and review, the coordinator creates its own conventional commit. Keep distinct tasks in distinct commits; feature code and its directly required docs/tests may share the same task commit. Never amend unrelated history, stage unrelated files, or add model attribution.
 
-Otherwise, ask via `AskUserQuestion`. Per DOCTRINE rule 8, the recommended option goes first with `(Recommended)`:
+If Git operations are outside the granted scope, leave the verified changes uncommitted and say so.
 
-```
-How should I handle progress through the batches?
+## 5. Finish
 
-  Auto (Recommended)  — run all batches + final review and stop. Print next-step suggestions.
-  Manual              — pause between batches and ask before continuing.
-```
+Update the task file to `completed` or `blocked` with concise verification evidence and commit refs. Append only durable verified project learnings to the relevant `.hyperflow/memory/*.md` file.
 
-Wait for the user's answer. Do not proceed without it. If `AskUserQuestion` cannot be presented, print an error and stop — never silently default.
-
-### Step 1 — Load the task
-
-Read `.hyperflow/tasks/<slug>.md`. If absent, stop and suggest `/hyperflow:scope` first.
-
-### Step 2 — For each batch
-
-1. Print the batch header: `Batch <n> — <one-line description>`.
-2. Dispatch all sub-tasks in the batch in a **single message** with parallel `Agent` calls (one per sub-task). Use the [worker-prompt.md](../hyperflow/worker-prompt.md) template. Inject `Project Context` (from `.hyperflow/profile.md`, `architecture.md`, `conventions.md`) plus accumulated `Learnings from prior batches`.
-3. As each worker returns:
-   - Print `Implementer — completed <subtask>` (or relevant role).
-   - Immediately dispatch a thinking-tier reviewer per [reviewer-prompt.md](../hyperflow/reviewer-prompt.md). Print `**Reviewer** — reviewing <subtask> (L1–L<n>)` where `n` is set by the flow-profile table above.
-   - If verdict is `NEEDS_FIX` — re-dispatch worker with the fix list. Repeat until `PASS` (max 3 retries before escalating to a thinking-tier worker).
-   - If verdict is `SECURITY_VIOLATION` — **halt the chain** immediately and surface the finding to the user (no auto-continue).
-   - On `PASS` — **commit this sub-task immediately** per [git-workflow.md](../hyperflow/git-workflow.md) rule 2 (per-sub-task commit cadence). Stage only the files this sub-task touched, write a conventional commit (`feat(<scope>): <title>` derived from the task file), commit. One sub-task = one commit. A batch of 3 parallel sub-tasks produces 3 commits.
-4. After the full batch — synthesize learnings, check off the batch in the task file, run **Layer 5 quality gates** (lint / typecheck / tests on affected files) per [quality-gates.md](../hyperflow/quality-gates.md). If gates fix anything, those become small additional commits on top (never amend per-sub-task commits). If `chain-mode=manual`, pause and ask before starting the next batch.
-
-### Step 3 — Final Integration Review
-
-Mandatory and **separate from batch reviews**. Dispatch a thinking-tier reviewer with the full set of changed files. Print `**Reviewer** — final integration review (L1–L<n>)` using the same level cap as the batch reviewers (per flow profile). Verdict required — `PASS` / `NEEDS_FIX` / `SECURITY_VIOLATION`.
-
-### Step 4 — Wrap Up
-
-Agents — `Writer` (Sonnet) ⇒ **Reviewer** (Opus).
-
-1. Dispatch `Writer — finalizing dispatch artifacts` to:
-   - Delete the completed task file from `.hyperflow/tasks/`.
-   - Append durable patterns/decisions to `.hyperflow/memory/` per [memory-system.md](../hyperflow/memory-system.md).
-   - Commit the memory + task-file-deletion as a `chore(memory):` commit (this is a *separate* commit from the per-sub-task commits from Step 2 — keeping memory writes out of feature commits keeps the diff clean).
-2. Dispatch `**Reviewer** — verifying wrap-up` to confirm: memory entries are non-duplicate, commit messages match the changes, no half-written artifacts remain in `.hyperflow/`, per-sub-task commit cadence was respected (one commit per approved sub-task).
-3. Print the usage summary per [output-style.md](../hyperflow/output-style.md).
-
-### Step 5 — End of Auto-Chain · Audit + Deploy gates
-
-Dispatch is the endpoint of the auto-chain. Two **separate** `AskUserQuestion` gates fire here (DOCTRINE rule 8 — structural gates always fire, never silently default):
-
-**Gate 1 — Run `/hyperflow:audit`?**
-
-```
-?  Run /hyperflow:audit on the cumulative diff?
-   Yes (Recommended)   — outside-eye L3 review, independent of per-batch reviewers
-   No                  — skip; per-batch L1–L<n> reviews were enough
-```
-
-Recommended option scales with the triage's flow profile:
-- `fast` / `standard` profile → `No (Recommended)` — per-batch L1–L2 reviewers already covered it
-- `deep` / `scientific` profile → `Yes (Recommended)` — L3 outside review is worth it on cross-cutting changes
-- `creative` → `Yes (Recommended)` if the change touches user-visible surfaces
-
-On `Yes` → invoke `Skill` with `skill: audit` and `args: "level=3"` (or `level=5` for scientific). Wait for it to finish. Then proceed to Gate 2.
-
-**Gate 2 — Run `/hyperflow:deploy`?**
-
-```
-?  Run /hyperflow:deploy now? (lint + typecheck + build + tests + security sweep, then asks before push)
-   Yes (Recommended)   — green-light path: all dispatch gates passed, ready to ship
-   No                  — keep the per-sub-task commits local; you'll push manually later
-```
-
-Recommended option toggles based on dispatch gate state:
-- All Step 4 gates were green AND no escalations occurred → `Yes (Recommended)`
-- Any gate fix required ≥2 retries, or an escalation triggered → `No (Recommended)` — let the user eyeball the diff first
-
-On `Yes` → invoke `Skill` with `skill: deploy`. Deploy has its own push-confirmation gate at its Step 6.
-
-On `No` to both gates → stop cleanly. Print one line:
-
-```
-Dispatch complete — <n> batches, <m> agents, <p> per-sub-task commits on branch <branch>.
-Next: invoke /hyperflow:audit or /hyperflow:deploy manually when ready.
-```
-
-The orchestrator does **NOT** auto-invoke audit or deploy. Both gates wait for an explicit user choice. Defaulting silently is a doctrine violation.
-
-## Agent Label Style
-
-No icons, no brackets. Em-dash separator. Bold for thinking-tier roles:
-
-```
-Implementer — creating auth middleware
-Searcher — finding related test files
-Writer — generating API documentation
-**Reviewer** — reviewing auth middleware output
-**Debugger** — investigating test failure in auth.test.ts
-```
-
-## Iron Rules
-
-- Workers never review, never coordinate, never ask the user questions.
-- Every batch produces **one** thinking-tier batch reviewer dispatch.
-- Plus **one** thinking-tier final integration review at the end.
-- Plus **one** thinking-tier wrap-up reviewer at Step 4 (DOCTRINE rule 12).
-- Therefore — `thinking agents in usage summary >= batches + 2`. If less, a per-step reviewer was skipped. The task was done wrong.
-
-## Doctrine
-
-Full rules in [DOCTRINE.md](../hyperflow/DOCTRINE.md). This skill is the execute phase invoked at the end of `/hyperflow:scope`.
+Return a compact result: outcome, files, checks, commits, and any remaining risk. Stop locally. Invoke `deploy` only when the request also includes ship/release/deploy/push; remote actions keep their own gate.

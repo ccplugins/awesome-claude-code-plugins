@@ -1789,20 +1789,26 @@
     {
       "name": "hyperflow",
       "source": "./plugins/hyperflow",
-      "description": "Advanced multi-agent orchestration with persistent cross-session memory, per-step multi-level review, persona stitching, and adaptive flow profiles.",
-      "version": "2.6.2",
+      "description": "Lightweight Markdown-only orchestration for Claude Code: hyperflow, plan, dispatch, trace, audit, deploy, and handoff across Direct/Focused/Deep lanes, with inert startup, durable context, independent review, and gated Git handoff.",
+      "version": "6.1.1",
       "author": {
         "name": "Mohammed Abdelhady",
         "url": "https://github.com/Mohammed-Abdelhady"
       },
       "category": "Workflow Orchestration",
-      "homepage": "https://github.com/Mohammed-Abdelhady/hyperflow",
+      "homepage": "https://mohammed-abdelhady.github.io/hyperflow/",
+      "repository": "https://github.com/Mohammed-Abdelhady/hyperflow",
+      "license": "MIT",
       "keywords": [
-        "multi-agent",
-        "workflow-chain",
-        "code-review",
+        "agent-orchestration",
         "project-memory",
-        "multi-tool"
+        "multi-session",
+        "markdown",
+        "doctrine",
+        "direct-focused-deep",
+        "code-review",
+        "token-efficient",
+        "git-handoff"
       ]
     }
   ]

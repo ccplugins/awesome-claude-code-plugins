@@ -1,23 +1,24 @@
 {
   "name": "hyperflow",
-  "version": "2.6.2",
-  "description": "Eight chained slash commands turn one Claude session into a structured engineering pipeline. /hyperflow:spec asks the questions a senior engineer would. /hyperflow:scope decomposes into a batched task graph. /hyperflow:dispatch fans out persona-stitched workers under thinking-tier review. Memory compounds across sessions — yesterday's decisions are tomorrow's starting point.",
+  "version": "6.1.1",
+  "description": "Lightweight Markdown-only orchestration for Claude Code: hyperflow, plan, dispatch, trace, audit, deploy, and handoff across Direct/Focused/Deep lanes, with inert startup, durable context, independent review, and gated Git handoff.",
   "author": {
     "name": "Mohammed Abdelhady",
     "url": "https://github.com/Mohammed-Abdelhady"
   },
-  "homepage": "https://github.com/Mohammed-Abdelhady/hyperflow",
+  "homepage": "https://mohammed-abdelhady.github.io/hyperflow/",
   "repository": "https://github.com/Mohammed-Abdelhady/hyperflow",
   "license": "MIT",
   "keywords": [
     "claude-code-plugin",
-    "multi-agent",
-    "workflow-chain",
-    "triageflow",
-    "personas",
-    "flow-profiles",
-    "code-review",
+    "agent-orchestration",
     "project-memory",
-    "multi-tool"
+    "multi-session",
+    "markdown",
+    "doctrine",
+    "direct-focused-deep",
+    "code-review",
+    "token-efficient",
+    "git-handoff"
   ]
 }
