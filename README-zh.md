@@ -229,6 +229,7 @@
 
 ### MCP 服务器
 - [WhichModel](https://github.com/Which-Model/whichmodel-mcp) — 面向 Claude Code 的 AI 模型定价与推荐 MCP 服务器，帮助为每项任务选择最合适、性价比最高的模型。数据经交叉验证，每 4 小时更新一次。MCP 端点：`https://whichmodel.dev/mcp`
+- [OraClaw](https://github.com/Whatsonyourmind/oraclaw) — 确定性决策智能 MCP 服务器：17 个工具，涵盖优化（bandits/LinUCB、CMA-ES、HiGHS LP/MIP）、模拟（蒙特卡洛）、预测与校准（conformal）。响应低于 25ms，无需调用 LLM；其中 11 个工具免费且无需 API key。`npx @oraclaw/mcp-server`
 
 ## 插件市场
 - [protonium](https://github.com/protonium-labs/protonium-marketplace) —— AI 智能体与效率工具。包含 **AxiomCore**：项目与日常事务管理智能体，提供强制化结构（编号目录、任务 ID、wiki 记忆）、计划 → 确认 → 执行工作流，支持敏捷或 WBS 方式创建项目.
