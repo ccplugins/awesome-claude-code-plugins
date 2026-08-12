@@ -1,0 +1,51 @@
+<svg width="920" height="220" viewBox="0 0 920 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="fe-rail workflow: spec, build, review, PR">
+  <rect x="0" y="0" width="920" height="220" fill="#FAF9F6" rx="12"/>
+
+  <text x="460" y="34" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="15" fill="#57534E">spec → build → review → PR</text>
+
+  <!-- arrows -->
+  <g stroke="#D97757" stroke-width="2" fill="none">
+    <line x1="220" y1="120" x2="226" y2="120"/>
+    <line x1="440" y1="120" x2="470" y2="120"/>
+    <line x1="660" y1="120" x2="666" y2="120"/>
+  </g>
+  <g fill="#D97757">
+    <polygon points="260,120 250,115 250,125"/>
+    <polygon points="480,120 470,115 470,125"/>
+    <polygon points="700,120 690,115 690,125"/>
+  </g>
+
+  <!-- stage 1: spec -->
+  <rect x="40" y="70" width="180" height="100" rx="10" fill="#FFFFFF" stroke="#D97757" stroke-width="1.5"/>
+  <text x="130" y="108" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="600" fill="#1F2937">SPEC</text>
+  <text x="130" y="130" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#57534E">/fe-rail:fe-spec</text>
+  <text x="130" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#78716C">requirements → feature.md</text>
+
+  <!-- approval gate 1 -->
+  <circle cx="238" cy="120" r="12" fill="#FFFFFF" stroke="#D97757" stroke-width="1.5"/>
+  <text x="238" y="124" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#D97757">✓</text>
+
+  <!-- stage 2: build -->
+  <rect x="260" y="70" width="180" height="100" rx="10" fill="#FFFFFF" stroke="#D97757" stroke-width="1.5"/>
+  <text x="350" y="108" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="600" fill="#1F2937">BUILD</text>
+  <text x="350" y="130" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#57534E">/fe-rail:fe-build</text>
+  <text x="350" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#78716C">types → logic → components → tests</text>
+
+  <!-- stage 3: review -->
+  <rect x="480" y="70" width="180" height="100" rx="10" fill="#FFFFFF" stroke="#D97757" stroke-width="1.5"/>
+  <text x="570" y="108" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="600" fill="#1F2937">REVIEW</text>
+  <text x="570" y="130" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#57534E">/fe-rail:fe-review</text>
+  <text x="570" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#78716C">types · perf · a11y · quality</text>
+
+  <!-- approval gate 2 -->
+  <circle cx="678" cy="120" r="12" fill="#FFFFFF" stroke="#D97757" stroke-width="1.5"/>
+  <text x="678" y="124" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#D97757">✓</text>
+
+  <!-- stage 4: PR -->
+  <rect x="700" y="70" width="180" height="100" rx="10" fill="#FFFFFF" stroke="#D97757" stroke-width="1.5"/>
+  <text x="790" y="108" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="600" fill="#1F2937">PR</text>
+  <text x="790" y="130" text-anchor="middle" font-family="ui-monospace, Menlo, monospace" font-size="11" fill="#57534E">git commit · gh pr create</text>
+  <text x="790" y="150" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#78716C">commit split · PR body</text>
+
+  <text x="460" y="200" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#A8A29E">✓ = human approval gate (2 total: implement? / commit?)</text>
+</svg>
