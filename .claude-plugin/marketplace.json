@@ -1785,6 +1785,25 @@
         "hooks",
         "skill"
       ]
+    },
+    {
+      "name": "slack-message-formatter",
+      "source": "./plugins/slack-message-formatter",
+      "description": "Format Markdown for Slack. Rich HTML copy-paste plus mrkdwn API output.",
+      "version": "1.0.0",
+      "author": {
+        "name": "karanb192",
+        "url": "https://github.com/karanb192"
+      },
+      "category": "Communication & Integrations",
+      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/slack-message-formatter",
+      "keywords": [
+        "slack",
+        "markdown",
+        "mrkdwn",
+        "formatting",
+        "messaging"
+      ]
     }
   ]
 }

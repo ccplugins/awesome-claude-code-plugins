@@ -1,0 +1,10 @@
+{
+  "name": "slack-message-formatter",
+  "description": "Format Markdown for Slack. Rich HTML copy-paste + mrkdwn API output.",
+  "version": "1.0.0",
+  "author": {
+    "name": "karanb192",
+    "url": "https://github.com/karanb192"
+  },
+  "homepage": "https://github.com/karanb192/slack-message-formatter"
+}
