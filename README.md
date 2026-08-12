@@ -68,6 +68,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - **[claude-brain](https://github.com/toroleapinc/claude-brain)** — Sync and evolve your Claude Code brain across machines. Auto-syncs memory, skills, agents, rules, and CLAUDE.md via Git with LLM-powered semantic merge.
 - [ceo-quality-controller-agent](./plugins/ceo-quality-controller-agent)
 - [claude-recap](https://github.com/hatawong/claude-recap) — Per-topic session memory using Shell hooks — archives each conversation topic as a separate Markdown summary. Two hooks, bash + Node.js, 100% local.
+- [devforge-ai](https://github.com/saitarrun/devforge-ai) — Agentic SDLC orchestration for Claude Code: 10 role-specific agents across Plan → Build → Verify → Ship → Operate phases with tracer bullet delivery
 - [claude-desktop-extension](./plugins/claude-desktop-extension)
 - [equilateral-agents](https://github.com/Equilateral-AI/equilateral-agents-open-core) - 22 self-learning agents with memory, security review, code quality, deployment validation, and infrastructure checks
 - [lyra](./plugins/lyra)
