@@ -1,0 +1,20 @@
+{
+  "name": "alphai",
+  "version": "1.0.0",
+  "description": "AI-enriched financial news, SEC Form 4 insider trades & market signals for your agent — hosted AlphaAI MCP + ready-made skills",
+  "author": { "name": "Mikhail Makeev", "url": "https://alphai.io" },
+  "homepage": "https://alphai.io/developers",
+  "repository": "https://github.com/makeev/alphai-plugin",
+  "license": "MIT",
+  "keywords": [
+    "financial-news",
+    "stock-market",
+    "mcp",
+    "ai-agents",
+    "trading",
+    "sec-filings",
+    "insider-trading",
+    "fintech"
+  ],
+  "logo": "assets/icon.png"
+}

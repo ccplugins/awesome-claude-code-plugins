@@ -5,8 +5,8 @@ description: Analyze and optimize code performance
 
 ## Context
 
-- File size: !`du -h $ARGUMENTS 2>/dev/null || echo "File not specified"`
-- Line count: !`wc -l $ARGUMENTS 2>/dev/null || echo "File not specified"`
+- File size: !`[[ "$ARGUMENTS" =~ ^[a-zA-Z0-9_./-]+$ ]] && du -h "$ARGUMENTS" 2>/dev/null || echo "File not specified"`
+- Line count: !`[[ "$ARGUMENTS" =~ ^[a-zA-Z0-9_./-]+$ ]] && wc -l "$ARGUMENTS" 2>/dev/null || echo "File not specified"`
 
 ## Your task
 

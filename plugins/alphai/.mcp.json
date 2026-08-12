@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "alphai": {
+      "type": "http",
+      "url": "https://mcp.alphai.io/mcp"
+    }
+  }
+}

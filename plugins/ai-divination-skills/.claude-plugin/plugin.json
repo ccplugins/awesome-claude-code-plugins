@@ -1,0 +1,10 @@
+{
+  "name": "ai-divination-skills",
+  "description": "Audited tarot, I Ching (Yijing), and Xiao Liu Ren (小六壬) divination skill. Calls local seeded-or-system-entropy Python tools that emit deterministic JSON; the model never invents the result, it only interprets the JSON output.",
+  "version": "0.6.1",
+  "author": {
+    "name": "sapuyou45-bit",
+    "url": "https://github.com/sapuyou45-bit"
+  },
+  "homepage": "https://github.com/sapuyou45-bit/ai-divination-skills"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "stratarts",
+  "description": "27 professional business strategy skills - from idea validation to investor pitch deck using proven frameworks (BMC, JTBD, Porter's Five Forces, RICE, AARRR)",
+  "version": "1.0.0",
+  "author": {
+    "name": "Maigent",
+    "url": "https://github.com/maigentic"
+  },
+  "homepage": "https://github.com/maigentic/stratarts",
+  "license": "MIT"
+}

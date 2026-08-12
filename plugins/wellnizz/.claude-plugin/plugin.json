@@ -1,0 +1,10 @@
+{
+  "name": "wellnizz",
+  "description": "Agent-first API for genetics (WGS, ClinVar, CPIC, PRS), biomarkers (168+ markers), and wearables (WHOOP, Oura, Garmin). 21 MCP tools + 48 REST endpoints. Self-hostable (Docker) or hosted at app.wellnizz.com. AGPL-3.0.",
+  "version": "1.0.0",
+  "author": {
+    "name": "ForeverBetter",
+    "url": "https://github.com/liveforeverbetter"
+  },
+  "homepage": "https://github.com/liveforeverbetter/wellnizz"
+}

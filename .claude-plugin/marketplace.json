@@ -11,6 +11,25 @@
   },
   "plugins": [
     {
+      "name": "context-memory",
+      "source": "./plugins/context-memory",
+      "description": "Persistent, searchable context storage across Claude Code sessions using SQLite + FTS5.",
+      "version": "1.3.1",
+      "author": {
+        "name": "ErebusEnigma",
+        "url": "https://github.com/ErebusEnigma"
+      },
+      "category": "Development Engineering",
+      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/context-memory",
+      "keywords": [
+        "memory",
+        "context",
+        "search",
+        "sessions",
+        "persistence"
+      ]
+    },
+    {
       "name": "documentation-generator",
       "source": "./plugins/documentation-generator",
       "description": "Create comprehensive documentation for code, APIs, and projects.",
@@ -88,6 +107,38 @@
         "code-review",
         "workflow",
         "debugging"
+      ]
+    },
+    {
+      "name": "tree-ring-memory",
+      "displayName": "Tree Ring Memory",
+      "source": {
+        "source": "github",
+        "repo": "TerminallyLazy/tree-ring-memory-claude-plugin"
+      },
+      "description": "Local-first memory lifecycle guidance for Claude Code using Tree Ring Memory.",
+      "version": "0.1.0",
+      "author": {
+        "name": "TerminallyLazy",
+        "url": "https://github.com/TerminallyLazy"
+      },
+      "category": "Workflow Orchestration",
+      "homepage": "https://terminallylazy.github.io/Tree-Ring-Memory/",
+      "repository": "https://github.com/TerminallyLazy/tree-ring-memory-claude-plugin",
+      "license": "MIT",
+      "keywords": [
+        "agent-memory",
+        "ai-memory",
+        "local-first",
+        "privacy",
+        "recall",
+        "tree-ring-memory"
+      ],
+      "tags": [
+        "agent-memory",
+        "local-first",
+        "privacy",
+        "workflow"
       ]
     },
     {
@@ -1234,6 +1285,23 @@
       ]
     },
     {
+      "name": "reviewer-author-loop",
+      "source": "./plugins/reviewer-author-loop",
+      "description": "Human-in-the-loop manuscript improvement workflow that cycles through reviewer critique, author revision, verification, and re-review until acceptance or a pause condition.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Han Hu",
+        "url": "https://github.com/hanhuark"
+      },
+      "category": "Workflow Orchestration",
+      "homepage": "https://github.com/hanhuark/reviewer-author-loop-skill",
+      "keywords": [
+        "workflow",
+        "writing",
+        "review"
+      ]
+    },
+    {
       "name": "product-sales-specialist",
       "source": "./plugins/product-sales-specialist",
       "description": "Use this agent when you need to support B2B sales through product design, user research, project management, and creative RFP responses. This agent specializes in creating compelling product demonstrations, design-focused RFP sections, user experience narratives, and project management frameworks that win enterprise deals. Combines product expertise with sales enablement. Examples:",
@@ -1669,6 +1737,53 @@
       "keywords": [
         "security",
         "compliance"
+      ]
+    },
+    {
+      "name": "stratarts",
+      "source": "./plugins/stratarts",
+      "description": "27 professional business strategy skills - idea validation, market analysis, business modeling, marketing, metrics, and fundraising using proven frameworks",
+      "version": "1.0.0",
+      "author": {
+        "name": "Maigent",
+        "url": "https://github.com/maigentic"
+      },
+      "category": "Project & Product Management",
+      "homepage": "https://github.com/maigentic/stratarts",
+      "keywords": [
+        "business",
+        "strategy",
+        "startup",
+        "entrepreneurship",
+        "fundraising",
+        "marketing",
+        "pitch-deck",
+        "financial-modeling"
+      ]
+    },
+    {
+      "name": "screenshot-janitor",
+      "source": "./plugins/screenshot-janitor",
+      "description": "Per-session screenshot cleanup: tracks screenshots created during each Claude Code session and asks before moving them to the Trash (recoverable). macOS + Linux, zero dependencies.",
+      "version": "1.0.0",
+      "author": {
+        "name": "MECoban",
+        "url": "https://github.com/MECoban"
+      },
+      "category": "Automation DevOps",
+      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/screenshot-janitor",
+      "repository": "https://github.com/MECoban/screenshot-janitor",
+      "license": "MIT",
+      "keywords": [
+        "screenshot",
+        "cleanup",
+        "housekeeping",
+        "trash",
+        "desktop",
+        "macos",
+        "linux",
+        "hooks",
+        "skill"
       ]
     },
     {

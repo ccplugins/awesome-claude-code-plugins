@@ -1,0 +1,9 @@
+{
+  "name": "toprank",
+  "description": "SEO + Google Ads skills for Claude Code. Audits Search Console data, finds wasted ad spend, rewrites meta tags, generates schema markup, and ships fixes.",
+  "version": "1.0.0",
+  "author": {
+    "name": "nowork-studio"
+  },
+  "homepage": "https://github.com/nowork-studio/toprank"
+}

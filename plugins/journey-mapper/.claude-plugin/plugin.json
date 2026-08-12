@@ -1,0 +1,9 @@
+{
+  "name": "journey-mapper",
+  "description": "Use this agent when you need to understand and document how users experience a product or service end-to-end. It scans a codebase, extracts all user-facing flows, and generates a self-contained HTML journey map in the NN/g combined customer journey + service blueprint format — covering user actions, thoughts, emotions, frontstage interactions, backstage processes, and supporting systems.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Joey van Sommeren"
+  },
+  "homepage": "https://github.com/joeyvansommeren/journey-mapper"
+}

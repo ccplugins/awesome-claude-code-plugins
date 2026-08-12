@@ -1,0 +1,11 @@
+{
+  "name": "poppify",
+  "description": "Claude Code plugin for photo-led short-form vertical reels — Instagram / TikTok / YouTube Shorts / Facebook. Upload 1–10 photos, get a captioned 15/30/60s reel with motion, library-matched music, optional voiceover. $0.06 base render, 50 free seeds, no subscription.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Poppify",
+    "email": "admin@poppify.ai"
+  },
+  "homepage": "https://github.com/Poppify/poppify-claude-plugin",
+  "license": "MIT"
+}

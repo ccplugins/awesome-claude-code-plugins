@@ -1,0 +1,11 @@
+{
+  "name": "autoresearch",
+  "description": "Autonomous skill optimizer using Karpathy's autoresearch methodology. Scores outputs 0-100, mutates prompts, keeps improvements. Includes auto-screenshot and stop-gate hooks.",
+  "version": "1.1.1",
+  "license": "MIT",
+  "author": {
+    "name": "Tony Davis",
+    "url": "https://github.com/lendtrain"
+  },
+  "homepage": "https://github.com/lendtrain/autoresearch-for-skills"
+}

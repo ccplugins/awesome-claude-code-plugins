@@ -7,7 +7,7 @@ Automated git operations integrated into the orchestrator cycle. Auto-commit is 
 ```
 Session starts
     |
-[Opus] On a feature branch? 
+[Opus] On a feature branch?
     |-- Yes -> continue
     |-- No -> create branch (feat/task-description)
     |
@@ -15,7 +15,7 @@ Session starts
     |
 [Opus] Task approved by reviewer + quality gates pass
     |
-[Opus] Auto-commit? 
+[Opus] Auto-commit?
     |-- On (default) -> commit with descriptive message
     |-- Off -> stage changes, skip commit
     |
