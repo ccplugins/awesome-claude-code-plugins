@@ -129,6 +129,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [project-curator](./plugins/project-curator)
 - [python-expert](./plugins/python-expert)
 - [rapid-prototyper](./plugins/rapid-prototyper)
+- [raysurfer-code-caching](https://github.com/rayxc-org/raysurfer-code-caching-tool) - Automatic code caching plugin. Checks cache before generation and uploads successful results.
 - [react-native-dev](./plugins/react-native-dev)
 - [vision-specialist](./plugins/vision-specialist)
 - [web-dev](./plugins/web-dev)
