@@ -1,0 +1,27 @@
+{
+  "name": "cc-aws-keepalive",
+  "version": "0.5.1-ccplugins.1",
+  "description": "Keep Claude Code sessions alive through AWS credential expiration",
+  "type": "module",
+  "license": "GPL-3.0",
+  "author": "GeiserX",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GeiserX/cc-aws-keepalive.git"
+  },
+  "files": [
+    "*.mjs",
+    "hooks",
+    ".claude-plugin",
+    "config.example.json",
+    "DOWNSTREAM-CHANGES.md",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

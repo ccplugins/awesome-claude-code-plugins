@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="900" height="200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF9900"/>
+      <stop offset="100%" stop-color="#0D1B2A"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="200" rx="12" fill="url(#bg)"/>
+  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+    <line x1="0" y1="50" x2="900" y2="50"/>
+    <line x1="0" y1="100" x2="900" y2="100"/>
+    <line x1="0" y1="150" x2="900" y2="150"/>
+    <line x1="150" y1="0" x2="150" y2="200"/>
+    <line x1="300" y1="0" x2="300" y2="200"/>
+    <line x1="450" y1="0" x2="450" y2="200"/>
+    <line x1="600" y1="0" x2="600" y2="200"/>
+    <line x1="750" y1="0" x2="750" y2="200"/>
+  </g>
+  <g transform="translate(60, 55)">
+    <rect x="5" y="10" width="50" height="40" rx="6" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.3"/>
+    <text x="30" y="37" text-anchor="middle" font-family="monospace" font-size="16" fill="#ffffff" opacity="0.6">&gt;_</text>
+  </g>
+  <text x="200" y="95" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff" letter-spacing="-1">cc-aws-keepalive</text>
+  <text x="202" y="130" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#ffffff" opacity="0.65" letter-spacing="0.3">Keep Claude Code alive through AWS credential expiration</text>
+</svg>
