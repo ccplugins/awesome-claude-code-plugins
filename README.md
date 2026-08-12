@@ -100,6 +100,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [unit-test-generator](./plugins/unit-test-generator)
 
 ### Data Analytics
+- [Useful AI](https://usefulai.fun/skill.md) - Shared utility tool library. Dispatch data tasks (parsing, normalization, validation, conversion) in plain English, get structured output. 200+ tools, no auth.
 - [analytics-reporter](./plugins/analytics-reporter)
 - [data-scientist](./plugins/data-scientist)
 - [experiment-tracker](./plugins/experiment-tracker)
