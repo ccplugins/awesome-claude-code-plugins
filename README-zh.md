@@ -131,6 +131,7 @@
 - [enterprise-integrator-architect](./plugins/enterprise-integrator-architect)
 - [flutter-mobile-app-dev](./plugins/flutter-mobile-app-dev)
 - [frontend-developer](./plugins/frontend-developer)
+- [gemini-claude-bridge](https://github.com/weijiafu14/gemini-claude-bridge) — 让 Claude Code 使用 Gemini 模型的即插即用代理，支持思维签名持久化、多模态工具结果和流式工具参数。
 - [mobile-app-builder](./plugins/mobile-app-builder)
 - [project-curator](./plugins/project-curator)
 - [python-expert](./plugins/python-expert)
