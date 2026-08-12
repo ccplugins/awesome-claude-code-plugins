@@ -1,5 +1,5 @@
 ---
-name: enterprise-integration-architect
+name: enterprise-integrator-architect
 description: Use this agent when you need to design and implement complex external enterprise system integrations for B2B applications. This agent specializes in connecting your platform with Salesforce, HubSpot, Microsoft 365, Google Workspace, SAP, Oracle ERP, and other critical third-party business software. Handles external API orchestration, data synchronization with enterprise systems, webhook management for third-party services, and enterprise-grade integration patterns. Examples:
 
 <example>
