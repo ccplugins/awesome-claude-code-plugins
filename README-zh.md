@@ -92,6 +92,7 @@
 - [customer-success-manager](./plugins/customer-success-manager)
 - [enterprise-onboarding-specialist](./plugins/enterprise-onboarding-specialist)
 - [finance-tracker](./plugins/finance-tracker)
+- [management-consulting](./plugins/management-consulting)
 - [pricing-packaging-specialist](./plugins/pricing-packaging-specialist)
 - [product-sales-specialist](./plugins/product-sales-specialist)
 - [support-responder](./plugins/support-responder)
