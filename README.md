@@ -386,6 +386,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Knowledge Management
 - [bedrock](./plugins/bedrock)
+- [agent-memory](https://github.com/vib795/agent-memory) — Cross-repository memory for Claude Code and GitHub Copilot. `/handoff`, `/remember` and `/recall` over one local markdown store, indexed into SQLite via `node:sqlite`. Notes live outside any repository, so a note written in one project is readable from another. Zero runtime dependencies and no install script.
 
 ## External Marketplaces
 
@@ -394,6 +395,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [vib795/agent-memory](https://github.com/vib795/agent-memory) | agent-memory plugin: cross-repository memory — `/handoff`, `/remember`, `/recall` over one local markdown store. The plugin carries the skills; the store needs the CLI: `npm i -g @vib795/agent-memory` (Node >= 22.5) | `claude plugin marketplace add vib795/agent-memory` then `claude plugin install agent-memory@vib795` |
 
 
 ### Skills & Frameworks
