@@ -1,7 +1,7 @@
 {
   "name": "nuhuh",
   "description": "Your agent said Done. nuhuh runs the experiment and bounces the agent until the receipt is green.",
-  "version": "0.1.4",
+  "version": "0.1.9",
   "author": {
     "name": "sjh9714"
   },

@@ -1,7 +1,7 @@
 {
   "name": "nuhuh",
   "description": "A Stop hook that verifies the agent's completion claims by re-running reality. It extracts every claim from the final message (tests pass, file created, endpoint works) and verifies each one fresh with real exit codes, then bounces a false Done back to the agent with the failing evidence.",
-  "version": "0.1.4",
+  "version": "0.1.9",
   "author": {
     "name": "sjh9714"
   },
