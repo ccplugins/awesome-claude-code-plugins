@@ -109,6 +109,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [craftsman](./plugins/craftsman)
 - [rote](./plugins/rote)
 - [claude-session-tint](./plugins/claude-session-tint)
+- [Claude Code SDLC Harness](https://github.com/BaseInfinity/claude-sdlc-harness) - Codebase-aware SDLC orchestration that tailors setup and updates to each repository, enforces planning and TDD, and gates delivery on independent cross-model review. Installs via `npx agentic-sdlc-wizard init`.
 
 ### AI & Speech
 - [speech-ai](https://github.com/fasuizu-br/speech-ai-examples) - Speech AI plugin with pronunciation assessment, text-to-speech, and speech-to-text. 8 MCP tools for language learning, accessibility, and voice applications.
@@ -162,7 +163,6 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [optimize](./plugins/optimize)
 - [performance-benchmarker](./plugins/performance-benchmarker)
 - [refractor](./plugins/refractor)
-- [sdlc-wizard](https://github.com/BaseInfinity/agentic-ai-sdlc-wizard) - SDLC enforcement plugin with hooks for TDD gates, planning workflow, confidence levels, and cross-model review. Installs via `npx agentic-sdlc-wizard init`.
 - [test-file](./plugins/test-file)
 - [test-results-analyzer](./plugins/test-results-analyzer)
 - [test-writer-fixer](./plugins/test-writer-fixer)
