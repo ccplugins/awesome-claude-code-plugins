@@ -254,6 +254,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [lightcms](./plugins/lightcms)
 - [deapi-media](./plugins/deapi-media)
 - [reporecall](https://github.com/proofofwork-agency/reporecall) - Local codebase memory for Claude Code. AST indexing (22 languages), call graphs, hybrid search. Injects context via hooks (~5ms). Also an MCP server.
+- [Deposition](https://github.com/georgedagher/deposition) - Local-only decision log for AI coding agents. Regex-based decision extraction, ChromaDB + local embeddings, zero API calls, nothing leaves disk. Hooks into Stop to auto-index, ships with a recall skill.
 - [dotforge](https://github.com/luiseiman/dotforge) - Configuration factory for Claude Code — 17 skills, 7 agents, 15 stacks, audit scoring (0-10), practices pipeline.
 - [slack-message-formatter](./plugins/slack-message-formatter)
 - [cc-hud](https://github.com/WaterTian/cc-hud) — Compact single-line statusline: model name, context usage bar, active subagents, rate limits. Zero dependencies.
