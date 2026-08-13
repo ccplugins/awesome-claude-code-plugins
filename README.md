@@ -222,6 +222,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [claw-army/claude-node](https://github.com/claw-army/claude-node) - Python subprocess bridge for Claude Code CLI, giving Python code direct access to Claude Code native capabilities via stream-json.
 - [api-integration-specialist](./plugins/api-integration-specialist)
 - [backend-architect](./plugins/backend-architect)
+- [blazephoenixxyz-crypto/cicada-husk](https://github.com/blazephoenixxyz-crypto/cicada-husk) - Token-lean operating discipline: read code by symbol instead of by whole file, cite prior findings by name, dose effort per task, budget every sub-agent by risk. Fully read-only — two commands, one ~25-token session banner, ~0 tokens per turn.
 - [blueprint](https://github.com/JuliusBrussee/blueprint)
 - [code-architect](./plugins/code-architect)
 - [context-memory](./plugins/context-memory)
