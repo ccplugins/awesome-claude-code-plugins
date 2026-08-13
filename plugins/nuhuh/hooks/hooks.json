@@ -5,7 +5,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "npx --yes nuhuh@0.1.9 gate",
+            "command": "npx --yes nuhuh@0.1.10 gate",
             "timeout": 600
           }
         ]
