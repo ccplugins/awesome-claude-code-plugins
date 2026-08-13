@@ -192,6 +192,9 @@
 
 ### 市场营销与增长
 - [app-store-optimizer](./plugins/app-store-optimizer)
+- [claude-seo](https://github.com/AgriciDaniel/claude-seo) - SEO 套件，涵盖网站审计、技术 SEO、E-E-A-T、GEO、结构化数据和本地 SEO 工作流。
+- [claude-ads](https://github.com/AgriciDaniel/claude-ads) - 面向 Google、Meta、LinkedIn、TikTok 和 Microsoft Ads 的付费广告审计工作流。
+- [claude-blog](https://github.com/AgriciDaniel/claude-blog) - 博客工作流，提供命令、模板、评分和 CMS 集成。
 - [content-creator](./plugins/content-creator)
 - [growth-hacker](./plugins/growth-hacker)
 - [instagram-curator](./plugins/instagram-curator)

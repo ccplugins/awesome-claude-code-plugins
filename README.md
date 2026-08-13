@@ -302,6 +302,9 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 ### Marketing Growth
 - [app-store-optimizer](./plugins/app-store-optimizer)
 - [claude-rank](https://github.com/Houseofmvps/claude-rank) - SEO/GEO/AEO audit with 170+ rules, auto-fix for robots.txt/sitemap.xml/llms.txt/JSON-LD
+- [claude-seo](https://github.com/AgriciDaniel/claude-seo) - SEO suite with site audits, technical SEO, E-E-A-T, GEO, schema, and local SEO workflows.
+- [claude-ads](https://github.com/AgriciDaniel/claude-ads) - Paid advertising audit workflows for Google, Meta, LinkedIn, TikTok, and Microsoft Ads.
+- [claude-blog](https://github.com/AgriciDaniel/claude-blog) - Blog workflow with commands, templates, scoring, and CMS integration.
 - [content-creator](./plugins/content-creator)
 - [growth-hacker](./plugins/growth-hacker)
 - [Hermes Tweet](https://github.com/Xquik-dev/hermes-tweet) - Native Hermes Agent plugin for X/Twitter research, monitoring, drafting, follower exports, and approval-gated actions.
