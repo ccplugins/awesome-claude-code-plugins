@@ -509,18 +509,6 @@
       "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/husky"
     },
     {
-      "name": "2-commit-fast",
-      "source": "./plugins/2-commit-fast",
-      "description": "Automates git commit process by selecting the first suggested message, generating structured commits with consistent formatting while skipping manual confirmation and removing Claude co-Contributorship footer",
-      "version": "1.0.0",
-      "author": {
-        "name": "steadycursor",
-        "url": "https://github.com/steadycursor"
-      },
-      "category": "general",
-      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/2-commit-fast"
-    },
-    {
       "name": "pr-issue-resolve",
       "source": "./plugins/pr-issue-resolve",
       "description": "this is to analyze the PRs and solve the requested changes in them\n",
@@ -554,20 +542,6 @@
         "refactoring",
         "testing",
         "security"
-      ]
-    },
-    {
-      "name": "accessibility-expert",
-      "source": "./plugins/accessibility-expert",
-      "description": "Examples:",
-      "version": "1.0.0",
-      "author": {
-        "name": "Alysson Franklin"
-      },
-      "category": "agents",
-      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/accessibility-expert",
-      "keywords": [
-        "subagent"
       ]
     },
     {
