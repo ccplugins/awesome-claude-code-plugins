@@ -77,6 +77,7 @@
 - [ai-meeting](./plugins/ai-meeting)
 - [craftsman](./plugins/craftsman)
 - [rote](./plugins/rote)
+- [Claude Code SDLC Harness](https://github.com/BaseInfinity/claude-sdlc-harness) — 面向代码库的 SDLC 编排系统：为每个代码库定制设置和更新，强制执行规划与 TDD，并通过独立的跨模型审查把关交付。安装：`npx agentic-sdlc-wizard init`。
 
 ### 自动化运维
 - [deployment-engineer](./plugins/deployment-engineer)
