@@ -2316,6 +2316,37 @@
         "tokens",
         "audit"
       ]
+    },
+    {
+      "name": "craft",
+      "displayName": "craft",
+      "source": {
+        "source": "github",
+        "repo": "drobins25/craft"
+      },
+      "description": "A Claude Code plugin whose workshop of expert agents learns as it builds: repeated fixes become permanent rules, loved tweaks become taste it remembers - and every change waits behind a write gate you control.",
+      "version": "2.4.2",
+      "author": {
+        "name": "Darin Drobinski",
+        "url": "https://github.com/drobins25"
+      },
+      "category": "Workflow Orchestration",
+      "homepage": "https://github.com/drobins25/craft",
+      "repository": "https://github.com/drobins25/craft",
+      "license": "MIT",
+      "keywords": [
+        "claude-code",
+        "development",
+        "workflow",
+        "creative",
+        "harness",
+        "agents",
+        "multi-agent",
+        "orchestration",
+        "write-gate",
+        "quality-gates",
+        "taste"
+      ]
     }
   ]
 }
