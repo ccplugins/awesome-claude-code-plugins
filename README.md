@@ -109,6 +109,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [craftsman](./plugins/craftsman)
 - [rote](./plugins/rote)
 - [claude-session-tint](./plugins/claude-session-tint)
+- [backbrief-kit](https://github.com/charlesashe/backbrief-kit) - Free multi-agent operating kit: an orchestrator that plans and routes work, 12 specialist agents, and a fresh-context verifier that checks finished work against acceptance criteria before it counts as done. 7 commands, 10 rules, plain Markdown.
 
 ### AI & Speech
 - [speech-ai](https://github.com/fasuizu-br/speech-ai-examples) - Speech AI plugin with pronunciation assessment, text-to-speech, and speech-to-text. 8 MCP tools for language learning, accessibility, and voice applications.
