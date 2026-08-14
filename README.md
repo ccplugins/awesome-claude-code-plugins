@@ -425,6 +425,8 @@ Example:
 
 - [AgentStore](https://github.com/techgangboss/agentstore) - Open-source plugin marketplace with gasless USDC payments. Install via `/plugin marketplace add techgangboss/agentstore`. Publishers earn 80% of sales. Agent-first API for zero-auth publishing.
 - [protonium](https://github.com/protonium-labs/protonium-marketplace) — AI agents and productivity tools. Includes **AxiomCore**, a project & routine management agent: enforced structure (numbered folders, task IDs, wiki memory), plan → approve → execute workflow, agile or WBS project creation.
+- [claude-skills](https://github.com/Ru0n/claude-skills) — Standalone skills: a fully-cited Gemma 4 31B prompting reference, iPhone Mirroring automation, layered code explanations, a Higgsfield generation guide, Gemini-powered audio transcription, a 5-layout social carousel designer, and an evidence-based pre-production testing gauntlet (dual adversarial review → DevTools sweep → zero-context attacker). Install via `/plugin marketplace add Ru0n/claude-skills`.
+- [claude-session-skills](https://github.com/Ru0n/claude-session-skills) — Two paired session-continuity skills: `session-handoff` (chat-only end-of-session summary) and `persist-session` (writes durable, typed memory files a future session auto-loads). Install via `/plugin marketplace add Ru0n/claude-session-skills`.
 
 ## Contributing
 
