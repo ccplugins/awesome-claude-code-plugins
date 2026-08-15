@@ -131,6 +131,8 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [notify](https://github.com/ApurvBazari/claude-plugins)
 - [retro-daily](./plugins/retro-daily)
 
+- [claude-in-chrome](https://github.com/hamzahamidi/claude-in-chrome-cli) - Drives your real, logged-in Chrome through the Claude in Chrome extension, so pages behind SSO or a cookie wall work without a fresh profile or a re-login. Bundles a skill on when a real session matters, plus `cic.sh` for shell and cron use. `/plugin marketplace add hamzahamidi/claude-in-chrome-cli`
+
 ### Business Sales
 - [Drevon](https://drevon.dev) - Mac desktop workspace for GTM engineers. Run parallel AI agents powered by Claude Code, Codex, or Copilot to build target lists, score accounts, and pull prospect intel.
 - [b2b-project-shipper](./plugins/b2b-project-shipper)
