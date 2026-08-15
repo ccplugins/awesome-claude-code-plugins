@@ -393,6 +393,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
+| [sandbaseai/sandbase-skills](https://github.com/sandbaseai/sandbase-skills) | 88 Apache-2.0 Agent Skills for evidence-led research, social intelligence, marketing, and business workflows | `claude plugin marketplace add sandbaseai/sandbase-skills` then `claude plugin install sandbase-skills@sandbase-agent-skills` |
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
 
 
