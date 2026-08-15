@@ -330,6 +330,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [discuss](./plugins/discuss)
 - [explore](./plugins/explore)
 - [fractal](https://github.com/rmolines/fractal) - Recursive project management plugin. Decomposes any goal into verifiable predicates, works on the riskiest unknown first. Features `/fractal:run` (idempotent state machine), `/fractal:init`, `/fractal:patch`, dry run mode, and incremental decomposition with re-evaluation.
+- [governor](https://github.com/0xhimanshu/governor)
 - [plan](./plugins/plan)
 - [planning-prd-agent](./plugins/planning-prd-agent)
 - [plannotator](https://github.com/backnotprop/plannotator) - Interactive plan review UI with visual annotation (install via `/plugin marketplace add backnotprop/plannotator`)
