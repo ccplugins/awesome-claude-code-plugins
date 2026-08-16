@@ -148,6 +148,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [signals-cli](./plugins/signals-cli)
 
 ### Code Quality Testing
+- [Agent QA](https://github.com/vostride/agent-qa) - Open-source self-improving QA agent for natural-language web and mobile tests. Run `agent-qa mcp` to let Claude Code author and execute tests, inspect artifacts, triage failures, and guide fixes with persistent test memory.
 - [autoresearch](./plugins/autoresearch)
 - [api-tester](./plugins/api-tester)
 - [bug-detective](./plugins/bug-detective)
