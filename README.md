@@ -398,6 +398,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 
 ### Skills & Frameworks
 - [aurakit](https://github.com/smorky850612/Aurakit) — All-in-one Claude Code skill: 46 modes, 23 sub-agents, 6-layer OWASP security, 10 lifecycle hooks, ~55% token savings. Cross-platform (Codex, Cursor, Manus, Windsurf). Install: `npx @smorky85/aurakit`
+- [freehire](https://github.com/strelov1/freehire-cli) — Job hunting from Claude Code, over [freehire.me](https://freehire.me): 3.3M+ IT roles crawled straight from 294K company career boards. Five skills and the `/job-search`, `/market-fit`, `/tailor-cv`, `/track-applications` and `/triage-inbox` commands, over a Go CLI that speaks `--json` throughout.
 
 ## Resources
 - [Claudebin](https://claudebin.com) ([GitHub](https://github.com/wunderlabs-dev/claudebin.com/)) - A minimalistic tool for publishing and sharing Claude coding sessions.
