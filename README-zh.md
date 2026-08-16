@@ -213,6 +213,7 @@
 - [tool-evaluator](./plugins/tool-evaluator)
 - [workflow-optimizer](./plugins/workflow-optimizer)
 - [product-org-os](./plugins/product-org-os)
+- [requirement-zero](https://github.com/Chisanan232/requirement-zero)
 
 ### 安全、合规与法律
 - [ai-ethics-governance-specialist](./plugins/ai-ethics-governance-specialist)
