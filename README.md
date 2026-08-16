@@ -386,6 +386,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Knowledge Management
 - [bedrock](./plugins/bedrock)
+- [Synapse](https://github.com/smaurier/claude-synapse) - Links Claude Code memory across machines through a single git-hosted hub referenced by filesystem junction/symlink, instead of syncing or copying files between them.
 
 ## External Marketplaces
 
