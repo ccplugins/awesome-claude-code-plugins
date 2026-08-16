@@ -345,6 +345,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [agent-decision-record](./plugins/agent-decision-record)
 - [product-org-os](./plugins/product-org-os)
 - [governor](https://github.com/0xhimanshu/governor)
+- [requirement-zero](https://github.com/Chisanan232/requirement-zero) - Two scope-discipline skills: `requirement-zero` challenges whether a requirement should be built before planning starts, `codebase-zero` audits whether existing code still deserves to exist. Each reaches one explicit verdict. Markdown only, MIT.
 
 ### Lifestyle & Entertainment
 - [ai-divination-skills](./plugins/ai-divination-skills)
