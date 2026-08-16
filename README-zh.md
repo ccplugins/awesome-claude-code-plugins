@@ -213,7 +213,7 @@
 - [tool-evaluator](./plugins/tool-evaluator)
 - [workflow-optimizer](./plugins/workflow-optimizer)
 - [product-org-os](./plugins/product-org-os)
-- [requirement-zero](https://github.com/Chisanan232/requirement-zero) - 两个范围控制技能：`requirement-zero` 在规划开始前质疑某个需求是否应该被构建，`codebase-zero` 审计既有代码是否仍值得存在。每个技能给出一个明确结论。纯 Markdown，MIT 许可。
+- [requirement-zero](https://github.com/Chisanan232/requirement-zero)
 
 ### 安全、合规与法律
 - [ai-ethics-governance-specialist](./plugins/ai-ethics-governance-specialist)
