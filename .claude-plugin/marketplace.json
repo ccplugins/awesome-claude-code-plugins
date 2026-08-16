@@ -2316,6 +2316,37 @@
         "tokens",
         "audit"
       ]
+    },
+    {
+      "name": "requirement-zero",
+      "displayName": "requirement-zero",
+      "source": {
+        "source": "github",
+        "repo": "Chisanan232/requirement-zero"
+      },
+      "description": "Two scope-discipline skills: challenge whether a requirement should be built before planning, and audit whether existing code still deserves to exist.",
+      "version": "0.2.0",
+      "author": {
+        "name": "Chisanan232",
+        "url": "https://github.com/Chisanan232"
+      },
+      "category": "Project & Product Management",
+      "homepage": "https://github.com/Chisanan232/requirement-zero",
+      "repository": "https://github.com/Chisanan232/requirement-zero",
+      "license": "MIT",
+      "keywords": [
+        "agent-skills",
+        "claude-code",
+        "code-audit",
+        "requirements-engineering",
+        "technical-debt",
+        "yagni"
+      ],
+      "tags": [
+        "requirements",
+        "code-audit",
+        "scope"
+      ]
     }
   ]
 }
