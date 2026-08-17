@@ -2316,6 +2316,38 @@
         "tokens",
         "audit"
       ]
+    },
+    {
+      "name": "mainbook-bank-statement-converter",
+      "displayName": "MainBook Bank Statement Converter",
+      "source": {
+        "source": "github",
+        "repo": "human-beyond/mainbook-skill"
+      },
+      "description": "Convert PDF bank statements into Excel, CSV, or JSON and review the arithmetic checks and warning evidence before using the numbers.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Human Beyond LLC",
+        "url": "https://mainbook.ai"
+      },
+      "category": "Data Analytics",
+      "homepage": "https://mainbook.ai/mcp",
+      "repository": "https://github.com/human-beyond/mainbook-skill",
+      "license": "MIT",
+      "keywords": [
+        "bank-statements",
+        "pdf",
+        "excel",
+        "csv",
+        "accounting",
+        "document-conversion"
+      ],
+      "tags": [
+        "bank-statements",
+        "documents",
+        "finance",
+        "mcp"
+      ]
     }
   ]
 }
