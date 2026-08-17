@@ -383,6 +383,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Companion Apps & Tools
 - [Onepilot](https://onepilotapp.com) — iOS app to SSH into remote servers and run Claude Code from your phone
+- [ClawMetry](https://github.com/vivekchand/clawmetry) — Open-source local dashboard that auto-detects Claude Code sessions and shows live transcripts, token costs, and tool calls across 20+ agent runtimes
 
 ### Knowledge Management
 - [bedrock](./plugins/bedrock)
