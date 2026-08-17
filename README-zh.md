@@ -223,6 +223,7 @@
 - [legal-advisor](./plugins/legal-advisor)
 - [legal-compliance-checker](./plugins/legal-compliance-checker)
 - [shellgate](./plugins/shellgate)
+- [SpecLock](https://github.com/sgroy10/speclock) — AI 约束引擎，通过语义检查、Claude Code 钩子、Git 钩子和 51 个 MCP 工具，强制执行 CLAUDE.md、AGENTS.md 等 AI 指令文件中的项目规则。
 - [web-security-guard](./plugins/web-security-guard)
 - [agent-safety-preflight](./plugins/agent-safety-preflight)
 
