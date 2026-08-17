@@ -9,6 +9,12 @@
             "command": "python3",
             "args": ["${CLAUDE_PLUGIN_ROOT}/scripts/bionify.py"],
             "timeout": 10
+          },
+          {
+            "type": "command",
+            "command": "py",
+            "args": ["-3", "${CLAUDE_PLUGIN_ROOT}/scripts/bionify.py"],
+            "timeout": 10
           }
         ]
       }

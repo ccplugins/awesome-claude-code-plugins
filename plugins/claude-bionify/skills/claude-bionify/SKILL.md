@@ -11,6 +11,36 @@ Background knowledge for answering questions about the claude-bionify plugin, wh
 bolds the leading part of each word in Claude's responses (cosmetic bionic reading).
 Use it to recommend the right command and the exact key a user needs.
 
+## Prerequisite: confirm the plugin is installed
+
+This skill is only useful when the **claude-bionify plugin** is installed. The skill and
+the plugin are separate: skill marketplaces can surface this `SKILL.md` on its own, so a
+user may have loaded the skill without the plugin that actually does the bolding. Without
+the plugin there is no `MessageDisplay` hook and no `/claude-bionify:*` commands, so every
+instruction below is inert.
+
+Before advising on settings or commands, verify the plugin is present:
+
+```bash
+grep -q 'claude-bionify' ~/.claude/plugins/installed_plugins.json 2>/dev/null \
+  && echo "plugin: installed" \
+  || echo "plugin: MISSING"
+```
+
+If the check fails (or the file does not exist), the plugin is not installed. Tell the
+user plainly that they have the skill but not the plugin, then give the two install steps
+and offer to run them:
+
+```
+/plugin marketplace add abullard1/claude-bionify
+/plugin install claude-bionify@claude-bionify
+```
+
+These are slash commands the user runs in Claude Code; you cannot invoke them yourself, so
+present them for the user to run (or paste) and confirm once bolding appears on the next
+response. Only continue with the settings and command guidance below once the plugin is
+confirmed installed.
+
 ## When to use
 
 Load this skill when the user wants to:

@@ -7,6 +7,7 @@ written, and cleared. The schema is just a JSON object of Style fields plus an
 optional `enabled` flag; this module stays agnostic about its contents.
 """
 
+import contextlib
 import json
 import os
 
@@ -48,7 +49,5 @@ def save(state: dict) -> None:
 
 def clear() -> None:
     """Remove the override file, reverting to the configured defaults."""
-    try:
+    with contextlib.suppress(OSError):
         os.remove(path())
-    except OSError:
-        pass

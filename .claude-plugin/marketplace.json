@@ -2147,7 +2147,7 @@
       "name": "claude-bionify",
       "source": "./plugins/claude-bionify",
       "description": "Bionic reading for Claude Code responses that bolds the leading part of each word to improve readability and focus.",
-      "version": "1.0.1",
+      "version": "1.0.6",
       "author": {
         "name": "Samuel Ruairí Bullard",
         "url": "https://github.com/abullard1"

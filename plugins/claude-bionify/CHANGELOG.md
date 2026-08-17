@@ -3,6 +3,72 @@
 All notable changes to claude-bionify are documented here. This project follows
 [semantic versioning](https://semver.org) and [Keep a Changelog](https://keepachangelog.com).
 
+## [1.0.6] - 2026-08-17
+
+### Fixed
+- `/claude-bionify:status` no longer reports that nothing is being bolded when it is. The
+  check read the interpreter's entire output, so a banner printed ahead of it by a
+  `sitecustomize` or a conda activation hid the version line and a perfectly good Python was
+  counted as unusable. It now reads the last line the probe prints.
+- A malformed `hooks.json` no longer leaves `/claude-bionify:status` silent. An unreadable
+  file now says so, and an oddly shaped one is treated as declaring no interpreters rather
+  than raising.
+
+## [1.0.5] - 2026-08-15
+
+### Fixed
+- The hook now starts on native Windows. It ran as `python3`, a name that is usually not
+  Python there: the python.org installer creates no `python3.exe`, and Windows ships a
+  Microsoft Store placeholder of that name which exits without running anything. Hooks are
+  spawned with no shell, so there was no fallback, and a failed `MessageDisplay` hook shows
+  the original text without reporting an error. The hook is now declared as both `python3`
+  and `py -3`, and the first that starts does the bolding. Thanks to @aermak for the report.
+- `/claude-bionify:status` no longer reports ON while nothing is being bolded.
+
+### Known limitation
+- Where `python3` is the Store placeholder, bolding works but the `/claude-bionify:*`
+  commands do not, since they run through a shell and no fallback syntax suits both Git Bash
+  and PowerShell 5.1. Installing Git for Windows, or a real `python3` on `PATH`, restores them.
+
+## [1.0.4] - 2026-08-13
+
+### Fixed
+- Code blocks are less likely to be bolded as prose when Claude streams quickly.
+  Claude Code runs up to three flushes of one message at once, and the file that
+  remembers whether a code fence is open was truncated before being rewritten, so
+  an overlapping flush could read it as empty. It is now written to a temporary
+  file and moved into place, which no reader can observe half-finished.
+- The hook reads the message identifier from `message_id`, the field Claude Code
+  actually sends. It looked for `messageId`, never found it, and fell back to the
+  session id, which keyed fence state per session rather than per message.
+- Fence state is cleared when a message ends on a newline. That final flush
+  carries no text, and the hook returned before reaching its own cleanup, leaving
+  a stale file behind for the rest of the session.
+- Stale temporary files from an interrupted flush are collected alongside stale
+  fence state at the start of the next message.
+
+## [1.0.3] - 2026-07-26
+
+### Fixed
+- Non-ASCII characters no longer garble on Windows. Python decodes a pipe with
+  the system ANSI codepage rather than UTF-8, so em dashes and curly quotes in
+  Claude's replies arrived corrupted before being bolded. The hook now reads its
+  event as bytes and lets JSON decode it. Thanks to @aermak for the report.
+- `/claude-bionify:status` and the other control commands no longer emit an
+  undecodable separator on Windows. The status line is now written as UTF-8
+  bytes instead of being encoded with the platform codepage, which produced a
+  broken glyph on Western systems and failed outright on Japanese ones.
+- `assets/generate_themes.py` reads and writes UTF-8 explicitly, so regenerating
+  `themes.svg` produces the same file on any platform.
+
+## [1.0.2] - 2026-07-12
+
+### Changed
+- The claude-bionify skill now confirms the plugin is installed before giving
+  settings or command guidance. Skill marketplaces can surface the skill on its
+  own, so when the plugin is missing the skill now says so and points to the
+  install commands instead of walking through controls that are not there.
+
 ## [1.0.1] - 2026-07-04
 
 ### Fixed

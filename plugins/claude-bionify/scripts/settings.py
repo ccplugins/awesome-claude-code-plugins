@@ -7,9 +7,9 @@ all read from here, so adding or changing an option happens in one place rather
 than across several modules.
 """
 
+import re
 from collections.abc import Callable
 from dataclasses import dataclass
-import re
 from typing import NamedTuple
 
 DEFAULT_FIXATION = 0.5

@@ -10,7 +10,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-plugin-d97757)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
-![Version](https://img.shields.io/badge/version-1.0.1-success)
+![Version](https://img.shields.io/badge/version-1.0.6-success)
 
 </div>
 
@@ -81,7 +81,14 @@ falls back to the original.
 
 ## Requirements
 
-- Claude Code with plugin support · `python3` on your `PATH` · a terminal that renders markdown bold
+- Claude Code 2.1.152+ (which added the `MessageDisplay` hook), Python 3.10+, and a terminal
+  that renders markdown bold
+
+The hook starts Python as `python3`, and on Windows also through the `py` launcher, because the
+python.org installer ships no `python3.exe` and Windows' own Microsoft Store placeholder of that
+name exits without running Python. On such a machine the bolding works but the slash commands do
+not, since they go through a shell where no fallback syntax suits both Git Bash and PowerShell;
+installing Git for Windows or putting a real `python3` on `PATH` restores them.
 
 ## Terminal compatibility
 
