@@ -379,6 +379,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [AgentIQ / MoltAd](https://github.com/chrisgu/agentiq-mcp) — Publisher MCP: list placements, `deliver_ad`, earn credits. https://moltad.net/publishers · https://moltad.net/mcp
 
 ### Thinking & Knowledge Management
+- [checkpoint-vivo](https://github.com/Balli-tech/checkpoint-vivo) - Persists where the work stopped and restores it into context at session start, resume, and after compaction. A PreCompact hook captures git log, pending files, and recent requests on its own.
 - [thinking-tree](https://github.com/CoralLips/thinking-tree)
 
 ### Companion Apps & Tools
