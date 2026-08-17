@@ -2316,6 +2316,26 @@
         "tokens",
         "audit"
       ]
+    },
+    {
+      "name": "aeon",
+      "source": "./plugins/aeon",
+      "description": "Operator console for an Aeon agent instance - enable/schedule/edit skills, wire secrets and channels, debug runs, and mine past Claude Code chats into scheduled skills.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Aeon Inc",
+        "url": "https://github.com/aeonfun"
+      },
+      "category": "Automation DevOps",
+      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/aeon",
+      "keywords": [
+        "agent",
+        "automation",
+        "cron",
+        "github-actions",
+        "skills",
+        "aeon"
+      ]
     }
   ]
 }
