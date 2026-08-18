@@ -210,7 +210,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [nano-banana](https://github.com/Ibrahim-3d/nano-banana-claude-plugin) - Google Gemini image generation plugin. Text-to-image, text-guided image editing, style transfer, 4K output, search grounding, and multi-reference composition via `/genimage`. Uses `gemini-2.5-flash-image` (fast) and `gemini-3-pro-image-preview` (4K/search).
 - [onomastophes](./plugins/onomastophes)
 - [ui-designer](./plugins/ui-designer)
-- [UIZZE](https://github.com/uizze/uizze) - Stop AI UI slop before it ships with a free anti-ui-slop skill, UI Slop Gate, and optional MCP grounded in 800,000+ real web and iOS screens.
+- [UIZZE](https://uizze.com/ai-ui-slop?utm_source=ccplugins) - Free MIT anti-ui-slop Skill for coding agents with a design contract, required UI states, review, and a hard finish gate; optional [UIZZE](https://uizze.com/?utm_source=ccplugins) workflow researches 800,000+ real web and iOS screens. [GitHub source](https://github.com/uizze/uizze).
 - [ux](https://github.com/Laith0003/ux-skill)
 - [ux-researcher](./plugins/ux-researcher)
 - [visual-storyteller](./plugins/visual-storyteller)
