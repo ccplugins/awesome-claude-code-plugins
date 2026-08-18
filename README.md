@@ -401,6 +401,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 
 ## Resources
 - [Claudebin](https://claudebin.com) ([GitHub](https://github.com/wunderlabs-dev/claudebin.com/)) - A minimalistic tool for publishing and sharing Claude coding sessions.
+- [500k.io Skills Bank](https://500k.io/skills) - Searchable index of 638+ Claude, Claude Code and MCP skills, with install command and compatibility matrix per entry.
 
 ## Tutorials
 
