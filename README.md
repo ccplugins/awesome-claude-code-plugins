@@ -352,6 +352,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 ### Security, Compliance, & Legal
 - [ai-ethics-governance-specialist](./plugins/ai-ethics-governance-specialist)
 - [audit](./plugins/audit)
+- [cc-agents-kit](https://github.com/AndrewDongminYoo/cc-agents-kit) - Seven defensive hooks: blocks recursive rm aimed at $HOME or /, download-and-execute pipelines, live secrets-file access, formatters invoked with no path argument, credentials in the staged diff, and the two zsh quoting mistakes that fail silently. Every hook fails open with an individual opt-out. 184 regression cases, 74 of which fail when the logic they cover is deleted.
 - [compliance-automation-specialist](./plugins/compliance-automation-specialist)
 - [data-privacy-engineer](./plugins/data-privacy-engineer)
 - [enterprise-security-reviewer](./plugins/enterprise-security-reviewer)
