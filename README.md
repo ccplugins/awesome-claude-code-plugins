@@ -262,6 +262,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [skill-auto-installer](./plugins/skill-auto-installer)
 - [tldr](./plugins/tldr)
 - [Imagine](https://github.com/freestyler-arb/imagine-gemini-for-claude-codex) - Brings Google Gemini into Claude Code & Codex: delegate reasoning, independent code review, deep research, and automatic prompt-engineering. Runs on your Google AI Pro subscription, not your agent's tokens.
+- [skillreaper](https://github.com/thousandflowers/skillreaper) - Measures what share of the context Claude Code loads ever actually fires — skills, MCP servers, subagents, hooks, always-loaded prose — from your own session transcripts, then prunes the dead weight reversibly. Install: `claude plugin marketplace add thousandflowers/skillreaper`
 
 ### Documentation
 - [analyze-codebase](./plugins/analyze-codebase)
