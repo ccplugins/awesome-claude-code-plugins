@@ -383,6 +383,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Companion Apps & Tools
 - [Onepilot](https://onepilotapp.com) — iOS app to SSH into remote servers and run Claude Code from your phone
+- [mystical-assistant](https://github.com/ainurdev/mystical-assistant) — Self-hosted bridge that lists every Claude Code session on a machine, including ones started from a terminal or VS Code, and makes them readable and answerable from a local dashboard, a Telegram bot, or a Telegram Mini App. Parks turns killed by a usage limit and resumes them at reset. Python stdlib only; reuses the `claude` CLI login, no API key.
 
 ### Knowledge Management
 - [bedrock](./plugins/bedrock)
