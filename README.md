@@ -424,6 +424,7 @@ Example:
 ## Marketplaces
 
 - [AgentStore](https://github.com/techgangboss/agentstore) - Open-source plugin marketplace with gasless USDC payments. Install via `/plugin marketplace add techgangboss/agentstore`. Publishers earn 80% of sales. Agent-first API for zero-auth publishing.
+- [claude-for-business](https://github.com/travcjohnson/claude-for-business) - Working Claude workflows for service businesses. 17 skills, one per trade (law firms, accountants, agencies, contractors, clinics, real estate, consulting, ecommerce, insurance, nonprofits, MSPs and more), each with the complete prompt written out and an honest list of what not to use Claude for in that line of work. Install via `/plugin marketplace add travcjohnson/claude-for-business`. Nothing gated, no account needed.
 - [protonium](https://github.com/protonium-labs/protonium-marketplace) — AI agents and productivity tools. Includes **AxiomCore**, a project & routine management agent: enforced structure (numbered folders, task IDs, wiki memory), plan → approve → execute workflow, agile or WBS project creation.
 
 ## Contributing
