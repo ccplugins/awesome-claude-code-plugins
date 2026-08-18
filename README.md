@@ -71,6 +71,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [artel](https://github.com/NicolasPrimeau/artel) - Infrastructure for AI teams: shared semantic memory, tasks, agent-to-agent messages, and session handoffs across machines and LLM providers.
 - **[claude-brain](https://github.com/toroleapinc/claude-brain)** — Sync and evolve your Claude Code brain across machines. Auto-syncs memory, skills, agents, rules, and CLAUDE.md via Git with LLM-powered semantic merge.
 - [ceo-quality-controller-agent](./plugins/ceo-quality-controller-agent)
+- [charter](https://github.com/diazoxide/charter) — Control plane for agents working across many repos: one directory of clones per task (each repo on its own branch), durable personas with committed memory, and a credential vault the model never reads from. Runs in Claude Code, opencode and Codex. `claude plugin marketplace add diazoxide/charter`
 - [claude-recap](https://github.com/hatawong/claude-recap) — Per-topic session memory using Shell hooks — archives each conversation topic as a separate Markdown summary. Two hooks, bash + Node.js, 100% local.
 - [claude-desktop-extension](./plugins/claude-desktop-extension)
 - [equilateral-agents](https://github.com/Equilateral-AI/equilateral-agents-open-core) - 22 self-learning agents with memory, security review, code quality, deployment validation, and infrastructure checks
