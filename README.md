@@ -115,6 +115,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Automation DevOps
 - [PUIUX Pilot](https://github.com/PUIUX-Cloud/puiux-pilot) - Auto-configures Claude Code hooks, MCPs, and skills for any project. Scans 95+ project types, selects from 28+ hooks, scores quality (0-100, A-F). `npm i -g puiux-pilot`
+- [claude-carbon](https://github.com/gwittebolle/claude-carbon) - Carbon footprint tracking for Claude Code - live CO2 status line, session reports, PNG report cards. `npx claude-carbon`
 - [deployment-engineer](./plugins/deployment-engineer)
 - [devops-automator](./plugins/devops-automator)
 - [MyVibe](https://www.myvibe.so) - Instant deployment with `/myvibe:publish`
