@@ -137,6 +137,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [customer-success-manager](./plugins/customer-success-manager)
 - [enterprise-onboarding-specialist](./plugins/enterprise-onboarding-specialist)
 - [finance-tracker](./plugins/finance-tracker)
+- [LeadAce](https://github.com/aitit-inc/leadace) - Autonomous outbound sales agent. Researches each prospect's website, writes one email per prospect, sends from your own Gmail, tracks replies, and turns rejections into structured feedback for the next targeting round. Open source backend, self-hostable.
 - [mortgage](https://github.com/lendtrain/mortgage) - Mortgage refinance plugin by LendTrain — real-time institutional pricing, compliance, and FHA/VA loan detection via MCP. No API key required.
 - [pricing-packaging-specialist](./plugins/pricing-packaging-specialist)
 - [product-sales-specialist](./plugins/product-sales-specialist)
