@@ -324,6 +324,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [social-vision](./plugins/social-vision)
 - [x-skills](https://github.com/sergebulaev/x-skills)
 - [yaohe](./plugins/yaohe)
+- [seo-check](https://github.com/AnTIdoTe003/claude-seo-check) - Pre-commit SEO audit plugin: static diff check for regressions (noindex, robots.txt, canonicals, redirects, JSON-LD) plus a zero-dependency Googlebot crawl of the affected routes, with a commit verdict
 
 ### Project & Product Management
 - [bleu](https://github.com/Nirvaan05/Bleu-plugin)
