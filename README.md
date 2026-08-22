@@ -386,6 +386,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Knowledge Management
 - [bedrock](./plugins/bedrock)
+- [deja-vu](https://github.com/vshulcz/deja-vu) — Local memory over the session files 20 coding agents already write to disk, including the months before you installed it. Search, auto-recall on every prompt, MCP tools, no network calls. Install: `/plugin marketplace add vshulcz/deja-vu`
 
 ## External Marketplaces
 
