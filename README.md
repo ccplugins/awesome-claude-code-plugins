@@ -347,7 +347,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [governor](https://github.com/0xhimanshu/governor)
 
 ### Lifestyle & Entertainment
-- [ai-divination-skills](./plugins/ai-divination-skills)
+- [oraclebone](./plugins/oraclebone)
 
 ### Security, Compliance, & Legal
 - [ai-ethics-governance-specialist](./plugins/ai-ethics-governance-specialist)

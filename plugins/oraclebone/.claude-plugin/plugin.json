@@ -1,0 +1,10 @@
+{
+  "name": "oraclebone",
+  "description": "Audited divination for AI agents — tarot, I Ching (周易), Xiao Liu Ren (小六壬), Bazi (四柱八字). Calls local audited Python tools that emit deterministic JSON; the model never invents the result, it only interprets the JSON output.",
+  "version": "8.2.0",
+  "author": {
+    "name": "sapuyou45-bit",
+    "url": "https://github.com/sapuyou45-bit"
+  },
+  "homepage": "https://github.com/sapuyou45-bit/oraclebone"
+}
