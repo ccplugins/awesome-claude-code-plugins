@@ -393,6 +393,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
+| [notgabriels-sys/claude-code-50-dark-themes](https://github.com/notgabriels-sys/claude-code-50-dark-themes) | 50 hand-tuned dark themes for Claude Code, with semantic status colors and an MIT license | `claude plugin marketplace add notgabriels-sys/claude-code-50-dark-themes` then `claude plugin install 50-dark-themes@notgabriels-themes` |
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
 
 
