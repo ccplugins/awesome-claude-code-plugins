@@ -134,6 +134,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 ### Business Sales
 - [Drevon](https://drevon.dev) - Mac desktop workspace for GTM engineers. Run parallel AI agents powered by Claude Code, Codex, or Copilot to build target lists, score accounts, and pull prospect intel.
 - [b2b-project-shipper](./plugins/b2b-project-shipper)
+- [competitive-intel](https://github.com/kaordones/competitive-intel-plugin) - Turns research on one competitor into three linked sales documents: a sourced deep-dive, a 2–3 page battlecard, and a one-page PDF for live calls. The one-pager is generated from the battlecard, so the two can't drift apart. Industry-agnostic; the build flags unhedged claims about competitors and undated review quotes.
 - [customer-success-manager](./plugins/customer-success-manager)
 - [enterprise-onboarding-specialist](./plugins/enterprise-onboarding-specialist)
 - [finance-tracker](./plugins/finance-tracker)
