@@ -146,6 +146,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [founder-toolkit](https://github.com/mooster/founder-toolkit) - 4 skills for startup founders: investor update writer (YC/a16z format), pitch deck reviewer (10-dimension VC scoring), SaaS metrics dashboard with benchmarks, and outreach lead scorer (ICP-first, tested on 300+ companies). Built by Mu Chen, CEO of Canopy Cloud ($120B+ AUM).
 - [overloop-cli](./plugins/overloop-cli)
 - [signals-cli](./plugins/signals-cli)
+- [Slashbooks](https://github.com/giltotherescue/slashbooks) - Cash-basis bookkeeping plugin: import bank/card activity, review unknowns, close the month, and export files for your accountant.
 
 ### Code Quality Testing
 - [autoresearch](./plugins/autoresearch)
