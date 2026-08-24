@@ -175,6 +175,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [adamsreview](./plugins/adamsreview)
 - [slicewise](./plugins/slicewise)
 - [bullpen](./plugins/bullpen)
+- [codearqtech](https://github.com/CodeArq-tech/performance-debugger-skill) — Performance investigation plugin. `/codearqtech:brainstorm-performance-problem` interviews a vague "it is slow" complaint into a located, measurable symptom with ranked hypotheses; `/codearqtech:diagnose-system-performance` works a nine-branch decision tree (latency, CPU, memory and GC, databases, connections, errors, disk, network, queues) where every branch carries a "signals that rule out" block. Keeps diagnosis separate from remediation.
 
 ### Communication & Integrations
 - [whatsapp-claude-plugin](https://github.com/Rich627/whatsapp-claude-plugin) — WhatsApp channel plugin for Claude Code. Connects as a linked device via Baileys v7 with bidirectional messaging, full media support, voice transcription, permission relay, and access control.
@@ -394,6 +395,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [CodeArq-tech/performance-debugger-skill](https://github.com/CodeArq-tech/performance-debugger-skill) | codearqtech plugin: evidence-driven performance brainstorming and diagnosis, namespaced as `/codearqtech:<skill>` | `claude plugin marketplace add CodeArq-tech/performance-debugger-skill` then `claude plugin install codearqtech@codearqtech` |
 
 
 ### Skills & Frameworks
