@@ -377,6 +377,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [WhichModel](https://github.com/Which-Model/whichmodel-mcp) — AI model pricing & recommendation MCP server for Claude Code. Helps choose the right model for every task at the best price. Cross-verified data updated every 4 hours. MCP endpoint: `https://whichmodel.dev/mcp`
 - [Synder Importer MCP](https://github.com/SynderAccounting/gl-importer-plugin) — Official Synder plugin. Import CSV/XLSX accounting data into QuickBooks Online or Xero via the [Synder Importer API](https://importer.synder.com). 19 MCP tools covering imports, field mapping rules, post-import rules, and entity discovery. Bundles the `gl-importer` agent skill.
 - [AgentIQ / MoltAd](https://github.com/chrisgu/agentiq-mcp) — Publisher MCP: list placements, `deliver_ad`, earn credits. https://moltad.net/publishers · https://moltad.net/mcp
+- [BuyWhere](https://github.com/BuyWhere/buywhere-mcp) — Agent-native product catalog MCP. 370M+ live products across SG/MY/VN/TH/PH/US/JP with `deliver_to` shipping signals. 13 tools: `search_products`, `find_best_price`, `get_deals`, `compare_products`, etc. OAuth 2.1 bearer auth (no email/signup). Hosted at `https://mcp.buywhere.ai/mcp`. Official registry `io.github.BuyWhere/buywhere-mcp@1.1.0`. Install: `npx -y @buywhere/buywhere-mcp`.
 
 ### Thinking & Knowledge Management
 - [thinking-tree](https://github.com/CoralLips/thinking-tree)
