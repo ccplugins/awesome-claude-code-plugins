@@ -175,6 +175,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [adamsreview](./plugins/adamsreview)
 - [slicewise](./plugins/slicewise)
 - [bullpen](./plugins/bullpen)
+- [punchcard](https://github.com/Maksim-Burtsev/punchcard) - Architecture-level code review for your working tree, a branch, or a GitHub PR / GitLab MR. Three search subagents plus a judge that verifies findings by executing the code; every finding cites one of 78 principles distilled from 30 classic software books. Never comments on naming or formatting.
 
 ### Communication & Integrations
 - [whatsapp-claude-plugin](https://github.com/Rich627/whatsapp-claude-plugin) — WhatsApp channel plugin for Claude Code. Connects as a linked device via Baileys v7 with bidirectional messaging, full media support, voice transcription, permission relay, and access control.
