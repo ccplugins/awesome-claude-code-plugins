@@ -379,6 +379,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [AgentIQ / MoltAd](https://github.com/chrisgu/agentiq-mcp) — Publisher MCP: list placements, `deliver_ad`, earn credits. https://moltad.net/publishers · https://moltad.net/mcp
 
 ### Thinking & Knowledge Management
+- [kindle-highlights](https://github.com/l3a0/claude-plugins) — Export every Kindle highlight for a book to one verbatim, location-cited Markdown file, recovering the highlights Amazon's export limit truncates or hides (macOS).
 - [thinking-tree](https://github.com/CoralLips/thinking-tree)
 
 ### Companion Apps & Tools
