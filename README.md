@@ -300,6 +300,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [update-branch-name](./plugins/update-branch-name)
 
 ### Marketing Growth
+- [aeoptimize](https://github.com/cucuwang/aeoptimize) - Deterministic content-readiness lint and Claude Code skills for static sites and documentation, without ranking or citation predictions.
 - [app-store-optimizer](./plugins/app-store-optimizer)
 - [claude-rank](https://github.com/Houseofmvps/claude-rank) - SEO/GEO/AEO audit with 170+ rules, auto-fix for robots.txt/sitemap.xml/llms.txt/JSON-LD
 - [content-creator](./plugins/content-creator)
