@@ -238,6 +238,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [react-native-dev](./plugins/react-native-dev)
 - [silicon-friendly](./plugins/silicon-friendly)
 - [vision-specialist](./plugins/vision-specialist)
+- [WebMCP Kit](https://github.com/nekuda-ai/webmcp-kit) - Coding-agent plugin that maps a web app's user journeys in a visual Explorer, proposes WebMCP tools for approval, implements them through the app's own logic, and verifies each tool in a real browser.
 - [web-dev](./plugins/web-dev)
 - [tailwind-best-practices](https://github.com/ofershap/tailwind-best-practices) - Tailwind CSS v4 patterns — stop agents from generating v3 code
 - [typescript-best-practices](https://github.com/ofershap/typescript-best-practices) - Modern TypeScript — strict mode, discriminated unions, satisfies
