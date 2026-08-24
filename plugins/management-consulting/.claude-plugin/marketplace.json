@@ -1,0 +1,21 @@
+{
+  "name": "anotb-management-consulting-plugin",
+  "owner": {
+    "name": "Anot"
+  },
+  "metadata": {
+    "description": "Management consulting skills for the full engagement lifecycle",
+    "homepage": "https://github.com/anotb/management-consulting-plugin"
+  },
+  "plugins": [
+    {
+      "name": "management-consulting",
+      "version": "2.1.0",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/anotb/management-consulting-plugin.git"
+      },
+      "description": "Strategic problem solving, framework analysis, and engagement delivery for management consulting"
+    }
+  ]
+}
