@@ -262,6 +262,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [skill-auto-installer](./plugins/skill-auto-installer)
 - [tldr](./plugins/tldr)
 - [Imagine](https://github.com/freestyler-arb/imagine-gemini-for-claude-codex) - Brings Google Gemini into Claude Code & Codex: delegate reasoning, independent code review, deep research, and automatic prompt-engineering. Runs on your Google AI Pro subscription, not your agent's tokens.
+- [sol-simplify](https://github.com/MongLong0214/sol-simplify) - One-markdown-file skill for Claude Code and Codex that stops agents from inventing bureaucracy around their own work. Ceremony scored 0 in 10 of 11 benchmark runs on gpt-5.6-sol vs 4-6 for baselines.
 
 ### Documentation
 - [analyze-codebase](./plugins/analyze-codebase)
