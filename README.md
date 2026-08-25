@@ -201,6 +201,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Audio & Media
 - [bibigpt-skill](https://github.com/JimmyLv/bibigpt-skill) - AI-powered video, audio & podcast summarization
+- [capcut-cli](https://github.com/renezander030/capcut-cli) - Claude Code plugin and zero-dependency CLI for editing local CapCut/JianYing drafts — subtitles, timing, effects, templates, and long-form-to-shorts
 
 ### Design UX
 - [brand-guardian](./plugins/brand-guardian)
