@@ -394,6 +394,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [ariaxhan/kernel-claude](https://github.com/ariaxhan/kernel-claude) | KERNEL: 27 skills and 10 agents for running Claude Code in auto mode inside enforced boundaries. PreToolUse hooks block destructive commands outright, irreversible operations need a one-time human token, high-consequence work is checked by a verifier agent that never saw the builder's reasoning, and an agentdb SQLite memory is recalled before acting so lessons survive the session. Loads in Codex too. MIT. | `claude plugin marketplace add ariaxhan/kernel-claude` then `claude plugin install kernel@kernel-marketplace` |
 
 
 ### Skills & Frameworks
