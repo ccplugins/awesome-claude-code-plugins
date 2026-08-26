@@ -130,6 +130,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [claude-snapshot](https://github.com/adhenawer/claude-snapshot) - Portable `.tar.gz` snapshots of your Claude Code setup (settings, hooks, plugins, MCPs) with diff-before-apply and `.bak` rollback for migration and backup across machines.
 - [notify](https://github.com/ApurvBazari/claude-plugins)
 - [retro-daily](./plugins/retro-daily)
+- [RunVouch](https://github.com/runvouch/claude-plugin) - Watchdog for unattended Claude Code runs. SessionStart/PostToolUse/Stop hooks report each run; alerts on MISSED, FAILED, NO_EVIDENCE, RETRY_STORM, BUDGET_RUN, BUDGET_DAY, DRIFT and STALLED via Telegram, Slack, email or webhook. Install: `/plugin marketplace add runvouch/claude-plugin` then `/plugin install runvouch`. MIT, self-hostable.
 
 ### Business Sales
 - [Drevon](https://drevon.dev) - Mac desktop workspace for GTM engineers. Run parallel AI agents powered by Claude Code, Codex, or Copilot to build target lists, score accounts, and pull prospect intel.
@@ -377,6 +378,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [WhichModel](https://github.com/Which-Model/whichmodel-mcp) — AI model pricing & recommendation MCP server for Claude Code. Helps choose the right model for every task at the best price. Cross-verified data updated every 4 hours. MCP endpoint: `https://whichmodel.dev/mcp`
 - [Synder Importer MCP](https://github.com/SynderAccounting/gl-importer-plugin) — Official Synder plugin. Import CSV/XLSX accounting data into QuickBooks Online or Xero via the [Synder Importer API](https://importer.synder.com). 19 MCP tools covering imports, field mapping rules, post-import rules, and entity discovery. Bundles the `gl-importer` agent skill.
 - [AgentIQ / MoltAd](https://github.com/chrisgu/agentiq-mcp) — Publisher MCP: list placements, `deliver_ad`, earn credits. https://moltad.net/publishers · https://moltad.net/mcp
+- [RunVouch MCP](https://github.com/runvouch/runvouch) — Remote MCP server (`https://api.runvouch.com/mcp`, official registry `com.runvouch/runvouch`) for agent health: status, alerts, ack, run reports with evidence and cost. Free for 3 agents.
 
 ### Thinking & Knowledge Management
 - [thinking-tree](https://github.com/CoralLips/thinking-tree)
