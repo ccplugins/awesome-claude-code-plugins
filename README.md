@@ -383,6 +383,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Companion Apps & Tools
 - [Onepilot](https://onepilotapp.com) — iOS app to SSH into remote servers and run Claude Code from your phone
+- [Mobile SSH](https://mobile-ssh.github.io) — Android and iOS SSH client for running Claude Code on remote servers, with a tmux session manager and alerts when an agent needs input
 
 ### Knowledge Management
 - [bedrock](./plugins/bedrock)
