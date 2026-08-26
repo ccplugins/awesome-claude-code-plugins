@@ -394,6 +394,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [swobuforge/swobu-claude-plugin](https://github.com/swobuforge/swobu-claude-plugin) | Claude Code LLM gateway & provider failover for Swobu: keep Claude connected to 127.0.0.1:7926 with multi-cloud fallback (Anthropic, Bedrock, Vertex AI) | `claude plugin marketplace add swobuforge/swobu-claude-plugin` then `claude plugin install swobu@swobu` |
 
 
 ### Skills & Frameworks
