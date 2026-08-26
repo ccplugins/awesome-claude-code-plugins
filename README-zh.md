@@ -228,6 +228,7 @@
 
 
 ### MCP 服务器
+- [MaxAEO AI Visibility](https://github.com/maxaeo/maxaeo-ai-visibility-mcp) — 本地优先的 AI 可见性 / GEO / AEO 审计 MCP 服务器。检查 AI 爬虫可达性、`robots.txt`、`llms.txt`、sitemap、canonical、元信息、noindex 与 JSON-LD，输出仅本地计算的可见性与技术基础评分、主要问题及排序后的行动清单。默认不需要账号、API Key、域名上传，也不上报任何遥测数据。安装：`npx -y maxaeo-ai-visibility-mcp`
 - [WhichModel](https://github.com/Which-Model/whichmodel-mcp) — 面向 Claude Code 的 AI 模型定价与推荐 MCP 服务器，帮助为每项任务选择最合适、性价比最高的模型。数据经交叉验证，每 4 小时更新一次。MCP 端点：`https://whichmodel.dev/mcp`
 
 ## 插件市场
