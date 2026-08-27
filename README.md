@@ -385,6 +385,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [Onepilot](https://onepilotapp.com) — iOS app to SSH into remote servers and run Claude Code from your phone
 
 ### Knowledge Management
+- [ai-study-kit](https://github.com/jerryjiao/ai-study-kit) — Turn any topic into a learning-loop quiz site: courses, Anki-compatible spaced-repetition flashcards, wrong-answer deep dives, and cross-device progress sync. Bundled site snapshot bootstraps with zero clone; the /ai-study-kit skill coaches the full study workflow.
 - [bedrock](./plugins/bedrock)
 
 ## External Marketplaces
