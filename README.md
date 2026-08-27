@@ -380,6 +380,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Thinking & Knowledge Management
 - [thinking-tree](https://github.com/CoralLips/thinking-tree)
+- [problem-tree](https://github.com/JimmyTsai55/problem-tree) - Keeps a live problem tree during brainstorming: sub-problems marked solved / in progress / needs decision / blocked, rendered as Mermaid in a Markdown handoff file that survives across sessions (install via `/plugin marketplace add JimmyTsai55/problem-tree`)
 
 ### Companion Apps & Tools
 - [Onepilot](https://onepilotapp.com) — iOS app to SSH into remote servers and run Claude Code from your phone
