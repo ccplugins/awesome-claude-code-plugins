@@ -231,6 +231,7 @@
 - [WhichModel](https://github.com/Which-Model/whichmodel-mcp) — 面向 Claude Code 的 AI 模型定价与推荐 MCP 服务器，帮助为每项任务选择最合适、性价比最高的模型。数据经交叉验证，每 4 小时更新一次。MCP 端点：`https://whichmodel.dev/mcp`
 
 ## 插件市场
+- [Azdaja](https://github.com/kubet/azdaja) —— 面向 Claude Code 的大输入分析插件市场，提供本地评估器、受限模型提示、类型化输出与哈希绑定收据。安装：`claude plugin marketplace add kubet/azdaja`，然后运行 `claude plugin install azdaja@azdaja`。
 - [protonium](https://github.com/protonium-labs/protonium-marketplace) —— AI 智能体与效率工具。包含 **AxiomCore**：项目与日常事务管理智能体，提供强制化结构（编号目录、任务 ID、wiki 记忆）、计划 → 确认 → 执行工作流，支持敏捷或 WBS 方式创建项目.
 
 ## 使用教程
