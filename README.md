@@ -201,6 +201,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Audio & Media
 - [bibigpt-skill](https://github.com/JimmyLv/bibigpt-skill) - AI-powered video, audio & podcast summarization
+- [kettle](https://github.com/ChiHanLu/kettle) - Put the kettle on and walk away. Sound cues for Claude Code hook events: it finished, it needs permission, it's been waiting on you — and when the turn **died** on an API error (rate limit / overload), which from across the room looks exactly like still working. 11 events each independently on/off, random pools, speech, quiet hours, custom audio. macOS/Windows/Linux, zero dependencies.
 
 ### Design UX
 - [brand-guardian](./plugins/brand-guardian)
@@ -217,7 +218,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [claude-bionify](./plugins/claude-bionify)
 
 ### Development Engineering
-- [claude-sounds](https://github.com/culminationAI/claude-sounds)
+- [kettle](https://github.com/ChiHanLu/kettle) - Put the kettle on and walk away. Sound cues for Claude Code hook events: it finished, it needs permission, it's been waiting on you — and when the turn **died** on an API error (rate limit / overload), which from across the room looks exactly like still working. 11 events each independently on/off, random pools, speech, quiet hours, custom audio. macOS/Windows/Linux, zero dependencies.
 - [ai-engineer](./plugins/ai-engineer)
 - [claw-army/claude-node](https://github.com/claw-army/claude-node) - Python subprocess bridge for Claude Code CLI, giving Python code direct access to Claude Code native capabilities via stream-json.
 - [api-integration-specialist](./plugins/api-integration-specialist)
