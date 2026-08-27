@@ -232,6 +232,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [ios-app-dev-skills](https://github.com/JasonColapietro/ios-app-dev-skills)
 - [mobile-app-builder](./plugins/mobile-app-builder)
 - [html-report](https://github.com/panhongwei/html-report)
+- [html2wp](https://github.com/iOSDevSK/html2wp-cc-plugin) - Converts HTML to a WordPress block theme: Lovable, Bolt, v0, Claude artifacts or hand-written pages become a standalone theme that runs with no plugin. Every page is compared against the original at three viewport widths, then installed into a throwaway WordPress and driven before handover.
 - [project-curator](./plugins/project-curator)
 - [python-expert](./plugins/python-expert)
 - [rapid-prototyper](./plugins/rapid-prototyper)
