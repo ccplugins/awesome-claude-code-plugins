@@ -394,6 +394,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [rajnandan1/ken](https://github.com/rajnandan1/ken) | ken plugin: Ken Thompson's engineering discipline as an always-on ruleset (think first, brute force until measured, rewrite over patch) plus method-review commands (`/ken-review`, `/ken-audit`, `/ken-debt`). Every rule traced to primary sources; ships a maintenance benchmark that scores what survives a ticket sequence | `claude plugin marketplace add rajnandan1/ken` then `claude plugin install ken@ken` |
 
 
 ### Skills & Frameworks
