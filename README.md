@@ -394,6 +394,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [Hanishchow/hivemind](https://github.com/Hanishchow/hivemind) | hivemind plugin: delegate mechanical work to headless [opencode](https://opencode.ai) worker swarms on free models while Claude Code stays the planner and reviewer. Git-worktree isolation per writing worker, one-JSON-line worker contract so raw agent output never enters the orchestrator's context, and slash commands for parallel review, research sweeps, migrations and test fleets (`/hive`, `/oc`, `/swarm`, `/review-panel`, `/research-sweep`, `/migration`, `/test-fleet`) | `claude plugin marketplace add Hanishchow/hivemind` then `claude plugin install hivemind@hivemind` |
 
 
 ### Skills & Frameworks
