@@ -109,6 +109,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [craftsman](./plugins/craftsman)
 - [rote](./plugins/rote)
 - [claude-session-tint](./plugins/claude-session-tint)
+- [godmode](https://github.com/arbazkhan971/godmode) - Discipline layer for Claude Code: 135 skills and 7 subagents in a measure → modify → verify → keep/revert loop - every change is tested, kept only if it improves, reverted automatically otherwise. Also runs on Codex, Cursor, Gemini CLI, OpenCode, Amp, and pi.
 
 ### AI & Speech
 - [speech-ai](https://github.com/fasuizu-br/speech-ai-examples) - Speech AI plugin with pronunciation assessment, text-to-speech, and speech-to-text. 8 MCP tools for language learning, accessibility, and voice applications.
