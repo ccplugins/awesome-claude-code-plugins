@@ -109,6 +109,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [craftsman](./plugins/craftsman)
 - [rote](./plugins/rote)
 - [claude-session-tint](./plugins/claude-session-tint)
+- [claude-code-sdlc](https://github.com/Koroqe/claude-code-sdlc) - Documentation-first SDLC pipeline: 16 role-specialized agents (PRD, use cases, architecture, QA, planning, review), TDD slices executed in parallel waves, and 9 pre-merge quality gates. MIT.
 
 ### AI & Speech
 - [speech-ai](https://github.com/fasuizu-br/speech-ai-examples) - Speech AI plugin with pronunciation assessment, text-to-speech, and speech-to-text. 8 MCP tools for language learning, accessibility, and voice applications.
