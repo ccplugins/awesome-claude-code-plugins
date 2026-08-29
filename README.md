@@ -95,7 +95,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [cc-inspect](./plugins/cc-inspect)
 - [omega-memory](./plugins/omega-memory)
 - [idea-to-deploy](./plugins/idea-to-deploy)
-- [nexus-agents](https://github.com/williamzujkowski/nexus-agents) — Multi-CLI orchestration with 30 MCP tools, 12 expert agents, 17 skills, and Budget→TOPSIS→LinUCB routing. Coordinates Claude, Gemini, Codex, and OpenCode via consensus voting.
+- [nexus-agents](https://github.com/nexus-substrate/nexus-agents) — Multi-CLI orchestration with 30 MCP tools, 12 expert agents, 17 skills, and Budget→TOPSIS→LinUCB routing. Coordinates Claude, Gemini, Codex, and OpenCode via consensus voting.
 - [bobusang](https://github.com/jun0-ds/bobusang) — Multi-device memory system for Claude Code. Syncs context across Windows, WSL2, and Linux with git-based auto-sync.
 - [magic-cc-codex-worker](./plugins/magic-cc-codex-worker)
 - [weft](./plugins/weft)
@@ -162,7 +162,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [optimize](./plugins/optimize)
 - [performance-benchmarker](./plugins/performance-benchmarker)
 - [refractor](./plugins/refractor)
-- [sdlc-wizard](https://github.com/BaseInfinity/agentic-ai-sdlc-wizard) - SDLC enforcement plugin with hooks for TDD gates, planning workflow, confidence levels, and cross-model review. Installs via `npx agentic-sdlc-wizard init`.
+- [sdlc-wizard](https://github.com/BaseInfinity/claude-sdlc-harness) - SDLC enforcement plugin with hooks for TDD gates, planning workflow, confidence levels, and cross-model review. Installs via `npx agentic-sdlc-wizard init`.
 - [test-file](./plugins/test-file)
 - [test-results-analyzer](./plugins/test-results-analyzer)
 - [test-writer-fixer](./plugins/test-writer-fixer)
@@ -222,7 +222,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [claw-army/claude-node](https://github.com/claw-army/claude-node) - Python subprocess bridge for Claude Code CLI, giving Python code direct access to Claude Code native capabilities via stream-json.
 - [api-integration-specialist](./plugins/api-integration-specialist)
 - [backend-architect](./plugins/backend-architect)
-- [blueprint](https://github.com/JuliusBrussee/blueprint)
+- [blueprint](https://github.com/JuliusBrussee/cavekit)
 - [code-architect](./plugins/code-architect)
 - [context-memory](./plugins/context-memory)
 - [desktop-app-dev](./plugins/desktop-app-dev)
@@ -329,7 +329,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [bleu](https://github.com/Nirvaan05/Bleu-plugin)
 - [discuss](./plugins/discuss)
 - [explore](./plugins/explore)
-- [fractal](https://github.com/rmolines/fractal) - Recursive project management plugin. Decomposes any goal into verifiable predicates, works on the riskiest unknown first. Features `/fractal:run` (idempotent state machine), `/fractal:init`, `/fractal:patch`, dry run mode, and incremental decomposition with re-evaluation.
+- [fractal](https://github.com/rmolines/fractal-loop) - Recursive project management plugin. Decomposes any goal into verifiable predicates, works on the riskiest unknown first. Features `/fractal:run` (idempotent state machine), `/fractal:init`, `/fractal:patch`, dry run mode, and incremental decomposition with re-evaluation.
 - [plan](./plugins/plan)
 - [planning-prd-agent](./plugins/planning-prd-agent)
 - [plannotator](https://github.com/backnotprop/plannotator) - Interactive plan review UI with visual annotation (install via `/plugin marketplace add backnotprop/plannotator`)
