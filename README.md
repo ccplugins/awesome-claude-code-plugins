@@ -112,6 +112,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### AI & Speech
 - [speech-ai](https://github.com/fasuizu-br/speech-ai-examples) - Speech AI plugin with pronunciation assessment, text-to-speech, and speech-to-text. 8 MCP tools for language learning, accessibility, and voice applications.
+- [wheel-to-talk](https://github.com/Pr1m4lc0d3/wheel-to-talk) - Hold the middle mouse button to dictate voice-to-text in Claude Code. AutoHotkey shim for Windows terminals, with a press/release log so an unhooked click can be told from a swallowed one. MIT.
 
 ### Automation DevOps
 - [PUIUX Pilot](https://github.com/PUIUX-Cloud/puiux-pilot) - Auto-configures Claude Code hooks, MCPs, and skills for any project. Scans 95+ project types, selects from 28+ hooks, scores quality (0-100, A-F). `npm i -g puiux-pilot`
@@ -303,11 +304,14 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [app-store-optimizer](./plugins/app-store-optimizer)
 - [claude-rank](https://github.com/Houseofmvps/claude-rank) - SEO/GEO/AEO audit with 170+ rules, auto-fix for robots.txt/sitemap.xml/llms.txt/JSON-LD
 - [content-creator](./plugins/content-creator)
+- [FORTRESS](https://github.com/Pr1m4lc0d3/FORTRESS) - Claim register for marketing copy: every claim marked cleared or uncleared, with a linter that fails on an unsourced claim and a human publish gate. MIT.
 - [growth-hacker](./plugins/growth-hacker)
 - [Hermes Tweet](https://github.com/Xquik-dev/hermes-tweet) - Native Hermes Agent plugin for X/Twitter research, monitoring, drafting, follower exports, and approval-gated actions.
 - [instagram-curator](./plugins/instagram-curator)
 - [poppify](./plugins/poppify) — photo-led short-form vertical reels (Instagram/TikTok/YouTube Shorts/Facebook) via MCP, $0.06/render, 50 free seeds, no subscription
+- [RAID](https://github.com/Pr1m4lc0d3/RAID) - Guerrilla marketing with no budget: asymmetry against an incumbent's revenue model, borrowed audiences, stage-gated campaigns. 11 skills, MIT.
 - [reddit-community-builder](./plugins/reddit-community-builder)
+- [SCOUT](https://github.com/Pr1m4lc0d3/SCOUT) - Marketing reconnaissance: audience research, grading a source dump, establishing what a product can actually prove, and measuring what a move did. 6 skills, MIT.
 - [taisly-agent-kit](https://github.com/taisly/agent)
 - [tiktok-strategist](./plugins/tiktok-strategist)
 - [toprank](./plugins/toprank)
@@ -398,6 +402,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 
 ### Skills & Frameworks
 - [aurakit](https://github.com/smorky850612/Aurakit) — All-in-one Claude Code skill: 46 modes, 23 sub-agents, 6-layer OWASP security, 10 lifecycle hooks, ~55% token savings. Cross-platform (Codex, Cursor, Manus, Windsurf). Install: `npx @smorky85/aurakit`
+- [KiSYSTEM](https://github.com/Pr1m4lc0d3/KiSYSTEM) — Clean-code discipline for AI-written code, enforced from the base of a project: planning, code mapping, size budgets with review/extract/hard-stop tiers, blast-radius checks before edits, and a dependency-free debt audit script. 10 skills, MIT.
 
 ## Resources
 - [Claudebin](https://claudebin.com) ([GitHub](https://github.com/wunderlabs-dev/claudebin.com/)) - A minimalistic tool for publishing and sharing Claude coding sessions.
