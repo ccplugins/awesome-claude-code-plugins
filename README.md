@@ -383,6 +383,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Companion Apps & Tools
 - [Onepilot](https://onepilotapp.com) — iOS app to SSH into remote servers and run Claude Code from your phone
+- [Sum-Usage-Claude](https://github.com/ArcticFox2029/Sum-Usage-Claude) — offline dashboard for what your Claude Code usage would have cost at API prices, against what you actually paid. Reads the transcripts Claude Code already writes; opens from `file://` with no install and no server. Thai and English, Python stdlib only, MIT
 
 ### Knowledge Management
 - [bedrock](./plugins/bedrock)
