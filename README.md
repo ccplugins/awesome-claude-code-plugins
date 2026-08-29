@@ -377,12 +377,14 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [WhichModel](https://github.com/Which-Model/whichmodel-mcp) — AI model pricing & recommendation MCP server for Claude Code. Helps choose the right model for every task at the best price. Cross-verified data updated every 4 hours. MCP endpoint: `https://whichmodel.dev/mcp`
 - [Synder Importer MCP](https://github.com/SynderAccounting/gl-importer-plugin) — Official Synder plugin. Import CSV/XLSX accounting data into QuickBooks Online or Xero via the [Synder Importer API](https://importer.synder.com). 19 MCP tools covering imports, field mapping rules, post-import rules, and entity discovery. Bundles the `gl-importer` agent skill.
 - [AgentIQ / MoltAd](https://github.com/chrisgu/agentiq-mcp) — Publisher MCP: list placements, `deliver_ad`, earn credits. https://moltad.net/publishers · https://moltad.net/mcp
+- [Lizard MCP](https://github.com/lizard-build/lizard-mcp) — Deploy from Claude Code to Lizard, the AI-native deployment platform for coding agents: services, managed Postgres, Redis and S3, logs, secrets, scaling, domains. 33 tools, OAuth 2.1.
 
 ### Thinking & Knowledge Management
 - [thinking-tree](https://github.com/CoralLips/thinking-tree)
 
 ### Companion Apps & Tools
 - [Onepilot](https://onepilotapp.com) — iOS app to SSH into remote servers and run Claude Code from your phone
+- [Lizard Studio](https://github.com/lizard-build/lizard-studio) — Chrome extension that runs the Claude Code CLI locally with the chat in the browser side panel, giving Claude browser tools over MCP and an on-page design toolkit.
 
 ### Knowledge Management
 - [bedrock](./plugins/bedrock)
