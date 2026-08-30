@@ -175,6 +175,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [adamsreview](./plugins/adamsreview)
 - [slicewise](./plugins/slicewise)
 - [bullpen](./plugins/bullpen)
+- [craftsman](https://github.com/gul-labs/craftsman-marketplace) - External: Engineering-readiness audit for AI-built apps across ten domains (UX, frontend, backend, database, security, infrastructure, observability, testing, lint, AI integrations). Plain-language findings ranked by consequence, a resumable audit workspace, and a companion fix skill that cannot mark its own repairs verified. Install: `claude plugin marketplace add gul-labs/craftsman-marketplace`
 
 ### Communication & Integrations
 - [whatsapp-claude-plugin](https://github.com/Rich627/whatsapp-claude-plugin) — WhatsApp channel plugin for Claude Code. Connects as a linked device via Baileys v7 with bidirectional messaging, full media support, voice transcription, permission relay, and access control.
@@ -394,6 +395,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [gul-labs/craftsman-marketplace](https://github.com/gul-labs/craftsman-marketplace) | craftsman plugin: engineering-readiness audits for AI-built apps across ten domains, with plain-language findings ranked by consequence and a resumable audit workspace | `claude plugin marketplace add gul-labs/craftsman-marketplace` then `claude plugin install craftsman@craftsman-marketplace` |
 
 
 ### Skills & Frameworks
