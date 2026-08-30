@@ -75,7 +75,7 @@
 - [bobusang](https://github.com/jun0-ds/bobusang) — Claude Code多设备记忆系统，通过git自动同步在Windows、WSL2和Linux之间同步上下文。
 - [magic-cc-codex-worker](./plugins/magic-cc-codex-worker)
 - [ai-meeting](./plugins/ai-meeting)
-- [craftsman](./plugins/craftsman)
+- [craftsman](https://github.com/gul-labs/craftsman-marketplace) — 面向 AI 生成应用的工程就绪度审计，覆盖十个领域（UX、前端、后端、数据库、安全、基础设施、可观测性、测试、Lint、AI 集成）。问题以通俗语言呈现并按实际后果排序，审计工作区支持中断续跑，配套修复技能无法自行将修复标记为已验证。安装：`claude plugin marketplace add gul-labs/craftsman-marketplace`
 - [rote](./plugins/rote)
 
 ### 自动化运维
@@ -116,6 +116,7 @@
 - [test-writer-fixer](./plugins/test-writer-fixer)
 - [unit-test-generator](./plugins/unit-test-generator)
 - [sonmat](https://github.com/jun0-ds/sonmat) — 验证纪律插件，六个反应轴（guard、inspect、witness、punch、devil's advocate、scribe）用于AI-人类协作。
+- [craftsman](https://github.com/gul-labs/craftsman-marketplace) - External: Engineering-readiness audit for AI-built apps across ten domains (UX, frontend, backend, database, security, infrastructure, observability, testing, lint, AI integrations). Plain-language findings ranked by consequence, a resumable audit workspace, and a companion fix skill that cannot mark its own repairs verified. Install: `claude plugin marketplace add gul-labs/craftsman-marketplace`
 
 ### 数据分析
 - [analytics-reporter](./plugins/analytics-reporter)
