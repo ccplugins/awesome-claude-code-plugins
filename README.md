@@ -109,6 +109,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [craftsman](./plugins/craftsman)
 - [rote](./plugins/rote)
 - [claude-session-tint](./plugins/claude-session-tint)
+- [trailhead](https://github.com/ToRvaLDz/trailhead) - Run a large project as a map of decision tickets on GitHub Issues, resolved one at a time by a discuss → plan → execute → verify engine with atomic commits, subagent techniques, and cross-session handoffs. Self-contained, runs on Claude Code and Codex CLI.
 
 ### AI & Speech
 - [speech-ai](https://github.com/fasuizu-br/speech-ai-examples) - Speech AI plugin with pronunciation assessment, text-to-speech, and speech-to-text. 8 MCP tools for language learning, accessibility, and voice applications.
