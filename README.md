@@ -70,6 +70,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [angelos-symbo](./plugins/angelos-symbo)
 - [artel](https://github.com/NicolasPrimeau/artel) - Infrastructure for AI teams: shared semantic memory, tasks, agent-to-agent messages, and session handoffs across machines and LLM providers.
 - **[claude-brain](https://github.com/toroleapinc/claude-brain)** — Sync and evolve your Claude Code brain across machines. Auto-syncs memory, skills, agents, rules, and CLAUDE.md via Git with LLM-powered semantic merge.
+- [breather](https://github.com/ilandahan/breather) - Presence tracking across every session, a rest countdown in the status line, and a written handoff at safe stopping points. Node stdlib only, no dependencies.
 - [ceo-quality-controller-agent](./plugins/ceo-quality-controller-agent)
 - [claude-recap](https://github.com/hatawong/claude-recap) — Per-topic session memory using Shell hooks — archives each conversation topic as a separate Markdown summary. Two hooks, bash + Node.js, 100% local.
 - [claude-desktop-extension](./plugins/claude-desktop-extension)
