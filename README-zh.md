@@ -225,6 +225,7 @@
 - [shellgate](./plugins/shellgate)
 - [web-security-guard](./plugins/web-security-guard)
 - [agent-safety-preflight](./plugins/agent-safety-preflight)
+- [sofagent](https://github.com/KongFangXun/sofagent) - 外部：提交时审计 AI 编码智能体的 FDE Harness——24 条审计规则扫描 git diff（密钥泄露、越界修改、未读先改、提交信息注入），写入 HMAC 签名的防篡改审计史，附 MCP 治理工具。MIT。
 
 
 ### MCP 服务器
