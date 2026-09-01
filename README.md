@@ -350,6 +350,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [ai-divination-skills](./plugins/ai-divination-skills)
 
 ### Security, Compliance, & Legal
+- [acp](https://github.com/agentic-control-plane/claude-code-acp-plugin) - Agentic Control Plane: policy check on every tool call before it runs — allow, ask, or deny, with spend caps and an audit trail.
 - [ai-ethics-governance-specialist](./plugins/ai-ethics-governance-specialist)
 - [audit](./plugins/audit)
 - [compliance-automation-specialist](./plugins/compliance-automation-specialist)
