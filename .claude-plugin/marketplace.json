@@ -2316,6 +2316,36 @@
         "tokens",
         "audit"
       ]
+    },
+    {
+      "name": "qualflare",
+      "displayName": "Qualflare",
+      "source": {
+        "source": "github",
+        "repo": "Qualflare/qualflare-claude-code"
+      },
+      "description": "Generates tests for the code Claude just changed, runs the suite, fixes what breaks, and reports results to Qualflare without leaving Claude Code.",
+      "version": "0.18.0",
+      "author": {
+        "name": "Qualflare",
+        "url": "https://github.com/Qualflare"
+      },
+      "category": "Code Quality Testing",
+      "homepage": "https://qualflare.com",
+      "repository": "https://github.com/Qualflare/qualflare-claude-code",
+      "license": "Apache-2.0",
+      "keywords": [
+        "testing",
+        "test-coverage",
+        "test-reporting",
+        "flaky-tests",
+        "ci"
+      ],
+      "tags": [
+        "testing",
+        "code-quality",
+        "ci"
+      ]
     }
   ]
 }
