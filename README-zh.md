@@ -116,6 +116,7 @@
 - [test-writer-fixer](./plugins/test-writer-fixer)
 - [unit-test-generator](./plugins/unit-test-generator)
 - [sonmat](https://github.com/jun0-ds/sonmat) — 验证纪律插件，六个反应轴（guard、inspect、witness、punch、devil's advocate、scribe）用于AI-人类协作。
+- [qualflare](https://github.com/Qualflare/qualflare-claude-code) — 为 Claude 刚修改的代码生成测试、运行测试套件、修复失败项，并将结果报告到 Qualflare，全程无需离开 Claude Code。
 
 ### 数据分析
 - [analytics-reporter](./plugins/analytics-reporter)
