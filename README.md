@@ -175,6 +175,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [adamsreview](./plugins/adamsreview)
 - [slicewise](./plugins/slicewise)
 - [bullpen](./plugins/bullpen)
+- [cc-oracle](https://github.com/exPardus/cc-oracle) - Makes a Claude Code session consult a read-only, best-model oracle subagent the moment it is unsure or stuck: a SessionStart doctrine, a Stop-hook safety net that catches stated uncertainty, and a trigger for three consecutive tool failures. Compiled hook, zero config, no runtime dependencies, Windows/macOS/Linux. Install: `/plugin marketplace add exPardus/cc-oracle` then `/plugin install oracle@cc-oracle`.
 
 ### Communication & Integrations
 - [whatsapp-claude-plugin](https://github.com/Rich627/whatsapp-claude-plugin) — WhatsApp channel plugin for Claude Code. Connects as a linked device via Baileys v7 with bidirectional messaging, full media support, voice transcription, permission relay, and access control.
