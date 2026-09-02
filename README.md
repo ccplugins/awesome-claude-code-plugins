@@ -283,6 +283,8 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [thermal-fluid-research-workflow](./plugins/thermal-fluid-research-workflow)
 - [trigger-tree](https://github.com/Hedde/trigger_tree)
 
+- [where-am-i](https://github.com/list91/where-am-i) - Skill that answers "where am I in this code right now?" with one picture: 7 shapes, 40 words, your spot in colour.
+
 ### Git Workflow
 - [analyze-issue](./plugins/analyze-issue)
 - [bug-fix](./plugins/bug-fix)
