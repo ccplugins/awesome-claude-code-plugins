@@ -1,9 +1,0 @@
-{
-  "name": "infrastructure-maintainer",
-  "description": "Use this agent when monitoring system health, optimizing performance, managing scaling, or ensuring infrastructure reliability. This agent excels at keeping studio applications running smoothly while preparing for growth and preventing disasters. Examples:\\n\\n<example>\\nContext: App experiencing slow performance",
-  "version": "1.0.0",
-  "author": {
-    "name": "Michael Galpert"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/infrastructure-maintainer"
-}

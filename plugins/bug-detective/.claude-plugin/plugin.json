@@ -1,9 +1,0 @@
-{
-  "name": "bug-detective",
-  "description": "Systematically debug issues with step-by-step troubleshooting approaches.",
-  "version": "1.0.0",
-  "author": {
-    "name": "Anonymous"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/bug-detective"
-}

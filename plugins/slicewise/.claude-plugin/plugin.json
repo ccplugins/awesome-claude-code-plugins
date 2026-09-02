@@ -1,9 +1,0 @@
-{
-  "name": "slicewise",
-  "description": "A disciplined, self-verifying feature-dev loop: every commit unit gets dual-model review and a reconcile pass, tests are the ground truth, and you decide what lands (no auto-commit). Stack-agnostic via config plus auto-detect.",
-  "version": "0.1.0",
-  "author": {
-    "name": "jwpark"
-  },
-  "homepage": "https://github.com/pjw81226/slicewise"
-}

@@ -1,9 +1,0 @@
-{
-  "name": "legal-compliance-checker",
-  "description": "Use this agent when reviewing terms of service, privacy policies, ensuring regulatory compliance, or handling legal requirements. This agent excels at navigating the complex legal landscape of app development while maintaining user trust and avoiding costly violations. Examples:\\n\\n<example>\\nContext: Launching app in European markets",
-  "version": "1.0.0",
-  "author": {
-    "name": "Michael Galpert"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/legal-compliance-checker"
-}

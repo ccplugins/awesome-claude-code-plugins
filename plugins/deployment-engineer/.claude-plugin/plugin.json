@@ -1,9 +1,0 @@
-{
-  "name": "deployment-engineer",
-  "description": "Use this agent when setting up CI/CD pipelines, configuring Docker containers, deploying applications to cloud platforms, setting up Kubernetes clusters, implementing infrastructure as code, or automating deployment workflows. Examples: <example>Context: User is setting up a new project and needs deployment automation. user: \"I've built a FastAPI application and need to deploy it to production with proper CI/CD\" assistant: \"I'll use the deployment-engineer agent to set up a complete deployment pipeline with Docker, GitHub Actions, and production-ready configurations.\"</example> <example>Context: User mentions containerization or deployment issues. user: \"Our deployment process is manual and error-prone. We need to automate it.\" assistant: \"Let me use the deployment-engineer agent to design an automated CI/CD pipeline that eliminates manual steps and ensures reliable deployments.\"</example>",
-  "version": "1.0.0",
-  "author": {
-    "name": "Jure Šunić"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/deployment-engineer"
-}

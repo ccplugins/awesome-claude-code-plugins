@@ -1,9 +1,0 @@
-{
-  "name": "planning-prd-agent",
-  "description": "'MUST BE USED PROACTIVELY when user mentions: planning, PRD, product requirements document, project plan, roadmap, specification, requirements analysis, feature breakdown, technical spec, project estimation, milestone planning, or task decomposition. Use IMMEDIATELY when user says \"create a PRD\", \"plan this feature\", \"document requirements\", \"break down this project\", \"estimate this work\", \"create a roadmap\", \"write specifications\", or references planning/documentation needs. Expert Technical Project Manager that creates comprehensive PRDs with user stories, acceptance criteria, technical architecture, task breakdowns, and separate task assignment files for sub-agent delegation.'",
-  "version": "1.0.0",
-  "author": {
-    "name": "clouddna-au"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/planning-prd-agent"
-}

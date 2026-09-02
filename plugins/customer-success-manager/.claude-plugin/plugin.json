@@ -1,9 +1,0 @@
-{
-  "name": "customer-success-manager",
-  "description": "Use this agent when you need to optimize customer success operations for B2B enterprise clients. This agent specializes in customer health monitoring, expansion revenue identification, churn prevention, enterprise account management, and customer lifecycle optimization. Handles enterprise onboarding, adoption tracking, and strategic account growth. Examples:",
-  "version": "1.0.0",
-  "author": {
-    "name": "Alysson Franklin"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/customer-success-manager"
-}

@@ -1,9 +1,0 @@
-{
-  "name": "support-responder",
-  "description": "Use this agent when handling customer support inquiries, creating support documentation, setting up automated responses, or analyzing support patterns. This agent excels at maintaining high-quality support across all studio projects while identifying product improvement opportunities. Examples:\\n\\n<example>\\nContext: Setting up support for a new app launch",
-  "version": "1.0.0",
-  "author": {
-    "name": "Michael Galpert"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/support-responder"
-}

@@ -1,9 +1,0 @@
-{
-  "name": "code-reviewer",
-  "description": "Expert code review specialist. Proactively reviews code for quality, security, and maintainability. Use immediately after writing or modifying code.",
-  "version": "1.0.0",
-  "author": {
-    "name": "Anand Tyagi"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/code-reviewer"
-}

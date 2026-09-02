@@ -1,9 +1,0 @@
-{
-  "name": "technical-sales-engineer",
-  "description": "Use this agent when you need to bridge technical and sales requirements for B2B enterprise deals. This agent specializes in technical demos, POC development, RFP responses, solution architecture for sales, and technical objection handling. Handles complex enterprise sales cycles with technical evaluation phases. Examples:",
-  "version": "1.0.0",
-  "author": {
-    "name": "Alysson Franklin"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/technical-sales-engineer"
-}

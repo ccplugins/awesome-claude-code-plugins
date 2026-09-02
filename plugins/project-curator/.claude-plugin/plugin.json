@@ -1,9 +1,0 @@
-{
-  "name": "project-curator",
-  "description": "Reorganizes project structure by cleaning root clutter, creating logical folder hierarchies, and moving files to optimal locations. Tracks dependencies and fixes broken imports/paths. Use PROACTIVELY when project structure becomes unwieldy or needs architectural cleanup.",
-  "version": "1.0.0",
-  "author": {
-    "name": "alanKerrigan"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/project-curator"
-}

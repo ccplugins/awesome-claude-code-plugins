@@ -1,9 +1,0 @@
-{
-  "name": "code-review-assistant",
-  "description": "Get comprehensive code reviews with suggestions for improvements, best practices, and potential issues.",
-  "version": "1.0.0",
-  "author": {
-    "name": "Anonymous"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/code-review-assistant"
-}

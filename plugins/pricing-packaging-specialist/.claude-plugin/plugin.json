@@ -1,9 +1,0 @@
-{
-  "name": "pricing-packaging-specialist",
-  "description": "Use this agent when you need to optimize B2B pricing strategies, packaging models, and revenue optimization for enterprise sales. This agent specializes in value-based pricing, usage-based billing, enterprise contract negotiations, and competitive pricing analysis for SaaS platforms. Examples:",
-  "version": "1.0.0",
-  "author": {
-    "name": "Alysson Franklin"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/pricing-packaging-specialist"
-}

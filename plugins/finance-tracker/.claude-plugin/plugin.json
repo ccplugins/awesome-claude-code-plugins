@@ -1,9 +1,0 @@
-{
-  "name": "finance-tracker",
-  "description": "Use this agent when managing budgets, optimizing costs, forecasting revenue, or analyzing financial performance. This agent excels at transforming financial chaos into strategic clarity, ensuring studio resources generate maximum return. Examples:\\n\\n<example>\\nContext: Planning next quarter's development budget",
-  "version": "1.0.0",
-  "author": {
-    "name": "Michael Galpert"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/finance-tracker"
-}

@@ -1,9 +1,0 @@
-{
-  "name": "codebase-documenter",
-  "description": "Use this agent when you need to analyze a service or codebase component and create comprehensive documentation in CLAUDE.md files. This agent should be invoked after implementing new services, major refactoring, or when documentation needs updating to reflect the current codebase structure. Examples: <example>Context: The user has just implemented a new authentication service and wants to document it properly. user: 'I just finished implementing the auth service, can you document how it works?' assistant: 'I'll use the codebase-documenter agent to analyze the authentication service and create detailed documentation in CLAUDE.md' <commentary>Since the user has completed a service implementation and needs documentation, use the Task tool to launch the codebase-documenter agent to create comprehensive CLAUDE.md documentation.</commentary></example> <example>Context: The user wants to ensure a newly added API module is properly documented for the team. user: 'We need documentation for the new payment processing API I just added' assistant: 'Let me use the codebase-documenter agent to analyze the payment processing API and create proper documentation' <commentary>The user needs documentation for a new API module, so use the codebase-documenter agent to create CLAUDE.md files with setup instructions and architectural notes.</commentary></example>",
-  "version": "1.0.0",
-  "author": {
-    "name": "Anand Tyagi"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/codebase-documenter"
-}

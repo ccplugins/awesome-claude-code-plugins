@@ -1,9 +1,0 @@
-{
-  "name": "b2b-project-shipper",
-  "description": "PROACTIVELY use this agent when approaching B2B launch milestones, enterprise release deadlines, or B2B go-to-market activities. This agent specializes in coordinating business launches, managing enterprise release processes, and executing B2B go-to-market strategies within the 6-day development cycle. Should be triggered automatically when enterprise release dates are set, B2B launch plans are needed, or business market positioning is discussed. Examples:",
-  "version": "1.0.0",
-  "author": {
-    "name": "Alysson Franklin"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/b2b-project-shipper"
-}

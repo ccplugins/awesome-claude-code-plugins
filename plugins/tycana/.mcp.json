@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "tycana": {
-      "type": "url",
-      "url": "https://app.tycana.com/mcp"
-    }
-  }
-}

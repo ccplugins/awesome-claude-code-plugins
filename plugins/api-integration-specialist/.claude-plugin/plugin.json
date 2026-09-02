@@ -1,9 +1,0 @@
-{
-  "name": "api-integration-specialist",
-  "description": "Use this agent when you need to design and implement internal API architecture, developer experience, and API infrastructure for B2B applications. This agent specializes in REST API design, GraphQL implementation, API documentation, SDK development, and developer portal creation. Handles API performance optimization, versioning strategies, and internal service communication. Examples:",
-  "version": "1.0.0",
-  "author": {
-    "name": "Alysson Franklin"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/api-integration-specialist"
-}

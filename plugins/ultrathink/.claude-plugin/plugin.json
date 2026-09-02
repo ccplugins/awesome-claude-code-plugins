@@ -1,9 +1,0 @@
-{
-  "name": "ultrathink",
-  "description": "Use /ultrathink <TASK_DESCRIPTION> to launch a Coordinator Agent that directs four specialist sub-agents—Architect, Research, Coder, and Tester—to analyze, design, implement, and validate your coding task. The process breaks the task into clear steps, gathers insights, and synthesizes a cohesive solution with actionable outputs. Relevant files can be referenced ad-hoc using @ filename syntax.",
-  "version": "1.0.0",
-  "author": {
-    "name": "Jeronim Morina"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/ultrathink"
-}

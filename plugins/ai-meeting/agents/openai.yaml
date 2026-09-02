@@ -1,4 +1,0 @@
-interface:
-  display_name: "AI Meeting"
-  short_description: "多 Agent 方案评审和决策会议"
-  default_prompt: "Use $ai-meeting to run a structured multi-agent review for this proposal and produce a decision report."

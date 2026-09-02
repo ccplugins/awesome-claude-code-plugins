@@ -1,9 +1,0 @@
-{
-  "name": "compliance-automation-specialist",
-  "description": "Use this agent when you need to automate compliance processes for SOC 2, ISO 27001, GDPR, HIPAA, and other enterprise regulatory requirements. This agent specializes in compliance automation, audit preparation, continuous monitoring, and regulatory framework implementation for B2B platforms. Examples:",
-  "version": "1.0.0",
-  "author": {
-    "name": "Alysson Franklin"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/compliance-automation-specialist"
-}
