@@ -177,6 +177,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [bullpen](./plugins/bullpen)
 
 ### Communication & Integrations
+- [qqmail-cli](https://github.com/situker/qqmail-cli) — Safety-first, unofficial QQ Mail / Foxmail CLI skill for AI agents; install via `/plugin marketplace add situker/qqmail-cli`. Read-only by default; every mailbox mutation is dry-run + human-gated, with a restore regret window and no permanent-delete command.
 - [whatsapp-claude-plugin](https://github.com/Rich627/whatsapp-claude-plugin) — WhatsApp channel plugin for Claude Code. Connects as a linked device via Baileys v7 with bidirectional messaging, full media support, voice transcription, permission relay, and access control.
 
 ### Data Analytics
