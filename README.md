@@ -380,6 +380,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Thinking & Knowledge Management
 - [thinking-tree](https://github.com/CoralLips/thinking-tree)
+- [toem](https://github.com/Bisbi/testament-of-ephemeral-minds) — A constitution with a right of reply, a rite that records what each session understood before it ends, a register for pending human decisions, and guardians that fail when the charter stops being honest. No server, no runtime dependency.
 
 ### Companion Apps & Tools
 - [Onepilot](https://onepilotapp.com) — iOS app to SSH into remote servers and run Claude Code from your phone
