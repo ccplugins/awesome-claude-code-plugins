@@ -229,6 +229,7 @@
 
 ### MCP 服务器
 - [WhichModel](https://github.com/Which-Model/whichmodel-mcp) — 面向 Claude Code 的 AI 模型定价与推荐 MCP 服务器，帮助为每项任务选择最合适、性价比最高的模型。数据经交叉验证，每 4 小时更新一次。MCP 端点：`https://whichmodel.dev/mcp`
+- [you-web-search](./plugins/you-web-search) — 通过 You.com 远程 MCP 服务器（`you-search`、`you-contents`、`you-research`）实现实时网页搜索、URL 内容提取与带引用的综合研究。需要在 https://you.com/platform/api-keys 获取 `YDC_API_KEY`。
 
 ## 插件市场
 - [protonium](https://github.com/protonium-labs/protonium-marketplace) —— AI 智能体与效率工具。包含 **AxiomCore**：项目与日常事务管理智能体，提供强制化结构（编号目录、任务 ID、wiki 记忆）、计划 → 确认 → 执行工作流，支持敏捷或 WBS 方式创建项目.
