@@ -229,6 +229,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [enterprise-integrator-architect](./plugins/enterprise-integrator-architect)
 - [flutter-mobile-app-dev](./plugins/flutter-mobile-app-dev)
 - [frontend-developer](./plugins/frontend-developer)
+- [gemini-claude-bridge](https://github.com/weijiafu14/gemini-claude-bridge) — Drop-in proxy that lets Claude Code use Gemini models, with thought signature persistence, multimodal tool results, and streaming tool arguments.
 - [ios-app-dev-skills](https://github.com/JasonColapietro/ios-app-dev-skills)
 - [mobile-app-builder](./plugins/mobile-app-builder)
 - [html-report](https://github.com/panhongwei/html-report)
