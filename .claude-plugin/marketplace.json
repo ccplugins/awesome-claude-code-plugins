@@ -2316,6 +2316,25 @@
         "tokens",
         "audit"
       ]
+    },
+    {
+      "name": "you-web-search",
+      "source": "./plugins/you-web-search",
+      "description": "Current web search, URL content extraction, and cited web synthesis via the You.com MCP server (you-search, you-contents, you-research). Requires a YDC_API_KEY from you.com/platform/api-keys.",
+      "version": "1.0.0",
+      "author": {
+        "name": "You.com",
+        "url": "https://github.com/youdotcom-oss"
+      },
+      "category": "MCP Servers",
+      "homepage": "https://github.com/youdotcom-oss/agent-skills",
+      "keywords": [
+        "mcp",
+        "web-search",
+        "search",
+        "research",
+        "citations"
+      ]
     }
   ]
 }
