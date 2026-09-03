@@ -285,6 +285,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Git Workflow
 - [analyze-issue](./plugins/analyze-issue)
+- [babysit-prs](https://github.com/CodePulseHQ/babysit-prs-plugin) - Continuously monitors GitHub PRs for review comments and CI failures, auto-addressing feedback and fixing builds until the PR is approved. Designed to run with `/loop`; pairs with [CodePulse](https://codepulse.review) for automated review coverage.
 - [bug-fix](./plugins/bug-fix)
 - [commit](./plugins/commit)
 - [create-pr](./plugins/create-pr)
