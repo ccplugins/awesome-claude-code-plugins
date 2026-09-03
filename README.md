@@ -175,6 +175,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [adamsreview](./plugins/adamsreview)
 - [slicewise](./plugins/slicewise)
 - [bullpen](./plugins/bullpen)
+- [claude-feedback-loops](https://github.com/kirilklein/claude-feedback-loops) - Pipeline gap tracking: `/gap` logs one line each time CI, a bot or a human catches what an earlier stage missed, `/gaps` clusters by root cause and closes each at the cheapest layer. Fits any existing workflow via a `CLAUDE.md` snippet. Plus `/review` calibration from PR feedback. Markdown only, no runtime.
 
 ### Communication & Integrations
 - [whatsapp-claude-plugin](https://github.com/Rich627/whatsapp-claude-plugin) — WhatsApp channel plugin for Claude Code. Connects as a linked device via Baileys v7 with bidirectional messaging, full media support, voice transcription, permission relay, and access control.
