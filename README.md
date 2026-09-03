@@ -109,6 +109,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [craftsman](./plugins/craftsman)
 - [rote](./plugins/rote)
 - [claude-session-tint](./plugins/claude-session-tint)
+- [YYLO](https://github.com/yylo-dev/yylo) — Command-line orchestrator that runs coding agents (Claude Code, Codex, Gemini CLI) in parallel across isolated git worktrees, tracked on a Kanban board with review gates and typed merge/release flows. Install via npm (`@yylo/cli`).
 
 ### AI & Speech
 - [speech-ai](https://github.com/fasuizu-br/speech-ai-examples) - Speech AI plugin with pronunciation assessment, text-to-speech, and speech-to-text. 8 MCP tools for language learning, accessibility, and voice applications.
