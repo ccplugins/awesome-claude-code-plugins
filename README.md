@@ -175,6 +175,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [adamsreview](./plugins/adamsreview)
 - [slicewise](./plugins/slicewise)
 - [bullpen](./plugins/bullpen)
+- [claude-feedback-loops](https://github.com/kirilklein/claude-feedback-loops) - Calibrates `/review` from human PR feedback, logs pipeline gaps in `/ship` and clusters them by root cause, and audits lessons on a confidence ladder. Five slash commands, three markdown files, no runtime.
 
 ### Communication & Integrations
 - [whatsapp-claude-plugin](https://github.com/Rich627/whatsapp-claude-plugin) — WhatsApp channel plugin for Claude Code. Connects as a linked device via Baileys v7 with bidirectional messaging, full media support, voice transcription, permission relay, and access control.
