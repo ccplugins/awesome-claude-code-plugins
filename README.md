@@ -394,6 +394,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [atretyak1985/swarmery](https://github.com/atretyak1985/swarmery) | swarmery: vendor-neutral agent framework — `core` (13 agents, 36 skills, 8 commands, hooks, project-aware workspace CLI) plus 11 opt-in domain packs (web, infra, IoT, UAV, Jira, architecture, design, LSP, knowledge graph, multi-account, Claude engineering). Pairs with a local-first control plane (single Go binary, dashboard on `:7777`) that indexes sessions, shows live tool calls and cost, queues permission prompts, and dispatches board tasks to headless agents in git worktrees | `claude plugin marketplace add atretyak1985/swarmery` then `claude plugin install core@swarmery` |
 
 
 ### Skills & Frameworks
