@@ -109,6 +109,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [craftsman](./plugins/craftsman)
 - [rote](./plugins/rote)
 - [claude-session-tint](./plugins/claude-session-tint)
+- [session-hq](https://github.com/lji151/session-hq) - Shared markdown HQ for parallel Claude Code sessions: per-domain status files injected at session start and checked at stop via hooks, an orchestrator-dispatch mode, and a one-page dashboard. Zero dependencies, MIT.
 
 ### AI & Speech
 - [speech-ai](https://github.com/fasuizu-br/speech-ai-examples) - Speech AI plugin with pronunciation assessment, text-to-speech, and speech-to-text. 8 MCP tools for language learning, accessibility, and voice applications.
