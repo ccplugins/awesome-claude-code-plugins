@@ -393,6 +393,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
+| [AIWG](https://github.com/jmagly/aiwg) | Forty independently installable Claude Code framework and workflow plugins covering SDLC, research, security, operations, and other domains | `claude plugin marketplace add jmagly/ai-writing-guide` then `claude plugin install sdlc@aiwg` |
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
 
 
