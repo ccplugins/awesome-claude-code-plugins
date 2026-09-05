@@ -350,6 +350,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [ai-divination-skills](./plugins/ai-divination-skills)
 
 ### Security, Compliance, & Legal
+- [agentguard](https://github.com/tainguyen091994/agentguard) - Scans agent extensions before install: skills, plugins, hooks, and MCP server configs. Detects prompt injection planted in SKILL.md, hardcoded credentials, curl-pipe-shell hooks, unpinned marketplace sources, and plaintext transport. 19 rules written as plain YAML with fixtures; runs as a CLI or a GitHub Action with SARIF output.
 - [ai-ethics-governance-specialist](./plugins/ai-ethics-governance-specialist)
 - [audit](./plugins/audit)
 - [compliance-automation-specialist](./plugins/compliance-automation-specialist)
