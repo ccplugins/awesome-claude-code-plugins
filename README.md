@@ -167,6 +167,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [test-results-analyzer](./plugins/test-results-analyzer)
 - [test-writer-fixer](./plugins/test-writer-fixer)
 - [unit-test-generator](./plugins/unit-test-generator)
+- [verdict](https://github.com/ArtJack/verdict)
 - [vibe-guard](https://github.com/ofershap/vibe-guard) - Always-on security guardrails for AI-generated code
 - [think-first](https://github.com/ofershap/think-first) - Plan-before-code behavior modifier for agents
 - [sonmat](https://github.com/jun0-ds/sonmat) — Verification discipline plugin with six reactive axes (guard, inspect, witness, punch, devil's advocate, scribe) for AI-human collaboration.

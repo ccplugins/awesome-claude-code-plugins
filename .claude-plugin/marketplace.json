@@ -2316,6 +2316,38 @@
         "tokens",
         "audit"
       ]
+    },
+    {
+      "name": "verdict",
+      "displayName": "Verdict",
+      "source": {
+        "source": "github",
+        "repo": "ArtJack/verdict"
+      },
+      "description": "A skeptical QA agent with memory: baseline → delta runs (NEW/REGRESSED/RESOLVED), every red test classified, flaky tests quarantined with an expiry, and evidence-cited verdicts you can defend. Read-only on your code; ships a read-only MCP server, a CI release gate, and a scored eval suite with published misses.",
+      "version": "0.80.0",
+      "author": {
+        "name": "ArtJack",
+        "url": "https://github.com/ArtJack"
+      },
+      "category": "Code Quality Testing",
+      "homepage": "https://github.com/ArtJack/verdict",
+      "repository": "https://github.com/ArtJack/verdict",
+      "license": "MIT",
+      "keywords": [
+        "qa",
+        "testing",
+        "release-gate",
+        "regression",
+        "flaky-tests",
+        "mcp"
+      ],
+      "tags": [
+        "qa",
+        "testing",
+        "release-gate",
+        "regression"
+      ]
     }
   ]
 }
