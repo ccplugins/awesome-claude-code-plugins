@@ -262,6 +262,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [skill-auto-installer](./plugins/skill-auto-installer)
 - [tldr](./plugins/tldr)
 - [Imagine](https://github.com/freestyler-arb/imagine-gemini-for-claude-codex) - Brings Google Gemini into Claude Code & Codex: delegate reasoning, independent code review, deep research, and automatic prompt-engineering. Runs on your Google AI Pro subscription, not your agent's tokens.
+- [chamnan](https://github.com/ArcticFox2029/chamnan) — keeps a repository's engineering context on disk so a session reads instead of rediscovering: an architecture index, an impact map, session handoffs and recorded decisions, as markdown committed beside the code. Repository-local, no network, Python stdlib, MIT
 
 ### Documentation
 - [analyze-codebase](./plugins/analyze-codebase)
