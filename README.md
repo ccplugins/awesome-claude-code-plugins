@@ -201,6 +201,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Audio & Media
 - [bibigpt-skill](https://github.com/JimmyLv/bibigpt-skill) - AI-powered video, audio & podcast summarization
+- [wavespeed](https://github.com/WaveSpeedAI/claude-plugins) - Generate and edit AI images, video, audio, and 3D on the WaveSpeed platform: live catalog search, per-model schema, local-file upload, price quotes before running. Install via `/plugin marketplace add WaveSpeedAI/claude-plugins`
 
 ### Design UX
 - [brand-guardian](./plugins/brand-guardian)
@@ -425,6 +426,7 @@ Example:
 
 - [AgentStore](https://github.com/techgangboss/agentstore) - Open-source plugin marketplace with gasless USDC payments. Install via `/plugin marketplace add techgangboss/agentstore`. Publishers earn 80% of sales. Agent-first API for zero-auth publishing.
 - [protonium](https://github.com/protonium-labs/protonium-marketplace) — AI agents and productivity tools. Includes **AxiomCore**, a project & routine management agent: enforced structure (numbered folders, task IDs, wiki memory), plan → approve → execute workflow, agile or WBS project creation.
+- [WaveSpeed](https://github.com/WaveSpeedAI/claude-plugins) - Official WaveSpeedAI marketplace: AI image, video, audio, and 3D generation for coding agents via the open-source wavespeed CLI. Install via `/plugin marketplace add WaveSpeedAI/claude-plugins`
 
 ## Contributing
 
