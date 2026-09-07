@@ -44,6 +44,29 @@
       ]
     },
     {
+      "name": "great-cto",
+      "source": {
+        "source": "github",
+        "repo": "avelikiy/great_cto"
+      },
+      "description": "Ships a spec-first pipeline whose report is trustworthy in the negative direction: a skipped stage, a review that never ran and an unmeasured cost each render as themselves and are never counted as a pass. Three approvals stay yours; spending caps refuse rather than warn.",
+      "version": "3.27.4",
+      "author": {
+        "name": "Alexander Velikiy",
+        "url": "https://github.com/avelikiy"
+      },
+      "category": "Workflow Orchestration",
+      "homepage": "https://greatcto.systems",
+      "keywords": [
+        "orchestration",
+        "pipeline",
+        "subagents",
+        "code-review",
+        "gates",
+        "cto"
+      ]
+    },
+    {
       "name": "lyra",
       "source": "./plugins/lyra",
       "description": "Lyra - a master-level AI prompt optimization specialist.",
