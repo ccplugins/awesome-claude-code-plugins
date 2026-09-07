@@ -2324,8 +2324,8 @@
         "source": "github",
         "repo": "drobins25/craft"
       },
-      "description": "A Claude Code plugin whose workshop of expert agents learns as it builds: repeated fixes become permanent rules, loved tweaks become taste it remembers - and every change waits behind a write gate you control.",
-      "version": "2.4.2",
+      "description": "A Claude Code plugin that acts as an intelligent harness for your development workflow: your codebase is read-only by default, every change passes through a Write Gate as planned and approved work, and craft tracks your project's history, design tokens, and decisions locally so Claude learns your taste and architectural preferences over time.",
+      "version": "2.6.1",
       "author": {
         "name": "Darin Drobinski",
         "url": "https://github.com/drobins25"
