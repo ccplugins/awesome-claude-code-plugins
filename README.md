@@ -383,6 +383,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Companion Apps & Tools
 - [Onepilot](https://onepilotapp.com) — iOS app to SSH into remote servers and run Claude Code from your phone
+- [Vetto](https://github.com/shleder/vetto) — daemon-less kernel sandbox for Claude Code: `vetto enable claude` wraps the CLI so secret reads and off-allowlist network are denied (Apache-2.0, no Docker)
 
 ### Knowledge Management
 - [bedrock](./plugins/bedrock)
