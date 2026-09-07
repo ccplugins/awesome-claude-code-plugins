@@ -2316,6 +2316,37 @@
         "tokens",
         "audit"
       ]
+    },
+    {
+      "name": "craft",
+      "displayName": "craft",
+      "source": {
+        "source": "github",
+        "repo": "drobins25/craft"
+      },
+      "description": "A Claude Code plugin that acts as an intelligent harness for your development workflow: your codebase is read-only by default, every change passes through a Write Gate as planned and approved work, and craft tracks your project's history, design tokens, and decisions locally so Claude learns your taste and architectural preferences over time.",
+      "version": "2.6.1",
+      "author": {
+        "name": "Darin Drobinski",
+        "url": "https://github.com/drobins25"
+      },
+      "category": "Workflow Orchestration",
+      "homepage": "https://github.com/drobins25/craft",
+      "repository": "https://github.com/drobins25/craft",
+      "license": "MIT",
+      "keywords": [
+        "claude-code",
+        "development",
+        "workflow",
+        "creative",
+        "harness",
+        "agents",
+        "multi-agent",
+        "orchestration",
+        "write-gate",
+        "quality-gates",
+        "taste"
+      ]
     }
   ]
 }
