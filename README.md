@@ -425,6 +425,7 @@ Example:
 
 - [AgentStore](https://github.com/techgangboss/agentstore) - Open-source plugin marketplace with gasless USDC payments. Install via `/plugin marketplace add techgangboss/agentstore`. Publishers earn 80% of sales. Agent-first API for zero-auth publishing.
 - [protonium](https://github.com/protonium-labs/protonium-marketplace) — AI agents and productivity tools. Includes **AxiomCore**, a project & routine management agent: enforced structure (numbered folders, task IDs, wiki memory), plan → approve → execute workflow, agile or WBS project creation.
+- [fin-skills](https://github.com/howard-lynn-ye/fin-skills) - Seven plugins with 53 Agent Skills for Python quantitative finance: market data, backtesting, options, crypto, China A-shares, LLM trading agents; every claim is dated and marked verified, secondhand, or unverified. Install via `/plugin marketplace add howard-lynn-ye/fin-skills`. MIT.
 
 ## Contributing
 

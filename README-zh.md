@@ -232,6 +232,7 @@
 
 ## 插件市场
 - [protonium](https://github.com/protonium-labs/protonium-marketplace) —— AI 智能体与效率工具。包含 **AxiomCore**：项目与日常事务管理智能体，提供强制化结构（编号目录、任务 ID、wiki 记忆）、计划 → 确认 → 执行工作流，支持敏捷或 WBS 方式创建项目.
+- [fin-skills](https://github.com/howard-lynn-ye/fin-skills) —— 七个插件、共 53 个 Agent Skills，面向 Python 量化金融：行情数据、回测、期权、加密货币、A 股、LLM 交易智能体；每条结论均注明核验日期，并标记为已验证、二手来源或未验证。安装：`/plugin marketplace add howard-lynn-ye/fin-skills`。MIT。
 
 ## 使用教程
 
