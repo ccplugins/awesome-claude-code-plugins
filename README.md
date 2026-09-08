@@ -155,6 +155,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [code-review](./plugins/code-review)
 - [code-review-assistant](./plugins/code-review-assistant)
 - [code-reviewer](./plugins/code-reviewer)
+- [config-drift-checker](https://github.com/jameskomo/config-drift-checker) - CI for your Claude Code setup: turns CLAUDE.md, skills and hooks into eval cases, re-runs them on every Claude Code release and PR, and diffs against a pinned baseline with noise-aware verdicts.
 - [database-performance-optimizer](./plugins/database-performance-optimizer)
 - [debug-session](./plugins/debug-session)
 - [debugger](./plugins/debugger)
