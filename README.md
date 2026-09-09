@@ -398,7 +398,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 
 ### Skills & Frameworks
 - [aurakit](https://github.com/smorky850612/Aurakit) — All-in-one Claude Code skill: 46 modes, 23 sub-agents, 6-layer OWASP security, 10 lifecycle hooks, ~55% token savings. Cross-platform (Codex, Cursor, Manus, Windsurf). Install: `npx @smorky85/aurakit`
-- [cue-omni-reader](https://github.com/sensedeal/cue-skills/tree/main/cue-omni-reader) — Instruction-only agent skill that plugs into any AI agent (Claude Code, Codex CLI, Gemini CLI, WorkBuddy, etc.) to drive the official Cue Omni Reader MCP to parse an HTTP(S) URL or an authorized local document, audio, or video source into Markdown. Native loading on WorkBuddy is still marked unverified upstream (see `references/compatibility.md`). MIT. Install: `npx skills add sensedeal/cue-skills --skill cue-omni-reader`
+- [cue-omni-reader](https://github.com/sensedeal/cue-skills/tree/main/cue-omni-reader) — Turn a web page, PDF, recording, or local video into Markdown before the rest of the agent workflow. MIT. `npx skills add sensedeal/cue-skills --skill cue-omni-reader`
 
 ## Resources
 - [Claudebin](https://claudebin.com) ([GitHub](https://github.com/wunderlabs-dev/claudebin.com/)) - A minimalistic tool for publishing and sharing Claude coding sessions.
