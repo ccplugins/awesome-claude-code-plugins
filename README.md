@@ -262,6 +262,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [skill-auto-installer](./plugins/skill-auto-installer)
 - [tldr](./plugins/tldr)
 - [Imagine](https://github.com/freestyler-arb/imagine-gemini-for-claude-codex) - Brings Google Gemini into Claude Code & Codex: delegate reasoning, independent code review, deep research, and automatic prompt-engineering. Runs on your Google AI Pro subscription, not your agent's tokens.
+- [claudenews](https://github.com/bhpark1013/claudenews) - Developer news in the Claude Code status line while the agent works: Hacker News, GitHub Trending, and per-language sources, with optional translation and short summaries.
 
 ### Documentation
 - [analyze-codebase](./plugins/analyze-codebase)
