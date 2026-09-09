@@ -345,6 +345,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [agent-decision-record](./plugins/agent-decision-record)
 - [product-org-os](./plugins/product-org-os)
 - [governor](https://github.com/0xhimanshu/governor)
+- [me-review](https://github.com/monitoringevaluationstudio/me-review) - Twelve structured monitoring and evaluation document reviews: logframes, theories of change, indicators, evaluation TORs, M&E plans, proposals, sampling plans, surveys, baseline and progress reports, data quality assessments, and evaluation reports. Each returns section-by-section PASS/PARTIAL/FAIL ratings, a verdict, and prioritized recommendations. Pure Markdown, MIT.
 
 ### Lifestyle & Entertainment
 - [ai-divination-skills](./plugins/ai-divination-skills)
