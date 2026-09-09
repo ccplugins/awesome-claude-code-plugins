@@ -23,6 +23,8 @@
     - [安全、合规与法律](#安全、合规与法律)
     - [MCP 服务器](#mcp-服务器)
 * [插件市场](#插件市场)
+* [外部市场](#外部市场)
+    - [Skills 与框架](#skills-与框架)
 * [使用教程](#使用教程)
 * [如何贡献](#如何贡献)
 
@@ -232,6 +234,14 @@
 
 ## 插件市场
 - [protonium](https://github.com/protonium-labs/protonium-marketplace) —— AI 智能体与效率工具。包含 **AxiomCore**：项目与日常事务管理智能体，提供强制化结构（编号目录、任务 ID、wiki 记忆）、计划 → 确认 → 执行工作流，支持敏捷或 WBS 方式创建项目.
+
+## 外部市场
+
+社区维护的插件市场，可自行添加以获取更多插件。
+
+### Skills 与框架
+- [aurakit](https://github.com/smorky850612/Aurakit) — 一体化 Claude Code skill：46 种模式、23 个子智能体、6 层 OWASP 安全、10 个生命周期钩子，约 55% token 节省。跨平台（Codex、Cursor、Manus、Windsurf）。安装：`npx @smorky85/aurakit`
+- [cue-omni-reader](https://github.com/sensedeal/cue-skills/tree/main/cue-omni-reader) — 把网页、PDF、录音或本地视频收成 Markdown，再进入后续 agent 流程。MIT。`npx skills add sensedeal/cue-skills --skill cue-omni-reader`
 
 ## 使用教程
 
