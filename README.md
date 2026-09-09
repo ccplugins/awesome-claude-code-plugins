@@ -401,6 +401,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 
 ## Resources
 - [Claudebin](https://claudebin.com) ([GitHub](https://github.com/wunderlabs-dev/claudebin.com/)) - A minimalistic tool for publishing and sharing Claude coding sessions.
+- [tokenchit](https://tokenchit.app) ([GitHub](https://github.com/iyashjayesh/tokenchit)) - Parses local Claude Code, Codex and OpenCode logs and renders a token-usage card you commit to your repo, with an opt-in public leaderboard.
 
 ## Tutorials
 
