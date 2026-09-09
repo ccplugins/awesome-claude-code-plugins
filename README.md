@@ -383,6 +383,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Companion Apps & Tools
 - [Onepilot](https://onepilotapp.com) — iOS app to SSH into remote servers and run Claude Code from your phone
+- [Sillage](https://github.com/MarlBurroW/sillage) - Self-hosted, mobile-first web UI that drives the Claude Code and Codex CLIs on your own machine, with sessions that outlive the client, full-text search, an IDE panel, and an installable PWA. Single Docker container.
 
 ### Knowledge Management
 - [bedrock](./plugins/bedrock)
