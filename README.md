@@ -312,6 +312,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [tiktok-strategist](./plugins/tiktok-strategist)
 - [toprank](./plugins/toprank)
 - [twitter-engager](./plugins/twitter-engager)
+- [why-isnt-it-selling](https://github.com/maxxthemate-png/why-isnt-it-selling) - Diagnose why a shipped product is not selling; five triage questions to one failure mode, ranked moves with a source URL each, plus the graveyard of 11 growth tactics that failed adversarial refutation
 - [wondelai-skills](https://github.com/wondelai/skills)
 - [agentkits-marketing](./plugins/agentkits-marketing)
 - [claude-code-marketing-skills](https://github.com/cognyai/claude-code-marketing-skills) - AI marketing skills: SEO Audit, Landing Page Review, Competitor Analysis, Ad Copy Writer, Lead Qualification. 5 free + premium via Cogny MCP
