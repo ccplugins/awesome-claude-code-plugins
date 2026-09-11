@@ -368,6 +368,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [agent-safety-preflight](./plugins/agent-safety-preflight)
 
 ### MCP Servers
+- [x402 Scraper Engine](https://github.com/ami-guru/x402-scraper-engine) — Production HTTP 402 Web3 micropayment web scraper, Llama-3 digest, and Twitter intelligence engine for AI agents on Base L2. Zero API keys, pay-per-call in USDC. Rated A on Glama.
 - [AccInt](https://github.com/maxbaluev/accreted-intelligence) — Local-first Work Model MCP server and Claude Code/Codex/OpenCode plugin. Tools: `acc_retrieve`, `acc_act`; official registry `io.github.maxbaluev/accint`.
 - [lazymac/mcp](https://github.com/lazymac2x/lazymac-mcp) — Unified MCP server exposing 42+ developer tools (qr, ip-geo, ai-cost, llm-router, k-privacy, korean-nlp) backed by Cloudflare Workers. `npx -y @lazymac/mcp`
 - [lazymac/k-mcp](https://github.com/lazymac2x/lazymac-k-mcp) — Korean wedge MCP — PIPA compliance, KRW + BOK rates, 사업자등록번호 lookup, address geocoding, NLP. `npx -y @lazymac/k-mcp`
