@@ -394,6 +394,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [alonsorobots/claude-code-supervised](https://github.com/alonsorobots/claude-code-supervised) | supervised plugin: a second model reviews what the first one wrote. Tests must fail before they pass, gates are checked by breaking the code on purpose, and every review finding is reproduced and scored so you can tell whether the review is earning its cost | `claude plugin marketplace add alonsorobots/claude-code-supervised` then `claude plugin install supervised@supervised-tools` |
 
 
 ### Skills & Frameworks
