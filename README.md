@@ -359,6 +359,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [legal-advisor](./plugins/legal-advisor)
 - [legal-compliance-checker](./plugins/legal-compliance-checker)
 - [openclaw-security](https://github.com/AtlasPA/openclaw-security) - 11-tool security suite for agent workspaces: integrity scanning, secret detection, permission auditing, network DLP, supply-chain checks, injection defense, credential lifecycle, compliance enforcement, audit trails, cryptographic signing, and incident response.
+- [Claude-1Password](https://github.com/lucas-saldanha-werneck/Claude-1Password) - Keep secrets out of the chat with 1Password: a UserPromptSubmit hook erases pasted API keys/passwords before the model sees them, `op-store` saves a secret through a native dialog with a reveal toggle (value piped to `op` as JSON, never on the command line), `op-env` launches Claude Code with `op://` references resolved once. Hooks also block `op read`, `printenv` and `.env` reads. macOS/Windows/Linux.
 - [privacy-mask](https://github.com/fullstackcrew-alpha/privacy-mask) - Detect and redact PII, API keys, and secrets in screenshots via OCR + regex before images reach Claude. 47 detection rules, Tesseract/RapidOCR support, UserPromptSubmit hook integration. 100% offline.
 - [skillfortify](https://github.com/qualixar/skillfortify) - External: Formal verification scanner for AI agent skills (including Claude Code skills + MCP servers). 100% precision on 540-skill benchmark. ASBOM generation. arXiv:2603.00195.
 - [shellgate](./plugins/shellgate)
