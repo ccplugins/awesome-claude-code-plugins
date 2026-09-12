@@ -175,6 +175,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [adamsreview](./plugins/adamsreview)
 - [slicewise](./plugins/slicewise)
 - [bullpen](./plugins/bullpen)
+- [claude-go-pack](https://github.com/fabiangftech/claude-go-pack) - Go backend kit for Claude Code: skills for table-driven tests, error wrapping and go.mod hygiene, a read-only go-reviewer subagent that runs gofmt, go vet and race tests before reviewing, and a PostToolUse hook that formats and vets every .go file Claude edits. MIT, stdlib-first, no MCP server required.
 
 ### Communication & Integrations
 - [whatsapp-claude-plugin](https://github.com/Rich627/whatsapp-claude-plugin) — WhatsApp channel plugin for Claude Code. Connects as a linked device via Baileys v7 with bidirectional messaging, full media support, voice transcription, permission relay, and access control.
