@@ -159,6 +159,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [debug-session](./plugins/debug-session)
 - [debugger](./plugins/debugger)
 - [double-check](./plugins/double-check)
+- [LintLang](https://github.com/hermes-labs-ai/lintlang) - Deterministic, zero-LLM static analysis for agent instructions and tool descriptions, packaged as a Claude Code post-tool hook.
 - [optimize](./plugins/optimize)
 - [performance-benchmarker](./plugins/performance-benchmarker)
 - [refractor](./plugins/refractor)
