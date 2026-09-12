@@ -202,6 +202,8 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 ### Audio & Media
 - [bibigpt-skill](https://github.com/JimmyLv/bibigpt-skill) - AI-powered video, audio & podcast summarization
 
+- [i-hate-editing](https://github.com/ranahaani/i-hate-editing) - Claude Code skill: raw talking-head → finished cut via local whisper.cpp + ffmpeg (model never watches the pixels)
+
 ### Design UX
 - [brand-guardian](./plugins/brand-guardian)
 - [joker](./plugins/joker)
