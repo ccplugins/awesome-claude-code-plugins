@@ -80,6 +80,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [now-next-methodology](https://github.com/soutone/now-next-methodology) - Two-file task management system for Claude Code/OpenCode: NOW.md tracks current work, NEXT.md queues future tasks with /next command
 - [problem-solver-specialist](./plugins/problem-solver-specialist)
 - [reviewer-author-loop](./plugins/reviewer-author-loop)
+- [session-orchestrator](https://github.com/Kanevry/session-orchestrator) - MIT-licensed workflow plugin that plans from repository issues, coordinates scoped work in checked waves, and preserves session state across interruptions; supports Claude Code, Codex CLI, Cursor and Pi.
 - [studio-coach](./plugins/studio-coach)
 - [tree-ring-memory](https://github.com/TerminallyLazy/tree-ring-memory-claude-plugin)
 - [ultrathink](./plugins/ultrathink)
