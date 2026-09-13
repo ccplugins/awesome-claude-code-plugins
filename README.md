@@ -324,6 +324,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [social-vision](./plugins/social-vision)
 - [x-skills](https://github.com/sergebulaev/x-skills)
 - [yaohe](./plugins/yaohe)
+- [RevenueOS](https://github.com/unempyd/revenueos) - Self-hosted revenue department for one business: reads your site, ad exports, lead lists and mailbox, proposes each finding as one approvable line, executes only what you approve (site fix, campaign pause, email, invoice), then re-reads the live account and records before → after. MIT, Python, also an MCP server.
 
 ### Project & Product Management
 - [bleu](https://github.com/Nirvaan05/Bleu-plugin)
