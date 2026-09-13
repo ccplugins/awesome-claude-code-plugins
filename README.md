@@ -206,6 +206,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [brand-guardian](./plugins/brand-guardian)
 - [joker](./plugins/joker)
 - [journey-mapper](./plugins/journey-mapper)
+- [mblode/agent-skills](https://github.com/mblode/agent-skills) - Nobody ships AI slop on purpose. These skills make sure you don't. UI audits, typography, docs, PR review, and releases. `npx skills add mblode/agent-skills`
 - [mobile-ux-optimizer](./plugins/mobile-ux-optimizer)
 - [nano-banana](https://github.com/Ibrahim-3d/nano-banana-claude-plugin) - Google Gemini image generation plugin. Text-to-image, text-guided image editing, style transfer, 4K output, search grounding, and multi-reference composition via `/genimage`. Uses `gemini-2.5-flash-image` (fast) and `gemini-3-pro-image-preview` (4K/search).
 - [onomastophes](./plugins/onomastophes)
