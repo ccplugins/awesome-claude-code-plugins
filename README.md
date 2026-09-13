@@ -308,6 +308,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [instagram-curator](./plugins/instagram-curator)
 - [poppify](./plugins/poppify) — photo-led short-form vertical reels (Instagram/TikTok/YouTube Shorts/Facebook) via MCP, $0.06/render, 50 free seeds, no subscription
 - [reddit-community-builder](./plugins/reddit-community-builder)
+- [squirrelscan](https://github.com/squirrelscan/squirrelscan) - Website QA for coding agents: audits a site against 260+ rules (SEO, performance, security, accessibility, agent experience) and fixes the findings in code. CLI, MCP server, GitHub Action. Install via `/plugin marketplace add squirrelscan/squirrelscan`
 - [taisly-agent-kit](https://github.com/taisly/agent)
 - [tiktok-strategist](./plugins/tiktok-strategist)
 - [toprank](./plugins/toprank)
