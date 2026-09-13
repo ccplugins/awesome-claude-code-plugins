@@ -424,6 +424,7 @@ Example:
 ## Marketplaces
 
 - [AgentStore](https://github.com/techgangboss/agentstore) - Open-source plugin marketplace with gasless USDC payments. Install via `/plugin marketplace add techgangboss/agentstore`. Publishers earn 80% of sales. Agent-first API for zero-auth publishing.
+- [FortunaTerra Claude Plugins](https://github.com/FortunaTerra-Group/claude-plugins) - Governed-delivery skills: a goal contract written before code, an independent multi-persona review panel before the PR, and a heuristic usability review of what shipped. Install via `/plugin marketplace add FortunaTerra-Group/claude-plugins`.
 - [protonium](https://github.com/protonium-labs/protonium-marketplace) — AI agents and productivity tools. Includes **AxiomCore**, a project & routine management agent: enforced structure (numbered folders, task IDs, wiki memory), plan → approve → execute workflow, agile or WBS project creation.
 
 ## Contributing
