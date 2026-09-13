@@ -383,6 +383,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Companion Apps & Tools
 - [Onepilot](https://onepilotapp.com) — iOS app to SSH into remote servers and run Claude Code from your phone
+- [claude-discord-presence](https://github.com/goncalooliveira03/claude-discord-presence) — Discord Rich Presence for Claude Code on Windows: repo, branch, current activity and model, via async hooks. Zero dependencies.
 
 ### Knowledge Management
 - [bedrock](./plugins/bedrock)
