@@ -217,6 +217,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [claude-bionify](./plugins/claude-bionify)
 
 ### Development Engineering
+- [tldr](https://github.com/SurefireStudios/tldr) - Leads every response with a three-line TL;DR and folds the full detail underneath, so the answer is not buried. Never folds destructive commands, security findings, verbatim errors or diffs. Returns a parseable block for agent-to-agent reports.
 - [claude-sounds](https://github.com/culminationAI/claude-sounds)
 - [ai-engineer](./plugins/ai-engineer)
 - [claw-army/claude-node](https://github.com/claw-army/claude-node) - Python subprocess bridge for Claude Code CLI, giving Python code direct access to Claude Code native capabilities via stream-json.
