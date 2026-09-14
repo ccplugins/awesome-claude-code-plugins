@@ -386,6 +386,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Knowledge Management
 - [bedrock](./plugins/bedrock)
+- [kgai](https://github.com/kgaidev/kgai) - Shared decision memory for dev teams — a plugin for sharing decisions and knowledge across Claude Code sessions and teammates: an immutable knowledge graph of the why behind your code (what changed, what was rejected), captured automatically as you work, synced over an S3 bucket you own. Install: `claude plugin marketplace add kgaidev/kgai`
 
 ## External Marketplaces
 
