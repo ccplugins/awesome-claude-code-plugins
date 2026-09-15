@@ -398,6 +398,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 
 ### Skills & Frameworks
 - [aurakit](https://github.com/smorky850612/Aurakit) — All-in-one Claude Code skill: 46 modes, 23 sub-agents, 6-layer OWASP security, 10 lifecycle hooks, ~55% token savings. Cross-platform (Codex, Cursor, Manus, Windsurf). Install: `npx @smorky85/aurakit`
+- [angles-video-skill](https://github.com/anglesvideo/angles-video-skill) — AI video generation skill for Claude Code: turns URLs/articles into polished marketing videos with AI avatars, voiceovers, and B-roll. Agent-native design for Claude Code tool use.
 
 ## Resources
 - [Claudebin](https://claudebin.com) ([GitHub](https://github.com/wunderlabs-dev/claudebin.com/)) - A minimalistic tool for publishing and sharing Claude coding sessions.
