@@ -175,6 +175,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [adamsreview](./plugins/adamsreview)
 - [slicewise](./plugins/slicewise)
 - [bullpen](./plugins/bullpen)
+- [skillkeel-starter](https://github.com/skillkeel/skillkeel-starter) - Guard hooks that refuse destructive shell commands and credentials in file writes, plus eight repo skills (commit message, PR description, CLAUDE.md init, changelog, readme audit, dependency audit, secret audit, test gaps). Every skill ships with a fixture, assertions and an unedited eval transcript. 44 hook tests. MIT.
 
 ### Communication & Integrations
 - [whatsapp-claude-plugin](https://github.com/Rich627/whatsapp-claude-plugin) — WhatsApp channel plugin for Claude Code. Connects as a linked device via Baileys v7 with bidirectional messaging, full media support, voice transcription, permission relay, and access control.
