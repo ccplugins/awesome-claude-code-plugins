@@ -393,11 +393,13 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
+| [pixeltable/pixeltable-skill](https://github.com/pixeltable/pixeltable-skill) | Declarative multimodal AI data engine: tables, computed columns, embedding search, agents, and FastAPI services | `claude plugin marketplace add pixeltable/pixeltable-skill` then `claude plugin install pixeltable` |
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
 
 
 ### Skills & Frameworks
 - [aurakit](https://github.com/smorky850612/Aurakit) — All-in-one Claude Code skill: 46 modes, 23 sub-agents, 6-layer OWASP security, 10 lifecycle hooks, ~55% token savings. Cross-platform (Codex, Cursor, Manus, Windsurf). Install: `npx @smorky85/aurakit`
+- [pixeltable](https://github.com/pixeltable/pixeltable-skill) — Declarative multimodal AI data engine: tables, computed columns, embedding search, 25+ AI providers, agents, commands, and hooks. Install: `claude plugin marketplace add pixeltable/pixeltable-skill` or `npx skills add pixeltable/pixeltable-skill`
 
 ## Resources
 - [Claudebin](https://claudebin.com) ([GitHub](https://github.com/wunderlabs-dev/claudebin.com/)) - A minimalistic tool for publishing and sharing Claude coding sessions.
@@ -424,6 +426,7 @@ Example:
 ## Marketplaces
 
 - [AgentStore](https://github.com/techgangboss/agentstore) - Open-source plugin marketplace with gasless USDC payments. Install via `/plugin marketplace add techgangboss/agentstore`. Publishers earn 80% of sales. Agent-first API for zero-auth publishing.
+- [pixeltable](https://github.com/pixeltable/pixeltable-skill) — Declarative multimodal AI data engine for tables, computed columns, embedding search, agents, and FastAPI services. Install via `/plugin marketplace add pixeltable/pixeltable-skill`.
 - [protonium](https://github.com/protonium-labs/protonium-marketplace) — AI agents and productivity tools. Includes **AxiomCore**, a project & routine management agent: enforced structure (numbered folders, task IDs, wiki memory), plan → approve → execute workflow, agile or WBS project creation.
 
 ## Contributing
