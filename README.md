@@ -394,6 +394,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [vider73/claudemm](https://github.com/vider73/claudemm) | ClaudeMM: a mind map of your Claude Code sessions for Windows. Live-status hooks, an MCP server Claude uses to search, tag and annotate past sessions, and `/claudemm:mm` to show the current chat in the map | `claude plugin marketplace add vider73/claudemm` then `claude plugin install claudemm@chronoscan` |
 
 
 ### Skills & Frameworks
