@@ -423,6 +423,7 @@ Example:
 
 ## Marketplaces
 
+- [elementor-seo-kit](https://github.com/iamanwaralam/elementor-seo-kit) — WordPress + Elementor content skills: weekly SEO content research, an SEO blog-writing system, and a native-Elementor page builder that never dumps raw HTML into a Text Editor widget. Site-agnostic — configure once via `SITE-PROFILE.md`. Install via `/plugin marketplace add iamanwaralam/elementor-seo-kit`.
 - [AgentStore](https://github.com/techgangboss/agentstore) - Open-source plugin marketplace with gasless USDC payments. Install via `/plugin marketplace add techgangboss/agentstore`. Publishers earn 80% of sales. Agent-first API for zero-auth publishing.
 - [protonium](https://github.com/protonium-labs/protonium-marketplace) — AI agents and productivity tools. Includes **AxiomCore**, a project & routine management agent: enforced structure (numbered folders, task IDs, wiki memory), plan → approve → execute workflow, agile or WBS project creation.
 
