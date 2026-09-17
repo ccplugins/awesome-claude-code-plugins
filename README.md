@@ -282,6 +282,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [verifying-phd-citations](./plugins/verifying-phd-citations)
 - [thermal-fluid-research-workflow](./plugins/thermal-fluid-research-workflow)
 - [trigger-tree](https://github.com/Hedde/trigger_tree)
+- [mermaid-for-claude](https://github.com/lucaswx2/mermaid-for-claude) - Renders Mermaid blocks from Claude Code replies as ASCII/Unicode diagrams inside the terminal, fully local, Node only, no browser.
 
 ### Git Workflow
 - [analyze-issue](./plugins/analyze-issue)
