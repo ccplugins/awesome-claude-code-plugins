@@ -262,6 +262,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [skill-auto-installer](./plugins/skill-auto-installer)
 - [tldr](./plugins/tldr)
 - [Imagine](https://github.com/freestyler-arb/imagine-gemini-for-claude-codex) - Brings Google Gemini into Claude Code & Codex: delegate reasoning, independent code review, deep research, and automatic prompt-engineering. Runs on your Google AI Pro subscription, not your agent's tokens.
+- [ultimate-dev-toolkit](https://github.com/kaazyxx/ultimate-dev-toolkit) - Security-first universal Claude Code plugin: 520 skills, 176 commands, 120 agents, 28 safety hooks and 4 MCP connectors. Detects what's actually installed and never fakes support.
 
 ### Documentation
 - [analyze-codebase](./plugins/analyze-codebase)
