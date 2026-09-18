@@ -201,6 +201,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Audio & Media
 - [bibigpt-skill](https://github.com/JimmyLv/bibigpt-skill) - AI-powered video, audio & podcast summarization
+- [flacli](https://github.com/h-3303/flacli) - Name songs and albums or import a playlist (TIDAL, Deezer, YouTube Music, or an export file), match it against your local library via MusicBrainz, fetch the missing tracks through your own Nicotine+ (Soulseek) client, file them as `Artist/Album/NN - Title`, write an M3U, then tidy the library. Install: `/plugin marketplace add h-3303/flacli` then `/plugin install flacli@flacli`
 
 ### Design UX
 - [brand-guardian](./plugins/brand-guardian)
