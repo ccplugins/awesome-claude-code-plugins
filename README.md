@@ -277,6 +277,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [prompt-compression](https://github.com/ofershap/prompt-compression) - Compress docs/prompts into minimal tokens for AGENTS.md
 - [conversation-memory](https://github.com/ofershap/conversation-memory) - Give agents memory across sessions
 - [ai-humanizer](https://github.com/ofershap/ai-humanizer) - Remove AI-detectable patterns from generated content
+- [show-me-the-receipts](https://github.com/lohyeulam-stack/show-me-the-receipts) - Receipts-first output discipline plugin: conclusion on line 1, every claim graded (fact / inference / assumption / guess), actions bound to owner + deadline + deliverable, de-AI-ified writing, ADHD-friendly format. Ships an always-on SessionStart hook; README in 11 languages. MIT.
 - [llm-wiki](https://github.com/praneybehl/llm-wiki-plugin) - Build a compounding, LLM-curated personal knowledge base in any project (Karpathy's LLM Wiki pattern). Skill + 5 `/wiki:*` commands with sharded indexes, BM25 search, and a structural lint script.
 - [swarmvault](./plugins/swarmvault)
 - [verifying-phd-citations](./plugins/verifying-phd-citations)
