@@ -324,6 +324,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [social-vision](./plugins/social-vision)
 - [x-skills](https://github.com/sergebulaev/x-skills)
 - [yaohe](./plugins/yaohe)
+- [shortform](https://github.com/virtucon/shortform) - Turns a project into a vertical 9:16 short-form video for TikTok, YouTube Shorts and Reels. Reads the project for its real UI, colours and copy, offers three hooks and a storyboard, renders locally with HyperFrames and writes an MP4, cover image and post kit. MIT.
 
 ### Project & Product Management
 - [bleu](https://github.com/Nirvaan05/Bleu-plugin)
