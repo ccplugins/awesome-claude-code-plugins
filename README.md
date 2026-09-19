@@ -146,6 +146,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [founder-toolkit](https://github.com/mooster/founder-toolkit) - 4 skills for startup founders: investor update writer (YC/a16z format), pitch deck reviewer (10-dimension VC scoring), SaaS metrics dashboard with benchmarks, and outreach lead scorer (ICP-first, tested on 300+ companies). Built by Mu Chen, CEO of Canopy Cloud ($120B+ AUM).
 - [overloop-cli](./plugins/overloop-cli)
 - [signals-cli](./plugins/signals-cli)
+- [solo-stack-starter](https://github.com/rickbauer327-cell/solo-stack-starter) - 5 skills for the business side of freelancing: a setup interview writes one shared business.md (services, rates, terms, tone, clients) that every skill reads first, then meeting notes to actions, numbered HTML invoices, weekly review, and LinkedIn posts. Includes unedited example outputs.
 
 ### Code Quality Testing
 - [autoresearch](./plugins/autoresearch)
