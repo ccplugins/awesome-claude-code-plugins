@@ -119,6 +119,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [devops-automator](./plugins/devops-automator)
 - [MyVibe](https://www.myvibe.so) - Instant deployment with `/myvibe:publish`
 - [infrastructure-maintainer](./plugins/infrastructure-maintainer)
+- [keelson](https://github.com/keelsonhq/skills) - Deploy and operate web apps on Keelson with the Keelson CLI. MIT-licensed skill for a paid hosting service with a free trial.
 - [kubestellar-console](./plugins/kubestellar-console)
 - [monitoring-observability-specialist](./plugins/monitoring-observability-specialist)
 - [n8n-workflow-builder](./plugins/n8n-workflow-builder)
