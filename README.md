@@ -354,6 +354,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [audit](./plugins/audit)
 - [compliance-automation-specialist](./plugins/compliance-automation-specialist)
 - [data-privacy-engineer](./plugins/data-privacy-engineer)
+- [eaa-audit](https://github.com/plainform/eaa-audit) - Audits a web codebase against WCAG 2.1 AA and EN 301 549 (European Accessibility Act). 23 rules, findings reported as file:line mapped to the WCAG criterion and EN clause, zero dependencies.
 - [enterprise-security-reviewer](./plugins/enterprise-security-reviewer)
 - [security-sweep](https://github.com/Onome-AJ/security-sweep-plugin) - Comprehensive security scanner covering OWASP Top 10 (2025), Mobile Top 10 (2024), and LLM Top 10 (2025). Scans for hardcoded secrets, injection flaws, auth issues, misconfigurations, AI-specific vulnerabilities, mobile security, and data exposure.
 - [legal-advisor](./plugins/legal-advisor)
