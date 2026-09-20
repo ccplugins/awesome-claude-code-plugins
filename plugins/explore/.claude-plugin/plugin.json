@@ -1,9 +1,0 @@
-{
-  "name": "explore",
-  "description": "Helps Claude read a planning document and explore related files to get familiar with a topic. Asking Claude to prepare to discuss seems to work better than asking it to prepare to do specific work.\n\nThis is followed by Plan, then Execute.",
-  "version": "1.0.0",
-  "author": {
-    "name": "Galen Ward"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/explore"
-}

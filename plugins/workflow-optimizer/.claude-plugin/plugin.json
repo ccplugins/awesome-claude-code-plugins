@@ -1,9 +1,0 @@
-{
-  "name": "workflow-optimizer",
-  "description": "Use this agent for optimizing human-agent collaboration workflows and analyzing workflow efficiency. This agent specializes in identifying bottlenecks, streamlining processes, and ensuring smooth handoffs between human creativity and AI assistance. Examples:\\n\\n<example>\\nContext: Improving development workflow efficiency",
-  "version": "1.0.0",
-  "author": {
-    "name": "Michael Galpert"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/workflow-optimizer"
-}

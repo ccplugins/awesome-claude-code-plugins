@@ -1,9 +1,0 @@
-{
-  "name": "brand-guardian",
-  "description": "Use this agent when establishing brand guidelines, ensuring visual consistency, managing brand assets, or evolving brand identity. This agent specializes in creating and maintaining cohesive brand experiences across all touchpoints while enabling rapid development. Examples:\\n\\n<example>\\nContext: Creating brand guidelines for a new app",
-  "version": "1.0.0",
-  "author": {
-    "name": "Michael Galpert"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/brand-guardian"
-}

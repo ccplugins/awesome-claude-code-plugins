@@ -1,9 +1,0 @@
-{
-  "name": "analytics-reporter",
-  "description": "Use this agent when analyzing metrics, generating insights from data, creating performance reports, or making data-driven recommendations. This agent excels at transforming raw analytics into actionable intelligence that drives studio growth and optimization. Examples:\\n\\n<example>\\nContext: Monthly performance review needed",
-  "version": "1.0.0",
-  "author": {
-    "name": "Michael Galpert"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/analytics-reporter"
-}

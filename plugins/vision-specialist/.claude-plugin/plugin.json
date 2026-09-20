@@ -1,9 +1,0 @@
-{
-  "name": "vision-specialist",
-  "description": "Expert in vision models, OCR systems, barcode detection, and visual AI. Stays current with latest models (GPT-4V, Claude Vision, Mistral-OCR, etc.), optimization techniques, and specialized libraries. Use PROACTIVELY for image processing, document analysis, or visual AI tasks.",
-  "version": "1.0.0",
-  "author": {
-    "name": "alanKerrigan"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/vision-specialist"
-}

@@ -1,9 +1,0 @@
-{
-  "name": "test-results-analyzer",
-  "description": "Use this agent for analyzing test results, synthesizing test data, identifying trends, and generating quality metrics reports. This agent specializes in turning raw test data into actionable insights that drive quality improvements. Examples:\\n\\n<example>\\nContext: Analyzing test suite results",
-  "version": "1.0.0",
-  "author": {
-    "name": "Michael Galpert"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/test-results-analyzer"
-}

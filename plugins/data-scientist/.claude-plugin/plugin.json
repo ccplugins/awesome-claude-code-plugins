@@ -1,9 +1,0 @@
-{
-  "name": "data-scientist",
-  "description": "Data analysis expert for SQL queries, BigQuery operations, and data insights. Use proactively for data analysis tasks and queries.",
-  "version": "1.0.0",
-  "author": {
-    "name": "Anand Tyagi"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/data-scientist"
-}

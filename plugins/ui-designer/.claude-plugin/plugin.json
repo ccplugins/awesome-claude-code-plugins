@@ -1,9 +1,0 @@
-{
-  "name": "ui-designer",
-  "description": "Use this agent when creating user interfaces, designing components, building design systems, or improving visual aesthetics. This agent specializes in creating beautiful, functional interfaces that can be implemented quickly within 6-day sprints. Examples:\\n\\n<example>\\nContext: Starting a new app or feature design",
-  "version": "1.0.0",
-  "author": {
-    "name": "Michael Galpert"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/ui-designer"
-}

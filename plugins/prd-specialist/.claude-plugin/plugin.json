@@ -1,9 +1,0 @@
-{
-  "name": "prd-specialist",
-  "description": "Use this agent when you need to create comprehensive Product Requirements Documents (PRDs) that combine business strategy, technical architecture, and user research. Examples: <example>Context: The user needs to create a PRD for a new feature or product launch. user: \"I need to create a PRD for our new user authentication system that will support SSO and multi-factor authentication\" assistant: \"I'll use the prd-specialist agent to create a comprehensive PRD that covers the strategic foundation, technical requirements, and implementation blueprint for your authentication system.\"</example> <example>Context: The user is planning a major product initiative and needs strategic documentation. user: \"We're launching a mobile app for our e-commerce platform and need a detailed PRD to guide development\" assistant: \"Let me engage the prd-specialist agent to develop a thorough PRD that includes market analysis, user research integration, technical architecture, and implementation roadmap for your mobile app initiative.\"</example>",
-  "version": "1.0.0",
-  "author": {
-    "name": "Jure Šunić"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/prd-specialist"
-}
