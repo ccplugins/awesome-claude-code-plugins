@@ -262,6 +262,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [skill-auto-installer](./plugins/skill-auto-installer)
 - [tldr](./plugins/tldr)
 - [Imagine](https://github.com/freestyler-arb/imagine-gemini-for-claude-codex) - Brings Google Gemini into Claude Code & Codex: delegate reasoning, independent code review, deep research, and automatic prompt-engineering. Runs on your Google AI Pro subscription, not your agent's tokens.
+- [notyesterday](https://github.com/rafet/notyesterday) — Time awareness: computes elapsed time from the session transcript instead of leaving the model to guess, and rebuilds the timeline after /compact and --resume. No dependencies, nothing leaves your machine.
 
 ### Documentation
 - [analyze-codebase](./plugins/analyze-codebase)
