@@ -1,9 +1,0 @@
-{
-  "name": "desktop-app-dev",
-  "description": "Desktop App Dev subagent",
-  "version": "1.0.0",
-  "author": {
-    "name": "safayavatsal"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/desktop-app-dev"
-}

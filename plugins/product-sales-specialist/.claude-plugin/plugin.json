@@ -1,9 +1,0 @@
-{
-  "name": "product-sales-specialist",
-  "description": "Use this agent when you need to support B2B sales through product design, user research, project management, and creative RFP responses. This agent specializes in creating compelling product demonstrations, design-focused RFP sections, user experience narratives, and project management frameworks that win enterprise deals. Combines product expertise with sales enablement. Examples:",
-  "version": "1.0.0",
-  "author": {
-    "name": "Alysson Franklin"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/product-sales-specialist"
-}

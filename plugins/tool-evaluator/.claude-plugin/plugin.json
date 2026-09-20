@@ -1,9 +1,0 @@
-{
-  "name": "tool-evaluator",
-  "description": "Use this agent when evaluating new development tools, frameworks, or services for the studio. This agent specializes in rapid tool assessment, comparative analysis, and making recommendations that align with the 6-day development cycle philosophy. Examples:\\n\\n<example>\\nContext: Considering a new framework or library",
-  "version": "1.0.0",
-  "author": {
-    "name": "Michael Galpert"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/tool-evaluator"
-}

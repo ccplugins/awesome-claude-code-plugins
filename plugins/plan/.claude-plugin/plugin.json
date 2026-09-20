@@ -1,9 +1,0 @@
-{
-  "name": "plan",
-  "description": "For easy problems, start here. For harder problems, do this after Explore.",
-  "version": "1.0.0",
-  "author": {
-    "name": "Galen Ward"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/plan"
-}

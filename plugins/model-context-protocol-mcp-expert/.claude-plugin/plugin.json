@@ -1,9 +1,0 @@
-{
-  "name": "model-context-protocol-mcp-expert",
-  "description": "Model Context Protocol Mcp Expert subagent",
-  "version": "1.0.0",
-  "author": {
-    "name": "Community"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/model-context-protocol-mcp-expert"
-}

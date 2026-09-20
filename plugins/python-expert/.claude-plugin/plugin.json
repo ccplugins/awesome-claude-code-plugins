@@ -1,9 +1,0 @@
-{
-  "name": "python-expert",
-  "description": "Use this agent when working with Python code that requires advanced features, performance optimization, or comprehensive refactoring. Examples: <example>Context: User needs to optimize a slow Python function that processes large datasets. user: \"This function is taking too long to process our data, can you help optimize it?\" assistant: \"I'll use the python-expert agent to analyze and optimize your Python code with advanced techniques and performance profiling.\"</example> <example>Context: User wants to implement async/await patterns in their existing synchronous Python code. user: \"I need to convert this synchronous code to use async/await for better performance\" assistant: \"Let me use the python-expert agent to refactor your code with proper async/await patterns and concurrent programming techniques.\"</example> <example>Context: User needs help implementing complex Python design patterns. user: \"I want to implement a factory pattern with decorators for my API endpoints\" assistant: \"I'll use the python-expert agent to implement advanced Python patterns with decorators and proper design principles.\"</example>",
-  "version": "1.0.0",
-  "author": {
-    "name": "Jure Šunić"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/python-expert"
-}

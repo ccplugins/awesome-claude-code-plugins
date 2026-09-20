@@ -1,9 +1,0 @@
-{
-  "name": "pr-issue-resolve",
-  "description": "this is to analyze the PRs and solve the requested changes in them\n",
-  "version": "1.0.0",
-  "author": {
-    "name": "safayavatsal"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/pr-issue-resolve"
-}

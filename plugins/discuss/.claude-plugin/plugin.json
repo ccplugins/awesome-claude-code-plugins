@@ -1,9 +1,0 @@
-{
-  "name": "discuss",
-  "description": "Collaborative technical discussion with proactive requirements gathering",
-  "version": "1.0.0",
-  "author": {
-    "name": "Bohdan Triapitsyn"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/discuss"
-}

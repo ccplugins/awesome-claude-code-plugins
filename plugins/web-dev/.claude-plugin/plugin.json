@@ -1,9 +1,0 @@
-{
-  "name": "web-dev",
-  "description": "Use this agent for expert assistance with web development tasks using React, Next.js, NestJS, and other modern web frameworks with TypeScript and Tailwind CSS. This includes code analysis, component creation, debugging, performance optimization, and architectural decisions. Examples: <example>Context: User is building a Next.js app and encounters a routing issue. user: 'My dynamic routes in Next.js are not rendering correctly' assistant: 'Let me use the web-dev agent to analyze your Next.js routing setup and provide a solution' <commentary>This is a Next.js-specific routing issue, so the web-dev agent will provide targeted guidance.</commentary></example> <example>Context: User needs a reusable React component with Tailwind CSS. user: 'I need a card component that matches my app's Tailwind-based design system' assistant: 'I'll use the web-dev agent to create a TypeScript-based React card component styled with Tailwind CSS, following your app's design patterns' <commentary>The user requires a component that aligns with their Tailwind CSS design system, so the web-dev agent ensures compatibility.</commentary></example>",
-  "version": "1.0.0",
-  "author": {
-    "name": "safayavatsal"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/web-dev"
-}

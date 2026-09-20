@@ -1,9 +1,0 @@
-{
-  "name": "react-native-dev",
-  "description": "Use this agent when you need expert assistance with React Native development tasks including code analysis, component creation, debugging, performance optimization, or architectural decisions. Examples: <example>Context: User is working on a React Native app and needs help with a navigation issue. user: 'My stack navigator isn't working properly when I try to navigate between screens' assistant: 'Let me use the react-native-dev agent to analyze your navigation setup and provide a solution' <commentary>Since this is a React Native specific issue, use the react-native-dev agent to provide expert guidance on navigation problems.</commentary></example> <example>Context: User wants to create a new component that follows the existing app structure. user: 'I need to create a custom button component that matches our app's design system' assistant: 'I'll use the react-native-dev agent to create a button component that aligns with your existing codebase structure and design patterns' <commentary>The user needs React Native component development that should follow existing patterns, so use the react-native-dev agent.</commentary></example>",
-  "version": "1.0.0",
-  "author": {
-    "name": "abhishek shah"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/react-native-dev"
-}

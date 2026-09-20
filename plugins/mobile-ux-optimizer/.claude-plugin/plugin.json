@@ -1,9 +1,0 @@
-{
-  "name": "mobile-ux-optimizer",
-  "description": "Use this agent when you need to optimize UI/UX components or interfaces for mobile-first experiences, analyze existing design themes, or ensure mobile usability standards are met. Examples: <example>Context: User has created a desktop-focused component and needs it optimized for mobile. user: 'I've built this navigation component but it's not working well on mobile devices' assistant: 'Let me use the mobile-ux-optimizer agent to analyze and improve this component for mobile-first experience' <commentary>The user needs mobile optimization expertise, so use the mobile-ux-optimizer agent to provide specific mobile UX improvements.</commentary></example> <example>Context: User is implementing a new feature and wants to ensure it follows the existing design theme. user: 'I'm adding a new form component to the app, can you help make sure it matches our design system?' assistant: 'I'll use the mobile-ux-optimizer agent to ensure this form component aligns with your existing theme and mobile-first principles' <commentary>Since this involves both theme consistency and mobile optimization, the mobile-ux-optimizer agent is the right choice.</commentary></example>",
-  "version": "1.0.0",
-  "author": {
-    "name": "abhishek shah"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/mobile-ux-optimizer"
-}

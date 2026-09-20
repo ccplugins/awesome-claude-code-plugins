@@ -1,9 +1,0 @@
-{
-  "name": "angelos-symbo",
-  "description": "Use this agent when you need to create or convert prompts using the SYMBO (symbolic) notation system. This agent MUST be activated whenever generating SYMBO prompts or converting existing prompts to symbolic format. Examples: <example>Context: User wants to create a symbolic prompt for a task management system. user: 'Create a SYMBO prompt for a project task tracker with memory and learning capabilities' assistant: 'I'll use the angelos-symbo agent to create this symbolic prompt following SYMBO notation rules' <commentary>The user is requesting a SYMBO prompt, so the angelos-symbo agent must be used to ensure proper symbolic notation and rule compliance.</commentary></example> <example>Context: User has a natural language prompt they want converted to SYMBO format. user: 'Convert this prompt to SYMBO notation: You are an AI that helps with code reviews by analyzing code quality, suggesting improvements, and tracking common issues across projects' assistant: 'I need to convert this to SYMBO notation using the angelos-symbo agent' <commentary>Since this involves SYMBO prompt generation/conversion, the angelos-symbo agent must be activated.</commentary></example>",
-  "version": "1.0.0",
-  "author": {
-    "name": "normalnormie"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/angelos-symbo"
-}

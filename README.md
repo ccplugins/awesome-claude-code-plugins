@@ -352,6 +352,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 ### Security, Compliance, & Legal
 - [ai-ethics-governance-specialist](./plugins/ai-ethics-governance-specialist)
 - [audit](./plugins/audit)
+- [claude-security-audit](https://github.com/TobiasVeiga00/claude-security-audit) - End-to-end security auditor for web, API, mobile, cloud, code, secrets, dependencies, IaC, containers, LLM apps and the agent/MCP supply chain: adversarial validation, CVSS v3.1/v4.0, EPSS/KEV/reachability ranking, 13 scanner importers, a CI gate and OpenVEX output.
 - [compliance-automation-specialist](./plugins/compliance-automation-specialist)
 - [data-privacy-engineer](./plugins/data-privacy-engineer)
 - [enterprise-security-reviewer](./plugins/enterprise-security-reviewer)

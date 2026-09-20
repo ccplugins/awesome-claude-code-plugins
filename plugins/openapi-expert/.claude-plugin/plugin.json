@@ -1,9 +1,0 @@
-{
-  "name": "openapi-expert",
-  "description": "Use this agent to update, synchronize, or validate the OpenAPI specification (openapi.yml) against the actual REST API implementation. This includes adding new endpoints, updating request/response schemas, fixing discrepancies between the spec and code, or ensuring complete API documentation coverage.",
-  "version": "1.0.0",
-  "author": {
-    "name": "Meiring de Wet"
-  },
-  "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/openapi-expert"
-}
