@@ -282,6 +282,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [verifying-phd-citations](./plugins/verifying-phd-citations)
 - [thermal-fluid-research-workflow](./plugins/thermal-fluid-research-workflow)
 - [trigger-tree](https://github.com/Hedde/trigger_tree)
+- [sharp-pen](https://github.com/Nobbettt/sharp-pen) - Grammarly-style proofreading plugin: two-pane review page, accept each change with one click, never rewrites your voice.
 
 ### Git Workflow
 - [analyze-issue](./plugins/analyze-issue)
