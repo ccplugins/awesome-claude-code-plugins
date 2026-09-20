@@ -284,6 +284,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [trigger-tree](https://github.com/Hedde/trigger_tree)
 
 ### Git Workflow
+- [agent-signage](https://github.com/hermes-labs-ai/agent-signage) - Claude Code PreToolUse hook that reports measured Git checkout, symlink, conflict, worktree, binary, and generated-file state before file actions.
 - [analyze-issue](./plugins/analyze-issue)
 - [bug-fix](./plugins/bug-fix)
 - [commit](./plugins/commit)
