@@ -2316,6 +2316,33 @@
         "tokens",
         "audit"
       ]
+    },
+    {
+      "name": "foreman",
+      "source": {
+        "source": "github",
+        "repo": "JustinK33/foreman"
+      },
+      "description": "Five senior-engineer skills (TDD, code review, security audit, performance, documentation) plus a PostToolUse hook that flags an oversized diff and production code that lands without a test.",
+      "version": "0.2.0",
+      "author": {
+        "name": "Justin Kong",
+        "url": "https://github.com/JustinK33"
+      },
+      "category": "Code Quality Testing",
+      "homepage": "https://github.com/JustinK33/foreman",
+      "repository": "https://github.com/JustinK33/foreman",
+      "license": "MIT",
+      "keywords": [
+        "tdd",
+        "test-first",
+        "hooks",
+        "code-review",
+        "security",
+        "performance",
+        "documentation",
+        "senior-engineer"
+      ]
     }
   ]
 }
