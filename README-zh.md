@@ -159,6 +159,7 @@
 - [slack-message-formatter](./plugins/slack-message-formatter)
 - [cc-hud](https://github.com/WaterTian/cc-hud) — 紧凑单行状态栏：模型名称、上下文用量进度条、活跃子代理、速率限制。零依赖。
 - [skill-auto-installer](./plugins/skill-auto-installer)
+- [Command Code Usage](https://github.com/Jovan1666/commandcode-usage) - 在 Claude Code 状态栏里显示 Command Code 套餐用量：5 小时 / 周 / 月三个窗口及各自的重置时间，`/quota` 命令查看完整面板。
 
 ### 文档管理
 - [analyze-codebase](./plugins/analyze-codebase)
