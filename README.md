@@ -377,6 +377,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [WhichModel](https://github.com/Which-Model/whichmodel-mcp) — AI model pricing & recommendation MCP server for Claude Code. Helps choose the right model for every task at the best price. Cross-verified data updated every 4 hours. MCP endpoint: `https://whichmodel.dev/mcp`
 - [Synder Importer MCP](https://github.com/SynderAccounting/gl-importer-plugin) — Official Synder plugin. Import CSV/XLSX accounting data into QuickBooks Online or Xero via the [Synder Importer API](https://importer.synder.com). 19 MCP tools covering imports, field mapping rules, post-import rules, and entity discovery. Bundles the `gl-importer` agent skill.
 - [AgentIQ / MoltAd](https://github.com/chrisgu/agentiq-mcp) — Publisher MCP: list placements, `deliver_ad`, earn credits. https://moltad.net/publishers · https://moltad.net/mcp
+- [GTD Brain](https://github.com/minosin/gtdbrain-claude-plugin) - Getting Things Done board as a hosted MCP server (16 tools: capture, next actions by context, projects, waiting-for, weekly review) with OAuth email-code sign-in, plus GTD skills and slash commands. Remote MCP `https://mcp.gtdbrain.com/api/gtdbrain/v1/mcp` · Site: https://gtdbrain.com/connect/claude-code?source=awesome-claude-code-plugins
 
 ### Thinking & Knowledge Management
 - [thinking-tree](https://github.com/CoralLips/thinking-tree)
