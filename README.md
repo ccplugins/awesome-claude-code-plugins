@@ -363,6 +363,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [skillfortify](https://github.com/qualixar/skillfortify) - External: Formal verification scanner for AI agent skills (including Claude Code skills + MCP servers). 100% precision on 540-skill benchmark. ASBOM generation. arXiv:2603.00195.
 - [shellgate](./plugins/shellgate)
 - [huiyu-safe-ai](https://github.com/huiyu9144/huiyu-safe-ai) - Lightweight AI security guard for install/download commands. Blocks 68+ malicious packages, verifies identity, scans code in <1s. Built from a real supply chain attack.
+- [euthyna](https://github.com/slow-stack/euthyna) - Code security audit discipline for AI agents: six verification gates on every claim, deterministic fact producers (deleted-code git provenance, symbol-invocation coverage joins), and evidence-or-downgrade reporting. Self-hosted marketplace: `claude plugin marketplace add slow-stack/euthyna` then `claude plugin install euthyna@euthyna`. Also on [skills.sh](https://www.skills.sh/slow-stack/euthyna): `npx skills add slow-stack/euthyna`.
 - [web-security-guard](./plugins/web-security-guard)
 - [supply-chain-gate](./plugins/supply-chain-gate)
 - [agent-safety-preflight](./plugins/agent-safety-preflight)
