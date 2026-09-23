@@ -109,6 +109,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [craftsman](./plugins/craftsman)
 - [rote](./plugins/rote)
 - [claude-session-tint](./plugins/claude-session-tint)
+- [docko](https://github.com/4riel/docko) - Local-first workspace and session protocol for parallel agents: persistent writable slots under one workspace root, explicit per-session claims, delegation, and automatic stale-claim recovery. Plugin ships 4 hooks and 5 /dock-* commands.
 
 ### AI & Speech
 - [speech-ai](https://github.com/fasuizu-br/speech-ai-examples) - Speech AI plugin with pronunciation assessment, text-to-speech, and speech-to-text. 8 MCP tools for language learning, accessibility, and voice applications.
