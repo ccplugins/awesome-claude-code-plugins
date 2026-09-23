@@ -326,6 +326,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [yaohe](./plugins/yaohe)
 
 ### Project & Product Management
+- [ai-pm-skills](https://github.com/vishalhabib99/ai-pm-skills) - Skills for AI product managers: `/build-or-not` checks a proposed feature against 4-8 real examples before building, and `/eval-plan` turns a PRD into launch gates set before any results exist (install via `/plugin marketplace add vishalhabib99/ai-pm-skills`)
 - [bleu](https://github.com/Nirvaan05/Bleu-plugin)
 - [discuss](./plugins/discuss)
 - [explore](./plugins/explore)
