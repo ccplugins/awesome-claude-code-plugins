@@ -383,6 +383,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Companion Apps & Tools
 - [Onepilot](https://onepilotapp.com) — iOS app to SSH into remote servers and run Claude Code from your phone
+- [Tapproval](https://tapproval.thoughtfulsteward.org) — Apple Watch app with an open-source PermissionRequest hook ([tapproval-helper](https://github.com/marcobelini/tapproval-helper)): Claude Code's permission prompts and questions land on your wrist, each marked with its risk tier. No account, no server
 
 ### Knowledge Management
 - [bedrock](./plugins/bedrock)
