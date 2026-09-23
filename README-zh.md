@@ -229,6 +229,7 @@
 
 ### MCP 服务器
 - [WhichModel](https://github.com/Which-Model/whichmodel-mcp) — 面向 Claude Code 的 AI 模型定价与推荐 MCP 服务器，帮助为每项任务选择最合适、性价比最高的模型。数据经交叉验证，每 4 小时更新一次。MCP 端点：`https://whichmodel.dev/mcp`
+- [百智云 Agent Toolkit](https://github.com/chaitin/baizhi-agent-toolkit) — 托管的 Streamable HTTP MCP，提供网页搜索、页面读取与结构化提取，端点为 `https://agent-toolkit.app.baizhi.cloud/mcp`。需自备 Bearer API Key；调用可能消耗额度。所链接的 MIT 仓库提供接入配置与文档，不含托管后端源码。
 
 ## 插件市场
 - [protonium](https://github.com/protonium-labs/protonium-marketplace) —— AI 智能体与效率工具。包含 **AxiomCore**：项目与日常事务管理智能体，提供强制化结构（编号目录、任务 ID、wiki 记忆）、计划 → 确认 → 执行工作流，支持敏捷或 WBS 方式创建项目.
