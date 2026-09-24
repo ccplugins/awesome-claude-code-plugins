@@ -177,6 +177,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [bullpen](./plugins/bullpen)
 
 ### Communication & Integrations
+- [devin-plugin-cc](https://github.com/TheOnlyFusionCube/devin-plugin-cc) — Devin AI inside Claude Code, Codex, and other coding agents: read-only code reviews, adversarial reviews, delegated tasks, Fusion lead/sidekick workflows, and cloud handoffs to app.devin.ai.
 - [whatsapp-claude-plugin](https://github.com/Rich627/whatsapp-claude-plugin) — WhatsApp channel plugin for Claude Code. Connects as a linked device via Baileys v7 with bidirectional messaging, full media support, voice transcription, permission relay, and access control.
 
 ### Data Analytics
