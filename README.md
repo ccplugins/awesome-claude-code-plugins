@@ -158,6 +158,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [database-performance-optimizer](./plugins/database-performance-optimizer)
 - [debug-session](./plugins/debug-session)
 - [debugger](./plugins/debugger)
+- [diffo](https://github.com/DiffoHQ/diffo) - Local live review of uncommitted work, wired to the Claude Code session that wrote the code: comment on a line and its answer or its fix lands in the diff as you read. Loopback-only, no telemetry. Demo: https://diffo.io/demo
 - [double-check](./plugins/double-check)
 - [optimize](./plugins/optimize)
 - [performance-benchmarker](./plugins/performance-benchmarker)
