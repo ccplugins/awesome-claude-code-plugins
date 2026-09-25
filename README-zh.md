@@ -229,7 +229,7 @@
 
 ### MCP 服务器
 - [WhichModel](https://github.com/Which-Model/whichmodel-mcp) — 面向 Claude Code 的 AI 模型定价与推荐 MCP 服务器，帮助为每项任务选择最合适、性价比最高的模型。数据经交叉验证，每 4 小时更新一次。MCP 端点：`https://whichmodel.dev/mcp`
-- [UpRes](https://github.com/auroracapital/upres-cli) — AI 图像与视频超分辨率放大 MCP 服务器。支持 14 种专业神经网络模型（人脸、动漫、文字、印刷）放大至 8K。安装：`claude mcp add upres -- npx -y upres-cli mcp`
+- [UpRes](https://github.com/auroracapital/upres-cli) — AI 图像、视频与音频增强 MCP 服务器。支持 14 种公共模型别名（照片、艺术、文字、印刷、视频、人声）放大至 8K。安装：`claude mcp add upres -- npx -y upres-cli mcp`
 
 ## 插件市场
 - [protonium](https://github.com/protonium-labs/protonium-marketplace) —— AI 智能体与效率工具。包含 **AxiomCore**：项目与日常事务管理智能体，提供强制化结构（编号目录、任务 ID、wiki 记忆）、计划 → 确认 → 执行工作流，支持敏捷或 WBS 方式创建项目.
