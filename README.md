@@ -394,7 +394,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
-
+| [uzayrhbusiness-afk/plumbward-lite](https://github.com/uzayrhbusiness-afk/plumbward-lite) | Plumbward Lite: dry-run shows the full list before Claude deletes, moves or overwrites anything and waits for your yes; token-diet cuts the habits that burn usage limits. Free, no setup. Measured, traces public. | `claude plugin marketplace add uzayrhbusiness-afk/plumbward-lite` then `claude plugin install plumbward-lite@plumbward` |
 
 ### Skills & Frameworks
 - [aurakit](https://github.com/smorky850612/Aurakit) — All-in-one Claude Code skill: 46 modes, 23 sub-agents, 6-layer OWASP security, 10 lifecycle hooks, ~55% token savings. Cross-platform (Codex, Cursor, Manus, Windsurf). Install: `npx @smorky85/aurakit`
