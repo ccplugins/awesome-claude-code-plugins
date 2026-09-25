@@ -366,6 +366,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [web-security-guard](./plugins/web-security-guard)
 - [supply-chain-gate](./plugins/supply-chain-gate)
 - [agent-safety-preflight](./plugins/agent-safety-preflight)
+- [crosscheck](https://github.com/maxugc/crosscheck) - Security-check a skill or MCP server before install (code rules for credential theft, exfiltration, pipe-to-shell, and lookalike packages, plus a model review), review a draft before your human sees it, and accept-check work another agent hands back. Paid API with a free trial; signed receipts. `/plugin marketplace add maxugc/crosscheck`
 
 ### MCP Servers
 - [AccInt](https://github.com/maxbaluev/accreted-intelligence) — Local-first Work Model MCP server and Claude Code/Codex/OpenCode plugin. Tools: `acc_retrieve`, `acc_act`; official registry `io.github.maxbaluev/accint`.
