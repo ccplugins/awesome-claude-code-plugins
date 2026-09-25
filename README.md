@@ -401,6 +401,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 
 ## Resources
 - [Claudebin](https://claudebin.com) ([GitHub](https://github.com/wunderlabs-dev/claudebin.com/)) - A minimalistic tool for publishing and sharing Claude coding sessions.
+- [AI Plugins Directory](https://github.com/devilking7x/ai-plugins-directory) - Curated directory of AI plugins and agent skills, including Claude Code plugins, with live GitHub stats, trending sort, category filters, and side-by-side compare mode.
 
 ## Tutorials
 
