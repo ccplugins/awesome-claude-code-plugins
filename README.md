@@ -109,6 +109,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [craftsman](./plugins/craftsman)
 - [rote](./plugins/rote)
 - [claude-session-tint](./plugins/claude-session-tint)
+- [tonone](https://github.com/tonone-ai/tonone) - 100 specialist agents and 429 skills covering engineering, product, design, security, legal, and ops, with an engineering lead agent that routes work across the team.
 
 ### AI & Speech
 - [speech-ai](https://github.com/fasuizu-br/speech-ai-examples) - Speech AI plugin with pronunciation assessment, text-to-speech, and speech-to-text. 8 MCP tools for language learning, accessibility, and voice applications.
@@ -386,6 +387,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Knowledge Management
 - [bedrock](./plugins/bedrock)
+- [elephant](https://github.com/tonone-ai/elephant) - Persistent per-repo memory for Claude Code. Auto-loads ELEPHANT.md at session start, adds cross-repo global memory, and generates changelogs and READMEs from git history.
 
 ## External Marketplaces
 
@@ -394,6 +396,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [tonone-ai/tonone](https://github.com/tonone-ai/tonone) | tonone: 100 specialist agents and 429 skills across engineering, product, design, security, legal, and ops | `claude plugin marketplace add tonone-ai/tonone` then `claude plugin install tonone@tonone-ai` |
 
 
 ### Skills & Frameworks
