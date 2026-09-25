@@ -201,6 +201,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Audio & Media
 - [bibigpt-skill](https://github.com/JimmyLv/bibigpt-skill) - AI-powered video, audio & podcast summarization
+- [claude-spotify-mod](https://github.com/ambareeshav/claude-spotify-mod) - A function-hooks mod: Spotify controls above the prompt, plus a sidebar to search, browse and play songs, albums and playlists with album art
 
 ### Design UX
 - [brand-guardian](./plugins/brand-guardian)
