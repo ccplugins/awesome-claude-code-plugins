@@ -309,6 +309,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [poppify](./plugins/poppify) — photo-led short-form vertical reels (Instagram/TikTok/YouTube Shorts/Facebook) via MCP, $0.06/render, 50 free seeds, no subscription
 - [reddit-community-builder](./plugins/reddit-community-builder)
 - [taisly-agent-kit](https://github.com/taisly/agent)
+- [ThreadFox](https://github.com/amflimited/threadfox) - Paid ($49) MCP server + skill for Claude Code and Codex: reads subreddit rules, searches, posts and replies through your own logged-in Chrome, with a local ledger that blocks double posts and rechecks posts for removal. Repo holds docs and the tool reference; the server installs after purchase.
 - [tiktok-strategist](./plugins/tiktok-strategist)
 - [toprank](./plugins/toprank)
 - [twitter-engager](./plugins/twitter-engager)
