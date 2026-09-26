@@ -159,6 +159,7 @@
 - [slack-message-formatter](./plugins/slack-message-formatter)
 - [cc-hud](https://github.com/WaterTian/cc-hud) — 紧凑单行状态栏：模型名称、上下文用量进度条、活跃子代理、速率限制。零依赖。
 - [skill-auto-installer](./plugins/skill-auto-installer)
+- [oh-my-android](./plugins/oh-my-android) —— 让 Claude Code 查看并操控 Android 模拟器和手机：以 dp 为单位的截图和 UI 树、点击/输入、深色模式、RTL、TalkBack、logcat、无障碍检查（免费 macOS 应用 Oh My Android 的 MCP 服务器）。
 
 ### 文档管理
 - [analyze-codebase](./plugins/analyze-codebase)

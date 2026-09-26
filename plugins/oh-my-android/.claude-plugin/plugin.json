@@ -1,0 +1,19 @@
+{
+  "name": "oh-my-android",
+  "displayName": "Oh My Android",
+  "version": "0.4.5",
+  "description": "MCP server of the Oh My Android macOS app: screenshots (1 px = 1 dp), UI tree, tap and type, dark mode, font scale, locale / RTL, TalkBack, logcat, app data. Install the app first: brew install --cask ateymoori/tap/oh-my-android",
+  "author": {
+    "name": "Amir Teymoori",
+    "url": "https://github.com/ateymoori"
+  },
+  "homepage": "https://github.com/ateymoori/oh-my-android",
+  "repository": "https://github.com/ateymoori/oh-my-android",
+  "license": "MIT",
+  "keywords": ["android", "emulator", "adb", "mcp", "accessibility", "testing"],
+  "mcpServers": {
+    "oh-my-android": {
+      "command": "/Applications/Oh My Android.app/Contents/MacOS/ohmyandroid-mcp"
+    }
+  }
+}
