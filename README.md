@@ -394,6 +394,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [kadiresen/context-bank](https://github.com/kadiresen/context-bank) | Retrieval-first `.ai/` project memory as a skill, a quiet session-start health check, and doctor/compact/init commands; converts Cline Memory Bank | `claude plugin marketplace add kadiresen/context-bank` then `claude plugin install context-bank@context-bank` |
 
 
 ### Skills & Frameworks
