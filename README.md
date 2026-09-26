@@ -109,6 +109,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [craftsman](./plugins/craftsman)
 - [rote](./plugins/rote)
 - [claude-session-tint](./plugins/claude-session-tint)
+- [spending-effort-with-jev](https://github.com/Yaxin9Luo/spending-effort-with-jev) - UserPromptSubmit hook that shows which `/effort` level each message needs before Claude starts, judged by TypeSafe's Jev model; optional mode where Claude asks before running on a mismatched level. Requires a TypeSafe API key.
 
 ### AI & Speech
 - [speech-ai](https://github.com/fasuizu-br/speech-ai-examples) - Speech AI plugin with pronunciation assessment, text-to-speech, and speech-to-text. 8 MCP tools for language learning, accessibility, and voice applications.
