@@ -382,6 +382,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [thinking-tree](https://github.com/CoralLips/thinking-tree)
 
 ### Companion Apps & Tools
+- [Command Code Usage](https://github.com/Jovan1666/claude-code-command-code-usage) - Command Code plan usage in the Claude Code status line: 5-hour, weekly and monthly credit windows with reset times.
 - [Onepilot](https://onepilotapp.com) — iOS app to SSH into remote servers and run Claude Code from your phone
 
 ### Knowledge Management
