@@ -2316,6 +2316,26 @@
         "tokens",
         "audit"
       ]
+    },
+    {
+      "name": "oh-my-android",
+      "source": "./plugins/oh-my-android",
+      "description": "Let Claude Code see and drive the Android Emulator and phones via the Oh My Android macOS app's MCP server (18 tools): screenshots and UI tree in dp, tap and type, dark mode, font scale, RTL, TalkBack, logcat, accessibility audit.",
+      "version": "0.4.5",
+      "author": {
+        "name": "Amir Teymoori",
+        "url": "https://github.com/ateymoori"
+      },
+      "category": "Development Engineering",
+      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/oh-my-android",
+      "keywords": [
+        "android",
+        "emulator",
+        "adb",
+        "mcp",
+        "accessibility",
+        "testing"
+      ]
     }
   ]
 }
