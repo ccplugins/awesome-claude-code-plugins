@@ -177,6 +177,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [bullpen](./plugins/bullpen)
 
 ### Communication & Integrations
+- [claude-telegram-supercharged](https://github.com/k1p1l0/claude-telegram-supercharged) — Drop-in upgrade for the official Telegram channel plugin: voice transcription and ElevenLabs voice replies, SQLite history and memory, group threading and forum topics, inline-button questions, scheduled messages, a launchd daemon supervisor, and live tool-by-tool progress in the chat.
 - [whatsapp-claude-plugin](https://github.com/Rich627/whatsapp-claude-plugin) — WhatsApp channel plugin for Claude Code. Connects as a linked device via Baileys v7 with bidirectional messaging, full media support, voice transcription, permission relay, and access control.
 
 ### Data Analytics
