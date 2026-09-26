@@ -394,6 +394,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [BonhaengLee/claude-omp-delegate](https://github.com/BonhaengLee/claude-omp-delegate) | omp plugin: delegate implementation from Claude Code to a local [OMP (oh-my-pi)](https://github.com/can1357/oh-my-pi) agent with durable background jobs (`/omp:implement`, `/omp:status`, `/omp:result`, `/omp:followup`, `/omp:cancel`, `/omp:doctor`) | `claude plugin marketplace add BonhaengLee/claude-omp-delegate` then `claude plugin install omp@claude-omp-delegate` |
 
 
 ### Skills & Frameworks
