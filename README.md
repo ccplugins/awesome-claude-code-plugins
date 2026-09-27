@@ -394,6 +394,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [MohammadHijjawi97/since-cutoff](https://github.com/MohammadHijjawi97/since-cutoff) | since-cutoff plugin: finds which of your pinned Python dependencies changed their public API after the model's training cutoff, tests whether the model actually writes the old API (answers type-checked against both versions), and adds one-line AGENTS.md/CLAUDE.md notes kept only if their example type-checks (`/since-cutoff:since-cutoff`) | `claude plugin marketplace add MohammadHijjawi97/since-cutoff` then `claude plugin install since-cutoff@since-cutoff` |
 
 
 ### Skills & Frameworks
