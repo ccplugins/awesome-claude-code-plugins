@@ -324,6 +324,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [social-vision](./plugins/social-vision)
 - [x-skills](https://github.com/sergebulaev/x-skills)
 - [yaohe](./plugins/yaohe)
+- [xscout](https://github.com/ethan-ab/xscout-jev) - Watches X for the accounts and keywords in a YAML profile, has a small LLM (Jev) score each post for significance and relevance, groups related posts into events and alerts in Slack. The scout-setup skill interviews you, researches sources and writes the profile. MIT.
 
 ### Project & Product Management
 - [bleu](https://github.com/Nirvaan05/Bleu-plugin)
