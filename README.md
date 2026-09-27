@@ -298,6 +298,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [pr-issue-resolve](./plugins/pr-issue-resolve)
 - [pr-review](./plugins/pr-review)
 - [update-branch-name](./plugins/update-branch-name)
+- [unwordy](https://github.com/assaio/unwordy) - Personal and team writing profiles for commits, PRs and reviews, with local checks for repository conventions.
 
 ### Marketing Growth
 - [app-store-optimizer](./plugins/app-store-optimizer)
