@@ -394,6 +394,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [rezzminator/buddy](https://github.com/rezzminator/buddy) | buddy plugin: brings back Claude Code's removed `/buddy` companion. An ASCII duck above the prompt reacts to tool calls and test runs, answers `/buddy {question}` in character, and `/buddy-personality` re-hatches your account's original buddy. Needs `CLAUDE_CODE_ENABLE_FUNCTION_HOOKS=1` | `claude plugin marketplace add rezzminator/buddy` then `claude plugin install buddy@buddy` |
 
 
 ### Skills & Frameworks
