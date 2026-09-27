@@ -201,6 +201,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Audio & Media
 - [bibigpt-skill](https://github.com/JimmyLv/bibigpt-skill) - AI-powered video, audio & podcast summarization
+- [nsfw-ai](https://github.com/Spicy-API/nsfw-ai-skill) - Adult (18+) image, image-to-video and uncensored image-edit generation through the SpicyAPI API, with a zero-dependency Python CLI, a cost quote before every run and built-in adults-only and consent rules.
 
 ### Design UX
 - [brand-guardian](./plugins/brand-guardian)
