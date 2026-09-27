@@ -379,6 +379,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [AgentIQ / MoltAd](https://github.com/chrisgu/agentiq-mcp) — Publisher MCP: list placements, `deliver_ad`, earn credits. https://moltad.net/publishers · https://moltad.net/mcp
 
 ### Thinking & Knowledge Management
+- [grill](https://github.com/mtangoz/grill) - Say "grill this" and a judge model from a different AI company than Claude argues the case against your decision, names the cheapest test for each doubt, and gives a verdict. `/plugin marketplace add mtangoz/grill`
 - [thinking-tree](https://github.com/CoralLips/thinking-tree)
 
 ### Companion Apps & Tools
