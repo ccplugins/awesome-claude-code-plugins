@@ -330,6 +330,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [discuss](./plugins/discuss)
 - [explore](./plugins/explore)
 - [fractal](https://github.com/rmolines/fractal) - Recursive project management plugin. Decomposes any goal into verifiable predicates, works on the riskiest unknown first. Features `/fractal:run` (idempotent state machine), `/fractal:init`, `/fractal:patch`, dry run mode, and incremental decomposition with re-evaluation.
+- [jus-skills](https://github.com/juscribe/jus-skills) - Ticket workflow for coding agents on a Juscribe board: the agent starts a ticket before coding, writes a failing test first, commits, and delivers for a person to accept. Hooks block force-pushes, `--no-verify` and new lint suppressions. Needs a Juscribe workspace (free tier); install via `/plugin marketplace add juscribe/jus-skills`.
 - [plan](./plugins/plan)
 - [planning-prd-agent](./plugins/planning-prd-agent)
 - [plannotator](https://github.com/backnotprop/plannotator) - Interactive plan review UI with visual annotation (install via `/plugin marketplace add backnotprop/plannotator`)
@@ -382,6 +383,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [thinking-tree](https://github.com/CoralLips/thinking-tree)
 
 ### Companion Apps & Tools
+- [Juscribe](https://juscribe.ai) — Hosted project board for coding agents: Claude Code and other agents claim tickets, post plans and progress, and deliver work for a person to accept or reject. Connects through the jus-skills plugin, the jus CLI or the @juscribe/mcp server. Free tier.
 - [Onepilot](https://onepilotapp.com) — iOS app to SSH into remote servers and run Claude Code from your phone
 
 ### Knowledge Management
