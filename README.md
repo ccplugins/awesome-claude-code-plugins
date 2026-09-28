@@ -69,6 +69,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [agent-triforce](https://github.com/ArtemioPadilla/agent-triforce) - 3-agent PM/Dev/QA system with WHO checklist methodology. Prometeo (PM), Forja (Dev), Centinela (QA) with 24 checklists, 6 skills, and auto-generated HTML dashboard.
 - [angelos-symbo](./plugins/angelos-symbo)
 - [artel](https://github.com/NicolasPrimeau/artel) - Infrastructure for AI teams: shared semantic memory, tasks, agent-to-agent messages, and session handoffs across machines and LLM providers.
+- [away](https://github.com/thepurvangmehta/away) - Keeps Claude Code working unattended: approves normal work, skips risky actions (delete, deploy, push to main, send) into a morning "Needs you" list, and stops questions and site or plan approvals from stalling the night. Hooks + `/away:on`, `/away:off`, optional macOS menu bar toggle.
 - **[claude-brain](https://github.com/toroleapinc/claude-brain)** — Sync and evolve your Claude Code brain across machines. Auto-syncs memory, skills, agents, rules, and CLAUDE.md via Git with LLM-powered semantic merge.
 - [ceo-quality-controller-agent](./plugins/ceo-quality-controller-agent)
 - [claude-recap](https://github.com/hatawong/claude-recap) — Per-topic session memory using Shell hooks — archives each conversation topic as a separate Markdown summary. Two hooks, bash + Node.js, 100% local.
