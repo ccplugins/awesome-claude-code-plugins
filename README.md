@@ -175,6 +175,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [adamsreview](./plugins/adamsreview)
 - [slicewise](./plugins/slicewise)
 - [bullpen](./plugins/bullpen)
+- [seatbelt](https://github.com/dripston/seatbelt) - Keeps your CLAUDE.md/AGENTS.md rules alive across compaction, resume, and long sessions. PreToolUse hook nudges (never blocks) before a shell command matches a rule you've flagged with `[guard: pattern]` — literal/wildcard match only, no command classification.
 
 ### Communication & Integrations
 - [whatsapp-claude-plugin](https://github.com/Rich627/whatsapp-claude-plugin) — WhatsApp channel plugin for Claude Code. Connects as a linked device via Baileys v7 with bidirectional messaging, full media support, voice transcription, permission relay, and access control.
