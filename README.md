@@ -138,6 +138,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [enterprise-onboarding-specialist](./plugins/enterprise-onboarding-specialist)
 - [finance-tracker](./plugins/finance-tracker)
 - [mortgage](https://github.com/lendtrain/mortgage) - Mortgage refinance plugin by LendTrain — real-time institutional pricing, compliance, and FHA/VA loan detection via MCP. No API key required.
+- [omentir](https://github.com/vanshyadav1408/Omentir/tree/main/plugins/omentir) - Adds the Omentir remote MCP server (OAuth sign-in) and a `linkedin-outreach` skill: find and score LinkedIn leads, draft outreach, run human-paced campaigns, and answer replies. MIT, self-hostable.
 - [pricing-packaging-specialist](./plugins/pricing-packaging-specialist)
 - [product-sales-specialist](./plugins/product-sales-specialist)
 - [support-responder](./plugins/support-responder)
