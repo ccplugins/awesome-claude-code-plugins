@@ -366,6 +366,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [web-security-guard](./plugins/web-security-guard)
 - [supply-chain-gate](./plugins/supply-chain-gate)
 - [agent-safety-preflight](./plugins/agent-safety-preflight)
+- [SUNGLASSES](https://github.com/sunglasses-dev/sunglasses) - Open source input firewall for AI agents that runs locally (beta, MIT). A Claude Code `PreToolUse` hook checks tool calls before they run. An MCP server scans text and files for prompt injection, credential leaks and data exfiltration. Install with `pip install sunglasses`.
 
 ### MCP Servers
 - [AccInt](https://github.com/maxbaluev/accreted-intelligence) — Local-first Work Model MCP server and Claude Code/Codex/OpenCode plugin. Tools: `acc_retrieve`, `acc_act`; official registry `io.github.maxbaluev/accint`.
