@@ -262,6 +262,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [skill-auto-installer](./plugins/skill-auto-installer)
 - [tldr](./plugins/tldr)
 - [Imagine](https://github.com/freestyler-arb/imagine-gemini-for-claude-codex) - Brings Google Gemini into Claude Code & Codex: delegate reasoning, independent code review, deep research, and automatic prompt-engineering. Runs on your Google AI Pro subscription, not your agent's tokens.
+- [ashlr-plugin](https://github.com/ashlrai/ashlr-plugin) - External: 40 MCP tools plus PreToolUse hooks that redirect high-volume Read, Grep, Edit and Bash calls to versions that return less output. The repo’s reproducible benchmark reports 57% fewer tokens on vercel/ai, pandas and tokio. Requires Bun 1.3+. MIT.
 
 ### Documentation
 - [analyze-codebase](./plugins/analyze-codebase)
