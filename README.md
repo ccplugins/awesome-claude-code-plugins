@@ -120,6 +120,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [MyVibe](https://www.myvibe.so) - Instant deployment with `/myvibe:publish`
 - [infrastructure-maintainer](./plugins/infrastructure-maintainer)
 - [kubestellar-console](./plugins/kubestellar-console)
+- [mirrord](https://github.com/metalbear-co/skills) - Run local code inside a live Kubernetes cluster so Claude can test changes against real services, databases and queues without deploying. Skills for config, CI, DB branching, Kafka queue splitting and preview environments; agents can start a trial via [agents.md](https://metalbear.com/agents.md). Install: `/plugin marketplace add metalbear-co/skills` then `/plugin install mirrord@mirrord-skills`
 - [monitoring-observability-specialist](./plugins/monitoring-observability-specialist)
 - [n8n-workflow-builder](./plugins/n8n-workflow-builder)
 - [qovery-deploy](https://github.com/Qovery/qovery-skills) - Deploy any app to Kubernetes on AWS/GCP/Azure/Scaleway. Creates Dockerfiles, provisions databases, deploys via CLI+API or Terraform. Install: `curl -fsSL https://skill.qovery.com/install.sh | bash`
