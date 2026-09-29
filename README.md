@@ -228,6 +228,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [desktop-app-dev](./plugins/desktop-app-dev)
 - [enterprise-integrator-architect](./plugins/enterprise-integrator-architect)
 - [flutter-mobile-app-dev](./plugins/flutter-mobile-app-dev)
+- [Jev for Flutter](https://github.com/pkcoulon/jev-for-flutter) - Focused Dart reads and semantic code search powered by Jev, with full files still accessible. Requires a TypeSafe API key. MIT licensed.
 - [frontend-developer](./plugins/frontend-developer)
 - [ios-app-dev-skills](https://github.com/JasonColapietro/ios-app-dev-skills)
 - [mobile-app-builder](./plugins/mobile-app-builder)
