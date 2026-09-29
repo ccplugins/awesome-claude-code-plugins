@@ -366,6 +366,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [web-security-guard](./plugins/web-security-guard)
 - [supply-chain-gate](./plugins/supply-chain-gate)
 - [agent-safety-preflight](./plugins/agent-safety-preflight)
+- [shim-cli](https://github.com/GetSHIM/shim-cli) - Masks secrets and personal data in the tool results Claude Code reads, before the model sees them, and reports what was in your prompts. PostToolUse, PreToolUse and UserPromptSubmit hooks, offline, no account. Apache-2.0.
 
 ### MCP Servers
 - [AccInt](https://github.com/maxbaluev/accreted-intelligence) — Local-first Work Model MCP server and Claude Code/Codex/OpenCode plugin. Tools: `acc_retrieve`, `acc_act`; official registry `io.github.maxbaluev/accint`.
