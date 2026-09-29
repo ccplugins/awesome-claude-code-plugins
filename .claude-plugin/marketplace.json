@@ -2316,6 +2316,30 @@
         "tokens",
         "audit"
       ]
+    },
+    {
+      "name": "metodo",
+      "displayName": "Método",
+      "source": {
+        "source": "github",
+        "repo": "atoslins/metodo"
+      },
+      "description": "Three protocols that keep Claude from quitting at the first obstacle, settling on the first solution, or delivering half the job, plus a gap ledger whose items close only when a proof command exits 0 and a Stop gate.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Atos Lins",
+        "url": "https://github.com/atoslins"
+      },
+      "category": "Workflow Orchestration",
+      "homepage": "https://github.com/atoslins/metodo#readme",
+      "repository": "https://github.com/atoslins/metodo",
+      "license": "MIT",
+      "keywords": [
+        "problem-solving",
+        "definition-of-done",
+        "verification",
+        "hooks"
+      ]
     }
   ]
 }

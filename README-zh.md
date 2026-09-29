@@ -77,6 +77,7 @@
 - [ai-meeting](./plugins/ai-meeting)
 - [craftsman](./plugins/craftsman)
 - [rote](./plugins/rote)
+- [metodo](https://github.com/atoslins/metodo) — 三个协议，防止 Claude 在第一个障碍处放弃、过早认定方案或只交付一半；附带缺口账本（证明命令以 0 退出才能关闭条目）和 Stop 钩子。
 
 ### 自动化运维
 - [deployment-engineer](./plugins/deployment-engineer)
