@@ -377,6 +377,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [WhichModel](https://github.com/Which-Model/whichmodel-mcp) — AI model pricing & recommendation MCP server for Claude Code. Helps choose the right model for every task at the best price. Cross-verified data updated every 4 hours. MCP endpoint: `https://whichmodel.dev/mcp`
 - [Synder Importer MCP](https://github.com/SynderAccounting/gl-importer-plugin) — Official Synder plugin. Import CSV/XLSX accounting data into QuickBooks Online or Xero via the [Synder Importer API](https://importer.synder.com). 19 MCP tools covering imports, field mapping rules, post-import rules, and entity discovery. Bundles the `gl-importer` agent skill.
 - [AgentIQ / MoltAd](https://github.com/chrisgu/agentiq-mcp) — Publisher MCP: list placements, `deliver_ad`, earn credits. https://moltad.net/publishers · https://moltad.net/mcp
+- [Court Rules](https://github.com/foklepoint/court-rules-mcp) — Hosted MCP server and free reference for U.S. federal court rules, local rules, judge standing orders, and court holidays. Remote MCP: `https://mcp.courtrules.app/mcp` (OAuth or API key). Site: https://www.courtrules.app
 
 ### Thinking & Knowledge Management
 - [thinking-tree](https://github.com/CoralLips/thinking-tree)
