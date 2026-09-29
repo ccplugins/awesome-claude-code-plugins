@@ -146,6 +146,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [founder-toolkit](https://github.com/mooster/founder-toolkit) - 4 skills for startup founders: investor update writer (YC/a16z format), pitch deck reviewer (10-dimension VC scoring), SaaS metrics dashboard with benchmarks, and outreach lead scorer (ICP-first, tested on 300+ companies). Built by Mu Chen, CEO of Canopy Cloud ($120B+ AUM).
 - [overloop-cli](./plugins/overloop-cli)
 - [signals-cli](./plugins/signals-cli)
+- [growthcab-gtm-skills](https://github.com/federicodon/growthcab-gtm-skills) - Plugin with 4 skills for B2B outbound diagnostics: sending domain DNS and Spamhaus DBL check, cold email grader, lead list CSV QA, and a meeting show rate benchmark built on 1,380 booked meetings. Python standard library only.
 
 ### Code Quality Testing
 - [autoresearch](./plugins/autoresearch)
