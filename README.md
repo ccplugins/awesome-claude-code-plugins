@@ -84,6 +84,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [tree-ring-memory](https://github.com/TerminallyLazy/tree-ring-memory-claude-plugin)
 - [ultrathink](./plugins/ultrathink)
 - [pro-workflow](https://github.com/rohitg00/pro-workflow) - Self-correcting memory, 17 skills, 6 agents, 16 commands, 23 hooks. Context engineering, parallel worktrees, and agent teams.
+- [dejavu-gates](https://github.com/WhiteBite/dejavu-gates) - Cross-session error gates for AI coding agents. Mechanically detects recurring tool-call failures, escalates remind to block within a session, and shares one gate store across Claude Code, OpenCode, Codex, Gemini CLI, Cursor, Copilot CLI, Crush, Devin CLI, Kiro and Cline. Install: `claude plugin marketplace add WhiteBite/dejavu-gates` then `claude plugin install dejavu-gates@dejavu-marketplace`.
 - [claude-reflect](./plugins/claude-reflect) - Self-learning system that captures corrections during sessions and syncs to CLAUDE.md with human review
 - [agent-manager-skill](./plugins/agent-manager-skill)
 - [conductor-orchestrator-superpowers](./plugins/conductor-orchestrator-superpowers)
