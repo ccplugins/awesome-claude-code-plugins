@@ -394,6 +394,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [ADanMan/clueless](https://github.com/ADanMan/clueless) | clueless plugin: responsibility-flip mode for when the user cannot review the output (`/clueless lite\|full\|ultra`, `/clueless-blindspots`); delivers do this / careful / check it worked / decided for you / only you can decide | `claude plugin marketplace add ADanMan/clueless` then `claude plugin install clueless@clueless` |
 
 
 ### Skills & Frameworks
