@@ -297,6 +297,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [husky](./plugins/husky)
 - [pr-issue-resolve](./plugins/pr-issue-resolve)
 - [pr-review](./plugins/pr-review)
+- [shipreel](https://github.com/theBstar/shipreel) - Turn a pull request into a short narrated walkthrough video (diagrams, code, screen recordings, captions), rendered locally. Install via `/plugin marketplace add theBstar/shipreel`.
 - [update-branch-name](./plugins/update-branch-name)
 
 ### Marketing Growth
