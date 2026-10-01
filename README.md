@@ -366,6 +366,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [web-security-guard](./plugins/web-security-guard)
 - [supply-chain-gate](./plugins/supply-chain-gate)
 - [agent-safety-preflight](./plugins/agent-safety-preflight)
+- [squidbrake](https://github.com/batrapulkit/squidbrake) - Hooks that send every Claude Code tool call through a rules gateway: destructive commands like `rm -rf ~/` are blocked, risky ones (git push --force, cloud deletes, payments) wait for human approval from a dashboard or phone, and everything lands in a hash-chained audit trail. Install: `/plugin marketplace add batrapulkit/squidbrake`
 
 ### MCP Servers
 - [AccInt](https://github.com/maxbaluev/accreted-intelligence) — Local-first Work Model MCP server and Claude Code/Codex/OpenCode plugin. Tools: `acc_retrieve`, `acc_act`; official registry `io.github.maxbaluev/accint`.
