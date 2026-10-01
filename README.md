@@ -394,6 +394,8 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [hermes-labs-ai/lintlang](https://github.com/hermes-labs-ai/lintlang) | LintLang: zero-LLM static analyzer for agent instructions/tool descriptions, with Claude Code marketplace + post-edit adapter | `claude plugin marketplace add hermes-labs-ai/lintlang` then `claude plugin install lintlang@lintlang` |
+| [hermes-labs-ai/little-canary](https://github.com/hermes-labs-ai/little-canary) | Little Canary: local prompt-injection preflight (UserPromptSubmit) via a separately running canary service | `claude plugin marketplace add hermes-labs-ai/little-canary` then `claude plugin install little-canary@hermes-labs` |
 
 
 ### Skills & Frameworks
