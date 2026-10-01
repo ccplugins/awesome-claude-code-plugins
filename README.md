@@ -161,6 +161,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [double-check](./plugins/double-check)
 - [optimize](./plugins/optimize)
 - [performance-benchmarker](./plugins/performance-benchmarker)
+- [qarunbook](https://github.com/Ifeanyiejindu/qarunbook) - Connects Claude to a qarunbook QA runbook over MCP: reads failing checks and tester-raised issues, fixes them, and marks them resolved. Skills: `/test-checklist` builds a test plan from the code, `/qa-runbook` runs the testing.
 - [refractor](./plugins/refractor)
 - [sdlc-wizard](https://github.com/BaseInfinity/agentic-ai-sdlc-wizard) - SDLC enforcement plugin with hooks for TDD gates, planning workflow, confidence levels, and cross-model review. Installs via `npx agentic-sdlc-wizard init`.
 - [test-file](./plugins/test-file)

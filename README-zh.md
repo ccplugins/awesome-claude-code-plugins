@@ -110,6 +110,7 @@
 - [double-check](./plugins/double-check)
 - [optimize](./plugins/optimize)
 - [performance-benchmarker](./plugins/performance-benchmarker)
+- [qarunbook](https://github.com/Ifeanyiejindu/qarunbook) — 通过 MCP 将 Claude 连接到 qarunbook QA 测试手册：读取失败的检查项和测试人员提交的问题，修复后标记为已解决。技能：`/test-checklist` 根据代码生成测试计划，`/qa-runbook` 执行测试。
 - [refractor](./plugins/refractor)
 - [test-file](./plugins/test-file)
 - [test-results-analyzer](./plugins/test-results-analyzer)
