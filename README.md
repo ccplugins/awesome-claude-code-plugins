@@ -394,6 +394,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [useslop/claude-plugins](https://github.com/useslop/claude-plugins) | slop plugin: `/slop:slop-post` posts what you built in a session to [Slop](https://useslop.com) as a private 48-hour draft with a Build Receipt (model, tools, run time, commits) filled in locally from the transcript; you publish it from the claim link. No account or API key needed for the draft | `claude plugin marketplace add useslop/claude-plugins` then `claude plugin install slop@useslop` |
 
 
 ### Skills & Frameworks
