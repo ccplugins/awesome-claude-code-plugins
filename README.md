@@ -345,6 +345,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [agent-decision-record](./plugins/agent-decision-record)
 - [product-org-os](./plugins/product-org-os)
 - [governor](https://github.com/0xhimanshu/governor)
+- [construction-pm](https://github.com/JamesJ2993/construction-pm) - Project manager agent for construction and fit-out projects: drawing intake, clarifications/RFI registers, documentation health, programme and cost, local dashboard and owner sign-off (install via `/plugin marketplace add JamesJ2993/construction-pm`)
 
 ### Lifestyle & Entertainment
 - [ai-divination-skills](./plugins/ai-divination-skills)
