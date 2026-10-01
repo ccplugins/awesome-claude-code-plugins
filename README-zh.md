@@ -129,6 +129,7 @@
 - [session-tax](./plugins/session-tax)
 
 ### 用户体验设计
+- [better-design](https://github.com/better-designs/better-design-plugin) - 通过 Better Design MCP 服务器提供设计系统、UI/UX 设计原则、图标与界面审查，并附带两个技能。安装：`/plugin marketplace add better-designs/better-design-plugin`。需要免费账号。
 - [brand-guardian](./plugins/brand-guardian)
 - [joker](./plugins/joker)
 - [mobile-ux-optimizer](./plugins/mobile-ux-optimizer)
