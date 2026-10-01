@@ -203,6 +203,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [bibigpt-skill](https://github.com/JimmyLv/bibigpt-skill) - AI-powered video, audio & podcast summarization
 
 ### Design UX
+- [better-design](https://github.com/better-designs/better-design-plugin) - Design systems, UI and UX principles, icons and UI review for building interfaces, from the Better Design MCP server, plus two skills. Install: `/plugin marketplace add better-designs/better-design-plugin`. Free account.
 - [brand-guardian](./plugins/brand-guardian)
 - [joker](./plugins/joker)
 - [journey-mapper](./plugins/journey-mapper)
