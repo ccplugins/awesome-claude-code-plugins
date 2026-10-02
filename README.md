@@ -130,6 +130,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [claude-snapshot](https://github.com/adhenawer/claude-snapshot) - Portable `.tar.gz` snapshots of your Claude Code setup (settings, hooks, plugins, MCPs) with diff-before-apply and `.bak` rollback for migration and backup across machines.
 - [notify](https://github.com/ApurvBazari/claude-plugins)
 - [retro-daily](./plugins/retro-daily)
+- [dropthehassle](https://github.com/bosmdavid-gif/dropthehassle-skill) - Publish AI-built sites and web apps to a free HTTPS link or your own domain with one command. Server part? Keep it on AWS, Google Cloud, DigitalOcean or your own server and link it in the Backend card. Install: `/plugin marketplace add bosmdavid-gif/dropthehassle-skill`
 
 ### Business Sales
 - [Drevon](https://drevon.dev) - Mac desktop workspace for GTM engineers. Run parallel AI agents powered by Claude Code, Codex, or Copilot to build target lists, score accounts, and pull prospect intel.
