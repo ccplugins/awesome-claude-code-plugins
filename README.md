@@ -178,6 +178,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Communication & Integrations
 - [whatsapp-claude-plugin](https://github.com/Rich627/whatsapp-claude-plugin) — WhatsApp channel plugin for Claude Code. Connects as a linked device via Baileys v7 with bidirectional messaging, full media support, voice transcription, permission relay, and access control.
+- [PlaceCall](https://github.com/voygr-tech/placecall) — Plugin with one skill for placing real outbound phone calls to US businesses through the PlaceCall API (bookings, inquiries, quotes); returns a structured outcome and transcript. Install: `/plugin marketplace add voygr-tech/placecall`, then `/plugin install placecall@placecall`.
 
 ### Data Analytics
 - [alphai](./plugins/alphai)
