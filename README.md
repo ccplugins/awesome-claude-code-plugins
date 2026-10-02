@@ -366,6 +366,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [web-security-guard](./plugins/web-security-guard)
 - [supply-chain-gate](./plugins/supply-chain-gate)
 - [agent-safety-preflight](./plugins/agent-safety-preflight)
+- [claude-security-skills](https://github.com/NovaCode37/claude-security-skills) - Eight security skills with no dependencies: secret scanning, Python SAST with CWE ids, dependency CVEs, Dockerfile, JWT, CORS and prompt-injection testing. Install with `/plugin marketplace add NovaCode37/claude-security-skills`; the same engines run in CI as a GitHub Action with SARIF output.
 
 ### MCP Servers
 - [AccInt](https://github.com/maxbaluev/accreted-intelligence) — Local-first Work Model MCP server and Claude Code/Codex/OpenCode plugin. Tools: `acc_retrieve`, `acc_act`; official registry `io.github.maxbaluev/accint`.
