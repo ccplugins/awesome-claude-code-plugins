@@ -2316,6 +2316,25 @@
         "tokens",
         "audit"
       ]
+    },
+    {
+      "name": "nibbl",
+      "source": "./plugins/nibbl",
+      "description": "A tiny pixel pet above your prompt that nibbles your bugs: a failing tool drops a bug, a passing test, lint or build eats it.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Nurmukhammed Omirzak",
+        "url": "https://github.com/nuromirzak"
+      },
+      "category": "Lifestyle & Entertainment",
+      "homepage": "https://github.com/nuromirzak/nibbl",
+      "keywords": [
+        "pet",
+        "tamagotchi",
+        "pixel-art",
+        "function-hooks",
+        "game"
+      ]
     }
   ]
 }

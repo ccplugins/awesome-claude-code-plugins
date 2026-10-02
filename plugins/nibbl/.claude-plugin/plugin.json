@@ -1,0 +1,19 @@
+{
+  "name": "nibbl",
+  "version": "0.1.0",
+  "description": "Nibbl: a tiny pixel pet above your prompt that nibbles your bugs",
+  "author": {
+    "name": "nibbl"
+  },
+  "homepage": "https://getnibbl.pages.dev",
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "apiBase": {
+      "type": "string",
+      "title": "Nibbl server",
+      "description": "Where your pet syncs. Keep the default; http://localhost:8787 for local testing.",
+      "default": "https://getnibbl.pages.dev"
+    }
+  }
+}

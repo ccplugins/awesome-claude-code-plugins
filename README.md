@@ -348,6 +348,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Lifestyle & Entertainment
 - [ai-divination-skills](./plugins/ai-divination-skills)
+- [nibbl](./plugins/nibbl)
 
 ### Security, Compliance, & Legal
 - [ai-ethics-governance-specialist](./plugins/ai-ethics-governance-specialist)
