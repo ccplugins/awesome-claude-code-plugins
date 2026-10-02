@@ -215,6 +215,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [visual-storyteller](./plugins/visual-storyteller)
 - [whimsy-injector](./plugins/whimsy-injector)
 - [claude-bionify](./plugins/claude-bionify)
+- [skins](https://github.com/hellosverre/claude-skins) - Restyles the Claude Code transcript: themed tool rows, reply gutters and spinner words, swapped live with `/skin`, plus animated cards for tables, code, diffs and shell output on the desktop.
 
 ### Development Engineering
 - [claude-sounds](https://github.com/culminationAI/claude-sounds)
