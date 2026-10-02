@@ -177,6 +177,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [bullpen](./plugins/bullpen)
 
 ### Communication & Integrations
+- [phone-sms](https://github.com/h-3303/phone-sms) — Read and send SMS through your own Android phone over KDE Connect on the local network, with no cloud relay; texts go out only after you approve recipient and wording. Install: `/plugin marketplace add h-3303/phone-sms` then `/plugin install phone-sms@phone-sms`
 - [whatsapp-claude-plugin](https://github.com/Rich627/whatsapp-claude-plugin) — WhatsApp channel plugin for Claude Code. Connects as a linked device via Baileys v7 with bidirectional messaging, full media support, voice transcription, permission relay, and access control.
 
 ### Data Analytics
