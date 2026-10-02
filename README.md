@@ -324,6 +324,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [social-vision](./plugins/social-vision)
 - [x-skills](https://github.com/sergebulaev/x-skills)
 - [yaohe](./plugins/yaohe)
+- [lognorm](https://github.com/lognorm/lognorm-mcp) - LogNorm MCP server and growth skill: fix SEO/GEO audit issues, track AI visibility, research keywords and competitors, and write posts from a ranked weekly plan.
 
 ### Project & Product Management
 - [bleu](https://github.com/Nirvaan05/Bleu-plugin)
