@@ -352,6 +352,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 ### Security, Compliance, & Legal
 - [ai-ethics-governance-specialist](./plugins/ai-ethics-governance-specialist)
 - [audit](./plugins/audit)
+- [claude-mcp-workflow-audit](https://github.com/OssaBellator/claude-mcp-workflow-audit) - Read-first Claude Code/MCP workflow audit plugin with deterministic config scanning, permission and recovery checks, workflow contracts, and operator handoff.
 - [compliance-automation-specialist](./plugins/compliance-automation-specialist)
 - [data-privacy-engineer](./plugins/data-privacy-engineer)
 - [enterprise-security-reviewer](./plugins/enterprise-security-reviewer)
