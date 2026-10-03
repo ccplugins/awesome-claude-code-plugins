@@ -262,6 +262,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [skill-auto-installer](./plugins/skill-auto-installer)
 - [tldr](./plugins/tldr)
 - [Imagine](https://github.com/freestyler-arb/imagine-gemini-for-claude-codex) - Brings Google Gemini into Claude Code & Codex: delegate reasoning, independent code review, deep research, and automatic prompt-engineering. Runs on your Google AI Pro subscription, not your agent's tokens.
+- [omega](https://github.com/Omega-JS-Stack/omega/tree/main/agent-plugins/claude) - Skills for the OMEGA JavaScript stack: build a website, backend, desktop app and browser extension from one project, with SEO, accessibility and analytics checks. Bundles an MCP router.
 
 ### Documentation
 - [analyze-codebase](./plugins/analyze-codebase)
