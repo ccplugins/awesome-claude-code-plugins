@@ -151,6 +151,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [autoresearch](./plugins/autoresearch)
 - [api-tester](./plugins/api-tester)
 - [bug-detective](./plugins/bug-detective)
+- [cage](https://github.com/vitalik1921/cage) — Deterministic contract harness that keeps TypeScript specs, implementations, tests, and review state in sync through Claude Code skills and a Stop hook.
 - [claudex](./plugins/claudex)
 - [code-review](./plugins/code-review)
 - [code-review-assistant](./plugins/code-review-assistant)
