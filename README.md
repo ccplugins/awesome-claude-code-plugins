@@ -201,6 +201,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Audio & Media
 - [bibigpt-skill](https://github.com/JimmyLv/bibigpt-skill) - AI-powered video, audio & podcast summarization
+- [nybls](https://github.com/nKOxxx/nybls) - Budgeted video watching for agents: summarize lectures, tutorials, webinars, recorded meetings and screen recordings (YouTube or local) with transcript-first analysis, timestamped evidence, and a spend ledger. MIT.
 
 ### Design UX
 - [brand-guardian](./plugins/brand-guardian)
