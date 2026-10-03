@@ -307,6 +307,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [Hermes Tweet](https://github.com/Xquik-dev/hermes-tweet) - Native Hermes Agent plugin for X/Twitter research, monitoring, drafting, follower exports, and approval-gated actions.
 - [instagram-curator](./plugins/instagram-curator)
 - [poppify](./plugins/poppify) — photo-led short-form vertical reels (Instagram/TikTok/YouTube Shorts/Facebook) via MCP, $0.06/render, 50 free seeds, no subscription
+- [Postel](https://github.com/robinfaraj/postel-mcp) - Draft, schedule and publish X (Twitter) and LinkedIn posts in your own voice. Bundles a remote MCP server (`https://www.postel.app/api/mcp`, OAuth) and a writing skill. Install: `/plugin marketplace add robinfaraj/postel-mcp`
 - [reddit-community-builder](./plugins/reddit-community-builder)
 - [taisly-agent-kit](https://github.com/taisly/agent)
 - [tiktok-strategist](./plugins/tiktok-strategist)
