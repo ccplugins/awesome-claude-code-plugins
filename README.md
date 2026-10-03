@@ -109,6 +109,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [craftsman](./plugins/craftsman)
 - [rote](./plugins/rote)
 - [claude-session-tint](./plugins/claude-session-tint)
+- [workkit](https://github.com/ITW-Creative-Works/workkit) - Runs GitHub Issues as the work pipeline: a manager agent specs each issue, dispatches scout, worker and verifier subagents, and parks the result for human QA; guard hooks enforce tests and commit rules.
 
 ### AI & Speech
 - [speech-ai](https://github.com/fasuizu-br/speech-ai-examples) - Speech AI plugin with pronunciation assessment, text-to-speech, and speech-to-text. 8 MCP tools for language learning, accessibility, and voice applications.
