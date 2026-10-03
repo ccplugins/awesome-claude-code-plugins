@@ -359,6 +359,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [legal-advisor](./plugins/legal-advisor)
 - [legal-compliance-checker](./plugins/legal-compliance-checker)
 - [openclaw-security](https://github.com/AtlasPA/openclaw-security) - 11-tool security suite for agent workspaces: integrity scanning, secret detection, permission auditing, network DLP, supply-chain checks, injection defense, credential lifecycle, compliance enforcement, audit trails, cryptographic signing, and incident response.
+- [gedik](https://github.com/onur-kesim/gedik) - Read-only security audit of your own project; every finding ships a working PoC, and it mutates your test suite to check the tests would catch it.
 - [privacy-mask](https://github.com/fullstackcrew-alpha/privacy-mask) - Detect and redact PII, API keys, and secrets in screenshots via OCR + regex before images reach Claude. 47 detection rules, Tesseract/RapidOCR support, UserPromptSubmit hook integration. 100% offline.
 - [skillfortify](https://github.com/qualixar/skillfortify) - External: Formal verification scanner for AI agent skills (including Claude Code skills + MCP servers). 100% precision on 540-skill benchmark. ASBOM generation. arXiv:2603.00195.
 - [shellgate](./plugins/shellgate)
