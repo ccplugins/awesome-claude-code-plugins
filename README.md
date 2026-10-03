@@ -175,6 +175,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [adamsreview](./plugins/adamsreview)
 - [slicewise](./plugins/slicewise)
 - [bullpen](./plugins/bullpen)
+- [pr-proof](https://github.com/TanayK07/pr-proof) - Validates AI code review comments (from humans, CodeRabbit, Copilot or agents) against the actual code and gives each a verdict with file:line evidence. On Code Review Bench it removed 34% of CodeRabbit's noise while keeping 93.5% of real bugs.
 
 ### Communication & Integrations
 - [whatsapp-claude-plugin](https://github.com/Rich627/whatsapp-claude-plugin) — WhatsApp channel plugin for Claude Code. Connects as a linked device via Baileys v7 with bidirectional messaging, full media support, voice transcription, permission relay, and access control.
