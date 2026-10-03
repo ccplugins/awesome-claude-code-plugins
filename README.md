@@ -140,6 +140,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [mortgage](https://github.com/lendtrain/mortgage) - Mortgage refinance plugin by LendTrain — real-time institutional pricing, compliance, and FHA/VA loan detection via MCP. No API key required.
 - [pricing-packaging-specialist](./plugins/pricing-packaging-specialist)
 - [product-sales-specialist](./plugins/product-sales-specialist)
+- [PumpGTM](https://github.com/pumpgtm/pumpgtm-mcp) - Find buyers, run LinkedIn, email and X outreach, and answer replies from your AI. Bundles the hosted MCP server (`https://mcp.pumpgtm.com/mcp`, OAuth sign-in, no API key) with find-buyers, handle-replies and write-cold-message skills. Paid SaaS, https://pumpgtm.com
 - [support-responder](./plugins/support-responder)
 - [stratarts](./plugins/stratarts)
 - [technical-sales-engineer](./plugins/technical-sales-engineer)
