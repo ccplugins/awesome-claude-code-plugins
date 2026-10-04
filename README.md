@@ -394,6 +394,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [basitalisandhu/claude-skills](https://github.com/basitalisandhu/claude-skills) | 87 Claude Code skills in 13 plugins from one author, as one marketplace with a per-skill catalog site | `claude plugin marketplace add basitalisandhu/claude-skills` |
 
 
 ### Skills & Frameworks
