@@ -144,6 +144,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [stratarts](./plugins/stratarts)
 - [technical-sales-engineer](./plugins/technical-sales-engineer)
 - [founder-toolkit](https://github.com/mooster/founder-toolkit) - 4 skills for startup founders: investor update writer (YC/a16z format), pitch deck reviewer (10-dimension VC scoring), SaaS metrics dashboard with benchmarks, and outreach lead scorer (ICP-first, tested on 300+ companies). Built by Mu Chen, CEO of Canopy Cloud ($120B+ AUM).
+- [shark-skill](https://github.com/alexyc9381/shark-skill) - Pitch practice: five Claude sub-agent investors question a business idea, a founder agent answers, and each goes IN or OUT with a practice offer. Install: `/plugin marketplace add alexyc9381/shark-skill`
 - [overloop-cli](./plugins/overloop-cli)
 - [signals-cli](./plugins/signals-cli)
 
@@ -380,6 +381,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Thinking & Knowledge Management
 - [thinking-tree](https://github.com/CoralLips/thinking-tree)
+- [court-skill](https://github.com/alexyc9381/court-skill) - Idea trial: prosecutor and defense agents argue, 12 juror agents vote independently, and a judge reads the verdict and what would flip it. Install: `/plugin marketplace add alexyc9381/court-skill`
 
 ### Companion Apps & Tools
 - [Onepilot](https://onepilotapp.com) — iOS app to SSH into remote servers and run Claude Code from your phone
