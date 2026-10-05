@@ -228,6 +228,7 @@
 
 
 ### MCP 服务器
+- [canli-validation-mcp](https://github.com/arhancanli/canli-validation-mcp) — 检验回测结果是否可信：Deflated Sharpe Ratio（缩减夏普比率）、CSCV 回测过拟合概率、数据窥探检验、前视偏差检查与研究流程安慰剂检验。`npx -y canli-validation-mcp`，或免密钥远程端点 `https://canlicapital.com/mcp`；官方 Registry `io.github.arhancanli/canli-validation-mcp`。
 - [WhichModel](https://github.com/Which-Model/whichmodel-mcp) — 面向 Claude Code 的 AI 模型定价与推荐 MCP 服务器，帮助为每项任务选择最合适、性价比最高的模型。数据经交叉验证，每 4 小时更新一次。MCP 端点：`https://whichmodel.dev/mcp`
 
 ## 插件市场

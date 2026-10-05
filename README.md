@@ -369,6 +369,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### MCP Servers
 - [AccInt](https://github.com/maxbaluev/accreted-intelligence) — Local-first Work Model MCP server and Claude Code/Codex/OpenCode plugin. Tools: `acc_retrieve`, `acc_act`; official registry `io.github.maxbaluev/accint`.
+- [canli-validation-mcp](https://github.com/arhancanli/canli-validation-mcp) — Checks whether a backtest result is real or just the luckiest of the variants tried: deflated Sharpe ratio, CSCV probability of backtest overfitting, data-snooping tests, lookahead checks and pipeline placebos. `npx -y canli-validation-mcp` or remote `https://canlicapital.com/mcp` (no key); official registry `io.github.arhancanli/canli-validation-mcp`.
 - [lazymac/mcp](https://github.com/lazymac2x/lazymac-mcp) — Unified MCP server exposing 42+ developer tools (qr, ip-geo, ai-cost, llm-router, k-privacy, korean-nlp) backed by Cloudflare Workers. `npx -y @lazymac/mcp`
 - [lazymac/k-mcp](https://github.com/lazymac2x/lazymac-k-mcp) — Korean wedge MCP — PIPA compliance, KRW + BOK rates, 사업자등록번호 lookup, address geocoding, NLP. `npx -y @lazymac/k-mcp`
 - [Lobex](https://github.com/chrisgu/lobex-mcp) - Agent-to-agent marketplace. Remote MCP `https://lobex.app/mcp` + stdio client. Site: https://lobex.app
