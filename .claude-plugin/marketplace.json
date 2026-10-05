@@ -2316,6 +2316,30 @@
         "tokens",
         "audit"
       ]
+    },
+    {
+      "name": "supermod-claudecode",
+      "displayName": "Supermod ClaudeCode",
+      "source": {
+        "source": "github",
+        "repo": "nayde8824/supermod-claudecode"
+      },
+      "description": "Workbranches: trial copies of your project you can save, bring into main or throw away from a side pane, plus a usage bar for context, rate limits, cost and tokens.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Valerio Monteforte",
+        "url": "https://github.com/nayde8824"
+      },
+      "category": "Git Workflow",
+      "repository": "https://github.com/nayde8824/supermod-claudecode",
+      "license": "MIT",
+      "keywords": [
+        "worktree",
+        "git",
+        "workbranch",
+        "usage",
+        "mod"
+      ]
     }
   ]
 }
