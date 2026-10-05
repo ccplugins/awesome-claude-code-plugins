@@ -366,6 +366,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [web-security-guard](./plugins/web-security-guard)
 - [supply-chain-gate](./plugins/supply-chain-gate)
 - [agent-safety-preflight](./plugins/agent-safety-preflight)
+- [slopless](https://github.com/BioInfo/slopless) - Marketplace of four guard mods with their own tests: denies writes of secret files and credential-shaped content, recovers from "File has not been read yet", tells the model a gate-denied Bash call ran nothing, and refuses foreground poll loops. Install with `/plugin marketplace add BioInfo/slopless`.
 
 ### MCP Servers
 - [AccInt](https://github.com/maxbaluev/accreted-intelligence) — Local-first Work Model MCP server and Claude Code/Codex/OpenCode plugin. Tools: `acc_retrieve`, `acc_act`; official registry `io.github.maxbaluev/accint`.
