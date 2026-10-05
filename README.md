@@ -297,6 +297,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [husky](./plugins/husky)
 - [pr-issue-resolve](./plugins/pr-issue-resolve)
 - [pr-review](./plugins/pr-review)
+- [supermod-claudecode](https://github.com/nayde8824/supermod-claudecode) - Workbranches for Claude Code: trial copies of your project (worktree + branch as one) you can create, enter, save, bring into main or throw away from a side pane, plus a usage bar for context, rate limits, cost and tokens.
 - [update-branch-name](./plugins/update-branch-name)
 
 ### Marketing Growth
