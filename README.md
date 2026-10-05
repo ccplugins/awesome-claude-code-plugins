@@ -201,6 +201,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Audio & Media
 - [bibigpt-skill](https://github.com/JimmyLv/bibigpt-skill) - AI-powered video, audio & podcast summarization
+- [techno](https://github.com/ruslanshchuchkin/claude-techno-mod) - A seven-minute techno set above your chat box, grown from your prompts and commits; Claude is the DJ (macOS)
 
 ### Design UX
 - [brand-guardian](./plugins/brand-guardian)
