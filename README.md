@@ -204,6 +204,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Design UX
 - [brand-guardian](./plugins/brand-guardian)
+- [figma-maxxing](https://github.com/thiagoxikota/figma-maxxing) - 8 skills for agents editing real Figma files: preflight, slop check, handoff gate, comment-to-fix loop.
 - [joker](./plugins/joker)
 - [journey-mapper](./plugins/journey-mapper)
 - [mobile-ux-optimizer](./plugins/mobile-ux-optimizer)
