@@ -345,6 +345,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [agent-decision-record](./plugins/agent-decision-record)
 - [product-org-os](./plugins/product-org-os)
 - [governor](https://github.com/0xhimanshu/governor)
+- [agent-hours](https://github.com/pmochine/agent-hours) - Billable hours and hourly worklogs from local Claude Code and Codex session logs, with a direct interaction / supervised / AI-autonomous split (install via `/plugin marketplace add pmochine/agent-hours`)
 
 ### Lifestyle & Entertainment
 - [ai-divination-skills](./plugins/ai-divination-skills)
