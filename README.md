@@ -348,6 +348,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Lifestyle & Entertainment
 - [ai-divination-skills](./plugins/ai-divination-skills)
+- [spinlings](https://github.com/416rehman/spinlings) - Pixel creature game for Claude Code 2.1.287+ with card collecting, trading, and asynchronous player duels.
 
 ### Security, Compliance, & Legal
 - [ai-ethics-governance-specialist](./plugins/ai-ethics-governance-specialist)
