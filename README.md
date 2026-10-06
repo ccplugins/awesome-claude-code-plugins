@@ -366,6 +366,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [web-security-guard](./plugins/web-security-guard)
 - [supply-chain-gate](./plugins/supply-chain-gate)
 - [agent-safety-preflight](./plugins/agent-safety-preflight)
+- [skilljail](https://github.com/stanleys12/skilljail) - Jails each skill's Bash commands under a per-skill manifest (files, executables, network hosts) with macOS Seatbelt, and checks Read/Write/Edit/WebFetch against the same manifest. Install with `/plugin marketplace add stanleys12/skilljail`.
 
 ### MCP Servers
 - [AccInt](https://github.com/maxbaluev/accreted-intelligence) — Local-first Work Model MCP server and Claude Code/Codex/OpenCode plugin. Tools: `acc_retrieve`, `acc_act`; official registry `io.github.maxbaluev/accint`.
