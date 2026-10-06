@@ -195,6 +195,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [claude-ecom](./plugins/claude-ecom)
 - [XVARY Stock Research](https://github.com/xvary-research/claude-code-stock-analysis-skill) — Claude Code skill for public SEC EDGAR + market data: `/analyze`, `/score`, `/compare`. MIT.
 - [flex-claudecode](./plugins/flex-claudecode)
+- [fxmacrodata](https://github.com/fxmacrodata/claude-plugin-fxmacrodata) - Official-source macroeconomic releases, release calendars, central-bank policy rates, FX rates and COT positioning for 22 currencies, via the hosted FXMacroData MCP server plus a skill and two briefing commands. USD releases and the USD calendar work without a key.
 - [ai-dev-jobs-search](./plugins/ai-dev-jobs-search)
 - [nhs-mcp-search](./plugins/nhs-mcp-search)
 - [session-tax](./plugins/session-tax)
