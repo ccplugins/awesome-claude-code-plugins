@@ -124,6 +124,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [n8n-workflow-builder](./plugins/n8n-workflow-builder)
 - [qovery-deploy](https://github.com/Qovery/qovery-skills) - Deploy any app to Kubernetes on AWS/GCP/Azure/Scaleway. Creates Dockerfiles, provisions databases, deploys via CLI+API or Terraform. Install: `curl -fsSL https://skill.qovery.com/install.sh | bash`
 - [screenshot-janitor](./plugins/screenshot-janitor)
+- [Shipvela](https://github.com/stefanautomateed/shipvela-codex) - Publish static websites through a hosted OAuth MCP connection, review files before publishing, and inspect deployment status and logs. Requires a Shipvela account; Hobby includes 3 projects and 20 publishes/month.
 - [aws-cost-saver](./plugins/aws-cost-saver)
 - [prompt-chime](https://github.com/pick/prompt-chime) - Cross-platform notification plugin with meme sound presets, toast notifications, profiles, quiet hours, and per-project overrides.
 - [cc-aws-keepalive](./plugins/cc-aws-keepalive)
