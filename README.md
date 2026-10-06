@@ -366,6 +366,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [web-security-guard](./plugins/web-security-guard)
 - [supply-chain-gate](./plugins/supply-chain-gate)
 - [agent-safety-preflight](./plugins/agent-safety-preflight)
+- [pawl](https://github.com/ulukaya/pawl) - Deterministic safety hooks for Claude Code and Codex: refuses home/root deletions even inside scripts, asks before destructive git and credential reads, blocks token egress, caps repeat-call loops, and auto-approves provably read-only commands. Stdlib Python, no network, 144-token prompt cost.
 
 ### MCP Servers
 - [AccInt](https://github.com/maxbaluev/accreted-intelligence) — Local-first Work Model MCP server and Claude Code/Codex/OpenCode plugin. Tools: `acc_retrieve`, `acc_act`; official registry `io.github.maxbaluev/accint`.
