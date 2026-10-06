@@ -109,6 +109,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [craftsman](./plugins/craftsman)
 - [rote](./plugins/rote)
 - [claude-session-tint](./plugins/claude-session-tint)
+- [claude-harness-bootstrap](https://github.com/sagaga144/claude-harness-bootstrap) - Generates a project-specific Claude Code harness (CLAUDE.md, guard hooks, reviewer agents, commands) from a one-paragraph project description, for any stack. Ships an eval suite that compares each case against plain Claude Code.
 
 ### AI & Speech
 - [speech-ai](https://github.com/fasuizu-br/speech-ai-examples) - Speech AI plugin with pronunciation assessment, text-to-speech, and speech-to-text. 8 MCP tools for language learning, accessibility, and voice applications.
