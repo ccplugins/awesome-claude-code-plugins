@@ -303,6 +303,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [app-store-optimizer](./plugins/app-store-optimizer)
 - [claude-rank](https://github.com/Houseofmvps/claude-rank) - SEO/GEO/AEO audit with 170+ rules, auto-fix for robots.txt/sitemap.xml/llms.txt/JSON-LD
 - [content-creator](./plugins/content-creator)
+- [email-marketing-bible](https://github.com/CosmoBlk/email-marketing-bible) - Data-backed email marketing skill: automation flows, deliverability triage, copy de-slopping, AI email design, ESP control via MCP with send-safety gates, compliance and 19 industry playbooks.
 - [growth-hacker](./plugins/growth-hacker)
 - [Hermes Tweet](https://github.com/Xquik-dev/hermes-tweet) - Native Hermes Agent plugin for X/Twitter research, monitoring, drafting, follower exports, and approval-gated actions.
 - [instagram-curator](./plugins/instagram-curator)
