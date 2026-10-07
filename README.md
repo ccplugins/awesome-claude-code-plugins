@@ -393,6 +393,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
+| [tewarishishir/dataforge](https://github.com/tewarishishir/dataforge) | dataforge plugin: four skills that build data pipelines from a project manifest, from GitHub issue to pull request, on Databricks or local DuckDB | `claude plugin marketplace add tewarishishir/dataforge` then `claude plugin install dataforge@dataforge` |
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
 
 
