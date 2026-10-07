@@ -109,7 +109,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [craftsman](./plugins/craftsman)
 - [rote](./plugins/rote)
 - [claude-session-tint](./plugins/claude-session-tint)
-- [suede-creator-skills](https://github.com/JasonColapietro/suede-creator-skills) - 74 skills, 6 agents. A build DAG researches your repo, fans out disjoint lanes, and refutes its own review before anything lands; a blunt A-F ship grade blocks the bad merge. The same folder designs the page, writes the copy, and ships native iOS and Android builds.
+- [suede-creator-skills](https://github.com/JasonColapietro/suede-creator-skills) - Open-source skills and workflows for Claude Code and Codex covering repository research, implementation review, design, SEO, and native app development.
 
 ### AI & Speech
 - [speech-ai](https://github.com/fasuizu-br/speech-ai-examples) - Speech AI plugin with pronunciation assessment, text-to-speech, and speech-to-text. 8 MCP tools for language learning, accessibility, and voice applications.
@@ -230,7 +230,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [enterprise-integrator-architect](./plugins/enterprise-integrator-architect)
 - [flutter-mobile-app-dev](./plugins/flutter-mobile-app-dev)
 - [frontend-developer](./plugins/frontend-developer)
-- [ios-app-dev-skills](https://github.com/JasonColapietro/ios-app-dev-skills) - Turn a website into an App Store-ready iOS app: 7 skills and 23 slash commands covering site audit, native SwiftUI or Capacitor shell, ASO and keywords, simulator screenshots, and an App Review release gate.
+- [ios-app-dev-skills](https://github.com/JasonColapietro/ios-app-dev-skills) - Skills and commands for adapting a website to iOS, including SwiftUI and Capacitor planning, App Store metadata, simulator screenshots, and release preparation.
 - [mobile-app-builder](./plugins/mobile-app-builder)
 - [html-report](https://github.com/panhongwei/html-report)
 - [project-curator](./plugins/project-curator)
