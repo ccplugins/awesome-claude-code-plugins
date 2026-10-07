@@ -348,6 +348,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Lifestyle & Entertainment
 - [ai-divination-skills](./plugins/ai-divination-skills)
+- [diffspider](https://github.com/Silvertree2010/diffspider) - Animated braille spider that crawls over every Edit and Write diff in the terminal and marks the changed words in neon. Uses the function hooks API, zero dependencies.
 
 ### Security, Compliance, & Legal
 - [ai-ethics-governance-specialist](./plugins/ai-ethics-governance-specialist)
