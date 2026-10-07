@@ -75,6 +75,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [claude-desktop-extension](./plugins/claude-desktop-extension)
 - [equilateral-agents](https://github.com/Equilateral-AI/equilateral-agents-open-core) - 22 self-learning agents with memory, security review, code quality, deployment validation, and infrastructure checks
 - [lyra](./plugins/lyra)
+- [loose-ends](https://github.com/MiguelProz/claude-loose-ends) - Catches the work Claude leaves undone (bugs it noticed, skipped tests, out-of-scope fixes) as candidates you approve, stores them in a git ref outside your branches, and shows the next one above the prompt with a one-click Do it.
 - [magebyte-power](https://github.com/MageByte-Zero/magebyte-power) — Production-incident-distilled Claude Code skill: 7-phase workflow with 4-round AI cross-verification that catches concurrency & idempotency bugs before prod
 - [model-context-protocol-mcp-expert](./plugins/model-context-protocol-mcp-expert)
 - [now-next-methodology](https://github.com/soutone/now-next-methodology) - Two-file task management system for Claude Code/OpenCode: NOW.md tracks current work, NEXT.md queues future tasks with /next command
