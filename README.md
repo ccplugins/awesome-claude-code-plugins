@@ -396,6 +396,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
 
 
+- [seal-hq/claude-plugins](https://github.com/seal-hq/claude-plugins) — SEAL plugin: the `sealnet-mcp` server and `seal` skill for encrypted file-transfer workflows. Review host permissions and delivery behaviour before use. Install: `/plugin marketplace add seal-hq/claude-plugins` then `/plugin install seal@seal-hq`.
 ### Skills & Frameworks
 - [aurakit](https://github.com/smorky850612/Aurakit) — All-in-one Claude Code skill: 46 modes, 23 sub-agents, 6-layer OWASP security, 10 lifecycle hooks, ~55% token savings. Cross-platform (Codex, Cursor, Manus, Windsurf). Install: `npx @smorky85/aurakit`
 
