@@ -324,6 +324,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [social-vision](./plugins/social-vision)
 - [x-skills](https://github.com/sergebulaev/x-skills)
 - [yaohe](./plugins/yaohe)
+- [Shipfound](https://github.com/shipfound/shipfound) - Claude Code and Codex plugin: site fixes and content as pull requests, Search Console and Bing indexing, AI crawler tracking and AI visibility checks.
 
 ### Project & Product Management
 - [bleu](https://github.com/Nirvaan05/Bleu-plugin)
