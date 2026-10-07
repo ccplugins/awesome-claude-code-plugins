@@ -201,6 +201,8 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Audio & Media
 - [bibigpt-skill](https://github.com/JimmyLv/bibigpt-skill) - AI-powered video, audio & podcast summarization
+- [pr-podcast](https://github.com/Dodera-Software/claude-plugins/tree/main/plugins/pr-podcast) - Turns a pull request, today's commits, a release or a date range into a 3–5 minute two-voice audio episode (what changed, why, what's risky), recorded locally with free Kokoro voices
+- [video-kit](https://github.com/Dodera-Software/claude-plugins/tree/main/plugins/video-kit) - Makes launch videos, feature teasers, social clips and what's-new videos for your product from its code, its website or just an idea, rendered in 4K with Remotion
 
 ### Design UX
 - [brand-guardian](./plugins/brand-guardian)
