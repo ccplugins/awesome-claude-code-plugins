@@ -394,6 +394,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [ethbak/claude-code-minis](https://github.com/ethbak/claude-code-minis) | Remote Control plugins: `/rresume` finds and resumes any session from the Claude app, `!` runs interactive shell commands on your computer, `/mode` switches to any permission mode, Auto and Bypass included | `claude plugin marketplace add ethbak/claude-code-minis` then `claude plugin install remote-terminal@claude-code-minis` (also `remote-resume`, `mode-picker`) |
 
 
 ### Skills & Frameworks
