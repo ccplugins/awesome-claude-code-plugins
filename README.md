@@ -200,6 +200,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [session-tax](./plugins/session-tax)
 
 ### Audio & Media
+- [Arcmira: YouTube Transcript Search](https://github.com/arcmira/mcp/tree/master/plugins/arcmira) - Find timestamped passages, speaker appearances and sponsors across indexed YouTube videos. [Arcmira](https://arcmira.com/) · [API docs](https://arcmira.com/docs).
 - [bibigpt-skill](https://github.com/JimmyLv/bibigpt-skill) - AI-powered video, audio & podcast summarization
 
 ### Design UX
