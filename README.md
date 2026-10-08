@@ -262,6 +262,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [skill-auto-installer](./plugins/skill-auto-installer)
 - [tldr](./plugins/tldr)
 - [Imagine](https://github.com/freestyler-arb/imagine-gemini-for-claude-codex) - Brings Google Gemini into Claude Code & Codex: delegate reasoning, independent code review, deep research, and automatic prompt-engineering. Runs on your Google AI Pro subscription, not your agent's tokens.
+- [armap](https://github.com/Armannss/armap) - A ranked, token-budgeted map of your codebase injected at session start, plus `deps` and `refs` queries. Resolves imports for 15 languages, zero dependencies. 20% fewer tokens in an early pilot.
 
 ### Documentation
 - [analyze-codebase](./plugins/analyze-codebase)
