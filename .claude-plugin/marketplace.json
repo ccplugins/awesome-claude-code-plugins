@@ -2316,6 +2316,32 @@
         "tokens",
         "audit"
       ]
+    },
+    {
+      "name": "token-hamster",
+      "displayName": "Token Hamster",
+      "source": {
+        "source": "github",
+        "repo": "valeryia-piatrova/token-hamster"
+      },
+      "description": "Claude Code mod that shows token usage, 5-hour and weekly limits, reset countdown and cost per turn as an animated hamster above the prompt.",
+      "version": "0.1.0",
+      "author": {
+        "name": "valeryia-piatrova",
+        "url": "https://github.com/valeryia-piatrova"
+      },
+      "category": "Data Analytics",
+      "homepage": "https://github.com/valeryia-piatrova/token-hamster",
+      "repository": "https://github.com/valeryia-piatrova/token-hamster",
+      "license": "MIT",
+      "keywords": [
+        "usage",
+        "tokens",
+        "limits",
+        "cost",
+        "statusline",
+        "mod"
+      ]
     }
   ]
 }

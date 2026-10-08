@@ -127,6 +127,7 @@
 - [trend-researcher](./plugins/trend-researcher)
 - [x-twitter-scraper](./plugins/x-twitter-scraper)
 - [session-tax](./plugins/session-tax)
+- [token-hamster](https://github.com/valeryia-piatrova/token-hamster) - 以提示框上方的动画仓鼠显示 token 用量、5 小时和每周限额、重置倒计时以及每轮费用。
 
 ### 用户体验设计
 - [brand-guardian](./plugins/brand-guardian)
