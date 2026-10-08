@@ -77,6 +77,7 @@
 - [ai-meeting](./plugins/ai-meeting)
 - [craftsman](./plugins/craftsman)
 - [rote](./plugins/rote)
+- [router](https://github.com/alexei-led/claude-router)
 
 ### 自动化运维
 - [deployment-engineer](./plugins/deployment-engineer)

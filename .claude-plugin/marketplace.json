@@ -2316,6 +2316,33 @@
         "tokens",
         "audit"
       ]
+    },
+    {
+      "name": "router",
+      "displayName": "Router",
+      "source": {
+        "source": "github",
+        "repo": "alexei-led/claude-router"
+      },
+      "description": "Model and effort routing for the main conversation, advised by a prompt classifier (Jev, Clef or Clef Flash). Preserves subagent model choices.",
+      "version": "1.4.0",
+      "author": {
+        "name": "Alexei Ledenev",
+        "url": "https://github.com/alexei-led"
+      },
+      "category": "Workflow Orchestration",
+      "homepage": "https://github.com/alexei-led/claude-router",
+      "repository": "https://github.com/alexei-led/claude-router",
+      "license": "MIT",
+      "keywords": [
+        "router",
+        "model-routing",
+        "effort",
+        "jev",
+        "clef",
+        "cloudflare",
+        "mods"
+      ]
     }
   ]
 }
