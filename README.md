@@ -386,6 +386,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Knowledge Management
 - [bedrock](./plugins/bedrock)
+- [podcast-wiki](https://github.com/HagaiHen/podcast-wiki) - Spotify podcasts → self-maintaining LLM wiki with cross-episode concept pages, lint and consolidation skills.
 
 ## External Marketplaces
 
