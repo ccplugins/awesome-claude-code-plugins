@@ -94,6 +94,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [launch-swarm](https://github.com/harshmoney123/launch-swarm) - 6-agent Claude Code swarm with strict role separation, dual-gate merge pipeline, and prompt health anti-rot
 - [cc-inspect](./plugins/cc-inspect)
 - [omega-memory](./plugins/omega-memory)
+- **[nautilus-compass](https://github.com/chunxiaoxx/nautilus-compass)** — A local memory and reliability layer for Claude Code: BGE-M3 memory daemon (MCP, 17 tools) whose retrieval beats mem0 on full LongMemEval-S 500 (P@1 0.890 vs 0.774, reproduction script included), drift detection (AUC 0.83) scoring every prompt against a frozen failure-pattern anchor set before the agent acts, and a cross-agent contract layer. MIT, PyPI `nautilus-compass`, one-command `install.sh`.
 - [idea-to-deploy](./plugins/idea-to-deploy)
 - [nexus-agents](https://github.com/williamzujkowski/nexus-agents) — Multi-CLI orchestration with 30 MCP tools, 12 expert agents, 17 skills, and Budget→TOPSIS→LinUCB routing. Coordinates Claude, Gemini, Codex, and OpenCode via consensus voting.
 - [bobusang](https://github.com/jun0-ds/bobusang) — Multi-device memory system for Claude Code. Syncs context across Windows, WSL2, and Linux with git-based auto-sync.
