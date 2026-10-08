@@ -109,6 +109,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [craftsman](./plugins/craftsman)
 - [rote](./plugins/rote)
 - [claude-session-tint](./plugins/claude-session-tint)
+- [router](https://github.com/alexei-led/claude-router) - Picks the model and effort for each main conversation turn (Haiku 5.5 to Opus 5.5) from a prompt classifier (Jev or Cloudflare Workers AI key). Native Claude Code Mod in the turn hook, no proxy; prices the cache write before switching, leaves subagents untouched.
 
 ### AI & Speech
 - [speech-ai](https://github.com/fasuizu-br/speech-ai-examples) - Speech AI plugin with pronunciation assessment, text-to-speech, and speech-to-text. 8 MCP tools for language learning, accessibility, and voice applications.
