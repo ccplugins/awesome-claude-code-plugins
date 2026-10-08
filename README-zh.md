@@ -232,6 +232,7 @@
 
 ## 插件市场
 - [protonium](https://github.com/protonium-labs/protonium-marketplace) —— AI 智能体与效率工具。包含 **AxiomCore**：项目与日常事务管理智能体，提供强制化结构（编号目录、任务 ID、wiki 记忆）、计划 → 确认 → 执行工作流，支持敏捷或 WBS 方式创建项目.
+- [session-titles](https://github.com/zhangbububu/session-titles) —— last-prompt-title：每发一条消息就重命名会话。标题先变成截到 60 个字符的原文，再由 Haiku 概括成短标题显示在桌面端侧边栏，始终反映会话当前在做什么。
 
 ## 使用教程
 
