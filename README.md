@@ -301,6 +301,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Marketing Growth
 - [app-store-optimizer](./plugins/app-store-optimizer)
+- [bulkpublish](https://github.com/azeemkafridi/bulkpublish-ai-toolkit) - Official BulkPublish plugin: MCP server plus skills to draft, schedule, cross-post, and analyze posts on 15 social platforms (Instagram, TikTok, YouTube, X, LinkedIn, and more). Install via `/plugin marketplace add azeemkafridi/bulkpublish-ai-toolkit`
 - [claude-rank](https://github.com/Houseofmvps/claude-rank) - SEO/GEO/AEO audit with 170+ rules, auto-fix for robots.txt/sitemap.xml/llms.txt/JSON-LD
 - [content-creator](./plugins/content-creator)
 - [growth-hacker](./plugins/growth-hacker)
