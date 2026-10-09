@@ -377,6 +377,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [WhichModel](https://github.com/Which-Model/whichmodel-mcp) — AI model pricing & recommendation MCP server for Claude Code. Helps choose the right model for every task at the best price. Cross-verified data updated every 4 hours. MCP endpoint: `https://whichmodel.dev/mcp`
 - [Synder Importer MCP](https://github.com/SynderAccounting/gl-importer-plugin) — Official Synder plugin. Import CSV/XLSX accounting data into QuickBooks Online or Xero via the [Synder Importer API](https://importer.synder.com). 19 MCP tools covering imports, field mapping rules, post-import rules, and entity discovery. Bundles the `gl-importer` agent skill.
 - [AgentIQ / MoltAd](https://github.com/chrisgu/agentiq-mcp) — Publisher MCP: list placements, `deliver_ad`, earn credits. https://moltad.net/publishers · https://moltad.net/mcp
+- [Bestax](https://github.com/allxsmith/bestax/tree/main/bestax-mcp) — Props, working examples, `--bulma-*` CSS variables and Agent Skills for Bestax, React components for Bulma v1. Offline, no API key. `npx -y bestax-mcp@1`
 
 ### Thinking & Knowledge Management
 - [thinking-tree](https://github.com/CoralLips/thinking-tree)
@@ -394,6 +395,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [allxsmith/bestax-skills](https://github.com/allxsmith/bestax-skills) | `bestax` plugin: seven skills for building React apps with Bestax on Bulma v1 (forms, layouts, theming, icons, CSS size, migration), plus the `bestax-mcp` server pinned to an exact version | `/plugin marketplace add allxsmith/bestax-skills` then `/plugin install bestax@bestax` |
 
 
 ### Skills & Frameworks
