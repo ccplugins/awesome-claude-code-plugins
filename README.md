@@ -109,6 +109,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [craftsman](./plugins/craftsman)
 - [rote](./plugins/rote)
 - [claude-session-tint](./plugins/claude-session-tint)
+- [reevesagents](https://github.com/mertkayacs/reevesagents) - Run and steer other AI coding CLIs (Codex, Kimi, Qwen, OpenCode, Hermes and more) from Claude Code, each in its own tmux window, through the reevesagents MCP server. Install with `/plugin marketplace add mertkayacs/reevesagents`, then `/plugin install reevesagents@reevesagents`. Also has a terminal UI, a local web UI and a CLI.
 
 ### AI & Speech
 - [speech-ai](https://github.com/fasuizu-br/speech-ai-examples) - Speech AI plugin with pronunciation assessment, text-to-speech, and speech-to-text. 8 MCP tools for language learning, accessibility, and voice applications.
