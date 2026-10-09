@@ -386,6 +386,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Knowledge Management
 - [bedrock](./plugins/bedrock)
+- [vault-hooks](https://github.com/siddhartpai/vault-hooks) — Claude Code hooks that write into an Obsidian vault: timestamped log of every edit in the daily note, session-start briefing with open tasks. Pure bash + jq.
 
 ## External Marketplaces
 
