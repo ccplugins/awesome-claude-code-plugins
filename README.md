@@ -394,6 +394,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [ahmedsakri/youtube-agent-pro](https://github.com/ahmedsakri/youtube-agent-pro) | youtube-agent-pro: 24 skills and 11 Python tools for YouTube creators. Idea scoring, scripts and hooks, title and thumbnail linting, retention and funnel analysis, Shorts, repurposing, and sponsorship rate cards. Nothing publishes on your behalf. | `claude plugin marketplace add ahmedsakri/youtube-agent-pro` then `claude plugin install youtube-agent-pro` |
 
 
 ### Skills & Frameworks
