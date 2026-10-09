@@ -394,6 +394,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [target1m/traderspy-mcp](https://github.com/target1m/traderspy-mcp) | TraderSpy: read-only crypto futures research. A hosted MCP server (AI signals, whale positions on four exchanges, 19 indicators, funding and open interest, a screener, backtests) and six skills; no order, transfer or withdrawal tools | `claude plugin marketplace add target1m/traderspy-mcp` then `claude plugin install traderspy@traderspy-mcp` |
 
 
 ### Skills & Frameworks
