@@ -77,6 +77,7 @@
 - [ai-meeting](./plugins/ai-meeting)
 - [craftsman](./plugins/craftsman)
 - [rote](./plugins/rote)
+- [skills-cajado](./plugins/skills-cajado)
 
 ### 自动化运维
 - [deployment-engineer](./plugins/deployment-engineer)
