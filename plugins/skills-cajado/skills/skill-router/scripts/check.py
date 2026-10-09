@@ -55,27 +55,21 @@ def description(skill_md):
     return fields.get("description", "")
 
 
-def _clean(name):
-    return re.sub(r"[^A-Za-z0-9]", "-", name)
-
-
-def decode(folder):
-    """Rebuild the path from a folder name in ~/.claude/projects, where
-    every character that is not a letter or digit became a hyphen."""
-    current, rest = Path("/"), folder.lstrip("-")
-    while rest:
+def project_of(folder):
+    """The project path behind a folder in ~/.claude/projects: the "cwd" that
+    Claude Code records in the folder's transcripts, or, with no transcript
+    yet, the folder name with hyphens read back as slashes."""
+    for path in sorted(folder.glob("*.jsonl"))[:3]:
         try:
-            children = sorted((f for f in current.iterdir() if f.is_dir()), key=lambda f: -len(f.name))
+            with open(path, encoding="utf-8", errors="replace") as fh:
+                for _, line in zip(range(30), fh):
+                    m = re.search(r'"cwd"\s*:\s*"([^"]+)"', line)
+                    if m:
+                        return Path(m.group(1))
         except OSError:
-            return None
-        for f in children:
-            target = _clean(f.name).lstrip("-") if current == Path("/") else _clean(f.name)
-            if rest == target or rest.startswith(target + "-"):
-                current, rest = f, rest[len(target) + 1:]
-                break
-        else:
-            return None
-    return current
+            continue
+    guess = Path("/" + folder.name.lstrip("-").replace("-", "/"))
+    return guess if guess.is_dir() else None
 
 
 def known_projects():
@@ -83,7 +77,7 @@ def known_projects():
     root = HOME / ".claude" / "projects"
     if not root.is_dir():
         return set()
-    return {p for p in (decode(d.name) for d in root.iterdir() if d.is_dir()) if p}
+    return {p for p in (project_of(d) for d in root.iterdir() if d.is_dir()) if p and p.is_dir()}
 
 
 def installed_skills():

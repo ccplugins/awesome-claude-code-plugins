@@ -14,8 +14,8 @@ wrong skill costs redoing the work.
 
 1. Find the row for the task. Trigger the skill under **Use** with the Skill
    tool.
-2. Don't trigger the skills under **Don't use**, even if their description
-   matches the request's words better. The reason is in the row.
+2. Skip the skills under **Don't use** for this task; the row says why they
+   lose this contest.
 3. Do what **After** says before showing the result.
 4. No row matches: use what the session's skill list offers, or no skill. Don't
    force a similar row.
