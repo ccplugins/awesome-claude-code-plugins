@@ -394,6 +394,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [voicehook-ai/voicehook-agent](https://github.com/voicehook-ai/voicehook-agent) | voicehook-join skill: lets Claude Code join a voicehook.ai voice call over plain HTTPS, so you can talk to running sessions and get spoken status | `claude plugin marketplace add voicehook-ai/voicehook-agent` then `claude plugin install voicehook-join@voicehook` |
 
 
 ### Skills & Frameworks
