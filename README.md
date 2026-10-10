@@ -383,6 +383,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Companion Apps & Tools
 - [Onepilot](https://onepilotapp.com) — iOS app to SSH into remote servers and run Claude Code from your phone
+- [rabe](https://github.com/lorenzh/rabe) - Shows subagents, Codex jobs, background shells, monitors, cron jobs and workflows in a band above the prompt and a /rabe pane with tokens, cost estimates, changed files and a timeline. Install: `/plugin install rabe --marketplace lorenzh/rabe`
 
 ### Knowledge Management
 - [bedrock](./plugins/bedrock)
