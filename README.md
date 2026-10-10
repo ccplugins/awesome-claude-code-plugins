@@ -348,6 +348,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Lifestyle & Entertainment
 - [ai-divination-skills](./plugins/ai-divination-skills)
+- [model-spinners](https://github.com/CharlesSS07/claude-model-spinners) - Replaces Claude Code's thinking spinner verbs with ones picked by model and effort level.
 
 ### Security, Compliance, & Legal
 - [ai-ethics-governance-specialist](./plugins/ai-ethics-governance-specialist)
