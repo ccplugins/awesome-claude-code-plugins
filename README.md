@@ -80,6 +80,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [now-next-methodology](https://github.com/soutone/now-next-methodology) - Two-file task management system for Claude Code/OpenCode: NOW.md tracks current work, NEXT.md queues future tasks with /next command
 - [problem-solver-specialist](./plugins/problem-solver-specialist)
 - [reviewer-author-loop](./plugins/reviewer-author-loop)
+- [smart-compact](https://github.com/hellosverre/smart-compact) - Offers a one-click compact after a commit, a green test run or a minute before the prompt cache expires, and gives Claude a `request_compact` tool to ask for one.
 - [studio-coach](./plugins/studio-coach)
 - [tree-ring-memory](https://github.com/TerminallyLazy/tree-ring-memory-claude-plugin)
 - [ultrathink](./plugins/ultrathink)
@@ -161,6 +162,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [double-check](./plugins/double-check)
 - [optimize](./plugins/optimize)
 - [performance-benchmarker](./plugins/performance-benchmarker)
+- [redgreen](https://github.com/hellosverre/redgreen) - A Tests pane for the vitest, jest, pytest, cargo, go, bun and deno runs Claude makes, with each failure's assertion and diff and the run history.
 - [refractor](./plugins/refractor)
 - [sdlc-wizard](https://github.com/BaseInfinity/agentic-ai-sdlc-wizard) - SDLC enforcement plugin with hooks for TDD gates, planning workflow, confidence levels, and cross-model review. Installs via `npx agentic-sdlc-wizard init`.
 - [test-file](./plugins/test-file)
@@ -209,6 +211,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [mobile-ux-optimizer](./plugins/mobile-ux-optimizer)
 - [nano-banana](https://github.com/Ibrahim-3d/nano-banana-claude-plugin) - Google Gemini image generation plugin. Text-to-image, text-guided image editing, style transfer, 4K output, search grounding, and multi-reference composition via `/genimage`. Uses `gemini-2.5-flash-image` (fast) and `gemini-3-pro-image-preview` (4K/search).
 - [onomastophes](./plugins/onomastophes)
+- [skins](https://github.com/hellosverre/claude-skins) - Restyles the Claude Code transcript in fifteen themes, with tool rows, diffs, tables and Mermaid charts drawn as cards.
 - [ui-designer](./plugins/ui-designer)
 - [ux](https://github.com/Laith0003/ux-skill)
 - [ux-researcher](./plugins/ux-researcher)
