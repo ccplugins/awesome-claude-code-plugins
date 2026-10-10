@@ -355,6 +355,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [compliance-automation-specialist](./plugins/compliance-automation-specialist)
 - [data-privacy-engineer](./plugins/data-privacy-engineer)
 - [enterprise-security-reviewer](./plugins/enterprise-security-reviewer)
+- [safe-vibe](https://github.com/nickspiz/safe-vibe) - Claude Code plugin with hooks that block destructive shell commands, such as DROP or TRUNCATE, rm -rf outside the project, force push to main and git reset --hard. A second hook runs a pull before push, and each block tells the agent what to do instead.
 - [security-sweep](https://github.com/Onome-AJ/security-sweep-plugin) - Comprehensive security scanner covering OWASP Top 10 (2025), Mobile Top 10 (2024), and LLM Top 10 (2025). Scans for hardcoded secrets, injection flaws, auth issues, misconfigurations, AI-specific vulnerabilities, mobile security, and data exposure.
 - [legal-advisor](./plugins/legal-advisor)
 - [legal-compliance-checker](./plugins/legal-compliance-checker)
