@@ -394,6 +394,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [Evyasys-Software-Solutions/EvyaGovernance](https://github.com/Evyasys-Software-Solutions/EvyaGovernance) | Open-source AI delivery pipeline: `/evyasys:Docs`, `/evyasys:Plan`, `/evyasys:Build`, `/evyasys:Qa` — plans epics/stories/tasks on Azure DevOps, Jira or GitHub, builds with verified lint/test checks, runs production-safe QA with an Excel test plan, generates project docs; human approval before any board or Teams/Slack action | `/plugin marketplace add https://github.com/Evyasys-Software-Solutions/EvyaGovernance.git` then `/plugin install evyasys@EvyaGovernance` |
 
 
 ### Skills & Frameworks
