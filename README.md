@@ -215,6 +215,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [visual-storyteller](./plugins/visual-storyteller)
 - [whimsy-injector](./plugins/whimsy-injector)
 - [claude-bionify](./plugins/claude-bionify)
+- [show-your-work](https://github.com/iamumeransari/claude-show-your-work) - Claude shows its finished work inline in the terminal: screenshots, Playwright recordings of it clicking through your app, and synced side-by-side before/after QA. Works in Ghostty and kitty.
 
 ### Development Engineering
 - [claude-sounds](https://github.com/culminationAI/claude-sounds)
