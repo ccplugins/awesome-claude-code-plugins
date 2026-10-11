@@ -394,6 +394,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [Bocskay-Botond/claude-code-mods](https://github.com/Bocskay-Botond/claude-code-mods) | Function-hook mods: pixel-buddy (animated pixel critter above the prompt), tristens-tools (model/effort picker, Clean View, Agent Dock), project-box, statusbar, plus a guide to writing your own mod | `claude plugin marketplace add Bocskay-Botond/claude-code-mods` then `claude plugin install pixel-buddy@claude-code-mods` |
 
 
 ### Skills & Frameworks
