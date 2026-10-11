@@ -217,6 +217,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [claude-bionify](./plugins/claude-bionify)
 
 ### Development Engineering
+- [archcore](https://github.com/archcore-ai/archcore) - Spec-driven development and context engineering for Claude Code, Cursor, Codex, and GitHub Copilot — backed by project context in Git.
 - [claude-sounds](https://github.com/culminationAI/claude-sounds)
 - [ai-engineer](./plugins/ai-engineer)
 - [claw-army/claude-node](https://github.com/claw-army/claude-node) - Python subprocess bridge for Claude Code CLI, giving Python code direct access to Claude Code native capabilities via stream-json.
