@@ -282,6 +282,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [verifying-phd-citations](./plugins/verifying-phd-citations)
 - [thermal-fluid-research-workflow](./plugins/thermal-fluid-research-workflow)
 - [trigger-tree](https://github.com/Hedde/trigger_tree)
+- [dory](https://github.com/tjqscott/dory) - Claude Code plugin for a linked Markdown project wiki, with decisions, findings, a taskboard, and structural lint hooks.
 
 ### Git Workflow
 - [analyze-issue](./plugins/analyze-issue)

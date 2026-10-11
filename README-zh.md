@@ -173,6 +173,7 @@
 - [verifying-phd-citations](./plugins/verifying-phd-citations)
 - [thermal-fluid-research-workflow](./plugins/thermal-fluid-research-workflow)
 - [trigger-tree](https://github.com/Hedde/trigger_tree)
+- [dory](https://github.com/tjqscott/dory) - Claude Code 插件，用相互链接的 Markdown 页面保存项目决策、研究结果和任务，并通过钩子检查 wiki 结构。
 
 ### Git工作流
 - [analyze-issue](./plugins/analyze-issue)
