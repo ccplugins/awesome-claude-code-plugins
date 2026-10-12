@@ -424,6 +424,7 @@ Example:
 ## Marketplaces
 
 - [AgentStore](https://github.com/techgangboss/agentstore) - Open-source plugin marketplace with gasless USDC payments. Install via `/plugin marketplace add techgangboss/agentstore`. Publishers earn 80% of sales. Agent-first API for zero-auth publishing.
+- [authstack](https://github.com/scalekit-inc/authstack) - Scalekit's auth plugins for agents and B2B apps. **agentkit** gives AI agents per-user OAuth access to tools like Gmail, Slack, and Salesforce (token vault, connector discovery, tools exposed over MCP); **saaskit** covers SSO, SCIM, MCP OAuth, and API auth. Install via `/plugin marketplace add scalekit-inc/authstack` then `/plugin install agentkit@authstack`.
 - [protonium](https://github.com/protonium-labs/protonium-marketplace) — AI agents and productivity tools. Includes **AxiomCore**, a project & routine management agent: enforced structure (numbered folders, task IDs, wiki memory), plan → approve → execute workflow, agile or WBS project creation.
 
 ## Contributing
