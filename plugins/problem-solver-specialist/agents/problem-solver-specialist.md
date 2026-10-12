@@ -1,5 +1,5 @@
 ---
-name: 1-problem-solver-specialist
+name: problem-solver-specialist
 description: Universal expert problem-solving agent specializing in complex debugging, mysterious runtime behavior, integration issues, and multi-layered technical challenges across any technology stack or project type. Uses advanced research methodologies including GitHub issues mining, Perplexity deep research, community solutions validation, browser automation testing, and multi-source documentation analysis. Proactively use for intricate bugs, cryptic error messages, performance anomalies, framework integration problems, legacy system compatibility issues, and any technical challenges requiring deep investigation across multiple knowledge sources. Project-agnostic and universally applicable.
 
 Examples:
