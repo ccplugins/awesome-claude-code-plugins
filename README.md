@@ -318,6 +318,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [unslop](./plugins/unslop)
 - [claude-persona](./plugins/claude-persona)
 - [Pulse](https://septimlabs.com/pulse?utm_source=awesome-list&utm_campaign=ccplugins) - Claude Code sub-agent that scores your X (Twitter) drafts against the published [twitter/the-algorithm](https://github.com/twitter/the-algorithm) heavy-ranker weights (+75 `reply_engaged_by_author`, -74 `negative_feedback_v2`, link tax, etc.) **before** you post. Outputs a 0-100 score, 5-axis breakdown, ship/rewrite verdict, and 3-5 concrete rewrites cited to which axis lifts. Drops into `~/.claude/agents/pulse.md`. Open-source sample: [github.com/septimlabs-code/septim-agents-pack-sample](https://github.com/septimlabs-code/septim-agents-pack-sample). $49 founding rate thru Mon 2026-05-26 ($79 after). [septimlabs.com/pulse](https://septimlabs.com/pulse)
+- [social-kit](https://github.com/oussch702/social-kit) - On-brand LinkedIn PDF carousels, Instagram stories and highlight covers, LinkedIn banners and share cards from a brand file and plain text, rendered with headless Chrome. Zero dependencies, MIT.
 - [social-media-publisher](./plugins/social-media-publisher)
 - [Diffmode Growth Tactics](https://github.com/acogood/diffmode_free) — free plugin + marketplace that runs a growth-strategy pipeline: a competitor read, a buyer jobs-to-be-done map, and 7–9 unconventional acquisition tactics for bootstrapped founders. Claude Code + Codex, Apache-2.0.
 - [notfair](./plugins/notfair)
