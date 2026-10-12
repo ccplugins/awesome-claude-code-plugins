@@ -158,6 +158,7 @@
 - [deapi-media](./plugins/deapi-media)
 - [slack-message-formatter](./plugins/slack-message-formatter)
 - [cc-hud](https://github.com/WaterTian/cc-hud) — 紧凑单行状态栏：模型名称、上下文用量进度条、活跃子代理、速率限制。零依赖。
+- [claude-code-zh](https://github.com/jiangnanquan/claude-code-zh) — 基于官方 function hooks 的 Claude Code 简体中文界面汉化 mod：静态词典、零 token、零网络、不改官方产物。安装：`claude plugin marketplace add jiangnanquan/claude-code-zh`。
 - [skill-auto-installer](./plugins/skill-auto-installer)
 
 ### 文档管理
