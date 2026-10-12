@@ -1823,6 +1823,39 @@
       ]
     },
     {
+      "name": "firecrawl",
+      "displayName": "Firecrawl",
+      "source": {
+        "source": "github",
+        "repo": "firecrawl/firecrawl-claude-plugin"
+      },
+      "description": "Web search, scraping and crawling with Firecrawl. Scrape pages, including JavaScript-rendered ones, into LLM-ready markdown, crawl and map sites, drive a live browser, and parse PDF and DOCX files.",
+      "version": "1.1.0",
+      "author": {
+        "name": "Firecrawl",
+        "url": "https://github.com/firecrawl"
+      },
+      "category": "Data Analytics",
+      "homepage": "https://www.firecrawl.dev/?utm_source=awesome-claude-code-plugins&utm_medium=integration",
+      "repository": "https://github.com/firecrawl/firecrawl-claude-plugin",
+      "keywords": [
+        "firecrawl",
+        "web-search",
+        "web-scraping",
+        "web-crawler",
+        "site-map",
+        "markdown",
+        "llm-ready-data",
+        "browser-automation",
+        "pdf-to-markdown"
+      ],
+      "tags": [
+        "web-search",
+        "web-scraping",
+        "data-extraction"
+      ]
+    },
+    {
       "name": "claude-ecom",
       "source": "./plugins/claude-ecom",
       "description": "Converts ecommerce order/sales CSV data into consultant-style business reviews with KPI decomposition, prioritized findings, and action plans.",

@@ -187,6 +187,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [dna-claude-analysis](./plugins/dna-claude-analysis)
 - [experiment-tracker](./plugins/experiment-tracker)
 - [feedback-synthesizer](./plugins/feedback-synthesizer)
+- [firecrawl](https://github.com/firecrawl/firecrawl-claude-plugin) - Web search, scraping and crawling for Claude Code. Scrape pages into clean LLM-ready markdown, crawl and map sites, and drive a live browser. Runs on the Firecrawl CLI; crawl and map need a Firecrawl account.
 - [newsmcp](https://github.com/pranciskus/newsmcp) — Real-time world news for AI agents — events clustered from hundreds of sources, classified by 12 topics and 30+ geographic regions, ranked by importance. Free, no API key required.
 - [trend-researcher](./plugins/trend-researcher)
 - [wellnizz](./plugins/wellnizz)

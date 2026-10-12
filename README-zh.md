@@ -124,6 +124,7 @@
 - [dna-claude-analysis](./plugins/dna-claude-analysis)
 - [experiment-tracker](./plugins/experiment-tracker)
 - [feedback-synthesizer](./plugins/feedback-synthesizer)
+- [firecrawl](https://github.com/firecrawl/firecrawl-claude-plugin)
 - [trend-researcher](./plugins/trend-researcher)
 - [x-twitter-scraper](./plugins/x-twitter-scraper)
 - [session-tax](./plugins/session-tax)
