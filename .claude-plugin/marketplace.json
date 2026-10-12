@@ -2316,6 +2316,30 @@
         "tokens",
         "audit"
       ]
+    },
+    {
+      "name": "cockney",
+      "displayName": "Cockney",
+      "source": {
+        "source": "github",
+        "repo": "Kadajett/cockney"
+      },
+      "description": "Cheeky Cockney coding mode: terse replies, the smallest correct change, plain English for anything risky.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Jeremy Stover",
+        "url": "https://github.com/Kadajett"
+      },
+      "category": "Workflow Orchestration",
+      "homepage": "https://github.com/Kadajett/cockney#readme",
+      "repository": "https://github.com/Kadajett/cockney",
+      "license": "MIT",
+      "keywords": [
+        "terse",
+        "minimal",
+        "token-saving",
+        "code-style"
+      ]
     }
   ]
 }
