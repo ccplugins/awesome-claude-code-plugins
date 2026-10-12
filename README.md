@@ -203,6 +203,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [bibigpt-skill](https://github.com/JimmyLv/bibigpt-skill) - AI-powered video, audio & podcast summarization
 
 ### Design UX
+- [Enhance](https://github.com/enhance-labs-builds/enhance-plugin) - Shared visual canvas for editable product design, prototype publishing and acting on feedback with Claude Code. [Website](https://enhancelabs.ai) · [Docs](https://app.enhancelabs.ai/docs).
 - [brand-guardian](./plugins/brand-guardian)
 - [joker](./plugins/joker)
 - [journey-mapper](./plugins/journey-mapper)
