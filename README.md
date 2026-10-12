@@ -81,6 +81,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [problem-solver-specialist](./plugins/problem-solver-specialist)
 - [reviewer-author-loop](./plugins/reviewer-author-loop)
 - [studio-coach](./plugins/studio-coach)
+- [subagent-tuner](https://github.com/Kruhlikau/subagent-tuner) - Claude Code mod that picks the model and effort of every subagent: a Manual/Auto band, a pick pane, and a saved default that overrides what the agent asked for.
 - [tree-ring-memory](https://github.com/TerminallyLazy/tree-ring-memory-claude-plugin)
 - [ultrathink](./plugins/ultrathink)
 - [pro-workflow](https://github.com/rohitg00/pro-workflow) - Self-correcting memory, 17 skills, 6 agents, 16 commands, 23 hooks. Context engineering, parallel worktrees, and agent teams.
