@@ -2316,6 +2316,24 @@
         "tokens",
         "audit"
       ]
+    },
+    {
+      "name": "skills-cajado",
+      "source": "./plugins/skills-cajado",
+      "description": "skill-trimmer audits installed skills, plugins and MCP connectors from real usage and proposes what to archive or trim; skill-router says which skill to use when several compete.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Gabriel Cajado",
+        "url": "https://github.com/gabosa-cajado"
+      },
+      "category": "Workflow Orchestration",
+      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/skills-cajado",
+      "keywords": [
+        "skills",
+        "audit",
+        "tokens",
+        "routing"
+      ]
     }
   ]
 }
