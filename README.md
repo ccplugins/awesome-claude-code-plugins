@@ -262,6 +262,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [skill-auto-installer](./plugins/skill-auto-installer)
 - [tldr](./plugins/tldr)
 - [Imagine](https://github.com/freestyler-arb/imagine-gemini-for-claude-codex) - Brings Google Gemini into Claude Code & Codex: delegate reasoning, independent code review, deep research, and automatic prompt-engineering. Runs on your Google AI Pro subscription, not your agent's tokens.
+- [shippilot](https://github.com/ufukyuksel-dev/shippilot) - External: Mobile app release and growth loop for iOS and Android. Fastlane beta releases, App Store / Google Play listing audit and localization with store-limit checks, Google / Meta / TikTok ads skills, and a measured growth loop; uploads and ad changes require explicit approval.
 
 ### Documentation
 - [analyze-codebase](./plugins/analyze-codebase)
