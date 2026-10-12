@@ -382,6 +382,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [thinking-tree](https://github.com/CoralLips/thinking-tree)
 
 ### Companion Apps & Tools
+- [hcom](https://github.com/aannoo/hcom) - CLI companion for messaging, observing, and spawning Claude Code and other coding agents across terminals, with a TUI dashboard.
 - [Onepilot](https://onepilotapp.com) — iOS app to SSH into remote servers and run Claude Code from your phone
 
 ### Knowledge Management
