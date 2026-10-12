@@ -383,6 +383,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Companion Apps & Tools
 - [Onepilot](https://onepilotapp.com) — iOS app to SSH into remote servers and run Claude Code from your phone
+- [Session Board](https://github.com/KiranPothana/session-board) - A Claude Code mod with a native macOS window that shows what every Claude Code session is doing (terminal, Remote Control and Claude Desktop): live summaries, what is waiting on you, popups and one-click jumps.
 
 ### Knowledge Management
 - [bedrock](./plugins/bedrock)
