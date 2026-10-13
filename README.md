@@ -394,6 +394,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [algonormative/claude-plugins](https://github.com/algonormative/claude-plugins) | Mods that draw in Claude Code's interface: `subagents-plus` (a live, expandable tree of every subagent with activity, tokens and transcripts, plus a timeline), `beads-band` (a beads task-queue band above the prompt), `canvas` (panes the model can draw, and media curation) | `claude plugin marketplace add algonormative/claude-plugins` then `claude plugin install subagents-plus@algonormative` |
 
 
 ### Skills & Frameworks
