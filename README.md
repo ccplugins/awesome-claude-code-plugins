@@ -67,6 +67,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Workflow Orchestration
 - [agent-triforce](https://github.com/ArtemioPadilla/agent-triforce) - 3-agent PM/Dev/QA system with WHO checklist methodology. Prometeo (PM), Forja (Dev), Centinela (QA) with 24 checklists, 6 skills, and auto-generated HTML dashboard.
+- [agents-team](https://github.com/fadymondy/agents-team) - Generates a team of sub-agents with an orchestrator, a /meet skill for multi-agent discussions and an agent quality evaluator.
 - [angelos-symbo](./plugins/angelos-symbo)
 - [artel](https://github.com/NicolasPrimeau/artel) - Infrastructure for AI teams: shared semantic memory, tasks, agent-to-agent messages, and session handoffs across machines and LLM providers.
 - **[claude-brain](https://github.com/toroleapinc/claude-brain)** — Sync and evolve your Claude Code brain across machines. Auto-syncs memory, skills, agents, rules, and CLAUDE.md via Git with LLM-powered semantic merge.
@@ -177,6 +178,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [bullpen](./plugins/bullpen)
 
 ### Communication & Integrations
+- [claude-notifications](https://github.com/fadymondy/claude-notifications) - Multi-channel notifications driven by Claude Code hook events: Slack, Discord, email, WhatsApp, desktop with voice, web push and webhooks.
 - [whatsapp-claude-plugin](https://github.com/Rich627/whatsapp-claude-plugin) — WhatsApp channel plugin for Claude Code. Connects as a linked device via Baileys v7 with bidirectional messaging, full media support, voice transcription, permission relay, and access control.
 
 ### Data Analytics
@@ -330,6 +332,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [discuss](./plugins/discuss)
 - [explore](./plugins/explore)
 - [fractal](https://github.com/rmolines/fractal) - Recursive project management plugin. Decomposes any goal into verifiable predicates, works on the riskiest unknown first. Features `/fractal:run` (idempotent state machine), `/fractal:init`, `/fractal:patch`, dry run mode, and incremental decomposition with re-evaluation.
+- [gh-pms](https://github.com/fadymondy/gh-pms) - GitHub Issues as a project-management system for Claude Code: plans, features and bugs with an evidence-gated lifecycle and PR-driven review.
 - [plan](./plugins/plan)
 - [planning-prd-agent](./plugins/planning-prd-agent)
 - [plannotator](https://github.com/backnotprop/plannotator) - Interactive plan review UI with visual annotation (install via `/plugin marketplace add backnotprop/plannotator`)
