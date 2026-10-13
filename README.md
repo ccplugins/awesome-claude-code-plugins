@@ -394,6 +394,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [orvi2014/hatswap](https://github.com/orvi2014/hatswap) | hatswap plugin: continue a conversation on another signed-in Claude account (`/hatswap:switch`), hand a session off with a brief to another account or Codex (`/hatswap:handoff`), each account's usage (`/hatswap:accounts`). Needs the hatswap CLI | `claude plugin marketplace add orvi2014/hatswap` then `claude plugin install hatswap@hatswap` |
 
 
 ### Skills & Frameworks
