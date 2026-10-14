@@ -66,6 +66,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [security-guidance](./plugins/security-guidance)
 
 ### Workflow Orchestration
+- [Agents-Core](https://github.com/IEZhu/Agents) - Specialist personas, reusable Markdown workflows, task-scoped subagent contracts, and repository memory through a local MCP server. Includes a Claude Code plugin launcher; requires a separate local server installation on macOS or Linux.
 - [agent-triforce](https://github.com/ArtemioPadilla/agent-triforce) - 3-agent PM/Dev/QA system with WHO checklist methodology. Prometeo (PM), Forja (Dev), Centinela (QA) with 24 checklists, 6 skills, and auto-generated HTML dashboard.
 - [angelos-symbo](./plugins/angelos-symbo)
 - [artel](https://github.com/NicolasPrimeau/artel) - Infrastructure for AI teams: shared semantic memory, tasks, agent-to-agent messages, and session handoffs across machines and LLM providers.
