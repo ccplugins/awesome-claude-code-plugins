@@ -175,6 +175,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [adamsreview](./plugins/adamsreview)
 - [slicewise](./plugins/slicewise)
 - [bullpen](./plugins/bullpen)
+- [ratchet](https://github.com/krishansubudhi/ratchet) - A code-size budget for your repo that only goes down.
 
 ### Communication & Integrations
 - [whatsapp-claude-plugin](https://github.com/Rich627/whatsapp-claude-plugin) — WhatsApp channel plugin for Claude Code. Connects as a linked device via Baileys v7 with bidirectional messaging, full media support, voice transcription, permission relay, and access control.
