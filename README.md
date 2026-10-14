@@ -324,6 +324,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [social-vision](./plugins/social-vision)
 - [x-skills](https://github.com/sergebulaev/x-skills)
 - [yaohe](./plugins/yaohe)
+- [Ranla](https://github.com/Super-Send/ranla-claude-plugin) - AI growth engineer for software businesses: ships SEO pages, gets you into AI answers, replies on Reddit and sends lifecycle email, through Ranla's hosted MCP plus skills. Install: `claude plugin marketplace add Super-Send/ranla-claude-plugin` then `claude plugin install ranla@ranla`
 
 ### Project & Product Management
 - [bleu](https://github.com/Nirvaan05/Bleu-plugin)
