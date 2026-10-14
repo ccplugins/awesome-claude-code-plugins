@@ -366,7 +366,8 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [web-security-guard](./plugins/web-security-guard)
 - [supply-chain-gate](./plugins/supply-chain-gate)
 - [agent-safety-preflight](./plugins/agent-safety-preflight)
-
+- [cloakroom](https://github.com/shanjeevrajendran/cloakroom) - Masks secrets and personal data in tool input and output before the model sees them, and restores the real values when Claude writes files or runs commands. Runs locally.
+  
 ### MCP Servers
 - [AccInt](https://github.com/maxbaluev/accreted-intelligence) — Local-first Work Model MCP server and Claude Code/Codex/OpenCode plugin. Tools: `acc_retrieve`, `acc_act`; official registry `io.github.maxbaluev/accint`.
 - [lazymac/mcp](https://github.com/lazymac2x/lazymac-mcp) — Unified MCP server exposing 42+ developer tools (qr, ip-geo, ai-cost, llm-router, k-privacy, korean-nlp) backed by Cloudflare Workers. `npx -y @lazymac/mcp`
