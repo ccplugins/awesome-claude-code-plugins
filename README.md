@@ -324,6 +324,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [social-vision](./plugins/social-vision)
 - [x-skills](https://github.com/sergebulaev/x-skills)
 - [yaohe](./plugins/yaohe)
+- [mentionsapi-mcp](https://github.com/mukul-dutt/mentionsapi-mcp) - AI brand-visibility MCP server: mentions, rank, sentiment and cited URLs across ChatGPT, Claude, Gemini, Perplexity, Google AI Overviews and Bing Copilot, for GEO/AEO tracking
 
 ### Project & Product Management
 - [bleu](https://github.com/Nirvaan05/Bleu-plugin)
