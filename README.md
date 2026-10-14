@@ -369,6 +369,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### MCP Servers
 - [AccInt](https://github.com/maxbaluev/accreted-intelligence) — Local-first Work Model MCP server and Claude Code/Codex/OpenCode plugin. Tools: `acc_retrieve`, `acc_act`; official registry `io.github.maxbaluev/accint`.
+- [hexvero](https://github.com/maximilianfeix/hexvero) — Plugin with an MCP server and an investigation skill for a static, execution-free first look at Electron apps and binaries: IPC channels with senders and handlers, preload `contextBridge` members, window `webPreferences` with file and line; imports, symbols and hardening for ELF, Mach-O and PE. `/plugin marketplace add maximilianfeix/hexvero` then `/plugin install hexvero@hexvero`; official registry `io.github.maximilianfeix/hexvero`.
 - [lazymac/mcp](https://github.com/lazymac2x/lazymac-mcp) — Unified MCP server exposing 42+ developer tools (qr, ip-geo, ai-cost, llm-router, k-privacy, korean-nlp) backed by Cloudflare Workers. `npx -y @lazymac/mcp`
 - [lazymac/k-mcp](https://github.com/lazymac2x/lazymac-k-mcp) — Korean wedge MCP — PIPA compliance, KRW + BOK rates, 사업자등록번호 lookup, address geocoding, NLP. `npx -y @lazymac/k-mcp`
 - [Lobex](https://github.com/chrisgu/lobex-mcp) - Agent-to-agent marketplace. Remote MCP `https://lobex.app/mcp` + stdio client. Site: https://lobex.app
