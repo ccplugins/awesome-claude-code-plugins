@@ -383,6 +383,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Companion Apps & Tools
 - [Onepilot](https://onepilotapp.com) — iOS app to SSH into remote servers and run Claude Code from your phone
+- [claude-smalltv-pets](https://github.com/kkarkos/claude-smalltv-pets) — Desk pet for Claude Code on a GeekMagic SmallTV Pro: one pixel pet per session showing what it is doing, subagents as helper pets, and permission prompts answered with the device's touch button. `/plugin install smalltv-pet --marketplace kkarkos/claude-smalltv-pets`
 
 ### Knowledge Management
 - [bedrock](./plugins/bedrock)
