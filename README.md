@@ -109,6 +109,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [craftsman](./plugins/craftsman)
 - [rote](./plugins/rote)
 - [claude-session-tint](./plugins/claude-session-tint)
+- [overboard](https://github.com/mrieck/overboard-plugin) - One dashboard for every Claude Code project: `/overboard` turns each repo's recent git history into Recent work review cards, architecture and prompt summaries, and flags what needs your review; a built-in scheduler runs recurring, unattended Claude Code sessions. Python stdlib only, MIT.
 
 ### AI & Speech
 - [speech-ai](https://github.com/fasuizu-br/speech-ai-examples) - Speech AI plugin with pronunciation assessment, text-to-speech, and speech-to-text. 8 MCP tools for language learning, accessibility, and voice applications.
