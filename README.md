@@ -386,6 +386,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Knowledge Management
 - [bedrock](./plugins/bedrock)
+- [CortexDB](https://github.com/liliang-cn/cortexdb) — Memory across Claude Code sessions: recalls relevant memories on each prompt and saves what you tell it to keep. AI memory and a knowledge graph in one SQLite file: vector + FTS5 hybrid search, RAG, scoped agent memory, RDF/SPARQL/SHACL and Cypher, 80+ tools. Pure Go, one binary with no Python or Node to set up, and it works without an embedding model. Install: `/plugin marketplace add liliang-cn/cortexdb` then `/plugin install cortexdb@cortexdb`
 
 ## External Marketplaces
 
