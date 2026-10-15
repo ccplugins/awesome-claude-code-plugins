@@ -324,6 +324,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [social-vision](./plugins/social-vision)
 - [x-skills](https://github.com/sergebulaev/x-skills)
 - [yaohe](./plugins/yaohe)
+- [socialcue](https://github.com/mrieck/socialcue-claude-plugin) - Finds Reddit, X, Hacker News and Indie Hackers threads where people ask for something like your product, ranks them, and drafts replies in your voice for you to review and post yourself (never auto-posts). Runs on your Claude plan; local dashboard. Free plugin (source-available), optional Pro $19/mo.
 
 ### Project & Product Management
 - [bleu](https://github.com/Nirvaan05/Bleu-plugin)
