@@ -112,6 +112,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### AI & Speech
 - [speech-ai](https://github.com/fasuizu-br/speech-ai-examples) - Speech AI plugin with pronunciation assessment, text-to-speech, and speech-to-text. 8 MCP tools for language learning, accessibility, and voice applications.
+- [Heard](https://github.com/heardlabs/heard-mcp) - Claude Code plugin and hosted MCP server from [Heard (heard.dev)](https://heard.dev/?utm_source=awesome-claude-code-plugins&utm_medium=social&utm_campaign=directory-listing), the voice layer for coding agents. Agents send progress updates with `heard_report` and the Heard macOS app reads them aloud; `heard_inbox` picks up replies. `claude plugin marketplace add heardlabs/heard-mcp`
 
 ### Automation DevOps
 - [PUIUX Pilot](https://github.com/PUIUX-Cloud/puiux-pilot) - Auto-configures Claude Code hooks, MCPs, and skills for any project. Scans 95+ project types, selects from 28+ hooks, scores quality (0-100, A-F). `npm i -g puiux-pilot`
