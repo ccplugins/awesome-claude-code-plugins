@@ -393,6 +393,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
+| [AgentaOS/agentaos](https://github.com/AgentaOS/agentaos) | agentaos plugin: add payments, subscriptions and invoices to your app as a merchant of record (VAT and sales tax handled), through the AgentaOS MCP server with browser sign-in | `claude plugin marketplace add AgentaOS/agentaos` then `claude plugin install agentaos@agentaos` |
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
 
 
