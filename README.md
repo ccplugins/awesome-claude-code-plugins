@@ -324,6 +324,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [social-vision](./plugins/social-vision)
 - [x-skills](https://github.com/sergebulaev/x-skills)
 - [yaohe](./plugins/yaohe)
+- [Revnu](https://github.com/revnu-app/revnu-plugin) - Plugin and skills for finding buyers, cold email, LinkedIn outreach, ads, and SEO/GEO pages through the Revnu growth agent. Connects to the remote MCP server `https://revnu.com/api/mcp`.
 
 ### Project & Product Management
 - [bleu](https://github.com/Nirvaan05/Bleu-plugin)
