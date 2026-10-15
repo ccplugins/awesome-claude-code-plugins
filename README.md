@@ -172,6 +172,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [sonmat](https://github.com/jun0-ds/sonmat) — Verification discipline plugin with six reactive axes (guard, inspect, witness, punch, devil's advocate, scribe) for AI-human collaboration.
 - [slm-mcp-hub](https://github.com/qualixar/slm-mcp-hub) - External: Universal MCP gateway federating 430+ tools from 37 servers through one endpoint. 75% RAM reduction.
 - [tailtest](https://github.com/avansaber/tailtest) - Automatically generates and runs tests for every file Claude Code creates or modifies. PostToolUse hook detects changes, generates test scenarios, runs them, and surfaces failures. 8 languages (Python, TypeScript, JavaScript, Go, Ruby, PHP, Java, Rust). Zero config, zero commands.
+- [vibe-testing](https://github.com/AishwaryShrivastav/vibe-testing) - Claude Code plugin with code-aware Playwright browser tests, route and form discovery, and regression comparisons between runs. Includes MCP tools and a `release-qa` skill.
 - [adamsreview](./plugins/adamsreview)
 - [slicewise](./plugins/slicewise)
 - [bullpen](./plugins/bullpen)
