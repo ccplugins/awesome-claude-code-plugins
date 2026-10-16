@@ -198,6 +198,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [ai-dev-jobs-search](./plugins/ai-dev-jobs-search)
 - [nhs-mcp-search](./plugins/nhs-mcp-search)
 - [session-tax](./plugins/session-tax)
+- [social-media-api-skills](https://github.com/nikhonit/social-media-api-skills) — Claude Code skills for public social media data: TikTok, Instagram, LinkedIn, YouTube, X, Reddit and 30+ platforms via one API key. Zero-dependency Node.js, MIT-0.
 
 ### Audio & Media
 - [bibigpt-skill](https://github.com/JimmyLv/bibigpt-skill) - AI-powered video, audio & podcast summarization
