@@ -394,6 +394,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [homka122/diffback](https://github.com/homka122/diffback) | diffback plugin: before Claude commits, it opens its changes in VS Code as one multi-file diff; comments on selected code go back to the running session, which fixes the code and shows the diff again. Requires the diffback VS Code extension (`code --install-extension homka122.diffback`) | `claude plugin marketplace add homka122/diffback` then `claude plugin install diffback@diffback` |
 
 
 ### Skills & Frameworks
