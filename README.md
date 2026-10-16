@@ -144,6 +144,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [stratarts](./plugins/stratarts)
 - [technical-sales-engineer](./plugins/technical-sales-engineer)
 - [founder-toolkit](https://github.com/mooster/founder-toolkit) - 4 skills for startup founders: investor update writer (YC/a16z format), pitch deck reviewer (10-dimension VC scoring), SaaS metrics dashboard with benchmarks, and outreach lead scorer (ICP-first, tested on 300+ companies). Built by Mu Chen, CEO of Canopy Cloud ($120B+ AUM).
+- [RestoSignals](https://github.com/paperandbeyond23-gif/restosignals-mcp) - Pre-opening restaurant leads for sales teams: scored US venues 1-6 months before they open, with owner contact (skill + hosted MCP).
 - [overloop-cli](./plugins/overloop-cli)
 - [signals-cli](./plugins/signals-cli)
 
