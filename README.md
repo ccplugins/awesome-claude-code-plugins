@@ -130,6 +130,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [claude-snapshot](https://github.com/adhenawer/claude-snapshot) - Portable `.tar.gz` snapshots of your Claude Code setup (settings, hooks, plugins, MCPs) with diff-before-apply and `.bak` rollback for migration and backup across machines.
 - [notify](https://github.com/ApurvBazari/claude-plugins)
 - [retro-daily](./plugins/retro-daily)
+- [prodready](https://github.com/human-stuff/prodready) - Moves an app from localhost to production: Docker pack, clean-room verify, migration and backup checks, tested deploy manual, deploy, live checks.
 
 ### Business Sales
 - [Drevon](https://drevon.dev) - Mac desktop workspace for GTM engineers. Run parallel AI agents powered by Claude Code, Codex, or Copilot to build target lists, score accounts, and pull prospect intel.
