@@ -109,6 +109,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [craftsman](./plugins/craftsman)
 - [rote](./plugins/rote)
 - [claude-session-tint](./plugins/claude-session-tint)
+- [ai-dev-tools](https://github.com/koydas/ai-dev-tools) - Issue-to-patch pipeline: issue router, typed builders (a bug fix must ship a reproduction test), optional adversarial challenger, and a reviewer that runs the repo's tests, lint and type-check before `DONE`. Resumable from checkpoints; never commits or pushes.
 
 ### AI & Speech
 - [speech-ai](https://github.com/fasuizu-br/speech-ai-examples) - Speech AI plugin with pronunciation assessment, text-to-speech, and speech-to-text. 8 MCP tools for language learning, accessibility, and voice applications.
