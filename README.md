@@ -348,6 +348,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Lifestyle & Entertainment
 - [ai-divination-skills](./plugins/ai-divination-skills)
+- [mathlete](https://github.com/janakirampuli/mathlete) - Mental math questions above the prompt while Claude works, with a skill tree, adaptive difficulty, XP, levels, achievements, and a mental math tip after every miss.
 
 ### Security, Compliance, & Legal
 - [ai-ethics-governance-specialist](./plugins/ai-ethics-governance-specialist)
