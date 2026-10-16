@@ -394,6 +394,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [wonjangcloud9/wj-mods](https://github.com/wonjangcloud9/wj-mods) | Terminal UI and notification mods: cross-session work progress pane (`/progress`) with subagents and recent activity, usage band, long-turn notifications, session nicknames. UI text is in Korean | `claude plugin marketplace add wonjangcloud9/wj-mods` then `claude plugin install work-progress@wj-mods` |
 
 
 ### Skills & Frameworks
