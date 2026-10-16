@@ -201,6 +201,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Audio & Media
 - [bibigpt-skill](https://github.com/JimmyLv/bibigpt-skill) - AI-powered video, audio & podcast summarization
+- [claudemy](https://github.com/assafkip/claudemy) - Turns any topic into a short audio course: researches the web, then writes 2-minute two-host lessons with cited sources, a card per lesson and one small practice each. A checker refuses lessons that cite pages the research never read.
 
 ### Design UX
 - [brand-guardian](./plugins/brand-guardian)
