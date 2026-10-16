@@ -112,6 +112,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### AI & Speech
 - [speech-ai](https://github.com/fasuizu-br/speech-ai-examples) - Speech AI plugin with pronunciation assessment, text-to-speech, and speech-to-text. 8 MCP tools for language learning, accessibility, and voice applications.
+- [earshot](https://github.com/absep98/earshot) - Speaks up only when Claude asks you something or gets stuck, saying just the question or failure, and names which session needs you when several are open. Fully offline, with no network code. Designed against auditory-overload feedback from blind and low-vision developers.
 
 ### Automation DevOps
 - [PUIUX Pilot](https://github.com/PUIUX-Cloud/puiux-pilot) - Auto-configures Claude Code hooks, MCPs, and skills for any project. Scans 95+ project types, selects from 28+ hooks, scores quality (0-100, A-F). `npm i -g puiux-pilot`
@@ -335,6 +336,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [plannotator](https://github.com/backnotprop/plannotator) - Interactive plan review UI with visual annotation (install via `/plugin marketplace add backnotprop/plannotator`)
 - [prd-specialist](./plugins/prd-specialist)
 - [product-manager-skills](https://github.com/Digidai/product-manager-skills) - Senior PM agent with 30+ frameworks, 32 SaaS metrics with exact formulas, 12 templates, and anti-pattern detection. Pure Markdown, MIT-0 license.
+- [waypoint](https://github.com/absep98/waypoint) - Keeps one goal front of mind for the current session. `/waypoint:goal-set` stores it, and a hook mentions it before each prompt until you clear it with `/waypoint:goal-done`. Per-session, capped and expiring, with no shell. A light companion to the built-in `/goal`.
 - [project-shipper](./plugins/project-shipper)
 - [sprint-prioritizer](./plugins/sprint-prioritizer)
 - [studio-producer](./plugins/studio-producer)
