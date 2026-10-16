@@ -262,6 +262,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [skill-auto-installer](./plugins/skill-auto-installer)
 - [tldr](./plugins/tldr)
 - [Imagine](https://github.com/freestyler-arb/imagine-gemini-for-claude-codex) - Brings Google Gemini into Claude Code & Codex: delegate reasoning, independent code review, deep research, and automatic prompt-engineering. Runs on your Google AI Pro subscription, not your agent's tokens.
+- [sticky-skills](https://github.com/Jakobbarnwell/sticky-skills) - Restores Claude Code's list of available skills after compaction, so Claude can still find skills it hasn't used yet.
 
 ### Documentation
 - [analyze-codebase](./plugins/analyze-codebase)
