@@ -223,6 +223,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [api-integration-specialist](./plugins/api-integration-specialist)
 - [backend-architect](./plugins/backend-architect)
 - [blueprint](https://github.com/JuliusBrussee/blueprint)
+- [chisle](https://github.com/JayPokale/Chisle) - Cuts token use: terse answers, smallest-code-that-works rules, and a PostToolUse hook that trims oversized tool output.
 - [code-architect](./plugins/code-architect)
 - [context-memory](./plugins/context-memory)
 - [desktop-app-dev](./plugins/desktop-app-dev)
