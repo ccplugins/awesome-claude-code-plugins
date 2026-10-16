@@ -394,6 +394,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [nrzz/claude-code-toolkit](https://github.com/nrzz/claude-code-toolkit) | Fourteen dependency-free plugins for Claude Code that add few or no tokens to a session: guardrails (PreToolUse safety presets), spendcap (token budgets), nudge (pings), session-tidy, permission-doctor, hook-bench, settings-doctor, automode-doctor, mcp-check, md-doctor, replayer, chat-ferry, and the glowline themes with the glowbar HUD. An end-to-end test installs all fourteen from GitHub on Windows, macOS and Linux | `claude plugin marketplace add nrzz/claude-code-toolkit` then `claude plugin install <name>@claude-code-toolkit` |
 
 
 ### Skills & Frameworks
