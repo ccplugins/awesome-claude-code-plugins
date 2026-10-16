@@ -109,6 +109,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [craftsman](./plugins/craftsman)
 - [rote](./plugins/rote)
 - [claude-session-tint](./plugins/claude-session-tint)
+- [past.dev](https://github.com/pastdotdev/claude-code-plugin) - Long-term memory for Claude Code. Hooks send each session to past.dev as memory and recall the relevant history before every prompt, so each new session starts already briefed. Needs a past.dev API key.
 
 ### AI & Speech
 - [speech-ai](https://github.com/fasuizu-br/speech-ai-examples) - Speech AI plugin with pronunciation assessment, text-to-speech, and speech-to-text. 8 MCP tools for language learning, accessibility, and voice applications.
