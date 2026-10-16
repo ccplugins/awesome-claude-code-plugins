@@ -109,6 +109,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [craftsman](./plugins/craftsman)
 - [rote](./plugins/rote)
 - [claude-session-tint](./plugins/claude-session-tint)
+- [agent-station](https://github.com/dlportel/agent-station) - Lets Claude Code agents in different repos work together: each agent gets a map of the other agents, their repos and what each one does, proposes work to them through a tool and gets their answers back in its own session, with every request waiting for your approval on a shared claude.ai page.
 
 ### AI & Speech
 - [speech-ai](https://github.com/fasuizu-br/speech-ai-examples) - Speech AI plugin with pronunciation assessment, text-to-speech, and speech-to-text. 8 MCP tools for language learning, accessibility, and voice applications.
