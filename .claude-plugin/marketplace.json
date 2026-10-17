@@ -2316,6 +2316,38 @@
         "tokens",
         "audit"
       ]
+    },
+    {
+      "name": "lead-finder",
+      "displayName": "Lead Finder",
+      "source": {
+        "source": "github",
+        "repo": "MachGTM/lead-finder"
+      },
+      "description": "Find B2B companies that fit your ideal customer and are buying now, with a source link and an exact quote for every claim. Unknowns stay unknown. A deterministic Python script does the scoring, and hiring is checked on 7 public job-board APIs. No API keys.",
+      "version": "1.0.0",
+      "author": {
+        "name": "MachGTM",
+        "url": "https://machgtm.com"
+      },
+      "category": "Business Sales",
+      "homepage": "https://github.com/MachGTM/lead-finder",
+      "repository": "https://github.com/MachGTM/lead-finder",
+      "license": "MIT",
+      "keywords": [
+        "sales",
+        "leads",
+        "prospecting",
+        "b2b",
+        "lead-scoring",
+        "gtm"
+      ],
+      "tags": [
+        "sales",
+        "lead-generation",
+        "prospecting",
+        "research"
+      ]
     }
   ]
 }
