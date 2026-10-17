@@ -383,6 +383,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Companion Apps & Tools
 - [Onepilot](https://onepilotapp.com) — iOS app to SSH into remote servers and run Claude Code from your phone
+- [lidnight](https://github.com/whereisdw/lidnight-claude-plugin) — Keep your Mac awake while Claude Code works (lid closed, even on battery) and let it sleep when it's done. `/lidnight:awake`, `/lidnight:status` and `/lidnight:sleep` drive the Lidnight menu bar app, with caffeinate/pmset fallbacks
 
 ### Knowledge Management
 - [bedrock](./plugins/bedrock)
