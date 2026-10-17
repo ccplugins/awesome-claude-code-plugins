@@ -298,6 +298,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [pr-issue-resolve](./plugins/pr-issue-resolve)
 - [pr-review](./plugins/pr-review)
 - [update-branch-name](./plugins/update-branch-name)
+- [agentvcr](https://github.com/tojacob03/agentvcr) - Turn the current session into a replay you can watch, or a share link via a secret gist: `/plugin marketplace add tojacob03/agentvcr`, then `/agentvcr:replay` or `/agentvcr:replay share`. A GitHub Action from the same repo comments replays on PRs that agents open in CI.
 
 ### Marketing Growth
 - [app-store-optimizer](./plugins/app-store-optimizer)
