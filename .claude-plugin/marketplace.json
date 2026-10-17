@@ -2316,6 +2316,30 @@
         "tokens",
         "audit"
       ]
+    },
+    {
+      "name": "howitworks",
+      "source": {
+        "source": "github",
+        "repo": "hariFED/howitworks"
+      },
+      "description": "Explain a mechanism or software concept as an interactive engineering drawing: a sectioned, dimensioned sheet with a live simulation and an optional 3D cutaway.",
+      "version": "0.1.0",
+      "author": {
+        "name": "hariFED",
+        "url": "https://github.com/hariFED"
+      },
+      "category": "Documentation",
+      "homepage": "https://harifed.github.io/howitworks/",
+      "repository": "https://github.com/hariFED/howitworks",
+      "license": "MIT",
+      "keywords": [
+        "engineering-drawing",
+        "cutaway",
+        "technical-drawing",
+        "education",
+        "simulation"
+      ]
     }
   ]
 }

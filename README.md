@@ -282,6 +282,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [verifying-phd-citations](./plugins/verifying-phd-citations)
 - [thermal-fluid-research-workflow](./plugins/thermal-fluid-research-workflow)
 - [trigger-tree](https://github.com/Hedde/trigger_tree)
+- [howitworks](https://github.com/hariFED/howitworks) - Explain a mechanism or software concept as a sectioned engineering drawing with a live simulation and optional 3D cutaway
 
 ### Git Workflow
 - [analyze-issue](./plugins/analyze-issue)
