@@ -394,6 +394,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [kvothesson/ar-plugins](https://github.com/kvothesson/ar-plugins) | 15 plugins for life in Argentina (Spanish): live exchange rates and INDEC inflation (`/arca`), government procedures (`/tramite`), salaries (`/laburo`), consumer law (`/derecho`), health (`/salud`), monotributo e-invoicing (`/facturar`) | `/plugin marketplace add kvothesson/ar-plugins` then `/plugin install arca@ar-plugins` |
 
 
 ### Skills & Frameworks
