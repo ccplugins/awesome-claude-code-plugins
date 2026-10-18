@@ -386,6 +386,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Knowledge Management
 - [bedrock](./plugins/bedrock)
+- [rubi](https://github.com/YURIBEDRAN/rubi) - Project knowledge graph and context manager: early compaction with handoffs, a code map ranked with PageRank, a temporal knowledge graph in plain markdown and hybrid search (BM25 + Personalized PageRank) that recalls relevant knowledge on every prompt.
 
 ## External Marketplaces
 
