@@ -201,6 +201,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Audio & Media
 - [bibigpt-skill](https://github.com/JimmyLv/bibigpt-skill) - AI-powered video, audio & podcast summarization
+- [cutscene](https://github.com/farzam-azhar7777/cutscene-claude-plugin) - Turns what Claude Code just built into a narrated demo video recorded in your own signed-in Chrome. You approve the steps first; no code or diffs are sent.
 
 ### Design UX
 - [brand-guardian](./plugins/brand-guardian)
