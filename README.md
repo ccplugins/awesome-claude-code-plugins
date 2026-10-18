@@ -324,6 +324,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [social-vision](./plugins/social-vision)
 - [x-skills](https://github.com/sergebulaev/x-skills)
 - [yaohe](./plugins/yaohe)
+- [juzpost](https://github.com/juzpost/juzpost-claude-plugin) - Draft, schedule and review social media posts on X, LinkedIn, Instagram, TikTok, YouTube, Threads, Bluesky and more through the JuzPost MCP server.
 
 ### Project & Product Management
 - [bleu](https://github.com/Nirvaan05/Bleu-plugin)
