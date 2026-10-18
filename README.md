@@ -67,6 +67,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Workflow Orchestration
 - [agent-triforce](https://github.com/ArtemioPadilla/agent-triforce) - 3-agent PM/Dev/QA system with WHO checklist methodology. Prometeo (PM), Forja (Dev), Centinela (QA) with 24 checklists, 6 skills, and auto-generated HTML dashboard.
+- [ai-native-sdlc](https://github.com/ghiaog123/ai-native-sdlc) — Six-stage SDLC loop (Plan → Design → Build → Test → Deploy → Maintain) where every stage commits one Markdown artifact and stops at a human gate. Hooks block source writes without an approved plan and keep a low-risk change off sensitive paths. Runs on Claude Code and Codex.
 - [angelos-symbo](./plugins/angelos-symbo)
 - [artel](https://github.com/NicolasPrimeau/artel) - Infrastructure for AI teams: shared semantic memory, tasks, agent-to-agent messages, and session handoffs across machines and LLM providers.
 - **[claude-brain](https://github.com/toroleapinc/claude-brain)** — Sync and evolve your Claude Code brain across machines. Auto-syncs memory, skills, agents, rules, and CLAUDE.md via Git with LLM-powered semantic merge.
