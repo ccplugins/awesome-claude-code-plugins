@@ -262,6 +262,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [skill-auto-installer](./plugins/skill-auto-installer)
 - [tldr](./plugins/tldr)
 - [Imagine](https://github.com/freestyler-arb/imagine-gemini-for-claude-codex) - Brings Google Gemini into Claude Code & Codex: delegate reasoning, independent code review, deep research, and automatic prompt-engineering. Runs on your Google AI Pro subscription, not your agent's tokens.
+- [oops-agent](https://github.com/theturuk/oops-agent) - Undo changes Claude makes to your files, including those from Bash and PowerShell commands such as `rm -rf`, which `/rewind` does not track. Snapshots files before and after every edit and shell command, with a local visual timeline to diff and restore a whole step or a single file. Zero dependencies, 100% local.
 
 ### Documentation
 - [analyze-codebase](./plugins/analyze-codebase)

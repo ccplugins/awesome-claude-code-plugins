@@ -159,6 +159,7 @@
 - [slack-message-formatter](./plugins/slack-message-formatter)
 - [cc-hud](https://github.com/WaterTian/cc-hud) — 紧凑单行状态栏：模型名称、上下文用量进度条、活跃子代理、速率限制。零依赖。
 - [skill-auto-installer](./plugins/skill-auto-installer)
+- [oops-agent](https://github.com/theturuk/oops-agent) — 撤销 Claude 对文件所做的更改，包括 `/rewind` 无法追踪的 Bash 和 PowerShell 命令（如 `rm -rf`）。在每次编辑和 Shell 命令前后为文件创建快照，并提供本地可视化时间线，可查看差异并恢复整个步骤或单个文件。零依赖，100% 本地运行。
 
 ### 文档管理
 - [analyze-codebase](./plugins/analyze-codebase)
