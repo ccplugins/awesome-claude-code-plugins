@@ -109,6 +109,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [craftsman](./plugins/craftsman)
 - [rote](./plugins/rote)
 - [claude-session-tint](./plugins/claude-session-tint)
+- [remakecraft](https://github.com/remakecraft/remakecraft) - Claude Code plugin that rewrites an app from its observable behaviour in a hook-enforced clean room: spec from screenshots and docs, tests written first with ~30% sealed from the builders, parallel builds in worktrees, and a parity score that includes the sealed tests.
 
 ### AI & Speech
 - [speech-ai](https://github.com/fasuizu-br/speech-ai-examples) - Speech AI plugin with pronunciation assessment, text-to-speech, and speech-to-text. 8 MCP tools for language learning, accessibility, and voice applications.
