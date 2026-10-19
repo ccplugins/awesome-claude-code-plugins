@@ -109,6 +109,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [craftsman](./plugins/craftsman)
 - [rote](./plugins/rote)
 - [claude-session-tint](./plugins/claude-session-tint)
+- [agent-hub](https://github.com/Sma1lboy/agent-hub) - One panel for every Claude Code session on your machine: what each agent needs from you (do / answer / choose tasks, answered from any session) and a stream of what each one got done.
 
 ### AI & Speech
 - [speech-ai](https://github.com/fasuizu-br/speech-ai-examples) - Speech AI plugin with pronunciation assessment, text-to-speech, and speech-to-text. 8 MCP tools for language learning, accessibility, and voice applications.
