@@ -345,6 +345,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [agent-decision-record](./plugins/agent-decision-record)
 - [product-org-os](./plugins/product-org-os)
 - [governor](https://github.com/0xhimanshu/governor)
+- [rillsoft-project](https://github.com/rillsoft/rillsoft-project-mcp) - Connects Claude Code to Rillsoft Project 10 (Windows) for multi-project resource and capacity planning: 118 MCP tools for projects, tasks, resources, roles, capacity views and variance reports. Local server at `127.0.0.1:3928`; install via `/plugin marketplace add rillsoft/rillsoft-project-mcp`.
 
 ### Lifestyle & Entertainment
 - [ai-divination-skills](./plugins/ai-divination-skills)
