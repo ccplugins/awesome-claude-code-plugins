@@ -394,6 +394,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [hypotizeai/hypotize-plugin](https://github.com/hypotizeai/hypotize-plugin) | Hypotize, the agent-native Growth OS: idea backlog, experiment pipeline and learning library for growth teams. 3 growth skills plus a remote MCP server (OAuth 2.1) where the agent scores ideas with ICE/PIE/RICE and closes every test with its result and learning | `claude plugin marketplace add hypotizeai/hypotize-plugin` then `claude plugin install hypotize@hypotize` |
 
 
 ### Skills & Frameworks
