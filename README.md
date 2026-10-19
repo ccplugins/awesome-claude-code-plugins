@@ -209,6 +209,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [mobile-ux-optimizer](./plugins/mobile-ux-optimizer)
 - [nano-banana](https://github.com/Ibrahim-3d/nano-banana-claude-plugin) - Google Gemini image generation plugin. Text-to-image, text-guided image editing, style transfer, 4K output, search grounding, and multi-reference composition via `/genimage`. Uses `gemini-2.5-flash-image` (fast) and `gemini-3-pro-image-preview` (4K/search).
 - [onomastophes](./plugins/onomastophes)
+- [sneak-peek](https://trysneakpeek.com) - Mac app where Claude Code or Codex builds several versions of a screen from the repo's own components and styles, outside the repo, and runs them side by side on a canvas. Plugin: `/plugin marketplace add michael-jordan-coder/dev-playground-releases`.
 - [ui-designer](./plugins/ui-designer)
 - [ux](https://github.com/Laith0003/ux-skill)
 - [ux-researcher](./plugins/ux-researcher)
