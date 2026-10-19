@@ -109,6 +109,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [craftsman](./plugins/craftsman)
 - [rote](./plugins/rote)
 - [claude-session-tint](./plugins/claude-session-tint)
+- [claude-workflow-skills](https://github.com/DecodedXR/claude-workflow-skills) - autopilot ships the next task needing no human decision behind an adversarial verifier and a green-CI auto-merge gate; wargame plans a task so a cheaper model can execute it blind; plus delegate, afk and prepare-for-next-session.
 
 ### AI & Speech
 - [speech-ai](https://github.com/fasuizu-br/speech-ai-examples) - Speech AI plugin with pronunciation assessment, text-to-speech, and speech-to-text. 8 MCP tools for language learning, accessibility, and voice applications.
