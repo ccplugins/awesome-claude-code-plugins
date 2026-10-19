@@ -201,6 +201,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Audio & Media
 - [bibigpt-skill](https://github.com/JimmyLv/bibigpt-skill) - AI-powered video, audio & podcast summarization
+- [sfxmint](https://github.com/flreey/sfxmint-mcp) - Sound effects for apps and games: an MCP server and skill that let Claude Code find a CC0 sound by event, set or description and download WAV/MP3 into the project. No API key for the library; sounds are AI-generated or procedurally synthesized. Install via `/plugin install sfxmint --marketplace flreey/sfxmint-mcp`.
 
 ### Design UX
 - [brand-guardian](./plugins/brand-guardian)
