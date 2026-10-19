@@ -109,6 +109,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [craftsman](./plugins/craftsman)
 - [rote](./plugins/rote)
 - [claude-session-tint](./plugins/claude-session-tint)
+- [quorus](https://github.com/Quorus-dev/Quorus) - Puts Claude Code in one local room with Codex, Gemini CLI and opencode over MCP: room chat, DMs, file locks, shared state and approvals. @-mention an agent to fix something in its own git worktree; another reviews it. `claude plugin marketplace add Quorus-dev/Quorus` then `claude plugin install quorus@quorus`. MIT.
 
 ### AI & Speech
 - [speech-ai](https://github.com/fasuizu-br/speech-ai-examples) - Speech AI plugin with pronunciation assessment, text-to-speech, and speech-to-text. 8 MCP tools for language learning, accessibility, and voice applications.
