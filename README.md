@@ -336,6 +336,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [prd-specialist](./plugins/prd-specialist)
 - [product-manager-skills](https://github.com/Digidai/product-manager-skills) - Senior PM agent with 30+ frameworks, 32 SaaS metrics with exact formulas, 12 templates, and anti-pattern detection. Pure Markdown, MIT-0 license.
 - [project-shipper](./plugins/project-shipper)
+- [rixflow](https://github.com/hnikoloski/rixflow) - Async team workflow for Claude Code: teammates share one git repo (the "hub") for task checkpoints, handovers, inbox messages and notes, with read-only Asana and Jira tickets. (install via `/plugin marketplace add hnikoloski/rixflow`, then `/plugin install rixflow-ui@rixflow`)
 - [sprint-prioritizer](./plugins/sprint-prioritizer)
 - [studio-producer](./plugins/studio-producer)
 - [tool-evaluator](./plugins/tool-evaluator)
