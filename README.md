@@ -394,6 +394,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [IgorVaryvoda/image-optimization-skill](https://github.com/IgorVaryvoda/image-optimization-skill) | sirv-media-skills plugin: 8 skills for image and video optimization (Core Web Vitals, srcset, AVIF/WebP, HLS) plus Sirv image CDN workflows | `claude plugin marketplace add IgorVaryvoda/image-optimization-skill` then `claude plugin install sirv-media-skills@imageguide` |
 
 
 ### Skills & Frameworks
