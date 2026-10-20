@@ -109,6 +109,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [craftsman](./plugins/craftsman)
 - [rote](./plugins/rote)
 - [claude-session-tint](./plugins/claude-session-tint)
+- [phaseproof](https://github.com/speedsharmaai/phaseproof) - Phase-gated workflow from docs to design, build and ship. A hook keeps code closed until the owner approves a phase, Opus reviewer agents check the docs, screens and diff, and the gate re-runs your checks before a phase closes.
 
 ### AI & Speech
 - [speech-ai](https://github.com/fasuizu-br/speech-ai-examples) - Speech AI plugin with pronunciation assessment, text-to-speech, and speech-to-text. 8 MCP tools for language learning, accessibility, and voice applications.
