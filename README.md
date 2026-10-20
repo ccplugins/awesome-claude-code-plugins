@@ -362,6 +362,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [privacy-mask](https://github.com/fullstackcrew-alpha/privacy-mask) - Detect and redact PII, API keys, and secrets in screenshots via OCR + regex before images reach Claude. 47 detection rules, Tesseract/RapidOCR support, UserPromptSubmit hook integration. 100% offline.
 - [skillfortify](https://github.com/qualixar/skillfortify) - External: Formal verification scanner for AI agent skills (including Claude Code skills + MCP servers). 100% precision on 540-skill benchmark. ASBOM generation. arXiv:2603.00195.
 - [shellgate](./plugins/shellgate)
+- [odile](https://github.com/tolga-boop/odile-claude-plugin) - Put Odile Gate in front of an API: a key and call allow-list per app or agent, rate limits, a loop breaker that stops an agent repeating the same call, and per-user rules (JWT via JWKS) so signed-in users reach only their own rows. Bundles the Odile MCP server for phone lines and messages to businesses.
 - [huiyu-safe-ai](https://github.com/huiyu9144/huiyu-safe-ai) - Lightweight AI security guard for install/download commands. Blocks 68+ malicious packages, verifies identity, scans code in <1s. Built from a real supply chain attack.
 - [web-security-guard](./plugins/web-security-guard)
 - [supply-chain-gate](./plugins/supply-chain-gate)
