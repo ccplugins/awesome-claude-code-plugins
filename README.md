@@ -394,6 +394,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [0xrome/agentshandbook](https://github.com/0xrome/agentshandbook) | agents-handbook plugin: MCP server and skill for sourced playbooks of real jobs done with AI agents, each with a prompt, steps, human checkpoints and known failures | `claude plugin marketplace add 0xrome/agentshandbook` then `claude plugin install agents-handbook@agentshandbook` |
 
 
 ### Skills & Frameworks
