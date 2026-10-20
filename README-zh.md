@@ -77,6 +77,7 @@
 - [ai-meeting](./plugins/ai-meeting)
 - [craftsman](./plugins/craftsman)
 - [rote](./plugins/rote)
+- [standup](https://github.com/Sma1lboy/claude-standup) - 把本机所有 Claude Code session 汇到一个面板：agent 派给你的待办（去做、回答、选择），在哪个 session 里处理都行，回答送回派任务的那个 session；另有一栏按项目列出做完的事。
 
 ### 自动化运维
 - [deployment-engineer](./plugins/deployment-engineer)
