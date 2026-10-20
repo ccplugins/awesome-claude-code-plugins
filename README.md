@@ -394,6 +394,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [HMarzban/nextcost](https://github.com/HMarzban/nextcost) | nextcost: a live band above the prompt with the prompt-cache countdown, what a cold cache will cost to re-warm, session cost, context and 5h/7d limits | `claude plugin install nextcost --marketplace HMarzban/nextcost` |
 
 
 ### Skills & Frameworks
