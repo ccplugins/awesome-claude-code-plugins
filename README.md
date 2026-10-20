@@ -394,6 +394,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [codealong/codealong](https://github.com/codealong/codealong) | codealong plugin for the Codealong desktop app, which it needs: the `codealong` command and a skill to list, start and message sessions on any account or agent and work through Codealong todos, `/codealong:orchestrate` and `/codealong:visualize`, and hooks that let you answer Claude Code's permission prompts and questions from Codealong. Apache-2.0 | `claude plugin marketplace add codealong/codealong` then `claude plugin install codealong@codealong` |
 
 
 ### Skills & Frameworks
