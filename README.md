@@ -146,6 +146,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [founder-toolkit](https://github.com/mooster/founder-toolkit) - 4 skills for startup founders: investor update writer (YC/a16z format), pitch deck reviewer (10-dimension VC scoring), SaaS metrics dashboard with benchmarks, and outreach lead scorer (ICP-first, tested on 300+ companies). Built by Mu Chen, CEO of Canopy Cloud ($120B+ AUM).
 - [overloop-cli](./plugins/overloop-cli)
 - [signals-cli](./plugins/signals-cli)
+- [car-rental-skills](https://github.com/sergebulaev/car-rental-skills) - 8 skills for exotic, luxury and Turo car rental operators: price a car against live published daily rates from independent US rental companies (free read-only MCP, no API key), scan competitors, plan the business, and draft rental agreements, damage inspections, listings, social posts and review replies.
 
 ### Code Quality Testing
 - [autoresearch](./plugins/autoresearch)
