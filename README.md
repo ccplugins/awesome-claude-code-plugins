@@ -366,6 +366,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [web-security-guard](./plugins/web-security-guard)
 - [supply-chain-gate](./plugins/supply-chain-gate)
 - [agent-safety-preflight](./plugins/agent-safety-preflight)
+- [rules-guard](https://github.com/AbdAlrahmanAlQaroot/claude-code-mods/tree/main/rules-guard) - Holds Claude Code tool calls that push to a protected branch, force push, or hit production kubectl/AWS, and tells Claude which rule it broke and how to fix the call. Optional rules for AI attribution, PR description format, code comments and test files in commits. No network calls.
 
 ### MCP Servers
 - [AccInt](https://github.com/maxbaluev/accreted-intelligence) — Local-first Work Model MCP server and Claude Code/Codex/OpenCode plugin. Tools: `acc_retrieve`, `acc_act`; official registry `io.github.maxbaluev/accint`.
@@ -394,6 +395,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [AbdAlrahmanAlQaroot/claude-code-mods](https://github.com/AbdAlrahmanAlQaroot/claude-code-mods) | Six Claude Code mods: rules-guard (guard rails for git pushes and prod cluster calls), pr-radar (your open PRs in the status line), standup, usage-pacer, repo-context, stay-awake | `claude plugin marketplace add AbdAlrahmanAlQaroot/claude-code-mods` then `claude plugin install rules-guard@claude-code-mods` |
 
 
 ### Skills & Frameworks
