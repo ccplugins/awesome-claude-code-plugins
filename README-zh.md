@@ -228,6 +228,7 @@
 
 
 ### MCP 服务器
+- [Mubboo Flights](https://github.com/Mubboo-Ai/mubboo-flights-mcp) — 查找机场、核对行程参数，生成可直接打开的机票比价链接，减少手动设置。免费托管 MCP，无需 API key；不返回实时票价或办理预订。连接插件采用 MIT 许可，托管后端保持私有。安装：`/plugin install mubboo-flights --marketplace Mubboo-Ai/mubboo-flights-mcp`。
 - [WhichModel](https://github.com/Which-Model/whichmodel-mcp) — 面向 Claude Code 的 AI 模型定价与推荐 MCP 服务器，帮助为每项任务选择最合适、性价比最高的模型。数据经交叉验证，每 4 小时更新一次。MCP 端点：`https://whichmodel.dev/mcp`
 
 ## 插件市场
