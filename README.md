@@ -348,6 +348,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Lifestyle & Entertainment
 - [ai-divination-skills](./plugins/ai-divination-skills)
+- [Party Planning](https://github.com/tarunbatta/awesome-claude-skills/tree/add-hostpartyplay-skill/party-planning) - Party-planning skill with party games and their rules, food & drink quantity calculators, trivia, and printables. Powered by HostPartyPlay.
 
 ### Security, Compliance, & Legal
 - [ai-ethics-governance-specialist](./plugins/ai-ethics-governance-specialist)
