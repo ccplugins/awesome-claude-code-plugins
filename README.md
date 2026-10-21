@@ -211,6 +211,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [onomastophes](./plugins/onomastophes)
 - [ui-designer](./plugins/ui-designer)
 - [ux](https://github.com/Laith0003/ux-skill)
+- [ux-audit-agent](https://github.com/andyur/ux-audit-agent) - Walks a task in your live product in your own browser, logged in, and writes one HTML UX report with numbered markers on DOM-measured screenshots and a Keep / Cut / Change / Next summary.
 - [ux-researcher](./plugins/ux-researcher)
 - [visual-storyteller](./plugins/visual-storyteller)
 - [whimsy-injector](./plugins/whimsy-injector)
