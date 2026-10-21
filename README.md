@@ -201,6 +201,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Audio & Media
 - [bibigpt-skill](https://github.com/JimmyLv/bibigpt-skill) - AI-powered video, audio & podcast summarization
+- [PageToVid](https://github.com/PageToVid/claude-plugins) - Turn any web page into a narrated MP4: films the real site, writes the script, adds an AI voice-over and captions in 13 languages. Remote MCP + `/video`, `/animate`, `/edit`, `/howto`, `/show`. Install: `/plugin marketplace add PageToVid/claude-plugins`
 
 ### Design UX
 - [brand-guardian](./plugins/brand-guardian)
