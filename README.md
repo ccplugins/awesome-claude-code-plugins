@@ -109,6 +109,8 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [craftsman](./plugins/craftsman)
 - [rote](./plugins/rote)
 - [claude-session-tint](./plugins/claude-session-tint)
+- [feedback-loop](https://github.com/luchasarie/feedback-loop) - Turns frustration with an agent into an evidence-backed, approval-gated improvement plan instead of silent self-edits.
+- [claude-clarify](https://github.com/luchasarie/claude-clarify) - End a prompt with `--clarify` and a clearer rewrite lands back in your prompt box, unsent, for you to edit and send.
 
 ### AI & Speech
 - [speech-ai](https://github.com/fasuizu-br/speech-ai-examples) - Speech AI plugin with pronunciation assessment, text-to-speech, and speech-to-text. 8 MCP tools for language learning, accessibility, and voice applications.
