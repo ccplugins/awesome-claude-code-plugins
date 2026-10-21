@@ -425,6 +425,7 @@ Example:
 
 - [AgentStore](https://github.com/techgangboss/agentstore) - Open-source plugin marketplace with gasless USDC payments. Install via `/plugin marketplace add techgangboss/agentstore`. Publishers earn 80% of sales. Agent-first API for zero-auth publishing.
 - [protonium](https://github.com/protonium-labs/protonium-marketplace) — AI agents and productivity tools. Includes **AxiomCore**, a project & routine management agent: enforced structure (numbered folders, task IDs, wiki memory), plan → approve → execute workflow, agile or WBS project creation.
+- [calyx-ai](https://github.com/skibuff22/agent-ops-kit-lite) - Agent Ops Kit Lite: D.O.E. (Directive / Orchestration / Execution) framework for Claude Code. `/aok-init` scaffolds CLAUDE.md, directives and a secrets linter; `/aok-directive` writes a new directive. MIT. Install via `/plugin marketplace add skibuff22/agent-ops-kit-lite`.
 
 ## Contributing
 
