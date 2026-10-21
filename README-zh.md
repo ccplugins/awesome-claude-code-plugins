@@ -186,6 +186,7 @@
 - [fix-pr](./plugins/fix-pr)
 - [github-issue-fix](./plugins/github-issue-fix)
 - [husky](./plugins/husky)
+- [max-skills](https://github.com/vasinl124/max-skills)
 - [pr-issue-resolve](./plugins/pr-issue-resolve)
 - [pr-review](./plugins/pr-review)
 - [update-branch-name](./plugins/update-branch-name)

@@ -295,6 +295,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [fix-pr](./plugins/fix-pr)
 - [github-issue-fix](./plugins/github-issue-fix)
 - [husky](./plugins/husky)
+- [max-skills](https://github.com/vasinl124/max-skills) - PR skills: before/after screenshots of every changed screen and an end-to-end demo video, posted into the PR description, plus a Slack-ready PR summary (install via `/plugin marketplace add vasinl124/max-skills`)
 - [pr-issue-resolve](./plugins/pr-issue-resolve)
 - [pr-review](./plugins/pr-review)
 - [update-branch-name](./plugins/update-branch-name)
