@@ -2316,6 +2316,60 @@
         "tokens",
         "audit"
       ]
+    },
+    {
+      "name": "run-suggested",
+      "source": "./plugins/run-suggested",
+      "description": "Turns the shell commands Claude suggests into numbered shortcuts above the prompt: one key runs a command with live output and a stop key, and your Bash permission rules decide what needs a second press.",
+      "version": "0.1.0",
+      "author": {
+        "name": "hematteo",
+        "url": "https://github.com/hematteo"
+      },
+      "category": "Development Engineering",
+      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/run-suggested",
+      "keywords": [
+        "shell",
+        "commands",
+        "shortcuts",
+        "terminal"
+      ]
+    },
+    {
+      "name": "run-watcher",
+      "source": "./plugins/run-watcher",
+      "description": "Watches training logs, local or over ssh, in a pane with a loss sparkline, and alerts when the loss goes NaN or spikes, a run crashes, or its output stalls; reads Slurm job states.",
+      "version": "0.3.0",
+      "author": {
+        "name": "hematteo",
+        "url": "https://github.com/hematteo"
+      },
+      "category": "Data Analytics",
+      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/run-watcher",
+      "keywords": [
+        "machine-learning",
+        "training",
+        "logs",
+        "slurm"
+      ]
+    },
+    {
+      "name": "anki-band",
+      "source": "./plugins/anki-band",
+      "description": "Review your Anki cards above the prompt while Claude works: one key shows the answer, one grades it, straight into your collection through AnkiConnect.",
+      "version": "0.3.0",
+      "author": {
+        "name": "hematteo",
+        "url": "https://github.com/hematteo"
+      },
+      "category": "Knowledge Management",
+      "homepage": "https://github.com/ccplugins/awesome-claude-code-plugins/tree/main/plugins/anki-band",
+      "keywords": [
+        "anki",
+        "flashcards",
+        "spaced-repetition",
+        "learning"
+      ]
     }
   ]
 }

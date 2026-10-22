@@ -1,0 +1,43 @@
+{
+  "name": "run-watcher",
+  "version": "0.3.0",
+  "description": "Watches training logs, local or over ssh, in a pane: loss sparkline, and alerts when the loss goes NaN or spikes, a run crashes, or its output stalls",
+  "author": { "name": "hematteo", "url": "https://github.com/hematteo" },
+  "homepage": "https://github.com/hematteo/run-watcher",
+  "repository": "https://github.com/hematteo/run-watcher",
+  "license": "MIT",
+  "keywords": ["machine-learning", "training", "logs", "monitoring", "slurm"],
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "pollSeconds": {
+      "type": "number",
+      "title": "Local poll interval",
+      "description": "Seconds between reads of local logs (at least 5)",
+      "default": 15
+    },
+    "remotePollSeconds": {
+      "type": "number",
+      "title": "Remote poll interval",
+      "description": "Seconds between reads of logs on other machines over ssh (at least 15)",
+      "default": 60
+    },
+    "stallMinutes": {
+      "type": "number",
+      "title": "Stall alert",
+      "description": "Minutes without new output before a running log counts as stalled; 0 turns stall alerts off",
+      "default": 10
+    },
+    "notify": {
+      "type": "boolean",
+      "title": "Notifications",
+      "description": "Also send each alert through Claude Code's notification channel (your terminal's notification or bell), besides the toast",
+      "default": true
+    },
+    "reuseSsh": {
+      "type": "boolean",
+      "title": "Reuse ssh connections",
+      "description": "Keep one ssh connection per host open for two minutes (ControlMaster, socket under ~/.ssh) so repeated reads reuse it; turn off for hosts where multiplexing misbehaves",
+      "default": true
+    }
+  }
+}

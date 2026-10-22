@@ -188,6 +188,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [experiment-tracker](./plugins/experiment-tracker)
 - [feedback-synthesizer](./plugins/feedback-synthesizer)
 - [newsmcp](https://github.com/pranciskus/newsmcp) — Real-time world news for AI agents — events clustered from hundreds of sources, classified by 12 topics and 30+ geographic regions, ranked by importance. Free, no API key required.
+- [run-watcher](./plugins/run-watcher) - Watches training logs, local or over ssh, with a loss sparkline and alerts on NaN, loss spikes, crashes and stalls; reads Slurm job states.
 - [trend-researcher](./plugins/trend-researcher)
 - [wellnizz](./plugins/wellnizz)
 - [xpoz-brand-intelligence](./plugins/xpoz-brand-intelligence) - Brand sentiment, competitive analysis, and influencer discovery using real-time Twitter/X data
@@ -236,6 +237,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [python-expert](./plugins/python-expert)
 - [rapid-prototyper](./plugins/rapid-prototyper)
 - [react-native-dev](./plugins/react-native-dev)
+- [run-suggested](./plugins/run-suggested) - Numbered shortcuts above the prompt for the shell commands Claude suggests: one key runs a command with live output, and your permission rules decide what needs a second press.
 - [silicon-friendly](./plugins/silicon-friendly)
 - [vision-specialist](./plugins/vision-specialist)
 - [web-dev](./plugins/web-dev)
@@ -385,6 +387,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [Onepilot](https://onepilotapp.com) — iOS app to SSH into remote servers and run Claude Code from your phone
 
 ### Knowledge Management
+- [anki-band](./plugins/anki-band) - Review your Anki cards above the prompt while Claude works, graded straight into your collection through AnkiConnect.
 - [bedrock](./plugins/bedrock)
 
 ## External Marketplaces

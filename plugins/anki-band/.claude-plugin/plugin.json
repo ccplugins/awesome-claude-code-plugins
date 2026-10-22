@@ -1,0 +1,55 @@
+{
+  "name": "anki-band",
+  "version": "0.3.0",
+  "description": "Review your Anki cards in a band above the prompt while Claude works: one key shows the answer, one grades it, and the due count sits in the status line",
+  "author": { "name": "hematteo", "url": "https://github.com/hematteo" },
+  "homepage": "https://github.com/hematteo/anki-band",
+  "repository": "https://github.com/hematteo/anki-band",
+  "license": "MIT",
+  "keywords": ["anki", "flashcards", "spaced-repetition", "learning"],
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "query": {
+      "type": "string",
+      "title": "Cards to review",
+      "description": "An Anki search, such as deck:\"Japanese\" or deck:ML tag:core; empty reviews the whole collection",
+      "default": ""
+    },
+    "newPerDay": {
+      "type": "number",
+      "title": "New cards a day",
+      "description": "How many new cards to introduce a day; -1 uses the deck's own limit when the search names one deck, else 20",
+      "default": -1
+    },
+    "heading": {
+      "type": "string",
+      "title": "Heading template",
+      "description": "The dim line above the question, in Anki's template syntax ({{Field}}, {{#Field}}…{{/Field}}); empty shows the deck",
+      "default": ""
+    },
+    "front": {
+      "type": "string",
+      "title": "Question template",
+      "description": "The question, in Anki's template syntax; empty uses the card as Anki renders it",
+      "default": ""
+    },
+    "back": {
+      "type": "string",
+      "title": "Answer template",
+      "description": "The answer, in Anki's template syntax, one row per line; empty uses the card's answer side as Anki renders it",
+      "default": ""
+    },
+    "showWhenIdle": {
+      "type": "boolean",
+      "title": "Show when idle",
+      "description": "Keep the band up while Claude is waiting for you, not only while it works",
+      "default": false
+    },
+    "syncAfter": {
+      "type": "number",
+      "title": "Sync with AnkiWeb after",
+      "description": "Sync Anki with AnkiWeb after this many grades, and as the session ends when any are not synced yet; 0 never syncs. Anki must be logged in to AnkiWeb",
+      "default": 0
+    }
+  }
+}

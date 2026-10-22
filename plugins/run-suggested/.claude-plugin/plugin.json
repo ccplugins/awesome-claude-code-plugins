@@ -1,0 +1,38 @@
+{
+  "name": "run-suggested",
+  "version": "0.1.0",
+  "description": "Turns the shell commands Claude suggests into numbered shortcuts above the prompt: one key runs a command, with live output, a stop key, and your permission rules deciding what needs a second press",
+  "author": { "name": "hematteo", "url": "https://github.com/hematteo" },
+  "homepage": "https://github.com/hematteo/run-suggested",
+  "repository": "https://github.com/hematteo/run-suggested",
+  "license": "MIT",
+  "keywords": ["shell", "commands", "shortcuts", "terminal", "productivity"],
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "icon": {
+      "type": "string",
+      "title": "Icon",
+      "description": "Shown before the name in the frame's top border: text (›_), nerd-font (needs a Nerd Font) or none",
+      "options": ["text", "nerd-font", "none"],
+      "default": "text"
+    },
+    "indent": {
+      "type": "number",
+      "title": "Left indent",
+      "description": "Columns before the frame; 2 lines it up with Claude Code's status line",
+      "default": 2
+    },
+    "frameColor": {
+      "type": "string",
+      "title": "Frame colour",
+      "description": "A Claude Code theme colour name (subtle, inactive, ...) or a hex value like #4f5663",
+      "default": "subtle"
+    },
+    "detailColor": {
+      "type": "string",
+      "title": "Detail colour",
+      "description": "Colour of hints, counts and output lines: a theme colour name or a hex value",
+      "default": "inactive"
+    }
+  }
+}

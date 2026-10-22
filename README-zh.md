@@ -124,6 +124,7 @@
 - [dna-claude-analysis](./plugins/dna-claude-analysis)
 - [experiment-tracker](./plugins/experiment-tracker)
 - [feedback-synthesizer](./plugins/feedback-synthesizer)
+- [run-watcher](./plugins/run-watcher) - 在面板中监控本地或经 ssh 的训练日志，显示 loss 走势，并在 loss 变为 NaN 或突增、训练崩溃或输出停滞时提醒；可读取 Slurm 作业状态。
 - [trend-researcher](./plugins/trend-researcher)
 - [x-twitter-scraper](./plugins/x-twitter-scraper)
 - [session-tax](./plugins/session-tax)
@@ -152,6 +153,7 @@
 - [python-expert](./plugins/python-expert)
 - [rapid-prototyper](./plugins/rapid-prototyper)
 - [react-native-dev](./plugins/react-native-dev)
+- [run-suggested](./plugins/run-suggested) - 把 Claude 建议的 shell 命令变成输入框上方的编号快捷键：按一个键即可运行并实时查看输出，由你的权限规则决定哪些命令需要按两次确认。
 - [vision-specialist](./plugins/vision-specialist)
 - [web-dev](./plugins/web-dev)
 - [lightcms](./plugins/lightcms)
