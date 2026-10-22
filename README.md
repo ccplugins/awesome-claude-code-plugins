@@ -109,6 +109,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [craftsman](./plugins/craftsman)
 - [rote](./plugins/rote)
 - [claude-session-tint](./plugins/claude-session-tint)
+- [ripple](https://github.com/PBJ-2/clauderipple/tree/main/packages/mod) - Picks the reasoning effort for every prompt and the worker for every delegated task, can keep the prompt cache warm, and shows where each request went. Part of ClaudeRipple, a local router that lets Claude Code and the Claude desktop app's Code tab use GPT (via a ChatGPT subscription), DeepSeek, Gemini, GLM, Kimi and other OpenAI-compatible models while Claude requests stay on the user's own Claude subscription.
 
 ### AI & Speech
 - [speech-ai](https://github.com/fasuizu-br/speech-ai-examples) - Speech AI plugin with pronunciation assessment, text-to-speech, and speech-to-text. 8 MCP tools for language learning, accessibility, and voice applications.

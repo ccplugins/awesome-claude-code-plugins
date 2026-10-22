@@ -77,6 +77,7 @@
 - [ai-meeting](./plugins/ai-meeting)
 - [craftsman](./plugins/craftsman)
 - [rote](./plugins/rote)
+- [ripple](https://github.com/PBJ-2/clauderipple/tree/main/packages/mod) — 为每个提示挑选推理强度，为每个委派的子任务挑选执行模型，可保持提示缓存常热，并显示每个请求被路由到了哪里。属于 ClaudeRipple，一个本地路由器，让 Claude Code 与 Claude 桌面应用的 Code 标签页使用 GPT（通过 ChatGPT 订阅）、DeepSeek、Gemini、GLM、Kimi 等 OpenAI 兼容模型，而 Claude 请求仍走用户自己的 Claude 订阅。
 
 ### 自动化运维
 - [deployment-engineer](./plugins/deployment-engineer)
