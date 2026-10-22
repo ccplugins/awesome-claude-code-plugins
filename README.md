@@ -424,6 +424,7 @@ Example:
 ## Marketplaces
 
 - [AgentStore](https://github.com/techgangboss/agentstore) - Open-source plugin marketplace with gasless USDC payments. Install via `/plugin marketplace add techgangboss/agentstore`. Publishers earn 80% of sales. Agent-first API for zero-auth publishing.
+- [opsibyte-skills](https://github.com/MelMayssonOwen/agent-skills) - Plugin marketplace of SKILL.md skills for social scheduling, SEO blog drafts, product launches, listing-copy checks, and music practice. Install via `/plugin marketplace add MelMayssonOwen/agent-skills`.
 - [protonium](https://github.com/protonium-labs/protonium-marketplace) — AI agents and productivity tools. Includes **AxiomCore**, a project & routine management agent: enforced structure (numbered folders, task IDs, wiki memory), plan → approve → execute workflow, agile or WBS project creation.
 
 ## Contributing
