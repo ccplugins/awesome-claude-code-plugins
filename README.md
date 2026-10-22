@@ -109,6 +109,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [craftsman](./plugins/craftsman)
 - [rote](./plugins/rote)
 - [claude-session-tint](./plugins/claude-session-tint)
+- [brethof-brain](https://github.com/BrethofAI/brethof-brain-client) - Long-term memory that searches itself with every prompt: before Claude answers, what bears on the prompt is already in front of it. Adds a session-start brief, archives every turn, and ships /recall, /curate and /onboard. One memory shared across 20 agent tools, local or hosted. Source-available; free plan.
 
 ### AI & Speech
 - [speech-ai](https://github.com/fasuizu-br/speech-ai-examples) - Speech AI plugin with pronunciation assessment, text-to-speech, and speech-to-text. 8 MCP tools for language learning, accessibility, and voice applications.
