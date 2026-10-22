@@ -380,6 +380,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Thinking & Knowledge Management
 - [thinking-tree](https://github.com/CoralLips/thinking-tree)
+- [claudetwin](https://github.com/deadlydiamond/claudetwin) - One memory for all your Claude accounts: a Claude Code plugin and a connector you run yourself that share handoffs and prompt and reply history between a work and a personal account.
 
 ### Companion Apps & Tools
 - [Onepilot](https://onepilotapp.com) — iOS app to SSH into remote servers and run Claude Code from your phone
