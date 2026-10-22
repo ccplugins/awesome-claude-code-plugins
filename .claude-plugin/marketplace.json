@@ -2316,6 +2316,36 @@
         "tokens",
         "audit"
       ]
+    },
+    {
+      "name": "ripple",
+      "displayName": "ClaudeRipple",
+      "source": {
+        "source": "git-subdir",
+        "url": "PBJ-2/clauderipple",
+        "path": "packages/mod"
+      },
+      "description": "Picks the reasoning effort for every prompt and the worker for every delegated task, can keep the prompt cache warm, and shows where ClaudeRipple sent each request.",
+      "version": "0.7.0",
+      "author": {
+        "name": "ClaudeRipple",
+        "url": "https://github.com/PBJ-2/clauderipple"
+      },
+      "category": "Workflow Orchestration",
+      "homepage": "https://github.com/PBJ-2/clauderipple/tree/main/packages/mod",
+      "repository": "https://github.com/PBJ-2/clauderipple",
+      "license": "GPL-3.0-only",
+      "keywords": [
+        "routing",
+        "reasoning-effort",
+        "subagents",
+        "prompt-cache"
+      ],
+      "tags": [
+        "routing",
+        "reasoning-effort",
+        "subagents"
+      ]
     }
   ]
 }
