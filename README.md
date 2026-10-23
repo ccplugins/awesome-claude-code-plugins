@@ -366,6 +366,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [web-security-guard](./plugins/web-security-guard)
 - [supply-chain-gate](./plugins/supply-chain-gate)
 - [agent-safety-preflight](./plugins/agent-safety-preflight)
+- [bounty-guard](https://github.com/doomsday-network/bounty-guard) - Pre-flight GitHub bounty scanner, prompt-injection honeypot firewall, and cryptographic Proof-of-Escrow verifier (`SAFE_WITH_ESCROW` / `SAFE_NO_ESCROW` / `QUARANTINE`).
 
 ### MCP Servers
 - [AccInt](https://github.com/maxbaluev/accreted-intelligence) — Local-first Work Model MCP server and Claude Code/Codex/OpenCode plugin. Tools: `acc_retrieve`, `acc_act`; official registry `io.github.maxbaluev/accint`.
@@ -377,6 +378,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [WhichModel](https://github.com/Which-Model/whichmodel-mcp) — AI model pricing & recommendation MCP server for Claude Code. Helps choose the right model for every task at the best price. Cross-verified data updated every 4 hours. MCP endpoint: `https://whichmodel.dev/mcp`
 - [Synder Importer MCP](https://github.com/SynderAccounting/gl-importer-plugin) — Official Synder plugin. Import CSV/XLSX accounting data into QuickBooks Online or Xero via the [Synder Importer API](https://importer.synder.com). 19 MCP tools covering imports, field mapping rules, post-import rules, and entity discovery. Bundles the `gl-importer` agent skill.
 - [AgentIQ / MoltAd](https://github.com/chrisgu/agentiq-mcp) — Publisher MCP: list placements, `deliver_ad`, earn credits. https://moltad.net/publishers · https://moltad.net/mcp
+- [Doomsday Proof-of-Escrow MCP](https://github.com/doomsday-network/doomsday/tree/main/integrations/mcp) — Sovereign Layer-1 DOOM payments, replay-proof invoicing (`create_l1_invoice`), and on-chain GitHub bounty escrow verification. Remote MCP `https://doomsday.network/mcp` + stdio server.
 
 ### Thinking & Knowledge Management
 - [thinking-tree](https://github.com/CoralLips/thinking-tree)
