@@ -2316,6 +2316,37 @@
         "tokens",
         "audit"
       ]
+    },
+    {
+      "name": "craft",
+      "displayName": "craft",
+      "source": {
+        "source": "github",
+        "repo": "drobins25/craft"
+      },
+      "description": "Craft is a Claude Code plugin that asks you the product questions and works out the technical ones. Features get planned, built, and tested, with your codebase read-only until you approve the work. Point at a live page to change it. The calls you make - decisions, design tokens, the tweaks you loved - carry into every build after.",
+      "version": "2.6.1",
+      "author": {
+        "name": "Darin Drobinski",
+        "url": "https://github.com/drobins25"
+      },
+      "category": "Workflow Orchestration",
+      "homepage": "https://github.com/drobins25/craft",
+      "repository": "https://github.com/drobins25/craft",
+      "license": "MIT",
+      "keywords": [
+        "claude-code",
+        "development",
+        "workflow",
+        "creative",
+        "harness",
+        "agents",
+        "multi-agent",
+        "orchestration",
+        "write-gate",
+        "quality-gates",
+        "taste"
+      ]
     }
   ]
 }

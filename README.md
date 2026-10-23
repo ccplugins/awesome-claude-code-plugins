@@ -73,6 +73,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [ceo-quality-controller-agent](./plugins/ceo-quality-controller-agent)
 - [claude-recap](https://github.com/hatawong/claude-recap) — Per-topic session memory using Shell hooks — archives each conversation topic as a separate Markdown summary. Two hooks, bash + Node.js, 100% local.
 - [claude-desktop-extension](./plugins/claude-desktop-extension)
+- [craft](https://github.com/drobins25/craft) - Craft is a Claude Code plugin that asks you the product questions and works out the technical ones. Features get planned, built, and tested, with your codebase read-only until you approve the work. Point at a live page to change it. The calls you make - decisions, design tokens, the tweaks you loved - carry into every build after.
 - [equilateral-agents](https://github.com/Equilateral-AI/equilateral-agents-open-core) - 22 self-learning agents with memory, security review, code quality, deployment validation, and infrastructure checks
 - [lyra](./plugins/lyra)
 - [magebyte-power](https://github.com/MageByte-Zero/magebyte-power) — Production-incident-distilled Claude Code skill: 7-phase workflow with 4-round AI cross-verification that catches concurrency & idempotency bugs before prod
