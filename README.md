@@ -149,6 +149,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Code Quality Testing
 - [autoresearch](./plugins/autoresearch)
+- [ai-code-review-triage](./plugins/ai-code-review-triage)
 - [api-tester](./plugins/api-tester)
 - [bug-detective](./plugins/bug-detective)
 - [claudex](./plugins/claudex)

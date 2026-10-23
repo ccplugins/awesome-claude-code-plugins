@@ -99,6 +99,7 @@
 - [technical-sales-engineer](./plugins/technical-sales-engineer)
 
 ### 代码质量测试
+- [ai-code-review-triage](./plugins/ai-code-review-triage)
 - [api-tester](./plugins/api-tester)
 - [bug-detective](./plugins/bug-detective)
 - [code-review](./plugins/code-review)

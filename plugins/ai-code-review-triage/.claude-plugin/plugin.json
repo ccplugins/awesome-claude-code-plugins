@@ -1,0 +1,9 @@
+{
+  "name": "ai-code-review-triage",
+  "version": "1.0.0",
+  "description": "Review AI-written PRs by splitting review into three jobs: catch bugs, align context, own the sign-off.",
+  "author": { "name": "laulauraluo" },
+  "repository": "https://github.com/laulauraluo/ai-code-review-triage",
+  "license": "MIT",
+  "keywords": ["code-review", "ai-agents", "pull-request", "claude-code", "skill"]
+}
