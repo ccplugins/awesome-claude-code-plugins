@@ -378,6 +378,8 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [Synder Importer MCP](https://github.com/SynderAccounting/gl-importer-plugin) — Official Synder plugin. Import CSV/XLSX accounting data into QuickBooks Online or Xero via the [Synder Importer API](https://importer.synder.com). 19 MCP tools covering imports, field mapping rules, post-import rules, and entity discovery. Bundles the `gl-importer` agent skill.
 - [AgentIQ / MoltAd](https://github.com/chrisgu/agentiq-mcp) — Publisher MCP: list placements, `deliver_ad`, earn credits. https://moltad.net/publishers · https://moltad.net/mcp
 
+- [ReMCP](https://github.com/getremcp/remcp) - Remote OAuth MCP and Claude Code plugin for files, terminals, browsers and desktops on computers users explicitly pair. Tools can execute commands and change device state; hosted at `https://remcp.site/mcp`.
+
 ### Thinking & Knowledge Management
 - [thinking-tree](https://github.com/CoralLips/thinking-tree)
 
