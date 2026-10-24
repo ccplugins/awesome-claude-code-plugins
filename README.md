@@ -283,6 +283,8 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [thermal-fluid-research-workflow](./plugins/thermal-fluid-research-workflow)
 - [trigger-tree](https://github.com/Hedde/trigger_tree)
 
+- [Docsy](https://github.com/getremcp/docsy-plugin) - Remote OAuth MCP for Claude Code with five read-only tools to find and retrieve source-linked documentation for specific library/framework versions. Connect at `https://docsy.remcp.site/mcp/registry`; installable through its community plugin manifest.
+
 ### Git Workflow
 - [analyze-issue](./plugins/analyze-issue)
 - [bug-fix](./plugins/bug-fix)
