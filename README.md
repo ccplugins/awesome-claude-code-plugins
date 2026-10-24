@@ -368,6 +368,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [agent-safety-preflight](./plugins/agent-safety-preflight)
 
 ### MCP Servers
+- [Vadyu AI Video Ad Studio](https://github.com/crawde/mcp-vadyu) — Turn product photos and image URLs into commercial multi-shot AI video ads (9:16 TikTok/Reels, 4:5 Meta Feed, 1:1 Square, 16:9 YouTube) with automated product-label coherence grading. Remote MCP: `https://vadyu.com/api/mcp`; official registry `com.vadyu/vadyu`.
 - [AccInt](https://github.com/maxbaluev/accreted-intelligence) — Local-first Work Model MCP server and Claude Code/Codex/OpenCode plugin. Tools: `acc_retrieve`, `acc_act`; official registry `io.github.maxbaluev/accint`.
 - [lazymac/mcp](https://github.com/lazymac2x/lazymac-mcp) — Unified MCP server exposing 42+ developer tools (qr, ip-geo, ai-cost, llm-router, k-privacy, korean-nlp) backed by Cloudflare Workers. `npx -y @lazymac/mcp`
 - [lazymac/k-mcp](https://github.com/lazymac2x/lazymac-k-mcp) — Korean wedge MCP — PIPA compliance, KRW + BOK rates, 사업자등록번호 lookup, address geocoding, NLP. `npx -y @lazymac/k-mcp`
