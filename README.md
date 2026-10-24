@@ -394,6 +394,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [egrm07/varyz-claude-plugin](https://github.com/egrm07/varyz-claude-plugin) | varyz-cloud plugin: applies your confirmed preferences and searches approved project history through the Varyz remote MCP server and three skills (requires a Varyz Cloud account) | `claude plugin marketplace add egrm07/varyz-claude-plugin` then `claude plugin install varyz-cloud@varyz` |
 
 
 ### Skills & Frameworks
