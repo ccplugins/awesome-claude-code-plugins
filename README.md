@@ -282,6 +282,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [verifying-phd-citations](./plugins/verifying-phd-citations)
 - [thermal-fluid-research-workflow](./plugins/thermal-fluid-research-workflow)
 - [trigger-tree](https://github.com/Hedde/trigger_tree)
+- [say](https://github.com/tianxingjian2406/say) - Enforce ASD-STE100 controlled technical language (EN + Chinese) on agent output — short sentences, active voice, one action per sentence, controlled verbs, three intensity tiers, plus a /say-check compliance scorer
 
 ### Git Workflow
 - [analyze-issue](./plugins/analyze-issue)
