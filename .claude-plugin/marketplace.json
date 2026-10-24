@@ -2263,6 +2263,39 @@
       ]
     },
     {
+      "name": "design-to-build",
+      "displayName": "Design-to-Build Harness",
+      "source": {
+        "source": "github",
+        "repo": "zhyuka/design-to-build"
+      },
+      "description": "Checks an agent can't pass for itself, from a Figma design to a build. Reviewer agents can't write files, a builder can't stop until its QA command passes after its last edit, a project's own checks run from a skill, a git hook or CI, each counting only once it has failed a planted bad case and passed a good one, and a build is exercised in every state its Figma design draws.",
+      "author": {
+        "name": "Derek Zhou",
+        "url": "https://github.com/zhyuka"
+      },
+      "category": "Code Quality Testing",
+      "homepage": "https://github.com/zhyuka/design-to-build",
+      "repository": "https://github.com/zhyuka/design-to-build",
+      "license": "MIT",
+      "keywords": [
+        "hooks",
+        "code-review",
+        "qa",
+        "subagents",
+        "verification",
+        "stop-hook",
+        "figma",
+        "design"
+      ],
+      "tags": [
+        "hooks",
+        "code-quality",
+        "verification",
+        "figma"
+      ]
+    },
+    {
       "name": "rote",
       "description": "Compile a proven skill (a SKILL.md plus references) into a deterministic pipeline that runs without an LLM in the loop, then serve the compiled pipelines back to Claude as MCP tools.",
       "version": "0.12.0",

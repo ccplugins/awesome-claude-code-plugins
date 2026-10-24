@@ -116,6 +116,7 @@
 - [test-writer-fixer](./plugins/test-writer-fixer)
 - [unit-test-generator](./plugins/unit-test-generator)
 - [sonmat](https://github.com/jun0-ds/sonmat) — 验证纪律插件，六个反应轴（guard、inspect、witness、punch、devil's advocate、scribe）用于AI-人类协作。
+- [design-to-build](https://github.com/zhyuka/design-to-build)
 
 ### 数据分析
 - [analytics-reporter](./plugins/analytics-reporter)
