@@ -206,6 +206,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [brand-guardian](./plugins/brand-guardian)
 - [joker](./plugins/joker)
 - [journey-mapper](./plugins/journey-mapper)
+- [Kaal Creative](https://kaalcreative.com/) - Turns Claude Code into a web designer: writes a design.md around one idea per business (palette, type, layout, photography), builds the site with Claude, then QA-checks every screen on desktop and phone. 12 styles. Paid plugin (£49).
 - [mobile-ux-optimizer](./plugins/mobile-ux-optimizer)
 - [nano-banana](https://github.com/Ibrahim-3d/nano-banana-claude-plugin) - Google Gemini image generation plugin. Text-to-image, text-guided image editing, style transfer, 4K output, search grounding, and multi-reference composition via `/genimage`. Uses `gemini-2.5-flash-image` (fast) and `gemini-3-pro-image-preview` (4K/search).
 - [onomastophes](./plugins/onomastophes)
