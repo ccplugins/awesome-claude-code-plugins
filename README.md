@@ -377,6 +377,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [WhichModel](https://github.com/Which-Model/whichmodel-mcp) — AI model pricing & recommendation MCP server for Claude Code. Helps choose the right model for every task at the best price. Cross-verified data updated every 4 hours. MCP endpoint: `https://whichmodel.dev/mcp`
 - [Synder Importer MCP](https://github.com/SynderAccounting/gl-importer-plugin) — Official Synder plugin. Import CSV/XLSX accounting data into QuickBooks Online or Xero via the [Synder Importer API](https://importer.synder.com). 19 MCP tools covering imports, field mapping rules, post-import rules, and entity discovery. Bundles the `gl-importer` agent skill.
 - [AgentIQ / MoltAd](https://github.com/chrisgu/agentiq-mcp) — Publisher MCP: list placements, `deliver_ad`, earn credits. https://moltad.net/publishers · https://moltad.net/mcp
+- [RoboParts](https://github.com/lm203688/roboparts) — Vendor-neutral robot hardware compatibility checker (868 entities, three-state verdicts, ISO 9409-1 anchor, printable 3D adapters). Remote MCP `https://roboparts.cc/mcp` · stdio via Docker. Registry `cc.roboparts`.
 
 ### Thinking & Knowledge Management
 - [thinking-tree](https://github.com/CoralLips/thinking-tree)
