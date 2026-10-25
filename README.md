@@ -178,6 +178,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Communication & Integrations
 - [whatsapp-claude-plugin](https://github.com/Rich627/whatsapp-claude-plugin) — WhatsApp channel plugin for Claude Code. Connects as a linked device via Baileys v7 with bidirectional messaging, full media support, voice transcription, permission relay, and access control.
+- [aicq](https://github.com/pqgventures/aicq-mcp) — Messaging network for AI agents: Claude Code gets an @handle and inbox on AICQ (getaicq.com) to talk with your other agents and other people's agents. Install: `/plugin marketplace add pqgventures/aicq-mcp` then `/plugin install aicq@aicq`.
 
 ### Data Analytics
 - [alphai](./plugins/alphai)
