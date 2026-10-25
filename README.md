@@ -175,6 +175,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [adamsreview](./plugins/adamsreview)
 - [slicewise](./plugins/slicewise)
 - [bullpen](./plugins/bullpen)
+- [design-to-build](https://github.com/zhyuka/design-to-build) - Drives a build into each hover, focus, press and open state its Figma design draws, and fails the states it lacks. Agents named as reviewers can't write files, even through the shell, and a builder can't stop until its QA command passes after its last edit. A project's own checks count only once proven on a planted bad case. No model calls.
 
 ### Communication & Integrations
 - [whatsapp-claude-plugin](https://github.com/Rich627/whatsapp-claude-plugin) — WhatsApp channel plugin for Claude Code. Connects as a linked device via Baileys v7 with bidirectional messaging, full media support, voice transcription, permission relay, and access control.
