@@ -383,6 +383,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 
 ### Companion Apps & Tools
 - [Onepilot](https://onepilotapp.com) — iOS app to SSH into remote servers and run Claude Code from your phone
+- [Agent Standup](https://github.com/Atoll92/agent-standup) — Shows Claude Code sessions and their sub-agents as a live team call (who is working, stuck or waiting on you), with a mod that puts a line above the prompt when another session needs you. Install: `/plugin install agent-standup --marketplace Atoll92/agent-standup`
 
 ### Knowledge Management
 - [bedrock](./plugins/bedrock)
