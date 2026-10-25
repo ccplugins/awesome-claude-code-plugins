@@ -262,6 +262,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [skill-auto-installer](./plugins/skill-auto-installer)
 - [tldr](./plugins/tldr)
 - [Imagine](https://github.com/freestyler-arb/imagine-gemini-for-claude-codex) - Brings Google Gemini into Claude Code & Codex: delegate reasoning, independent code review, deep research, and automatic prompt-engineering. Runs on your Google AI Pro subscription, not your agent's tokens.
+- [legostin/wirepane](https://github.com/legostin/wirepane) - HTTPS debugging proxy inside Claude Code (Proxyman/Charles alternative): decrypts HTTP/2, gRPC, WebSockets and SSE from the browser, iOS and Android in a pane next to the chat, with 16 tools and 3 skills for Claude. macOS.
 
 ### Documentation
 - [analyze-codebase](./plugins/analyze-codebase)
@@ -394,6 +395,7 @@ Community-maintained plugin marketplaces you can add to access additional plugin
 | Marketplace | Description | Install |
 |-------------|-------------|---------|
 | [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips?tab=readme-ov-file#install-the-dx-plugin) | dx plugin: GitHub Actions analysis (`/gha`), conversation cloning (`/clone`, `/half-clone`), context handoffs (`/handoff`), Reddit fetching (`/reddit-fetch`) | `claude plugin marketplace add ykdojo/claude-code-tips` then `claude plugin install dx@ykdojo` |
+| [legostin/wirepane](https://github.com/legostin/wirepane) | wirepane: HTTPS debugging proxy inside Claude Code (`/proxy`), with browser, iOS and Android setup, rules, mocks and 16 tools for Claude | `claude plugin marketplace add legostin/wirepane` then `claude plugin install wirepane@wirepane` |
 
 
 ### Skills & Frameworks
